@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ScorX - Professional multi-sport scoring app for iOS. Track Australian Football, Basketball, Rugby, Netball and more with real-time stats and cloud sync. Start your 30-day free trial today.">
-    <meta name="keywords" content="scorx, sports scoring, afl stats, basketball scorekeeper, rugby scoring, team stats, sports app, coach app">
+    <meta name="description" content="Track 14 sports with live scoring, player stats, and iCloud sync. Perfect for families, coaches, and players. Download free on iOS. 30-day trial included.">
+    <meta name="keywords" content="scorekeeping app, multi-sport scoring, sports statistics app, live sports scoring, player stats tracker, AFL scoring app, basketball stats app, tennis score tracker, netball scorekeeping, rugby league scoring, soccer stats app">
     <meta name="author" content="ScorX">
+    <meta name="theme-color" content="#0F2A44">
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="ScorX - Grow your Game">
-    <meta property="og:description" content="Professional multi-sport scoring for iOS. Track 9 sports with real-time stats and cloud sync.">
+    <meta property="og:title" content="ScorX - Effortless Scorekeeping & Live Stats for Every Sport">
+    <meta property="og:description" content="Track 14 sports with live scoring, player stats, and iCloud sync. Download free on iOS.">
     <meta property="og:image" content="./images/social-preview.png">
+    <meta property="og:url" content="https://scorx.com.au">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ScorX - Effortless Scorekeeping & Live Stats">
+    <meta name="twitter:description" content="Track 14 sports with live scoring, player stats, and iCloud sync.">
+    <meta name="twitter:image" content="./images/twitter-card.jpg">
 
     <!-- Apple -->
     <meta name="apple-itunes-app" content="app-id=XXXXXXXXXX">
 
-    <title>ScorX - Multi-Sport Score Tracker | Track Every Moment That Counts</title>
+    <title>ScorX - Multi-Sport Scoring & Statistics App for iOS</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" href="./images/favicon.png">
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ScorX",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "iOS 18.0 or later",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AUD"
+      },
+      "description": "Multi-sport scoring and statistics app supporting 14 sports with live tracking, player stats, iCloud sync, and data export."
+    }
+    </script>
 </head>
 <body>
     <!-- HEADER -->
@@ -29,9 +54,9 @@
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#sports">Sports</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="./support.html">Support</a></li>
-                <li><a href="#download" class="btn btn-primary" style="padding: 10px 24px;">Download</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./how-it-works.html">How It Works</a></li>
+                <li><a href="./download.html" class="btn btn-primary" style="padding: 10px 24px;">Download Free</a></li>
             </ul>
         </nav>
     </header>
@@ -39,327 +64,293 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="fade-in-up">Track Every Moment That Counts</h1>
-            <p class="tagline fade-in-up">Professional multi-sport scoring for coaches, parents, and teams. Nine sports. One powerful app.</p>
+            <h1 class="fade-in-up">Effortless Scorekeeping & Live Stats for Every Sport</h1>
+            <p class="tagline fade-in-up">Track 14 sports, record every play, and Grow your Game with ScorX—the all-in-one scoring app built for teams, coaches, families, and players.</p>
 
             <div class="cta-buttons fade-in-up">
-                <!-- App Store Badge - Replace with actual badge image -->
                 <a href="https://apps.apple.com/app/XXXXXXXXXX" class="app-store-badge" target="_blank" rel="noopener">
                     <img src="./images/app-store-badge.svg" alt="Download on the App Store" />
                 </a>
-                <a href="#features" class="btn btn-secondary"><span>Learn More</span></a>
+                <a href="./how-it-works.html" class="btn btn-secondary"><span>See How It Works</span></a>
             </div>
 
-            <div class="hero-stats" style="margin-top: 4rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                <div style="text-align: center;">
-                    <h3 style="font-size: 2.5rem; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">9</h3>
-                    <p style="color: var(--scorx-off-white); opacity: 0.9;">Sports Supported</p>
-                </div>
-                <div style="text-align: center;">
-                    <h3 style="font-size: 2.5rem; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">30</h3>
-                    <p style="color: var(--scorx-off-white); opacity: 0.9;">Day Free Trial</p>
-                </div>
-                <div style="text-align: center;">
-                    <h3 style="font-size: 2.5rem; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">4+</h3>
-                    <p style="color: var(--scorx-off-white); opacity: 0.9;">All Ages</p>
-                </div>
+            <!-- Trust Bar -->
+            <div class="trust-bar fade-in-up">
+                <div class="trust-item">✓ 14 Sports Supported</div>
+                <div class="trust-item">✓ 30-Day Free Trial</div>
+                <div class="trust-item">✓ No Credit Card Required</div>
+                <div class="trust-item">✓ iCloud Sync</div>
             </div>
         </div>
     </section>
 
     <!-- FEATURES SECTION -->
     <section id="features">
-        <div class="section-title" style="margin-bottom: 80px;">
-            <h2 style="margin-bottom: 2rem;">Everything You Need to Track Games Like a Pro</h2>
-            <p class="section-subtitle">From playground to podium, ScorX gives you professional-grade scoring in a beautifully simple app.</p>
+        <div class="section-title">
+            <h2>Everything You Need to Score, Track, and Analyze</h2>
         </div>
 
         <div class="features-grid">
             <div class="feature-card">
-                <span class="feature-icon">⚡️</span>
-                <h3>Lightning-Fast Live Scoring</h3>
-                <p>Track every goal, basket, and try in real-time with sport-specific scoring rules. No more juggling pen and paper during intense moments.</p>
+                <span class="feature-icon">⚡</span>
+                <h3>Real-Time Scoring</h3>
+                <p>Record scores, track time, and capture every play as it happens with sport-specific scoring rules for all 14 supported sports.</p>
             </div>
 
             <div class="feature-card">
                 <span class="feature-icon">📊</span>
-                <h3>Detailed Player Statistics</h3>
-                <p>Every player's contribution matters. Track individual performance across all games with comprehensive stat tracking.</p>
+                <h3>Comprehensive Stats</h3>
+                <p>Track individual player performance with 100+ customizable statistical activities. From disposals to aces, ScorX captures it all.</p>
             </div>
 
             <div class="feature-card">
                 <span class="feature-icon">☁️</span>
-                <h3>iCloud Sync That Works</h3>
-                <p>Your data, everywhere. Start scoring on your iPhone, review stats on your iPad. Family plan subscribers get automatic cloud sync.</p>
+                <h3>Sync Everywhere</h3>
+                <p>Family tier unlocks iCloud sync—seamlessly access your teams, players, and game history across all your devices.</p>
             </div>
 
             <div class="feature-card">
-                <span class="feature-icon">📱</span>
+                <span class="feature-icon">📥</span>
+                <h3>Export & Analyze</h3>
+                <p>Export game statistics and player performance data to CSV format for deeper analysis and record-keeping.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🏆</span>
+                <h3>14 Sports & Counting</h3>
+                <p>AFL, Basketball, Netball, Rugby, Soccer, Tennis, and 8 more sports—all with custom scoring rules and activity tracking.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">📴</span>
                 <h3>Works Offline</h3>
-                <p>No internet? No problem. ScorX works perfectly offline and syncs automatically when you're back online.</p>
+                <p>Full functionality without internet. Score games anywhere, sync later when connected.</p>
             </div>
+        </div>
 
-            <div class="feature-card">
-                <span class="feature-icon">⏱️</span>
-                <h3>Smart Game Timers</h3>
-                <p>Customizable timers for timed sports. Period tracking and automatic time management—everything you need during actual gameplay.</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon">🔒</span>
-                <h3>Privacy First</h3>
-                <p>No ads. No data selling. No third-party trackers. Your team's data stays yours with end-to-end encryption via iCloud.</p>
-            </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="./features.html" class="btn btn-primary"><span>Explore All Features →</span></a>
         </div>
     </section>
 
     <!-- SPORTS SECTION -->
     <section id="sports" class="section-dark">
-        <div class="section-title" style="margin-bottom: 80px;">
-            <h2 style="margin-bottom: 2rem;">Nine Sports. One Powerful App.</h2>
-            <p class="section-subtitle">Switch between sports instantly—perfect for multi-sport athletes and coaches.</p>
+        <div class="section-title">
+            <h2>Built for Your Sport</h2>
+            <p class="section-subtitle" style="color: var(--scorx-off-white);">Whether you play on a field, court, or anywhere in between—ScorX has you covered.</p>
         </div>
 
-        <div class="sports-grid">
-            <div class="sport-card">
-                <span class="sport-icon">🏈</span>
-                <h3>Australian Football</h3>
-                <p>Goals, behinds, disposals, marks, tackles, and possessions. Complete Aussie Rules coverage.</p>
+        <div class="sports-showcase">
+            <div class="sports-category">
+                <h3 style="color: var(--scorx-bright-turquoise); margin-bottom: 2rem; text-align: center;">Team Sports</h3>
+                <div class="sports-grid-compact">
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏈</span>
+                        <h4>AFL</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏀</span>
+                        <h4>Basketball</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏐</span>
+                        <h4>Netball</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏉</span>
+                        <h4>Rugby Union</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏉</span>
+                        <h4>Rugby League</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">👐</span>
+                        <h4>Touch Rugby</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">⚽</span>
+                        <h4>Soccer</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏑</span>
+                        <h4>Field Hockey</h4>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="./sports.html#team" class="btn btn-secondary"><span>See Team Sports Details →</span></a>
+                </div>
             </div>
 
-            <div class="sport-card">
-                <span class="sport-icon">🏀</span>
-                <h3>Basketball</h3>
-                <p>Field goals, 3-pointers, free throws, rebounds, assists, steals, and more.</p>
+            <div class="sports-category" style="margin-top: 4rem;">
+                <h3 style="color: var(--scorx-bright-turquoise); margin-bottom: 2rem; text-align: center;">Racquet Sports</h3>
+                <div class="sports-grid-compact">
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🎾</span>
+                        <h4>Tennis</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏸</span>
+                        <h4>Badminton</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🎾</span>
+                        <h4>Squash</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🎾</span>
+                        <h4>Racquetball</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏓</span>
+                        <h4>Pickleball</h4>
+                    </div>
+                    <div class="sport-card-mini">
+                        <span class="sport-icon">🏓</span>
+                        <h4>Table Tennis</h4>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="./sports.html#racquet" class="btn btn-secondary"><span>See Racquet Sports Details →</span></a>
+                </div>
             </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">🏐</span>
-                <h3>Netball</h3>
-                <p>Goals, centers, turnovers, intercepts, and penalties tracked with precision.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">🏉</span>
-                <h3>Rugby Union</h3>
-                <p>Tries, conversions, penalties, drop goals, and tackles for the full rugby experience.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">🏉</span>
-                <h3>Rugby League</h3>
-                <p>Tries, goals, tackles, meters gained—all the stats that matter in league.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">👐</span>
-                <h3>Touch Rugby</h3>
-                <p>Tries, touches, rollballs, and dummy half plays for touch competitions.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">🏑</span>
-                <h3>Field Hockey</h3>
-                <p>Goals, assists, saves, penalty corners, and tackles for complete hockey tracking.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">⚽</span>
-                <h3>Soccer</h3>
-                <p>Goals, assists, shots on target, saves, fouls, and cards—everything you need for football.</p>
-            </div>
-
-            <div class="sport-card">
-                <span class="sport-icon">🎾</span>
-                <h3>Tennis</h3>
-                <p>Points, games, sets, aces, double faults, and winners tracked for singles and doubles.</p>
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 60px; padding: 30px; background: rgba(0, 212, 196, 0.1); border-radius: 16px; max-width: 800px; margin-left: auto; margin-right: auto;">
-            <h3 style="color: var(--scorx-bright-turquoise); margin-bottom: 1.5rem;">Coming Soon</h3>
-            <p style="color: var(--scorx-off-white); margin-bottom: 1rem;">🤽 <strong>Water Polo</strong> - Goals, assists, steals, ejections, and saves</p>
-            <p style="color: var(--scorx-off-white); margin-bottom: 1rem;">🏸 <strong>Badminton</strong> - Points, rallies, and match statistics</p>
-            <p style="color: var(--scorx-off-white); margin-bottom: 1rem;">🏓 <strong>Table Tennis</strong> - Complete game and match tracking</p>
-            <p style="color: var(--scorx-off-white); margin-bottom: 0;">⌚ <strong>Apple Watch Integration</strong> - On-court scoring for racquet sports (coming in v1.2)</p>
         </div>
     </section>
 
-    <!-- PRICING SECTION -->
-    <section id="pricing">
-        <div class="section-title" style="margin-bottom: 80px;">
-            <h2 style="margin-bottom: 2rem;">Plans for Every Team</h2>
-            <p class="section-subtitle">Start free, upgrade when you're ready. All plans include access to all 9 sports.</p>
+    <!-- HOW IT WORKS SECTION -->
+    <section>
+        <div class="section-title">
+            <h2>Start Scoring in 3 Simple Steps</h2>
         </div>
 
-        <div class="pricing-grid">
-            <!-- Free Tier -->
-            <div class="pricing-card">
-                <h3>Free</h3>
-                <p>Perfect for trying out ScorX</p>
-                <div class="price">
-                    $0
-                    <span class="price-period">/forever</span>
-                </div>
-                <ul class="pricing-features">
-                    <li>1 Team</li>
-                    <li>1 Player</li>
-                    <li>5 Games per month</li>
-                    <li>All 9 sports</li>
-                    <li>Local data storage</li>
-                    <li>Offline functionality</li>
-                </ul>
-                <a href="#download" class="btn btn-secondary" style="width: 100%;"><span>Get Started</span></a>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <span class="feature-icon">👥</span>
+                <h3>Create Teams & Players</h3>
+                <p>Add your team roster with player names, jersey numbers, and photos. Takes less than 2 minutes.</p>
             </div>
 
-            <!-- Family Tier - Featured -->
-            <div class="pricing-card featured">
-                <span class="pricing-badge">30-Day Free Trial</span>
-                <h3>Family</h3>
-                <p>Ideal for parents & coaches</p>
-                <div class="price">
-                    $4.99
-                    <span class="price-period">/month</span>
-                </div>
-                <p style="color: var(--scorx-medium-gray); margin-top: -1rem;">or $49.99/year (save 17%)</p>
-                <ul class="pricing-features">
-                    <li><strong>Everything in Free, plus:</strong></li>
-                    <li>Up to 5 Players</li>
-                    <li>Up to 10 teams</li>
-                    <li>50 Games per month</li>
-                    <li>iCloud Sync across devices</li>
-                    <li>Data Export (CSV)</li>
-                    <li>2 Years of history</li>
-                    <li>Family Sharing (up to 5)</li>
-                    <li>Priority cloud sync</li>
-                </ul>
-                <a href="#download" class="btn btn-primary" style="width: 100%;"><span>Start Free Trial</span></a>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <span class="feature-icon">▶️</span>
+                <h3>Select Sport & Start</h3>
+                <p>Choose your sport, select your team, and tap Start Game. ScorX handles the rest with automatic timers and scoring.</p>
             </div>
 
-            <!-- Coach Tier - Coming Soon -->
-            <div class="pricing-card" style="opacity: 0.7;">
-                <span class="coming-soon-badge">Coming Soon</span>
-                <h3>Coach</h3>
-                <p>For serious coaches</p>
-                <div class="price" style="color: var(--scorx-medium-gray);">
-                    TBA
-                </div>
-                <ul class="pricing-features">
-                    <li><strong>Everything in Family, plus:</strong></li>                  
-                    <li>25 Players</li>
-                    <li>100 Games per month</li>
-                    <li>post match team stats aggregation</li>
-                    <li>Advanced Analytics</li>
-                    <li>Graphics Generation</li>
-                    <li>PDF Export</li>
-                    <li>Team Reports</li>
-                </ul>
-                <button class="btn btn-secondary" style="width: 100%; opacity: 0.6;" disabled><span>v1.1 Release</span></button>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <span class="feature-icon">📈</span>
+                <h3>View Stats & Export</h3>
+                <p>Watch live stats update in real-time. After the game, review comprehensive statistics and export to CSV.</p>
             </div>
         </div>
 
-        <p style="text-align: center; margin-top: 3rem; color: var(--scorx-medium-gray);">
-            <strong>Note:</strong> Coach and Club tiers with advanced analytics and multi-team management will launch in version 1.1 (2-3 months post-launch). Lock in Family pricing now!
-        </p>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="./how-it-works.html" class="btn btn-primary"><span>Learn More →</span></a>
+        </div>
     </section>
 
     <!-- WHO IT'S FOR SECTION -->
     <section class="section-dark">
-        <div class="section-title" style="margin-bottom: 80px;">
-            <h2 style="margin-bottom: 2rem;">Built for Everyone Who Loves Sports</h2>
+        <div class="section-title">
+            <h2>Designed for Every Role in Your Sporting Life</h2>
         </div>
 
         <div class="features-grid">
             <div class="feature-card">
+                <span class="feature-icon">🏆</span>
+                <h3>For Players</h3>
+                <p>Monitor your personal performance and track improvement over time. Set goals and watch yourself grow.</p>
+            </div>
+
+            <div class="feature-card">
                 <span class="feature-icon">👨‍👩‍👧‍👦</span>
-                <h3>Parents and children</h3>
-                <p>Track your kids' recreational teams with ease. Never forget a goal or milestone moment again.</p>
+                <h3>For Families</h3>
+                <p>Track your kids' games with detailed stats they'll treasure forever. Share highlights with grandparents and relive every moment.</p>
             </div>
 
             <div class="feature-card">
                 <span class="feature-icon">👨‍🏫</span>
-                <h3>Coaches</h3>
-                <p>Make data-driven decisions. Track player development and performance across the season.</p>
+                <h3>For Coaches</h3>
+                <p>Professional scorekeeping and analytics for data-driven training and game-day decisions. Export stats for team reviews.</p>
             </div>
 
             <div class="feature-card">
-                <span class="feature-icon">🏆</span>
-                <h3>Team Managers</h3>
-                <p>Keep comprehensive records. Export stats for end-of-season reports and league administration.</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon">⚽️</span>
-                <h3>Multi-Sport Athletes</h3>
-                <p>One app for all your sports. Switch between AFL, basketball, rugby, and more instantly.</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon">📋</span>
-                <h3>League Administrators</h3>
-                <p>Oversee multiple games with professional precision. Cloud sync keeps everyone updated.</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon">💪</span>
-                <h3>Sports Enthusiasts</h3>
-                <p>Passionate about accurate stats? ScorX captures every detail that matters.</p>
+                <span class="feature-icon">👥</span>
+                <h3>For Teams</h3>
+                <p>Centralized scoring and statistics for your entire roster. Consistent data across all games and seasons.</p>
             </div>
         </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section id="download" style="text-align: center; padding: 100px 2rem; background: linear-gradient(135deg, var(--scorx-deep-navy) 0%, var(--scorx-dark-turquoise) 100%); color: white; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%);">
-        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Transform Your Sports Tracking?</h2>
-        <p style="font-size: 1.25rem; color: var(--scorx-off-white); max-width: 600px; margin: 0 auto 2.5rem;">Download ScorX today and start your 30-day free trial. No credit card required.</p>
+    <!-- PRICING TEASER SECTION -->
+    <section>
+        <div class="section-title">
+            <h2>Start Free, Upgrade When You're Ready</h2>
+        </div>
 
-        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+        <div class="pricing-grid-simple">
+            <div class="pricing-card">
+                <span class="pricing-badge-alt">Always Free</span>
+                <h3>Free</h3>
+                <div class="price">
+                    $0
+                </div>
+                <ul class="pricing-features-simple">
+                    <li>1 Team, 1 Player</li>
+                    <li>5 Games per month</li>
+                    <li>All 14 sports</li>
+                    <li>Offline mode</li>
+                </ul>
+                <a href="./download.html" class="btn btn-secondary" style="width: 100%;"><span>Download Free</span></a>
+            </div>
+
+            <div class="pricing-card featured">
+                <span class="pricing-badge">30-Day Free Trial</span>
+                <h3>Family</h3>
+                <div class="price">
+                    $4.99
+                    <span class="price-period">/month</span>
+                </div>
+                <p style="color: var(--scorx-medium-gray); margin-top: -1rem;">or $49.99/year</p>
+                <ul class="pricing-features-simple">
+                    <li>Up to 5 Players</li>
+                    <li>50 Games per month</li>
+                    <li>iCloud Sync</li>
+                    <li>Data Export (CSV)</li>
+                    <li>2-Year history</li>
+                    <li>Family Sharing</li>
+                </ul>
+                <a href="./download.html" class="btn btn-primary" style="width: 100%;"><span>Start Free Trial</span></a>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem; color: var(--scorx-medium-gray);">
+            Coach & Club tiers with advanced analytics coming in v1.1
+        </p>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="./pricing.html" class="btn btn-secondary"><span>See Full Pricing Details →</span></a>
+        </div>
+    </section>
+
+    <!-- FINAL CTA SECTION -->
+    <section id="download" style="text-align: center; padding: 100px 2rem; background: linear-gradient(135deg, var(--scorx-deep-navy) 0%, var(--scorx-dark-turquoise) 100%); color: white; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%);">
+        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Transform How You Track Sports?</h2>
+        <p style="font-size: 1.25rem; color: var(--scorx-off-white); max-width: 600px; margin: 0 auto 2.5rem;">Download ScorX today and start your 30-day free trial—no credit card required.</p>
+
+        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
             <a href="https://apps.apple.com/app/XXXXXXXXXX" class="app-store-badge" target="_blank" rel="noopener">
                 <img src="./images/app-store-badge.svg" alt="Download on the App Store" style="height: 70px;" />
             </a>
+            <a href="./features.html" class="btn btn-secondary"><span>Learn More</span></a>
         </div>
 
-        <p style="margin-top: 2rem; font-size: 0.875rem; color: var(--scorx-off-white); opacity: 0.8;">
-            Requires iOS 18.0 or later. Compatible with iPhone and iPad.
-        </p>
-    </section>
-
-    <!-- FAQ SECTION -->
-    <section>
-        <div class="section-title" style="margin-bottom: 80px;">
-            <h2 style="margin-bottom: 2rem;">Frequently Asked Questions</h2>
-        </div>
-
-        <div style="max-width: 800px; margin: 0 auto;">
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">How do I start my 30-day free trial?</h3>
-                <p>Download ScorX from the App Store, tap "Start Free Trial" on the Family plan during onboarding or in Subscription settings. Your trial automatically converts to paid unless you cancel at least 24 hours before it ends.</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">Can I use ScorX offline?</h3>
-                <p>Yes! ScorX works fully offline. All features are available without an internet connection. Cloud sync occurs automatically when you reconnect (Family tier and above).</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">What sports does ScorX support?</h3>
-                <p>ScorX currently supports 9 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Field Hockey, Soccer, and Tennis. All sports are available on all subscription tiers, including the free plan. Water Polo, Badminton, and Table Tennis are coming soon, with Apple Watch integration for on-court scoring planned for v1.2.</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">Can I share my subscription with family?</h3>
-                <p>Yes! Family tier subscriptions support Apple Family Sharing, allowing you to share with up to 5 family members at no extra cost.</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">When will Coach and Club tiers be available?</h3>
-                <p>Advanced tiers with analytics, graphics generation, and multi-team features are planned for version 1.1, approximately 2-3 months after initial launch. Family plan subscribers will receive upgrade pricing notifications.</p>
-            </div>
-
-            <div style="margin-bottom: 2rem;">
-                <h3 style="color: var(--scorx-turquoise); margin-bottom: 0.5rem;">How do I export my data?</h3>
-                <p>Family tier subscribers can export game data and player statistics to CSV format from Settings → Data Export. PDF export will be available in the Coach tier (v1.1).</p>
-            </div>
+        <div class="trust-signals">
+            <p>✓ No credit card required for free trial</p>
+            <p>✓ Cancel anytime</p>
+            <p>✓ Privacy-first (no ads, no tracking)</p>
         </div>
     </section>
 
@@ -368,7 +359,7 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h4>ScorX</h4>
-                <p>Professional multi-sport scoring for iOS. Grow your Game.</p>
+                <p style="color: var(--scorx-off-white);">Grow your Game</p>
                 <p style="margin-top: 1rem;">
                     <a href="https://apps.apple.com/app/XXXXXXXXXX" target="_blank" rel="noopener">
                         <img src="./images/app-store-badge.svg" alt="Download on the App Store" style="height: 40px;" />
@@ -379,34 +370,32 @@
             <div class="footer-section">
                 <h4>Product</h4>
                 <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#sports">Sports</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#download">Download</a></li>
+                    <li><a href="./features.html">Features</a></li>
+                    <li><a href="./sports.html">Sports</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./how-it-works.html">How It Works</a></li>
+                    <li><a href="./download.html">Download</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
                 <h4>Support</h4>
                 <ul>
-                    <li><a href="./support.html">Help Center</a></li>
-                    <li><a href="mailto:support@scorx.app">Contact Us</a></li>
-                    <li><a href="./support.html#faq">FAQ</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h4>Legal</h4>
-                <ul>
+                    <li><a href="./support.html">FAQ</a></li>
+                    <li><a href="mailto:scorxapp@gmail.com">Contact</a></li>
                     <li><a href="./privacy.html">Privacy Policy</a></li>
                     <li><a href="./terms.html">Terms of Service</a></li>
                 </ul>
             </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p style="color: var(--scorx-off-white);">Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+            </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2025 ScorX. All rights reserved.</p>
-            <p style="margin-top: 0.5rem;">Made with ❤️ for sports lovers everywhere</p>
+            <p>&copy; 2025 Twine App Dev. All rights reserved.</p>
         </div>
     </footer>
 
@@ -458,7 +447,7 @@
         }, observerOptions);
 
         // Observe all cards and sections
-        document.querySelectorAll('.feature-card, .sport-card, .pricing-card').forEach(el => {
+        document.querySelectorAll('.feature-card, .sport-card, .pricing-card, .step-card').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

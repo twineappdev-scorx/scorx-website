@@ -660,6 +660,166 @@ footer {
   }
 }
 
+/* ===== TRUST BAR ===== */
+.trust-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.trust-item {
+  text-align: center;
+  color: var(--scorx-off-white);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ===== TRUST SIGNALS ===== */
+.trust-signals p {
+  color: var(--scorx-off-white);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
+/* ===== STEPS GRID ===== */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.step-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: var(--card-corner-radius);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid rgba(0, 212, 196, 0.1);
+  position: relative;
+  text-align: center;
+}
+
+.step-number {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--scorx-turquoise), var(--scorx-bright-turquoise));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  box-shadow: 0 4px 15px rgba(0, 212, 196, 0.3);
+}
+
+.step-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.15);
+}
+
+/* ===== SPORTS SHOWCASE ===== */
+.sports-showcase {
+  margin-top: 3rem;
+}
+
+.sports-category {
+  margin-bottom: 3rem;
+}
+
+.sports-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sport-card-mini {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.sport-card-mini:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-5px);
+  border-color: var(--scorx-turquoise);
+}
+
+.sport-card-mini .sport-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sport-card-mini h4 {
+  color: var(--scorx-off-white);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* ===== PRICING GRID SIMPLE ===== */
+.pricing-grid-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-badge-alt {
+  background: var(--scorx-medium-gray);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pricing-features-simple {
+  list-style: none;
+  margin: 2rem 0;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.pricing-features-simple li {
+  padding: 0.75rem 0;
+  color: var(--scorx-charcoal);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.pricing-features-simple li::before {
+  content: '✓';
+  color: var(--scorx-success-green);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
 /* ===== ANIMATIONS ===== */
 @keyframes fadeInUp {
   from {
@@ -679,4 +839,36 @@ footer {
 /* Smooth scroll offset for fixed header */
 html {
   scroll-padding-top: 100px;
+}
+
+/* ===== MOBILE RESPONSIVE UPDATES ===== */
+@media (max-width: 768px) {
+  .trust-bar {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .trust-item {
+    font-size: 0.8rem;
+  }
+
+  .sports-grid-compact {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .sport-card-mini {
+    padding: 1rem 0.75rem;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-bar {
+    grid-template-columns: 1fr;
+  }
 }
