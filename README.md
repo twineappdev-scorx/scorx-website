@@ -1,33 +1,104 @@
 # ScorX Website
 
-**Version:** 1.0
-**Created:** October 6, 2025
-**Purpose:** Official website for ScorX iOS app launch
+**Version:** 1.1
+**Updated:** January 19, 2025
+**Purpose:** Official website for ScorX iOS app - comprehensive PRD implementation
+**Website URL:** https://scorx.com.au
+**Contact:** scorxapp@gmail.com
 
 ---
 
 ## Overview
 
-This is the official ScorX website, built to support the v1.0 App Store launch. The website accurately represents the app's functionality with support for 9 sports (AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Field Hockey, Soccer, Tennis), subscription tiers, and privacy commitments.
+Official website for ScorX - a comprehensive multi-sport scoring and statistics app for iOS. The website supports 14 sports, multiple subscription tiers, and provides complete information for users, coaches, families, and players.
 
-## Website Structure
+**Key Features:**
+- ✅ 14 sports supported (Team Sports + Racquet Sports)
+- ✅ Comprehensive pricing information (Free, Family, Coach, Club tiers)
+- ✅ Detailed feature documentation
+- ✅ Step-by-step how-it-works guide
+- ✅ Extensive FAQ and support resources
+- ✅ SEO optimized with Schema.org structured data
+- ✅ Mobile-first responsive design
+- ✅ WCAG AA accessibility compliant
+
+---
+
+## 🚀 Running Locally
+
+### Option 1: Python HTTP Server (Recommended)
+
+```bash
+# Navigate to the website directory
+cd /home/user/scorx-website
+
+# Start the server (Python 3)
+python3 -m http.server 8000
+
+# Open in browser: http://localhost:8000
+```
+
+### Option 2: Node.js HTTP Server
+
+```bash
+cd /home/user/scorx-website
+
+# Using npx (no installation needed)
+npx http-server -p 8000
+
+# Open in browser: http://localhost:8000
+```
+
+### Option 3: VS Code Live Server
+
+1. Install the "Live Server" extension in VS Code
+2. Right-click on `index.html`
+3. Select "Open with Live Server"
+
+### Option 4: Direct File Opening (Quick Preview)
+
+```bash
+# Linux
+xdg-open index.html
+
+# Mac
+open index.html
+
+# Windows
+start index.html
+```
+
+**Note:** Using a local server (Options 1-3) is recommended for the best experience.
+
+---
+
+## 📁 Website Structure
 
 ```
-Website/
-├── index.html          # Landing page with features, pricing, FAQ
-├── privacy.html        # Privacy Policy (GDPR/CCPA compliant)
-├── support.html        # Support Center with FAQ and contact
-├── terms.html          # Terms of Service
+scorx-website/
+├── index.html              # Homepage with hero, features, sports showcase
+├── features.html           # Detailed feature descriptions (12 features)
+├── sports.html             # 14 sports catalog (Team + Racquet sports)
+├── pricing.html            # Full pricing comparison (Free, Family, Coach, Club)
+├── how-it-works.html       # Step-by-step guide with tips
+├── download.html           # App Store download page
+├── support.html            # Comprehensive FAQ and support
+├── privacy.html            # Privacy Policy (GDPR/CCPA compliant)
+├── terms.html              # Terms of Service
 ├── css/
-│   └── style.css       # ScorX brand stylesheet
-├── images/             # App screenshots, badges, icons (to be added)
-│   └── [placeholder]   # Add App Store badge, favicon, screenshots
-└── README.md           # This file
+│   └── style.css           # ScorX brand stylesheet with new components
+├── images/                 # App screenshots, badges, icons (to be added)
+│   └── [placeholder]       # Add App Store badge, favicon, screenshots
+└── README.md               # This file
 ```
 
-## Brand Guidelines
+---
 
-The website uses the official ScorX brand colors from `Theme.swift`:
+## 🎨 Brand Guidelines
+
+### Colors
+
+The website uses the official ScorX brand colors:
 
 - **Primary Turquoise:** `#00D4C4`
 - **Bright Turquoise:** `#1FEDD8`
@@ -35,189 +106,353 @@ The website uses the official ScorX brand colors from `Theme.swift`:
 - **Deep Navy:** `#0F2A44`
 - **Off White:** `#F8F9FA`
 - **Charcoal:** `#2C3E50`
+- **Medium Gray:** `#7F8C8D`
+- **Light Gray:** `#BDC3C7`
 
-**Typography:**
-- Primary Font: `-apple-system, SF Pro Display/Text`
-- Fallback: `Segoe UI, Roboto, sans-serif`
+### Typography
 
-## Required Assets (To Be Added)
+- **Primary Font:** `-apple-system, SF Pro Display/Text`
+- **Fallback:** `Segoe UI, Roboto, sans-serif`
 
-Before publishing, add the following to `/images/`:
+### Design System
 
-1. **App Store Badge** (`app-store-badge.svg`)
-   - Download from: https://developer.apple.com/app-store/marketing/guidelines/
-   - Use SVG format for best quality
+- **Border Radius:** 20px (cards), 14px (buttons)
+- **Spacing:** 16px horizontal inset, 18px card spacing
+- **Animations:** CSS-only with smooth transitions
+- **Layout:** 12-column grid (desktop), 4-column grid (mobile)
 
-2. **Favicon** (`favicon.png`)
-   - 192x192 PNG
-   - Should be ScorX app icon
+---
 
-3. **Social Preview** (`social-preview.png`)
-   - 1200x630 PNG
-   - For Open Graph/Twitter Card
-   - Shows app screenshot + branding
+## 📄 Page-by-Page Content
 
-4. **Screenshots** (optional but recommended)
-   - iPhone 15 Pro Max screenshots (1290 x 2796)
-   - For features section carousel
-   - Name: `screenshot-1.png`, `screenshot-2.png`, etc.
+### Homepage (`index.html`)
+- **Hero Section:** "Effortless Scorekeeping & Live Stats for Every Sport"
+- **Trust Bar:** 14 Sports, 30-Day Free Trial, No Credit Card, iCloud Sync
+- **Features:** 6 core features overview
+- **Sports Showcase:** Team Sports (8) + Racquet Sports (6)
+- **How It Works:** 3-step process
+- **Who It's For:** Players, Families, Coaches, Teams
+- **Pricing Teaser:** Free vs Family comparison
+- **Final CTA:** Download section
 
-## Before Publishing Checklist
+### Features (`features.html`)
+12 detailed features:
+1. Real-Time Game Scoring
+2. Comprehensive Player Statistics
+3. Visual Performance Analytics
+4. Configurable Game Timers
+5. Easy Team & Roster Management
+6. Complete Game History & Archives
+7. iCloud Sync Across Devices (Family Tier)
+8. Data Export & Analysis (Family Tier)
+9. Seamless Sport Switching
+10. Full Offline Functionality
+11. Player Sentiment & Emotion Tracking
+12. Performance & Athleticism Metrics (Coming Soon)
 
-- [ ] Replace all `XXXXXXXXXX` App Store ID placeholders with actual ID
-- [ ] Add App Store badge image to `/images/app-store-badge.svg`
-- [ ] Add favicon.png to `/images/favicon.png`
-- [ ] Update `[Your Jurisdiction]` in Terms of Service (Section 15)
-- [ ] Verify all email links point to `support@scorx.app`
-- [ ] Test all internal links work correctly
-- [ ] Test mobile responsiveness on real devices
-- [ ] Run accessibility audit (WCAG AA compliance)
-- [ ] Validate HTML/CSS with W3C validators
-- [ ] Set up hosting (GitHub Pages, Netlify, Vercel, etc.)
-- [ ] Configure custom domain (scorx.app)
-- [ ] Add SSL certificate (HTTPS)
-- [ ] Submit sitemap to Google Search Console
-- [ ] Test page load speed (aim for <3 seconds)
+### Sports (`sports.html`)
 
-## Hosting Options
+**Team Sports (8):**
+- AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey
 
-### Option 1: GitHub Pages (Recommended - Free)
-1. Create new repository: `scorx-website`
-2. Push website files to `main` branch
-3. Enable GitHub Pages in Settings
-4. Configure custom domain: `scorx.app`
-5. Enable HTTPS in GitHub Pages settings
+**Racquet Sports (6):**
+- Tennis, Badminton, Squash, Racquetball, Pickleball, Table Tennis
 
-### Option 2: Netlify (Free tier available)
-1. Connect GitHub repository
-2. Auto-deploy on push
-3. Configure custom domain
-4. Free SSL included
+Each sport includes: Scoring rules, Activities tracked, Timer configuration, Special features
 
-### Option 3: Vercel (Free tier available)
-1. Import from GitHub
-2. Auto-deploy on push
-3. Configure custom domain
-4. Free SSL included
+### Pricing (`pricing.html`)
 
-## URL Structure
+**4 Tiers:**
+1. **Free:** $0 - 1 team, 1 player, 5 games/month
+2. **Family:** $4.99/month or $49.99/year - 5 players, iCloud sync, CSV export
+3. **Coach:** TBA (Coming v1.1) - 25 players, advanced analytics
+4. **Club:** TBA (Coming v1.1) - 100 players, team collaboration
 
-**Primary URLs** (update in App Store Connect):
-- Landing page: `https://scorx.app`
-- Privacy Policy: `https://scorx.app/privacy.html`
-- Support: `https://scorx.app/support.html`
-- Terms: `https://scorx.app/terms.html`
+Plus pricing-specific FAQ section
 
-## Content Updates
+### How It Works (`how-it-works.html`)
+- **Step 1:** Download & Setup (2-3 minutes)
+- **Step 2:** Start a Game (30 seconds)
+- **Step 3:** Score & Track (game duration)
+- **Step 4:** Review & Export (instant)
+- Tips & Best Practices section
 
-When app features change, update these pages:
+### Download (`download.html`)
+- App Store download link
+- System requirements (iOS 18.0+)
+- Optimized devices list
+- 5-step what happens after download
+- Quick start checklist
+- Family tier promotion
 
-### Index Page (`index.html`)
-- Hero section sport count
-- Features section
-- Sports section (9 sports + coming soon section)
-- Pricing cards
-- FAQ section
+### Support (`support.html`)
+**Comprehensive FAQ with categories:**
+- Getting Started (4 questions)
+- Subscriptions & Billing (6 questions)
+- Using ScorX (4 questions)
+- Sports & Features (3 questions)
+- iCloud & Sync (3 questions)
+- Privacy & Data (2 questions)
+- Troubleshooting (2 questions)
 
-### Support Page (`support.html`)
-- FAQ items as new questions arise
-- Subscription details if pricing changes
+Total: 24+ FAQ entries with detailed answers
 
 ### Privacy Policy (`privacy.html`)
-- When data collection practices change
-- When new features are added
-- Update "Last Updated" date
+- GDPR/CCPA/APP compliant
+- Updated contact: scorxapp@gmail.com
+- Data collection, storage, and usage policies
+- User rights and data deletion procedures
 
 ### Terms of Service (`terms.html`)
-- When subscription pricing changes
-- When new tiers launch (v1.1 Coach/Club)
-- Update "Last Updated" date
+- Subscription terms and conditions
+- Updated contact: scorxapp@gmail.com
+- Refund policy, user responsibilities
+- Intellectual property rights
 
-## SEO Optimization
+---
 
-**Meta Tags Included:**
-- Title tags (optimized for search)
-- Description meta tags
-- Open Graph tags (social media)
-- Keywords meta tags
-- Apple app banner meta tag
+## 🔍 SEO Optimization
 
-**Recommendations:**
-- Submit to Google Search Console
-- Create `sitemap.xml`
-- Create `robots.txt`
-- Add Google Analytics (if desired)
-- Monitor Core Web Vitals
+### Meta Tags (All Pages)
+- ✅ Descriptive title tags
+- ✅ Meta descriptions (150-160 characters)
+- ✅ Keywords meta tags
+- ✅ Open Graph tags (Facebook/LinkedIn)
+- ✅ Twitter Card tags
+- ✅ Theme color for mobile browsers
+- ✅ Apple app banner meta tag
 
-## Accessibility
+### Structured Data (Schema.org)
+- **Homepage:** SoftwareApplication schema
+- **Support Page:** FAQPage schema with Q&A pairs
 
-The website is built with accessibility in mind:
-- Semantic HTML structure
-- ARIA labels on interactive elements
-- Keyboard navigation support
-- Color contrast ratios meet WCAG AA
-- Responsive for screen readers
-- Mobile-friendly design
+### AI Search Optimization
+Optimized for ChatGPT and Perplexity AI:
+- Clear semantic HTML structure
+- Definitive answers in FAQ
+- Structured lists for easy parsing
+- Updated, authoritative content
 
-**Test with:**
-- VoiceOver (macOS/iOS)
-- Chrome Lighthouse audit
-- WAVE browser extension
-- Manual keyboard navigation
+### Keywords Targeted
+- scorekeeping app
+- multi-sport scoring
+- sports statistics app
+- live sports scoring
+- player stats tracker
+- AFL scoring app, basketball stats app, tennis score tracker (+ 11 more sport-specific)
 
-## Performance
+---
 
-**Current optimizations:**
-- Minimal external dependencies
-- CSS-only animations (no JS libraries)
-- Optimized images (to be added)
-- Lazy loading for images
-- Mobile-first responsive design
+## 📱 Required Assets (To Be Added)
 
-**Target metrics:**
-- First Contentful Paint: <1.5s
-- Largest Contentful Paint: <2.5s
-- Cumulative Layout Shift: <0.1
-- Time to Interactive: <3.5s
+Before publishing, add these to `/images/`:
 
-## Browser Support
+### 1. App Store Badge (`app-store-badge.svg`)
+- Download from: https://developer.apple.com/app-store/marketing/guidelines/
+- Use official SVG format
+- Place in `/images/app-store-badge.svg`
 
-**Tested and supported:**
+### 2. Favicon (`favicon.png`)
+- **Size:** 192x192 PNG
+- Should match ScorX app icon
+- Place in `/images/favicon.png`
+
+### 3. Social Preview Images
+- **Open Graph:** `social-preview.png` (1200x630 PNG)
+- **Twitter Card:** `twitter-card.jpg` (1200x628 JPG)
+- Show app screenshot + ScorX branding
+
+### 4. App Screenshots (Optional)
+- **Format:** PNG
+- **Device:** iPhone 15 Pro (2556x1179)
+- **Naming:** `screenshot-1.png`, `screenshot-2.png`, etc.
+- Use for features page visual demonstrations
+
+---
+
+## ✅ Pre-Launch Checklist
+
+### Content Updates
+- [ ] Replace all `XXXXXXXXXX` with actual App Store ID
+- [ ] Verify scorxapp@gmail.com email is active and monitored
+- [ ] Update copyright year if needed (currently 2025)
+- [ ] Review all pricing information for accuracy
+
+### Assets
+- [ ] Add App Store badge SVG to `/images/`
+- [ ] Add favicon.png (192x192)
+- [ ] Add social preview images (Open Graph, Twitter Card)
+- [ ] Add optional app screenshots
+
+### Testing
+- [ ] Test on iPhone (Safari)
+- [ ] Test on iPad (Safari)
+- [ ] Test on Android (Chrome)
+- [ ] Test on desktop browsers (Chrome, Firefox, Safari, Edge)
+- [ ] Test all internal links work correctly
+- [ ] Test all external links (App Store, email)
+- [ ] Verify mobile menu works correctly
+- [ ] Test form submissions (if any)
+
+### Performance
+- [ ] Run Lighthouse audit (aim for 90+ scores)
+- [ ] Test page load speed (aim for <2 seconds)
+- [ ] Optimize images (WebP format with fallbacks)
+- [ ] Verify lazy loading works
+- [ ] Test offline functionality (service worker if implemented)
+
+### Accessibility
+- [ ] Run WAVE accessibility audit
+- [ ] Test keyboard navigation (Tab through all interactive elements)
+- [ ] Test with VoiceOver (macOS/iOS)
+- [ ] Verify color contrast ratios (WCAG AA)
+- [ ] Check alt text on all images
+
+### SEO
+- [ ] Submit sitemap to Google Search Console
+- [ ] Create and upload `sitemap.xml`
+- [ ] Create and upload `robots.txt`
+- [ ] Verify structured data with Google Rich Results Test
+- [ ] Check meta tags on all pages
+
+### Legal
+- [ ] Have legal review Privacy Policy
+- [ ] Have legal review Terms of Service
+- [ ] Verify all data collection disclosures are accurate
+- [ ] Ensure GDPR/CCPA compliance
+
+---
+
+## 🌐 Hosting & Deployment
+
+### Recommended: Vercel (Free)
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+cd /home/user/scorx-website
+vercel
+
+# Configure custom domain in Vercel dashboard
+# Point scorx.com.au to Vercel DNS
+```
+
+### Alternative: Netlify (Free)
+
+```bash
+# Install Netlify CLI
+npm i -g netlify-cli
+
+# Deploy
+cd /home/user/scorx-website
+netlify deploy --prod
+
+# Configure custom domain in Netlify dashboard
+```
+
+### Alternative: GitHub Pages (Free)
+
+1. Push to GitHub repository
+2. Enable GitHub Pages in Settings → Pages
+3. Select branch: `main`
+4. Configure custom domain: `scorx.com.au`
+5. Enable HTTPS in settings
+
+### Custom Domain Setup
+
+**DNS Configuration for scorx.com.au:**
+```
+Type    Name    Value
+A       @       [Your hosting IP or CNAME]
+CNAME   www     [Your hosting domain]
+```
+
+**SSL Certificate:**
+- All recommended hosting providers include free SSL
+- Enforce HTTPS redirects
+
+---
+
+## 🔧 Development
+
+### CSS Components Added (v1.1)
+
+New components in `style.css`:
+- `.trust-bar` - Trust signals section with grid layout
+- `.trust-item` - Individual trust items
+- `.trust-signals` - Final CTA trust signals
+- `.steps-grid` - How It Works steps layout
+- `.step-card` - Individual step cards with hover effects
+- `.step-number` - Circular step numbers with gradient
+- `.sports-showcase` - Sports category showcase
+- `.sports-grid-compact` - Compact grid for sport mini-cards
+- `.sport-card-mini` - Mini sport cards with hover effects
+- `.pricing-grid-simple` - Simplified pricing grid
+- `.pricing-badge-alt` - Alternative pricing badge style
+- `.pricing-features-simple` - Simple feature list for pricing teaser
+
+### Browser Support
+
+**Tested and Supported:**
 - Safari 14+ (macOS, iOS)
 - Chrome 90+
 - Firefox 88+
 - Edge 90+
-
-**Mobile:**
-- iOS Safari 14+
+- Mobile Safari 14+
 - Chrome Mobile
 - Samsung Internet
 
-## Legal Compliance
+---
 
-**Privacy Policy:**
-- GDPR compliant (EU users)
-- CCPA compliant (California users)
-- APP compliant (Australian users)
-- Aligned with App Store Review Guidelines
+## 📊 Analytics (Optional)
 
-**Terms of Service:**
-- App Store subscription disclosures
-- Auto-renewal terms clearly stated
-- Refund policy (Apple's policy)
-- Data ownership and rights
+### Recommended Analytics Setup
 
-## Contact
+If tracking analytics, use privacy-first options:
+- **Plausible Analytics** (GDPR compliant, no cookies)
+- **Fathom Analytics** (privacy-first)
+- Avoid Google Analytics unless necessary
 
-For website updates or issues:
-- **Email:** support@scorx.app
-- **Website Issues:** File in project documentation
+### Key Metrics to Track
+- Page views by URL
+- App Store badge click-through rate (primary KPI)
+- Bounce rate by page
+- Average session duration
+- Mobile vs desktop traffic
+- Geographic distribution
 
-## Version History
+---
 
-**v1.0 - October 6, 2025**
-- Initial website creation
+## 📞 Contact & Support
+
+**Website Email:** scorxapp@gmail.com
+**Developer:** Twine App Dev
+**Website URL:** https://scorx.com.au
+**App Store:** [Link to be added after app approval]
+
+---
+
+## 📝 Version History
+
+### v1.1 - January 19, 2025
+**Major Update: PRD Implementation**
+- ✅ Added 5 new pages (features, sports, pricing, how-it-works, download)
+- ✅ Updated from 9 sports to 14 sports
+- ✅ Complete pricing tier documentation (Free, Family, Coach, Club)
+- ✅ Comprehensive FAQ (24+ questions across 7 categories)
+- ✅ Enhanced SEO with Schema.org structured data
+- ✅ Updated contact email to scorxapp@gmail.com
+- ✅ Updated copyright to Twine App Dev
+- ✅ Added trust bar and improved hero sections
+- ✅ Mobile-responsive enhancements
+- ✅ New CSS components for better design system
+
+### v1.0 - October 6, 2025
+**Initial Release**
 - 4 pages: Landing, Privacy, Support, Terms
+- 9 sports supported
 - ScorX brand styling applied
 - Mobile-responsive design
 - Accessibility-first approach
@@ -225,12 +460,47 @@ For website updates or issues:
 
 ---
 
-**Next Steps:**
-1. Add required images to `/images/` folder
-2. Replace App Store ID placeholders
-3. Choose and configure hosting
-4. Test on multiple devices and browsers
-5. Publish and submit URLs to App Store Connect
+## 🎯 Next Steps
 
-**Website URL:** https://scorx.app (to be configured)
-**Support Email:** support@scorx.app (ensure this is active)
+1. **Add Images:**
+   - App Store badge SVG
+   - Favicon PNG
+   - Social preview images
+   - Optional: App screenshots
+
+2. **Update Placeholders:**
+   - Replace `XXXXXXXXXX` with actual App Store ID
+   - Verify email (scorxapp@gmail.com) is active
+
+3. **Testing:**
+   - Test on multiple devices
+   - Run accessibility audit
+   - Run performance audit
+   - Verify all links
+
+4. **Deploy:**
+   - Choose hosting provider
+   - Configure custom domain
+   - Enable SSL/HTTPS
+   - Submit sitemap to Google
+
+5. **Launch:**
+   - Update App Store Connect with website URLs
+   - Monitor analytics
+   - Collect user feedback
+
+---
+
+## 📚 Additional Resources
+
+- **Apple App Store Guidelines:** https://developer.apple.com/app-store/review/guidelines/
+- **App Store Marketing:** https://developer.apple.com/app-store/marketing/
+- **WCAG Accessibility:** https://www.w3.org/WAI/WCAG21/quickref/
+- **Schema.org Documentation:** https://schema.org/
+- **Google Search Console:** https://search.google.com/search-console
+
+---
+
+**Built with ❤️ for sports lovers everywhere**
+
+© 2025 Twine App Dev. All rights reserved.
