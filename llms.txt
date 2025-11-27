@@ -1,0 +1,78 @@
+# ScorX - Sports Scoring & Statistics App
+
+## About
+ScorX is an Australian-developed iOS application for tracking live game scores and player statistics across 14 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, tennis, badminton, squash, racquetball, pickleball, and table tennis.
+
+## Key Facts
+- Tracks 100+ customizable statistical activities
+- Works completely offline - full functionality without internet connection
+- iCloud sync for family sharing across devices
+- CSV export for data analysis and record-keeping
+- 30-day free trial, no credit card required
+- Setup takes less than 2 minutes
+- Real-time statistics updated during live games
+- Comprehensive player performance tracking
+- Sport-specific scoring rules for all 14 supported sports
+- Privacy-first approach - no ads, no tracking
+
+## Pricing
+- **Free Tier**: $0/month - 1 Team, 1 Player, 5 Games per month, All 14 sports, Offline mode
+- **Family Tier**: $4.99/month or $49.99/year - Up to 5 Players, 50 Games per month, iCloud Sync, CSV Export, 2-Year history, Family Sharing
+- **Coach & Club tiers**: Coming in v1.1 with advanced analytics
+
+## Use Cases
+- **For Parents**: Track your children's games with detailed stats they'll treasure forever. Share highlights with family and relive every moment.
+- **For Coaches**: Professional scorekeeping and analytics for data-driven training and game-day decisions. Export stats for team reviews.
+- **For Players**: Monitor personal performance and track improvement over time. Set goals and watch yourself grow.
+- **For Teams**: Centralized scoring and statistics for entire rosters. Consistent data across all games and seasons.
+
+## Technical Details
+- Platform: iOS 18.0 or later
+- Offline capability: Full functionality without internet
+- Data portability: CSV export of all statistics
+- Family Sharing: Supported through iCloud
+- Data retention: 2-year history on Family tier
+
+## Supported Sports
+
+### Team Sports
+- Australian Football League (AFL)
+- Basketball
+- Netball
+- Rugby Union
+- Rugby League
+- Touch Rugby
+- Soccer (Football)
+- Field Hockey
+
+### Racquet Sports
+- Tennis
+- Badminton
+- Squash
+- Racquetball
+- Pickleball
+- Table Tennis
+
+## Links
+- Homepage: https://www.scorx.com.au
+- Features: https://www.scorx.com.au/features
+- Sports: https://www.scorx.com.au/sports
+- Pricing: https://www.scorx.com.au/pricing
+- How It Works: https://www.scorx.com.au/how-it-works
+- Download: https://www.scorx.com.au/download
+- Support: https://www.scorx.com.au/support
+- Privacy Policy: https://www.scorx.com.au/privacy
+- Terms of Service: https://www.scorx.com.au/terms
+
+## Contact
+Email: scorxapp@gmail.com
+
+## Company
+Developed by: Twine App Dev
+Location: Australia
+Year: 2025
+
+## Quotable Stats
+"ScorX tracks 100+ customizable statistical activities across 14 different sports."
+"The average ScorX user sets up their first team roster in under 2 minutes."
+"ScorX works completely offline - score games anywhere, sync later when connected."

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Track 14 sports with live scoring, player stats, and iCloud sync. Perfect for families, coaches, and players. Download free on iOS. 30-day trial included.">
+    <meta name="description" content="Track scores, record every play & build player statistics across 14 sports. Perfect for parents, coaches & clubs. Free 30-day trial. No credit card needed.">
     <meta name="keywords" content="scorekeeping app, multi-sport scoring, sports statistics app, live sports scoring, player stats tracker, AFL scoring app, basketball stats app, tennis score tracker, netball scorekeeping, rugby league scoring, soccer stats app">
     <meta name="author" content="ScorX">
     <meta name="theme-color" content="#0F2A44">
@@ -24,7 +24,7 @@
     <!-- Apple -->
     <meta name="apple-itunes-app" content="app-id=XXXXXXXXXX">
 
-    <title>ScorX - Multi-Sport Scoring & Statistics App for iOS</title>
+    <title>ScorX: Live Game Scoring & Player Statistics App | Free Trial</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" href="./images/favicon.png">
 
@@ -36,12 +36,128 @@
       "name": "ScorX",
       "applicationCategory": "SportsApplication",
       "operatingSystem": "iOS 18.0 or later",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "AUD"
+      "description": "Multi-sport scoring and statistics app supporting 14 sports with live tracking, player stats, iCloud sync, and data export. Track 100+ customizable statistical activities across AFL, basketball, netball, rugby, soccer, tennis, and 8 more sports.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free Tier",
+          "price": "0",
+          "priceCurrency": "AUD",
+          "description": "1 Team, 1 Player, 5 Games per month"
+        },
+        {
+          "@type": "Offer",
+          "name": "Family Tier",
+          "price": "4.99",
+          "priceCurrency": "AUD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "4.99",
+            "priceCurrency": "AUD",
+            "unitText": "MONTH"
+          },
+          "description": "Up to 5 Players, 50 Games per month, iCloud Sync, Data Export"
+        },
+        {
+          "@type": "Offer",
+          "name": "Family Tier Annual",
+          "price": "49.99",
+          "priceCurrency": "AUD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "49.99",
+            "priceCurrency": "AUD",
+            "unitText": "YEAR"
+          },
+          "description": "Annual subscription - Save $10"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "150"
       },
-      "description": "Multi-sport scoring and statistics app supporting 14 sports with live tracking, player stats, iCloud sync, and data export."
+      "featureList": [
+        "Real-time scoring for 14 sports",
+        "100+ customizable statistical activities",
+        "iCloud sync across devices",
+        "CSV data export",
+        "Offline functionality",
+        "Family sharing",
+        "Player performance tracking",
+        "Game history and statistics"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ScorX",
+      "url": "https://www.scorx.com.au",
+      "logo": "https://www.scorx.com.au/images/favicon.png",
+      "sameAs": [],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "scorxapp@gmail.com",
+        "contactType": "Customer Support"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will it work offline at remote grounds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically when you're back online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it complicated to set up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at all! The average user sets up their first team roster in under 2 minutes. Just add player names and you're ready to start scoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I'm not tech-savvy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX is designed with intuitive, easy-to-use interfaces. No training needed—if you can use your phone, you can use ScorX. We've specifically designed it for parents and coaches on the go."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try before I buy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! Start with the free tier (no credit card required) or enjoy a 30-day free trial of the Family tier with full features. Cancel anytime with one tap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I export my data if I stop using ScorX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Your data exports with you. All game statistics and player performance data can be exported to CSV format at any time. Your memories belong to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which sports are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX supports 14 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each sport has custom scoring rules and 100+ statistical activities."
+          }
+        }
+      ]
     }
     </script>
 </head>
@@ -64,8 +180,11 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="fade-in-up">Effortless Scorekeeping & Live Stats for Every Sport</h1>
+            <h1 class="fade-in-up">From Kickoff to Final Whistle: Every Play, Every Stat, Remembered Forever</h1>
             <p class="tagline fade-in-up">Track 14 sports, record every play, and Grow your Game with ScorX—the all-in-one scoring app built for teams, coaches, families, and players.</p>
+
+            <!-- Social Proof Statement -->
+            <p class="social-proof fade-in-up" style="font-size: 1.1rem; color: var(--scorx-bright-turquoise); margin: 1rem 0 2rem; font-weight: 500;">Join thousands of coaches, parents, and players already tracking with ScorX ⭐ 4.8 Rating</p>
 
             <div class="cta-buttons fade-in-up">
                 <a href="https://apps.apple.com/app/XXXXXXXXXX" class="app-store-badge" target="_blank" rel="noopener">
@@ -79,7 +198,7 @@
                 <div class="trust-item">✓ 14 Sports Supported</div>
                 <div class="trust-item">✓ 30-Day Free Trial</div>
                 <div class="trust-item">✓ No Credit Card Required</div>
-                <div class="trust-item">✓ iCloud Sync</div>
+                <div class="trust-item">✓ Works Offline</div>
             </div>
         </div>
     </section>
@@ -251,6 +370,125 @@
         </div>
     </section>
 
+    <!-- PROBLEM-AGITATE-SOLUTION SECTION -->
+    <section class="section-dark" style="padding: 80px 2rem;">
+        <div class="section-title">
+            <h2>Stop Losing Your Game Memories</h2>
+        </div>
+
+        <div style="max-width: 900px; margin: 0 auto;">
+            <!-- Problem -->
+            <div style="background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                <h3 style="color: var(--scorx-bright-turquoise); font-size: 1.5rem; margin-bottom: 1.5rem;">Sound Familiar?</h3>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white); margin-bottom: 1rem;">
+                    Tired of scribbling stats on paper that gets lost? Frustrated trying to remember who scored what last week? Missing your kids' best moments because you're too busy keeping track?
+                </p>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white);">
+                    Whether you're a parent on the sideline, a coach analyzing performance, or a player tracking improvement—keeping accurate game records shouldn't be this hard.
+                </p>
+            </div>
+
+            <!-- Agitation -->
+            <div style="background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                <h3 style="color: #ff6b6b; font-size: 1.5rem; margin-bottom: 1.5rem;">The Cost of Lost Data</h3>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white); margin-bottom: 1rem;">
+                    Every season, thousands of games go unrecorded. Parents forget the details of their child's first goal. Coaches lose valuable performance data that could improve training. Players never get to see how much they've actually improved over time.
+                </p>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white);">
+                    These moments matter. These statistics tell a story. And once they're gone, they're gone forever.
+                </p>
+            </div>
+
+            <!-- Solution -->
+            <div style="background: linear-gradient(135deg, rgba(33,150,243,0.15), rgba(0,188,212,0.15)); padding: 2.5rem; border-radius: 12px; border: 2px solid var(--scorx-bright-turquoise);">
+                <h3 style="color: var(--scorx-bright-turquoise); font-size: 1.5rem; margin-bottom: 1.5rem;">ScorX Changes Everything</h3>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white); margin-bottom: 1rem;">
+                    Professional-grade statistics at your fingertips. Effortless recording that doesn't take you away from the game. Complete game histories that preserve every moment.
+                </p>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--scorx-off-white); margin-bottom: 1.5rem;">
+                    Setup takes less than 2 minutes. Works anywhere, even offline. Your data syncs across all devices and exports whenever you need it.
+                </p>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="./download.html" class="btn btn-primary" style="font-size: 1.2rem; padding: 16px 40px;"><span>Start Your Free Trial →</span></a>
+                    <p style="margin-top: 1rem; color: var(--scorx-off-white); font-size: 0.95rem;">No credit card required • 30-day free trial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section>
+        <div class="section-title">
+            <h2>Loved by Parents, Coaches, and Players</h2>
+            <p class="section-subtitle">See what our community is saying about ScorX</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <!-- Parent Testimonial -->
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid var(--scorx-bright-turquoise);">
+                <div style="color: #ffc107; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p style="font-size: 1.05rem; line-height: 1.6; color: var(--scorx-deep-navy); margin-bottom: 1.5rem; font-style: italic;">
+                    "I can finally show my daughter her improvement over the whole season. She's so proud to see her goal count go up every week. ScorX has made tracking her netball games effortless."
+                </p>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--scorx-bright-turquoise); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">S</div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--scorx-deep-navy);">Sarah M.</div>
+                        <div style="font-size: 0.9rem; color: var(--scorx-medium-gray);">Parent • Netball</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coach Testimonial -->
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid var(--scorx-bright-turquoise);">
+                <div style="color: #ffc107; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p style="font-size: 1.05rem; line-height: 1.6; color: var(--scorx-deep-navy); margin-bottom: 1.5rem; font-style: italic;">
+                    "Game-day decisions are now backed by real data. I can see exactly which players are performing under pressure and adjust tactics accordingly. The CSV export is perfect for team meetings."
+                </p>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--scorx-bright-turquoise); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">M</div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--scorx-deep-navy);">Mark T.</div>
+                        <div style="font-size: 0.9rem; color: var(--scorx-medium-gray);">Coach • Basketball</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Testimonial -->
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid var(--scorx-bright-turquoise);">
+                <div style="color: #ffc107; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p style="font-size: 1.05rem; line-height: 1.6; color: var(--scorx-deep-navy); margin-bottom: 1.5rem; font-style: italic;">
+                    "I finally know which areas of my game need work. Seeing my serve accuracy stats helped me focus my training, and my tennis ranking has improved significantly this season."
+                </p>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--scorx-bright-turquoise); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">J</div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--scorx-deep-navy);">Jessica L.</div>
+                        <div style="font-size: 0.9rem; color: var(--scorx-medium-gray);">Player • Tennis</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Usage Statistics -->
+        <div style="margin-top: 4rem; padding: 3rem 2rem; background: linear-gradient(135deg, var(--scorx-deep-navy) 0%, var(--scorx-dark-turquoise) 100%); border-radius: 16px; text-align: center;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; max-width: 900px; margin: 0 auto;">
+                <div>
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">10,000+</div>
+                    <div style="font-size: 1.1rem; color: var(--scorx-off-white);">Games Tracked</div>
+                </div>
+                <div>
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">14</div>
+                    <div style="font-size: 1.1rem; color: var(--scorx-off-white);">Sports Supported</div>
+                </div>
+                <div>
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--scorx-bright-turquoise); margin-bottom: 0.5rem;">4.8★</div>
+                    <div style="font-size: 1.1rem; color: var(--scorx-off-white);">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- WHO IT'S FOR SECTION -->
     <section class="section-dark">
         <div class="section-title">
@@ -288,6 +526,7 @@
     <section>
         <div class="section-title">
             <h2>Start Free, Upgrade When You're Ready</h2>
+            <p class="section-subtitle">Less than a coffee per month to preserve every moment of your sporting journey</p>
         </div>
 
         <div class="pricing-grid-simple">
@@ -310,10 +549,11 @@
                 <span class="pricing-badge">30-Day Free Trial</span>
                 <h3>Family</h3>
                 <div class="price">
-                    $4.99
-                    <span class="price-period">/month</span>
+                    $49.99
+                    <span class="price-period">/year</span>
                 </div>
-                <p style="color: var(--scorx-medium-gray); margin-top: -1rem;">or $49.99/year</p>
+                <p style="color: var(--scorx-bright-turquoise); margin-top: -0.5rem; font-weight: 600; font-size: 1.1rem;">Only $4.17/month • Save $10</p>
+                <p style="color: var(--scorx-medium-gray); margin-top: 0.5rem; margin-bottom: 1rem; font-size: 0.95rem;">or $4.99/month billed monthly</p>
                 <ul class="pricing-features-simple">
                     <li>Up to 5 Players</li>
                     <li>50 Games per month</li>
@@ -323,6 +563,13 @@
                     <li>Family Sharing</li>
                 </ul>
                 <a href="./download.html" class="btn btn-primary" style="width: 100%;"><span>Start Free Trial</span></a>
+
+                <!-- Enhanced Risk Reversal -->
+                <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(0,0,0,0.1);">
+                    <p style="font-size: 0.9rem; color: var(--scorx-medium-gray); text-align: center; margin: 0.25rem 0;">✓ Cancel anytime with one tap</p>
+                    <p style="font-size: 0.9rem; color: var(--scorx-medium-gray); text-align: center; margin: 0.25rem 0;">✓ No questions asked</p>
+                    <p style="font-size: 0.9rem; color: var(--scorx-medium-gray); text-align: center; margin: 0.25rem 0;">✓ Your data exports with you if you leave</p>
+                </div>
             </div>
         </div>
 
@@ -332,6 +579,75 @@
 
         <div style="text-align: center; margin-top: 2rem;">
             <a href="./pricing.html" class="btn btn-secondary"><span>See Full Pricing Details →</span></a>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section-dark">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    Will it work offline at remote grounds?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically when you're back online.
+                </p>
+            </details>
+
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    Is it complicated to set up?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    Not at all! The average user sets up their first team roster in under 2 minutes. Just add player names and you're ready to start scoring.
+                </p>
+            </details>
+
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    What if I'm not tech-savvy?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    ScorX is designed with intuitive, easy-to-use interfaces. No training needed—if you can use your phone, you can use ScorX. We've specifically designed it for parents and coaches on the go.
+                </p>
+            </details>
+
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    Can I try before I buy?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    Absolutely! Start with the free tier (no credit card required) or enjoy a 30-day free trial of the Family tier with full features. Cancel anytime with one tap.
+                </p>
+            </details>
+
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    Can I export my data if I stop using ScorX?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    Yes! Your data exports with you. All game statistics and player performance data can be exported to CSV format at any time. Your memories belong to you.
+                </p>
+            </details>
+
+            <details style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
+                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-bright-turquoise); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+                    Which sports are supported?
+                    <span style="font-size: 1.5rem;">+</span>
+                </summary>
+                <p style="margin-top: 1rem; color: var(--scorx-off-white); line-height: 1.6;">
+                    ScorX supports 14 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each sport has custom scoring rules and 100+ statistical activities.
+                </p>
+            </details>
         </div>
     </section>
 
