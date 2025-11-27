@@ -1,0 +1,27 @@
+# robots.txt for ScorX website
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Allow ChatGPT crawler
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Allow Perplexity crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Allow Claude crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Allow Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://www.scorx.com.au/sitemap.xml
