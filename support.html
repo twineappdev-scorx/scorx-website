@@ -38,19 +38,22 @@
 <body>
     <header>
         <nav>
-            <div class="logo">ScorX</div>
+            <a href="./index.html" class="logo">ScorX</a>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-links">
                 <li><a href="./features.html">Features</a></li>
                 <li><a href="./sports.html">Sports</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
                 <li><a href="./how-it-works.html">How It Works</a></li>
-                <li><a href="./download.html" class="btn btn-primary" style="padding: 10px 24px;">Download Free</a></li>
+                <li><a href="./download.html" class="nav-cta">Download Free</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero" style="min-height: 40vh; padding: 120px 2rem 60px;">
+    <section class="hero hero-short">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
         <div class="hero-content">
             <h1>We're Here to Help</h1>
             <p class="tagline">Find answers, get support, or reach out directly—we respond within 24 hours.</p>
@@ -59,191 +62,195 @@
 
     <!-- SUPPORT OPTIONS -->
     <section>
-        <div class="features-grid">
-            <div class="feature-card">
-                <span class="feature-icon">❓</span>
-                <h3>Frequently Asked Questions</h3>
-                <p>Browse common questions and answers below</p>
-            </div>
+        <div class="section-inner">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">❓</span>
+                    <h3>Frequently Asked Questions</h3>
+                    <p>Browse common questions and answers below</p>
+                </div>
 
-            <div class="feature-card">
-                <span class="feature-icon">✉️</span>
-                <h3>Email Us</h3>
-                <p>Get personalized help from our team</p>
-                <p><a href="mailto:scorxapp@gmail.com" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;"><span>scorxapp@gmail.com</span></a></p>
-            </div>
+                <div class="feature-card">
+                    <span class="feature-icon">✉️</span>
+                    <h3>Email Us</h3>
+                    <p>Get personalized help from our team</p>
+                    <a href="mailto:scorxapp@gmail.com" class="btn btn-primary btn-sm mt-3"><span>scorxapp@gmail.com</span></a>
+                </div>
 
-            <div class="feature-card">
-                <span class="feature-icon">💡</span>
-                <h3>Request a Feature</h3>
-                <p>Suggest new sports, features, or improvements</p>
-                <p><a href="mailto:scorxapp@gmail.com?subject=Feature%20Request" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block;"><span>Send Request</span></a></p>
+                <div class="feature-card">
+                    <span class="feature-icon">💡</span>
+                    <h3>Request a Feature</h3>
+                    <p>Suggest new sports, features, or improvements</p>
+                    <a href="mailto:scorxapp@gmail.com?subject=Feature%20Request" class="btn btn-outline btn-sm mt-3"><span>Send Request</span></a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ SECTION -->
     <section id="faq" class="section-dark">
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div style="max-width: 900px; margin: 0 auto;">
-            <!-- GETTING STARTED -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Getting Started</h3>
-
-            <div class="faq-item">
-                <h4>How do I download ScorX?</h4>
-                <p>Download ScorX for free from the App Store. Search "ScorX" or visit our <a href="./download.html">Download page</a>. Requires iOS 18.0 or later.</p>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
             </div>
 
-            <div class="faq-item">
-                <h4>Is ScorX really free?</h4>
-                <p>Yes! ScorX Free tier is always free with 1 team, 1 player, and 5 games per month. No credit card required, ever.</p>
-            </div>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <!-- GETTING STARTED -->
+                <h3 class="faq-section-title">Getting Started</h3>
 
-            <div class="faq-item">
-                <h4>How do I create my first team?</h4>
-                <p>After downloading, complete the onboarding flow, select your sport, then tap "Create Team." Add player names, jersey numbers, and photos.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How do I download ScorX?</h4>
+                    <p>Download ScorX for free from the App Store. Search "ScorX" or visit our <a href="./download.html">Download page</a>. Requires iOS 18.0 or later.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Can I track multiple sports?</h4>
-                <p>Absolutely! ScorX supports 14 sports. You can switch between sports anytime from the home screen.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Is ScorX really free?</h4>
+                    <p>Yes! ScorX Free tier is always free with 1 team, 1 player, and 5 games per month. No credit card required, ever.</p>
+                </div>
 
-            <!-- SUBSCRIPTIONS & BILLING -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Subscriptions & Billing</h3>
+                <div class="faq-card">
+                    <h4>How do I create my first team?</h4>
+                    <p>After downloading, complete the onboarding flow, select your sport, then tap "Create Team." Add player names, jersey numbers, and photos.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>What's included in the Family tier?</h4>
-                <p>Family tier ($4.99/month or $49.99/year) includes: 5 players, 50 games/month, iCloud sync, CSV export, 2-year history, and Family Sharing for 5 members.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Can I track multiple sports?</h4>
+                    <p>Absolutely! ScorX supports 14 sports. You can switch between sports anytime from the home screen.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>How does the 30-day free trial work?</h4>
-                <p>Download ScorX and tap "Start Free Trial" in the app. No credit card required. After 30 days, choose to subscribe or continue with Free tier.</p>
-            </div>
+                <!-- SUBSCRIPTIONS & BILLING -->
+                <h3 class="faq-section-title">Subscriptions & Billing</h3>
 
-            <div class="faq-item">
-                <h4>How do I cancel my subscription?</h4>
-                <p>Open Settings on your iPhone → tap your name → Subscriptions → ScorX → Cancel Subscription. No cancellation fees.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>What's included in the Family tier?</h4>
+                    <p>Family tier ($4.99/month or $49.99/year) includes: 5 players, 50 games/month, iCloud sync, CSV export, 2-year history, and Family Sharing for 5 members.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Can I share my subscription with family members?</h4>
-                <p>Yes! Family tier supports Apple Family Sharing—share with up to 5 family members at no extra cost.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How does the 30-day free trial work?</h4>
+                    <p>Download ScorX and tap "Start Free Trial" in the app. No credit card required. After 30 days, choose to subscribe or continue with Free tier.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>What happens if I downgrade from Family to Free?</h4>
-                <p>Your data is preserved. You'll lose access to iCloud sync and data export, but your teams and game history remain on your device.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How do I cancel my subscription?</h4>
+                    <p>Open Settings on your iPhone → tap your name → Subscriptions → ScorX → Cancel Subscription. No cancellation fees.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>When do Coach and Club tiers launch?</h4>
-                <p>Coach and Club tiers are planned for v1.1 (mid-2025). Email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> to get notified when they launch.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Can I share my subscription with family members?</h4>
+                    <p>Yes! Family tier supports Apple Family Sharing—share with up to 5 family members at no extra cost.</p>
+                </div>
 
-            <!-- USING SCORX -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Using ScorX</h3>
+                <div class="faq-card">
+                    <h4>What happens if I downgrade from Family to Free?</h4>
+                    <p>Your data is preserved. You'll lose access to iCloud sync and data export, but your teams and game history remain on your device.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>How do I start a new game?</h4>
-                <p>Tap "New Game" from the home screen, select your sport and teams, configure timer settings, then tap "Start Game."</p>
-            </div>
+                <div class="faq-card">
+                    <h4>When do Coach and Club tiers launch?</h4>
+                    <p>Coach and Club tiers are planned for v1.1 (mid-2025). Email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> to get notified when they launch.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Can I use ScorX offline?</h4>
-                <p>Yes! ScorX works fully offline. Score games anywhere without internet. Your data syncs automatically when you reconnect (Family tier).</p>
-            </div>
+                <!-- USING SCORX -->
+                <h3 class="faq-section-title">Using ScorX</h3>
 
-            <div class="faq-item">
-                <h4>How do I track player-specific actions?</h4>
-                <p>During a game, tap the player's name, then tap the action button (e.g., "Goal," "Assist," "Tackle"). The action is recorded instantly.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How do I start a new game?</h4>
+                    <p>Tap "New Game" from the home screen, select your sport and teams, configure timer settings, then tap "Start Game."</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>How do I export my game data?</h4>
-                <p>(Family tier only) Open a completed game, tap the export icon, choose CSV format, then share via email or save to Files app.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Can I use ScorX offline?</h4>
+                    <p>Yes! ScorX works fully offline. Score games anywhere without internet. Your data syncs automatically when you reconnect (Family tier).</p>
+                </div>
 
-            <!-- SPORTS & FEATURES -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Sports & Features</h3>
+                <div class="faq-card">
+                    <h4>How do I track player-specific actions?</h4>
+                    <p>During a game, tap the player's name, then tap the action button (e.g., "Goal," "Assist," "Tackle"). The action is recorded instantly.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Which sports does ScorX support?</h4>
-                <p>ScorX supports 14 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How do I export my game data?</h4>
+                    <p>(Family tier only) Open a completed game, tap the export icon, choose CSV format, then share via email or save to Files app.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Can you add [my sport]?</h4>
-                <p>We're always expanding! Email your sport request to <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> and we'll consider it for future updates.</p>
-            </div>
+                <!-- SPORTS & FEATURES -->
+                <h3 class="faq-section-title">Sports & Features</h3>
 
-            <div class="faq-item">
-                <h4>Does ScorX work for doubles in racquet sports?</h4>
-                <p>Yes! ScorX supports singles and doubles for all racquet sports (Tennis, Badminton, Squash, Table Tennis, etc.).</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Which sports does ScorX support?</h4>
+                    <p>ScorX supports 14 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis.</p>
+                </div>
 
-            <!-- ICLOUD & SYNC -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">iCloud & Sync</h3>
+                <div class="faq-card">
+                    <h4>Can you add [my sport]?</h4>
+                    <p>We're always expanding! Email your sport request to <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> and we'll consider it for future updates.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>How does iCloud sync work?</h4>
-                <p>(Family tier only) ScorX automatically syncs your teams, players, and game history across all devices signed into the same iCloud account.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Does ScorX work for doubles in racquet sports?</h4>
+                    <p>Yes! ScorX supports singles and doubles for all racquet sports (Tennis, Badminton, Squash, Table Tennis, etc.).</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Why isn't my data syncing?</h4>
-                <p>Check: (1) You're on Family tier, (2) iCloud is enabled in Settings → ScorX → iCloud Sync, (3) You're signed into the same iCloud account on all devices, (4) You have internet connection.</p>
-            </div>
+                <!-- ICLOUD & SYNC -->
+                <h3 class="faq-section-title">iCloud & Sync</h3>
 
-            <div class="faq-item">
-                <h4>Is my data backed up?</h4>
-                <p>(Family tier) Yes, via iCloud. (Free tier) Data is stored locally on your device—make sure to back up your iPhone via iCloud or iTunes.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>How does iCloud sync work?</h4>
+                    <p>(Family tier only) ScorX automatically syncs your teams, players, and game history across all devices signed into the same iCloud account.</p>
+                </div>
 
-            <!-- PRIVACY & DATA -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Privacy & Data</h3>
+                <div class="faq-card">
+                    <h4>Why isn't my data syncing?</h4>
+                    <p>Check: (1) You're on Family tier, (2) iCloud is enabled in Settings → ScorX → iCloud Sync, (3) You're signed into the same iCloud account on all devices, (4) You have internet connection.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Does ScorX track my personal data?</h4>
-                <p>No. ScorX has no third-party analytics, no ads, and no data sharing. Your game data stays on your device (or in your private iCloud if syncing).</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Is my data backed up?</h4>
+                    <p>(Family tier) Yes, via iCloud. (Free tier) Data is stored locally on your device—make sure to back up your iPhone via iCloud or iTunes.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>Where is my data stored?</h4>
-                <p>(Free tier) Locally on your iPhone/iPad in an encrypted database. (Family tier) Locally + synced to your private iCloud account using Apple's end-to-end encryption.</p>
-            </div>
+                <!-- PRIVACY & DATA -->
+                <h3 class="faq-section-title">Privacy & Data</h3>
 
-            <!-- TROUBLESHOOTING -->
-            <h3 style="color: var(--scorx-bright-turquoise); margin: 3rem 0 2rem 0; font-size: 1.5rem;">Troubleshooting</h3>
+                <div class="faq-card">
+                    <h4>Does ScorX track my personal data?</h4>
+                    <p>No. ScorX has no third-party analytics, no ads, and no data sharing. Your game data stays on your device (or in your private iCloud if syncing).</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>The app crashed / froze. What do I do?</h4>
-                <p>Force close the app and reopen. If the issue persists, email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with your device model and iOS version.</p>
-            </div>
+                <div class="faq-card">
+                    <h4>Where is my data stored?</h4>
+                    <p>(Free tier) Locally on your iPhone/iPad in an encrypted database. (Family tier) Locally + synced to your private iCloud account using Apple's end-to-end encryption.</p>
+                </div>
 
-            <div class="faq-item">
-                <h4>How do I report a bug?</h4>
-                <p>Email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with: (1) Description of the bug, (2) Steps to reproduce, (3) Device model, (4) iOS version. We'll investigate ASAP.</p>
+                <!-- TROUBLESHOOTING -->
+                <h3 class="faq-section-title">Troubleshooting</h3>
+
+                <div class="faq-card">
+                    <h4>The app crashed / froze. What do I do?</h4>
+                    <p>Force close the app and reopen. If the issue persists, email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with your device model and iOS version.</p>
+                </div>
+
+                <div class="faq-card">
+                    <h4>How do I report a bug?</h4>
+                    <p>Email <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with: (1) Description of the bug, (2) Steps to reproduce, (3) Device model, (4) iOS version. We'll investigate ASAP.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- STILL NEED HELP -->
-    <section style="text-align: center; padding: 80px 2rem; background: white;">
+    <section class="final-cta">
         <h2>Still Need Help?</h2>
-        <p style="margin: 1.5rem 0; color: var(--scorx-medium-gray); max-width: 600px; margin-left: auto; margin-right: auto;">Didn't find your answer? Email us and we'll respond within 24 hours.</p>
+        <p>Didn't find your answer? Email us and we'll respond within 24 hours.</p>
         <a href="mailto:scorxapp@gmail.com" class="btn btn-primary"><span>Email scorxapp@gmail.com</span></a>
     </section>
 
     <footer>
         <div class="footer-content">
-            <div class="footer-section">
-                <h4>ScorX</h4>
-                <p style="color: var(--scorx-off-white);">Grow your Game</p>
+            <div class="footer-brand">
+                <div class="logo">ScorX</div>
+                <p>Grow your Game</p>
             </div>
             <div class="footer-section">
                 <h4>Product</h4>
@@ -266,7 +273,7 @@
             </div>
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p style="color: var(--scorx-off-white);">Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+                <p>Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -286,28 +293,5 @@
             });
         });
     </script>
-
-    <style>
-        .faq-item {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 2rem;
-            margin-bottom: 1.5rem;
-            border-radius: 12px;
-            border-left: 4px solid var(--scorx-turquoise);
-        }
-        .faq-item h4 {
-            color: var(--scorx-bright-turquoise);
-            margin-bottom: 0.75rem;
-            font-size: 1.125rem;
-        }
-        .faq-item p {
-            color: var(--scorx-off-white);
-            line-height: 1.6;
-        }
-        .faq-item a {
-            color: var(--scorx-bright-turquoise);
-            text-decoration: underline;
-        }
-    </style>
 </body>
 </html>

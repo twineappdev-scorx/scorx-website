@@ -15,19 +15,22 @@
 <body>
     <header>
         <nav>
-            <div class="logo">ScorX</div>
+            <a href="./index.html" class="logo">ScorX</a>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-links">
                 <li><a href="./features.html">Features</a></li>
                 <li><a href="./sports.html">Sports</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
                 <li><a href="./how-it-works.html">How It Works</a></li>
-                <li><a href="./download.html" class="btn btn-primary" style="padding: 10px 24px;">Download Free</a></li>
+                <li><a href="./download.html" class="nav-cta active">Download Free</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero" style="min-height: 60vh; padding: 120px 2rem 60px;">
+    <section class="hero hero-compact">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
         <div class="hero-content">
             <h1>Download ScorX for iOS</h1>
             <p class="tagline">Available now on iPhone and iPad. Free to download, free to use.</p>
@@ -42,135 +45,138 @@
 
     <!-- SYSTEM REQUIREMENTS -->
     <section>
-        <div class="section-title">
-            <h2>System Requirements</h2>
-        </div>
-
-        <div style="max-width: 600px; margin: 0 auto;">
-            <div class="feature-card">
-                <h3>Minimum Requirements</h3>
-                <ul class="feature-list">
-                    <li>iOS 18.0 or later</li>
-                    <li>iPhone or iPad</li>
-                    <li>50 MB storage space</li>
-                    <li>Internet connection for initial download (offline mode available after)</li>
-                </ul>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>System Requirements</h2>
             </div>
 
-            <div class="feature-card" style="margin-top: 2rem;">
-                <h3>Optimized For</h3>
-                <ul class="feature-list">
-                    <li>iPhone 15 Pro / 15 Pro Max</li>
-                    <li>iPhone 14 / 14 Pro / 14 Pro Max</li>
-                    <li>iPhone 13 / 13 Pro / 13 Pro Max</li>
-                    <li>iPad support in development</li>
-                </ul>
+            <div class="pricing-grid-simple">
+                <div class="feature-card">
+                    <span class="feature-icon">📱</span>
+                    <h3>Minimum Requirements</h3>
+                    <ul class="feature-list">
+                        <li>iOS 18.0 or later</li>
+                        <li>iPhone or iPad</li>
+                        <li>50 MB storage space</li>
+                        <li>Internet connection for initial download (offline mode available after)</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">⭐</span>
+                    <h3>Optimized For</h3>
+                    <ul class="feature-list">
+                        <li>iPhone 15 Pro / 15 Pro Max</li>
+                        <li>iPhone 14 / 14 Pro / 14 Pro Max</li>
+                        <li>iPhone 13 / 13 Pro / 13 Pro Max</li>
+                        <li>iPad support in development</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- WHAT HAPPENS AFTER DOWNLOAD -->
     <section class="section-dark">
-        <div class="section-title">
-            <h2>What Happens After Download</h2>
-        </div>
-
-        <div class="steps-grid">
-            <div class="step-card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                <div class="step-number">1</div>
-                <span class="feature-icon">📱</span>
-                <h3 style="color: white;">Download</h3>
-                <p style="color: var(--scorx-off-white);">Tap the App Store badge above or search "ScorX" in the App Store</p>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>What Happens After Download</h2>
             </div>
 
-            <div class="step-card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                <div class="step-number">2</div>
-                <span class="feature-icon">⬇️</span>
-                <h3 style="color: white;">Install</h3>
-                <p style="color: var(--scorx-off-white);">App downloads and installs automatically (50 MB)</p>
-            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <span class="feature-icon">📱</span>
+                    <h3>Download</h3>
+                    <p>Tap the App Store badge above or search "ScorX" in the App Store</p>
+                </div>
 
-            <div class="step-card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                <div class="step-number">3</div>
-                <span class="feature-icon">🚀</span>
-                <h3 style="color: white;">Open</h3>
-                <p style="color: var(--scorx-off-white);">Tap the ScorX icon on your home screen</p>
-            </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <span class="feature-icon">⬇️</span>
+                    <h3>Install</h3>
+                    <p>App downloads and installs automatically (50 MB)</p>
+                </div>
 
-            <div class="step-card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                <div class="step-number">4</div>
-                <span class="feature-icon">👋</span>
-                <h3 style="color: white;">Onboarding</h3>
-                <p style="color: var(--scorx-off-white);">Complete the 2-minute onboarding flow</p>
-            </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <span class="feature-icon">🚀</span>
+                    <h3>Open</h3>
+                    <p>Tap the ScorX icon on your home screen</p>
+                </div>
 
-            <div class="step-card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                <div class="step-number">5</div>
-                <span class="feature-icon">⚡</span>
-                <h3 style="color: white;">Start Scoring</h3>
-                <p style="color: var(--scorx-off-white);">Create your first team and start tracking games!</p>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <span class="feature-icon">👋</span>
+                    <h3>Onboarding</h3>
+                    <p>Complete the 2-minute onboarding flow</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- QUICK START CHECKLIST -->
     <section>
-        <div class="section-title">
-            <h2>Quick Start Checklist</h2>
-            <p class="section-subtitle">Before Your First Game</p>
-        </div>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Quick Start Checklist</h2>
+                <p class="section-subtitle">Before Your First Game</p>
+            </div>
 
-        <div class="feature-card" style="max-width: 700px; margin: 0 auto;">
-            <ul class="feature-list">
-                <li>Download ScorX from App Store</li>
-                <li>Complete onboarding and select your sport</li>
-                <li>Create your first team</li>
-                <li>Add player names and jersey numbers</li>
-                <li>(Optional) Start your 30-day Family tier free trial for iCloud sync</li>
-            </ul>
-            <p style="text-align: center; margin-top: 2rem; font-weight: 600; color: var(--scorx-turquoise);">You're ready to score!</p>
+            <div class="feature-card" style="max-width: 700px; margin: 0 auto;">
+                <ul class="feature-list">
+                    <li>Download ScorX from App Store</li>
+                    <li>Complete onboarding and select your sport</li>
+                    <li>Create your first team</li>
+                    <li>Add player names and jersey numbers</li>
+                    <li>(Optional) Start your 30-day Family tier free trial for iCloud sync</li>
+                </ul>
+                <p class="text-center mt-4 text-turquoise" style="font-weight: 700; font-size: 1.1rem;">You're ready to score!</p>
+            </div>
         </div>
     </section>
 
     <!-- FAMILY TIER PROMOTION -->
-    <section style="background: linear-gradient(135deg, var(--scorx-turquoise) 0%, var(--scorx-bright-turquoise) 100%); color: white; padding: 60px 2rem; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%); text-align: center;">
-        <h2 style="color: white; margin-bottom: 1rem;">🎉 New Users: Start Your 30-Day Free Trial</h2>
-        <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.125rem;">Unlock iCloud sync, data export, and 5 players with ScorX Family tier. No credit card required. Cancel anytime.</p>
-        <p style="font-size: 1rem; opacity: 0.9;">Tap "Start Free Trial" after downloading the app.</p>
+    <section class="promo-banner">
+        <h2>New Users: Start Your 30-Day Free Trial</h2>
+        <p style="font-size: 1.125rem; margin-bottom: 0.5rem;">Unlock iCloud sync, data export, and 5 players with ScorX Family tier.</p>
+        <p style="font-size: 1rem; opacity: 0.85;">No credit card required. Cancel anytime. Tap "Start Free Trial" after downloading the app.</p>
     </section>
 
     <!-- SUPPORT LINKS -->
     <section>
-        <div class="section-title">
-            <h2>Need Help?</h2>
-        </div>
-
-        <div class="features-grid">
-            <div class="feature-card">
-                <span class="feature-icon">❓</span>
-                <h3>FAQ</h3>
-                <p><a href="./support.html">Browse frequently asked questions</a></p>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Need Help?</h2>
             </div>
 
-            <div class="feature-card">
-                <span class="feature-icon">✉️</span>
-                <h3>Contact Support</h3>
-                <p><a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
-            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">❓</span>
+                    <h3>FAQ</h3>
+                    <p><a href="./support.html">Browse frequently asked questions</a></p>
+                </div>
 
-            <div class="feature-card">
-                <span class="feature-icon">📹</span>
-                <h3>How It Works</h3>
-                <p><a href="./how-it-works.html">Watch our step-by-step guide</a></p>
+                <div class="feature-card">
+                    <span class="feature-icon">✉️</span>
+                    <h3>Contact Support</h3>
+                    <p><a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">📹</span>
+                    <h3>How It Works</h3>
+                    <p><a href="./how-it-works.html">Read our step-by-step guide</a></p>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="footer-content">
-            <div class="footer-section">
-                <h4>ScorX</h4>
-                <p style="color: var(--scorx-off-white);">Grow your Game</p>
+            <div class="footer-brand">
+                <div class="logo">ScorX</div>
+                <p>Grow your Game</p>
             </div>
             <div class="footer-section">
                 <h4>Product</h4>
@@ -193,7 +199,7 @@
             </div>
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p style="color: var(--scorx-off-white);">Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+                <p>Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -213,25 +219,5 @@
             });
         });
     </script>
-
-    <style>
-        .feature-list {
-            list-style: none;
-            padding: 0;
-        }
-        .feature-list li {
-            padding: 0.75rem 0;
-            padding-left: 2rem;
-            position: relative;
-        }
-        .feature-list li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: var(--scorx-turquoise);
-            font-weight: 700;
-            font-size: 1.25rem;
-        }
-    </style>
 </body>
 </html>
