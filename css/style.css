@@ -343,7 +343,8 @@ nav {
 
 /* ===== HERO SECTION - DRAMATIC & IMMERSIVE ===== */
 .hero {
-  background: var(--scorx-gradient-dark);
+  background-color: var(--scorx-deep-navy);
+  background-image: var(--scorx-gradient-dark);
   color: white;
   padding: 180px 2rem 140px;
   text-align: center;
@@ -365,6 +366,7 @@ nav {
   bottom: 0;
   background: var(--scorx-gradient-mesh);
   pointer-events: none;
+  z-index: 0;
 }
 
 /* Diagonal accent */
@@ -378,6 +380,7 @@ nav {
   background: var(--scorx-off-white);
   transform: rotate(-3deg);
   transform-origin: bottom left;
+  z-index: 1;
 }
 
 /* Animated floating orbs */
@@ -387,6 +390,7 @@ nav {
   filter: blur(60px);
   animation: float 20s ease-in-out infinite;
   pointer-events: none;
+  z-index: 1;
 }
 
 .hero .orb-1 {
@@ -658,10 +662,13 @@ section {
 .section-inner {
   max-width: var(--container-max-width);
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .section-dark {
-  background: var(--scorx-deep-navy);
+  background-color: var(--scorx-deep-navy);
+  background-image: var(--scorx-gradient-dark);
   color: var(--scorx-off-white);
   position: relative;
   overflow: hidden;
@@ -678,6 +685,12 @@ section {
   background: var(--scorx-gradient-mesh);
   opacity: 0.5;
   pointer-events: none;
+  z-index: 0;
+}
+
+.section-dark > * {
+  position: relative;
+  z-index: 1;
 }
 
 .section-dark h2,
@@ -717,6 +730,7 @@ section {
   text-align: center;
   margin-bottom: 4rem;
   position: relative;
+  z-index: 1;
 }
 
 .section-title::after {
@@ -1415,7 +1429,8 @@ section {
 .cta-section {
   text-align: center;
   padding: 120px 2rem;
-  background: var(--scorx-gradient-dark);
+  background-color: var(--scorx-deep-navy);
+  background-image: var(--scorx-gradient-dark);
   color: white;
   position: relative;
   overflow: hidden;
@@ -1430,6 +1445,7 @@ section {
   bottom: 0;
   background: var(--scorx-gradient-mesh);
   pointer-events: none;
+  z-index: 0;
 }
 
 /* Diagonal top edge */
@@ -1443,11 +1459,17 @@ section {
   background: var(--scorx-off-white);
   transform: rotate(2deg);
   transform-origin: top left;
+  z-index: 1;
+}
+
+.cta-section > * {
+  position: relative;
+  z-index: 2;
 }
 
 .cta-section .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .cta-section h2 {
