@@ -2571,3 +2571,319 @@ footer::before {
 .faq-card a:hover {
   color: white;
 }
+
+/* ===== APP SCREENSHOTS & IMAGE GALLERIES ===== */
+
+/* Hero App Preview */
+.app-preview {
+  margin-top: 4rem;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.app-preview img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  transition: all var(--transition-slow);
+}
+
+.app-preview img:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 80px rgba(0, 212, 196, 0.25), 0 0 40px rgba(0, 212, 196, 0.15);
+}
+
+/* Screenshot Gallery Grid */
+.screenshot-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.screenshot-item {
+  text-align: center;
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.screenshot-item img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-base);
+}
+
+.screenshot-item img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
+}
+
+.screenshot-item p {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--scorx-charcoal);
+  font-size: 1rem;
+}
+
+/* App Screenshots Horizontal Scroll */
+.app-screenshots {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.app-screenshots img {
+  height: 400px;
+  width: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-base);
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+
+.app-screenshots img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
+}
+
+/* QR Code Display */
+.qr-code-container {
+  margin: 3rem auto;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.qr-code-container h3 {
+  margin-bottom: 1.5rem;
+  color: var(--scorx-deep-navy);
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  letter-spacing: 0.05em;
+}
+
+.qr-code-container img {
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-base);
+}
+
+.qr-code-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 212, 196, 0.2);
+}
+
+.qr-code-container p {
+  color: var(--scorx-medium-gray);
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+/* How It Works - Step with Image Layout */
+.how-it-works-step {
+  margin-bottom: 5rem;
+}
+
+.step-content-with-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.step-text {
+  /* Text content area */
+}
+
+.step-image {
+  text-align: center;
+}
+
+.step-image img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  transition: all var(--transition-base);
+}
+
+.step-image img:hover {
+  transform: translateY(-8px) rotate(1deg);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
+}
+
+/* Feature Demonstration Cards */
+.feature-demo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: var(--card-corner-radius);
+}
+
+.feature-demo.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.feature-demo.reverse .feature-demo-text {
+  order: 2;
+}
+
+.feature-demo.reverse .feature-demo-image {
+  order: 1;
+}
+
+.feature-demo-text h3 {
+  margin-bottom: 1rem;
+  color: var(--scorx-deep-navy);
+}
+
+.feature-demo-text p {
+  color: var(--scorx-medium-gray);
+  line-height: 1.7;
+}
+
+.feature-demo-image img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-base);
+}
+
+.feature-demo-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
+}
+
+/* iPhone Device Bezel Effect (Optional Enhancement) */
+.screenshot-with-device {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.screenshot-with-device::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 6px;
+  background: #0a0a0a;
+  border-radius: 3px;
+  z-index: 10;
+}
+
+.screenshot-with-device img {
+  width: 100%;
+  border-radius: 24px;
+  display: block;
+}
+
+/* Lazy Load Animation */
+.screenshot-item,
+.app-preview,
+.feature-demo {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE STYLES FOR SCREENSHOTS ===== */
+
+@media (max-width: 1024px) {
+  .step-content-with-image {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .feature-demo,
+  .feature-demo.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-demo.reverse .feature-demo-text,
+  .feature-demo.reverse .feature-demo-image {
+    order: initial;
+  }
+
+  .app-screenshots {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .screenshot-gallery {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .app-screenshots {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-screenshots img {
+    height: 350px;
+  }
+
+  .app-preview img {
+    max-width: 250px;
+  }
+
+  .step-image img {
+    max-width: 250px;
+  }
+
+  .qr-code-container {
+    padding: 1.5rem;
+  }
+
+  .qr-code-container img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-screenshots img {
+    height: 300px;
+  }
+
+  .screenshot-item img {
+    max-width: 100%;
+  }
+}
