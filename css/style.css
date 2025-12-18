@@ -715,6 +715,25 @@ section {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
+/* Feature cards in dark sections - override to maintain contrast */
+.section-dark .feature-card {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-dark .feature-card h3 {
+  color: var(--scorx-deep-navy) !important;
+}
+
+.section-dark .feature-card p {
+  color: var(--scorx-medium-gray) !important;
+}
+
+.section-dark .feature-card:hover {
+  background: white;
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
+}
+
 .section-gradient {
   background: linear-gradient(180deg, var(--scorx-off-white) 0%, white 100%);
 }
