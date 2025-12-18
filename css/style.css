@@ -31,8 +31,8 @@
   --scorx-turquoise-glow: rgba(0, 212, 196, 0.4);
 
   /* Gradients - Enhanced */
-  --scorx-gradient-primary: linear-gradient(135deg, var(--scorx-turquoise) 0%, var(--scorx-bright-turquoise) 100%);
-  --scorx-gradient-dark: linear-gradient(135deg, var(--scorx-navy-dark) 0%, var(--scorx-deep-navy) 50%, var(--scorx-navy-light) 100%);
+  --scorx-gradient-primary: linear-gradient(135deg, #00D4C4 0%, #1FEDD8 100%);
+  --scorx-gradient-dark: linear-gradient(135deg, #0a1f33 0%, #0F2A44 50%, #1a3a5c 100%);
   --scorx-gradient-radial: radial-gradient(ellipse at 30% 20%, rgba(31, 237, 216, 0.15) 0%, transparent 50%);
   --scorx-gradient-mesh:
     radial-gradient(at 40% 20%, rgba(31, 237, 216, 0.18) 0px, transparent 50%),
@@ -365,6 +365,7 @@ nav {
   right: 0;
   bottom: 0;
   background: var(--scorx-gradient-mesh);
+  opacity: 1;
   pointer-events: none;
   z-index: 0;
 }
@@ -435,10 +436,17 @@ nav {
 }
 
 .hero h1 {
-  color: white;
+  color: white !important;
   margin-bottom: 1.5rem;
   opacity: 0;
   animation: heroTitleIn 1s cubic-bezier(0.4, 0, 0.2, 1) 0.2s forwards;
+}
+
+.hero h2,
+.hero h3,
+.hero h4,
+.hero p {
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 @keyframes heroTitleIn {
@@ -464,7 +472,7 @@ nav {
 
 .hero .tagline {
   font-size: clamp(1.125rem, 2vw, 1.375rem);
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9) !important;
   margin-bottom: 2rem;
   font-weight: 400;
   max-width: 700px;
@@ -480,7 +488,7 @@ nav {
   align-items: center;
   gap: 1rem;
   font-size: 1rem;
-  color: var(--scorx-bright-turquoise);
+  color: #1FEDD8 !important;
   margin: 1.5rem 0 2.5rem;
   font-weight: 600;
   background: rgba(0, 212, 196, 0.08);
@@ -632,7 +640,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.625rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95) !important;
   font-size: 0.9rem;
   font-weight: 600;
   padding: 0.625rem 1.25rem;
@@ -649,7 +657,7 @@ nav {
 }
 
 .trust-item .icon {
-  color: var(--scorx-bright-turquoise);
+  color: #1FEDD8 !important;
   font-size: 1.1rem;
 }
 
@@ -683,7 +691,7 @@ section {
   right: 0;
   bottom: 0;
   background: var(--scorx-gradient-mesh);
-  opacity: 0.5;
+  opacity: 0.8;
   pointer-events: none;
   z-index: 0;
 }
@@ -696,11 +704,15 @@ section {
 .section-dark h2,
 .section-dark h3,
 .section-dark h4 {
-  color: white;
+  color: white !important;
 }
 
 .section-dark p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.section-dark .tagline {
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .section-gradient {
@@ -1473,12 +1485,12 @@ section {
 }
 
 .cta-section h2 {
-  color: white;
+  color: white !important;
   margin-bottom: 1.25rem;
 }
 
 .cta-section p {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9) !important;
   max-width: 600px;
   margin: 0 auto 3rem;
   font-size: 1.25rem;
