@@ -197,9 +197,9 @@ This is a **static site with zero build tooling**. When making changes:
 ### Placeholder Content to Replace
 
 **Before production deployment:**
-1. **App Store ID:** Replace all `XXXXXXXXXX` with actual App Store ID
-   - Found in: `index.html`, `features.html`, `download.html`, etc.
-   - Search pattern: `app-id=XXXXXXXXXX`
+1. **App Store ID:** ✅ COMPLETED - Updated to `6753859833`
+   - App Store ID has been updated in: `index.html`, `download.html`, `match/index.html`
+   - Search pattern: `app-id=6753859833`
 
 2. **Missing Images:** Add to `/images/` directory
    - `app-store-badge.svg` - Official Apple badge
@@ -326,11 +326,10 @@ Before committing changes:
 - **Footer HTML:** Bottom of every `.html` file
 - **Schema.org Data:** `<script type="application/ld+json">` in `<head>`
 
-### Important URLs to Update
-When App Store listing goes live, update these files:
-- All HTML files: `app-id=XXXXXXXXXX` → actual App Store ID
-- `download.html`: Add actual App Store link
-- `README.md`: Add App Store link
+### App Store Information
+✅ App Store ID has been updated to: **6753859833**
+- Updated in: `index.html`, `download.html`, `match/index.html`
+- App Store URL: `https://apps.apple.com/app/6753859833`
 
 ### Contact Information
 - **Support Email:** scorxapp@gmail.com

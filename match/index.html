@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="You've been invited to help collect match data in ScorX. Download the app to join the match and track the game.">
+    <meta name="keywords" content="scorx match invitation, scorx collaborative scoring, match data collection">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Match Invitation | ScorX</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <!-- Apple -->
+    <meta name="apple-itunes-app" content="app-id=6753859833">
+
+    <style>
+        .loading-indicator {
+            display: none;
+            margin: 20px 0;
+            color: var(--scorx-turquoise);
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .loading-indicator.active {
+            display: block;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(0, 212, 196, 0.3);
+            border-radius: 50%;
+            border-top-color: var(--scorx-turquoise);
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .invitation-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">ScorX</a>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="../features.html">Features</a></li>
+                <li><a href="../sports.html">Sports</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../how-it-works.html">How It Works</a></li>
+                <li><a href="../download.html" class="nav-cta">Download Free</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero hero-compact">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="hero-content">
+            <span class="invitation-icon">🏆</span>
+            <h1>Match Invitation</h1>
+            <p class="tagline">You've been invited to help collect match data!</p>
+
+            <div class="loading-indicator" id="loadingMessage">
+                <span class="spinner"></span>
+                Attempting to open ScorX...
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p class="section-subtitle">Collaborative Match Data Collection</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <span class="feature-icon">📱</span>
+                    <h3>Download ScorX</h3>
+                    <p>Get the ScorX app from the App Store if you haven't already</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <span class="feature-icon">🔗</span>
+                    <h3>Open Invitation</h3>
+                    <p>Click this invitation link to join the match on your device</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <span class="feature-icon">📊</span>
+                    <h3>Track the Game</h3>
+                    <p>Record match data independently on your device during the game</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <span class="feature-icon">✅</span>
+                    <h3>Submit Data</h3>
+                    <p>Submit your collected data when the match is finished</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOWNLOAD CTA -->
+    <section class="section-dark">
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Get Started Now</h2>
+                <p class="section-subtitle">Download ScorX to accept this invitation</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="https://apps.apple.com/app/6753859833" id="downloadButton" class="cta-button cta-button-large" target="_blank" rel="noopener">
+                    Download on App Store
+                </a>
+                <p style="margin-top: 1.5rem; color: rgba(248, 249, 250, 0.7); font-size: 0.95rem;">
+                    If you have the app installed, it should open automatically
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Why Collaborative Scoring?</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎯</span>
+                    <h3>Improved Accuracy</h3>
+                    <p>Multiple data collectors help ensure comprehensive and accurate match statistics</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">⚡</span>
+                    <h3>Real-Time Collection</h3>
+                    <p>Each collector tracks data independently on their own device during the match</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">📈</span>
+                    <h3>Better Insights</h3>
+                    <p>Combined data provides more detailed player and team performance analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">ScorX</div>
+                <p>Grow your Game</p>
+            </div>
+            <div class="footer-section">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="../features.html">Features</a></li>
+                    <li><a href="../sports.html">Sports</a></li>
+                    <li><a href="../pricing.html">Pricing</a></li>
+                    <li><a href="../how-it-works.html">How It Works</a></li>
+                    <li><a href="../download.html">Download</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="../support.html">FAQ</a></li>
+                    <li><a href="mailto:scorxapp@gmail.com">Contact</a></li>
+                    <li><a href="../privacy.html">Privacy Policy</a></li>
+                    <li><a href="../terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Twine App Dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Extract token from URL
+        const pathSegments = window.location.pathname.split('/').filter(s => s);
+        const matchIndex = pathSegments.indexOf('match');
+        const token = matchIndex !== -1 && matchIndex + 1 < pathSegments.length
+            ? pathSegments[matchIndex + 1]
+            : null;
+
+        // App Store URL (replace 6753859833 with actual App ID when available)
+        const APP_STORE_URL = 'https://apps.apple.com/app/scorx/id6753859833';
+
+        // Set download button URL
+        document.getElementById('downloadButton').href = APP_STORE_URL;
+
+        // Function to attempt opening the app
+        function tryOpenApp() {
+            if (!token) {
+                console.log('No token found in URL - showing general invitation page');
+                return;
+            }
+
+            // Show loading message
+            const loadingMessage = document.getElementById('loadingMessage');
+            loadingMessage.classList.add('active');
+
+            // Construct custom URL scheme
+            const customURL = `scorx://match/${token}`;
+            console.log('Attempting to open app with URL:', customURL);
+
+            // Try to open the app
+            window.location.href = customURL;
+
+            // Hide loading message after 2 seconds if app didn't open
+            setTimeout(() => {
+                loadingMessage.classList.remove('active');
+            }, 2000);
+        }
+
+        // Attempt to open app on page load
+        if (token) {
+            // Small delay to ensure page is visible before redirect attempt
+            setTimeout(tryOpenApp, 500);
+        }
+
+        // Track button clicks for analytics (if added later)
+        document.getElementById('downloadButton').addEventListener('click', function(e) {
+            console.log('Download button clicked', {
+                hasToken: !!token,
+                token: token || 'none'
+            });
+            // Let the href handle the navigation
+        });
+
+        // Log page view
+        console.log('Match invitation page loaded', {
+            token: token ? 'present' : 'missing',
+            userAgent: navigator.userAgent,
+            timestamp: new Date().toISOString()
+        });
+    </script>
+</body>
+</html>

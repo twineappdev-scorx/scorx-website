@@ -273,7 +273,7 @@ Before publishing, add these to `/images/`:
 ## ✅ Pre-Launch Checklist
 
 ### Content Updates
-- [ ] Replace all `XXXXXXXXXX` with actual App Store ID
+- [x] Replace all `XXXXXXXXXX` with actual App Store ID (Updated to: 6753859833)
 - [ ] Verify scorxapp@gmail.com email is active and monitored
 - [ ] Update copyright year if needed (currently 2025)
 - [ ] Review all pricing information for accuracy
@@ -469,7 +469,7 @@ If tracking analytics, use privacy-first options:
    - Optional: App screenshots
 
 2. **Update Placeholders:**
-   - Replace `XXXXXXXXXX` with actual App Store ID
+   - ✅ App Store ID updated to: `6753859833`
    - Verify email (scorxapp@gmail.com) is active
 
 3. **Testing:**
