@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "3BSSQ675BP.com.TwineAppDev.ScorX",
+        "paths": [
+          "/match/*"
+        ]
+      }
+    ]
+  }
+}
