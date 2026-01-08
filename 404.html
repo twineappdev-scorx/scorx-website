@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages 404 handler for client-side routing
+        // This handles match invitation URLs like /match/token
+
+        const path = window.location.pathname;
+
+        // Check if this is a match invitation URL
+        if (path.startsWith('/match/') && path !== '/match/' && path !== '/match/index.html') {
+            // Redirect to match/index.html but keep the original URL in the address bar
+            // The match/index.html JavaScript will extract the token from the URL
+            sessionStorage.setItem('redirect', path);
+            window.location.replace('/match/');
+        } else {
+            // For any other 404, redirect to homepage
+            window.location.replace('/');
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>

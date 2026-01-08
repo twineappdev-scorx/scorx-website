@@ -220,12 +220,28 @@
             });
         });
 
-        // Extract token from URL
-        const pathSegments = window.location.pathname.split('/').filter(s => s);
-        const matchIndex = pathSegments.indexOf('match');
-        const token = matchIndex !== -1 && matchIndex + 1 < pathSegments.length
-            ? pathSegments[matchIndex + 1]
-            : null;
+        // Extract token from URL or sessionStorage (for GitHub Pages 404 redirects)
+        let token = null;
+
+        // First check if we were redirected from 404.html
+        const redirectPath = sessionStorage.getItem('redirect');
+        if (redirectPath) {
+            sessionStorage.removeItem('redirect');
+            const redirectSegments = redirectPath.split('/').filter(s => s);
+            const matchIndex = redirectSegments.indexOf('match');
+            token = matchIndex !== -1 && matchIndex + 1 < redirectSegments.length
+                ? redirectSegments[matchIndex + 1]
+                : null;
+        }
+
+        // If no redirect, check current URL
+        if (!token) {
+            const pathSegments = window.location.pathname.split('/').filter(s => s);
+            const matchIndex = pathSegments.indexOf('match');
+            token = matchIndex !== -1 && matchIndex + 1 < pathSegments.length
+                ? pathSegments[matchIndex + 1]
+                : null;
+        }
 
         // App Store URL (replace 6753859833 with actual App ID when available)
         const APP_STORE_URL = 'https://apps.apple.com/app/scorx/id6753859833';
