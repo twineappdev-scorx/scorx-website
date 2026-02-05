@@ -1,37 +1,42 @@
 # ScorX - Sports Scoring & Statistics App
 
 ## About
-ScorX is an Australian-developed iOS application for tracking live game scores and player statistics across 14 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, tennis, badminton, squash, racquetball, pickleball, and table tennis.
+ScorX is an Australian-developed iOS application for tracking live game scores and player statistics across 16 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, volleyball, water polo, tennis, badminton, squash, racquetball, pickleball, and table tennis.
 
 ## Key Facts
 - Tracks 100+ customizable statistical activities
 - Works completely offline - full functionality without internet connection
 - iCloud sync for family sharing across devices
 - CSV export for data analysis and record-keeping
+- PDF export with custom templates (Coach tier)
+- AI Training Assistant for players and coaches (Coach tier)
+- Professional Player Cards with custom designs
 - 30-day free trial, no credit card required
 - Setup takes less than 2 minutes
 - Real-time statistics updated during live games
 - Comprehensive player performance tracking
-- Sport-specific scoring rules for all 14 supported sports
+- Sport-specific scoring rules for all 16 supported sports
 - Privacy-first approach - no ads, no tracking
+- Apple Watch support coming soon
 
 ## Pricing
-- **Free Tier**: $0/month - 1 Team, 1 Player, 5 Games per month, All 14 sports, Offline mode
+- **Free Tier**: $0/month - 1 Team, 1 Player, 5 Games per month, All 16 sports, Offline mode
 - **Family Tier**: $4.99/month or $49.99/year - Up to 5 Players, 50 Games per month, iCloud Sync, CSV Export, 2-Year history, Family Sharing
-- **Coach & Club tiers**: Coming in v1.1 with advanced analytics
+- **Coach Tier**: $9.99/month or $99.99/year - 5 Teams, 150 Players, 100 Games per month, AI Training Assistant, Advanced Analytics (performance trends, comparative analytics), Professional Player Cards with custom designs, PDF Export, Multi-Team Management, Enhanced CSV and PDF export with custom templates, Family Sharing
 
 ## Use Cases
 - **For Parents**: Track your children's games with detailed stats they'll treasure forever. Share highlights with family and relive every moment.
-- **For Coaches**: Professional scorekeeping and analytics for data-driven training and game-day decisions. Export stats for team reviews.
-- **For Players**: Monitor personal performance and track improvement over time. Set goals and watch yourself grow.
+- **For Coaches**: Professional scorekeeping and analytics for data-driven training and game-day decisions. Export stats for team reviews. AI Training Assistant to plan training sessions.
+- **For Players**: Monitor personal performance and track improvement over time. Set goals and watch yourself grow. Use the AI Training Assistant to support individual training.
 - **For Teams**: Centralized scoring and statistics for entire rosters. Consistent data across all games and seasons.
 
 ## Technical Details
 - Platform: iOS 18.0 or later
 - Offline capability: Full functionality without internet
-- Data portability: CSV export of all statistics
-- Family Sharing: Supported through iCloud
+- Data portability: CSV export of all statistics; PDF export on Coach tier
+- Family Sharing: Supported on Family and Coach tiers through iCloud
 - Data retention: 2-year history on Family tier
+- Apple Watch companion app in development
 
 ## Supported Sports
 
@@ -44,6 +49,8 @@ ScorX is an Australian-developed iOS application for tracking live game scores a
 - Touch Rugby
 - Soccer (Football)
 - Field Hockey
+- Volleyball
+- Water Polo
 
 ### Racquet Sports
 - Tennis
@@ -73,6 +80,6 @@ Location: Australia
 Year: 2025
 
 ## Quotable Stats
-"ScorX tracks 100+ customizable statistical activities across 14 different sports."
+"ScorX tracks 100+ customizable statistical activities across 16 different sports."
 "The average ScorX user sets up their first team roster in under 2 minutes."
 "ScorX works completely offline - score games anywhere, sync later when connected."
