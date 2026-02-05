@@ -1055,10 +1055,10 @@ section {
 
 /* ===== PRICING CARDS - PREMIUM TIERS ===== */
 .pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 2.5rem;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   align-items: start;
 }
@@ -1075,6 +1075,8 @@ section {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  flex: 1;
+  min-width: 0;
 }
 
 .pricing-card::before {
@@ -1820,9 +1822,13 @@ footer::before {
   }
 
   .features-grid,
-  .testimonials-grid,
-  .pricing-grid {
+  .testimonials-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pricing-grid,
+  .pricing-grid-simple {
+    flex-direction: column;
   }
 
   .pricing-card.featured {
@@ -2131,8 +2137,8 @@ footer::before {
 
 /* ===== PRICING GRID SIMPLE ===== */
 .pricing-grid-simple {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 2.5rem;
   max-width: 1100px;
   margin: 0 auto;
