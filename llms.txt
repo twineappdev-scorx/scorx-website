@@ -1,7 +1,7 @@
-# ScorX - Player Development Analytics for Grassroots Sports
+# ScorX - Youth Sports Performance Tracking App | Live Game Scoring & Player Statistics
 
 ## About
-ScorX is an Australian-developed iOS player development analytics platform that transforms game statistics into AI-powered training plans. It provides athleticism benchmarking, performance tracking, and development insights across 16 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, volleyball, water polo, tennis, badminton, squash, racquetball, pickleball, and table tennis.
+ScorX is an Australian-developed iOS youth sports performance tracking app that transforms live game scoring into AI-powered training plans. Designed for parents who want to track kids' sports stats and coaches seeking team sports performance analytics, ScorX provides youth athlete performance tracking, athleticism benchmarking, and junior athlete development insights across 16 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, volleyball, water polo, tennis, badminton, squash, racquetball, pickleball, and table tennis.
 
 ## Key Facts
 - AI-powered training recommendations identify skill development priorities from game statistics
@@ -27,10 +27,10 @@ ScorX is an Australian-developed iOS player development analytics platform that 
 - **Coach Tier**: $9.99/month or $99.99/year - Everything in Family plus Team Triage Dashboard, AI Team Training Plans, 5 Teams, 150 Players, 100 Games per month, Advanced Analytics (perception vs reality), Professional Player Cards, PDF & CSV Export, Multi-Team Management
 
 ## Use Cases
-- **For Junior Athletes**: Monitor personal performance with AI-generated training priorities based on actual game data. Track skill development across seasons. Understand exactly what to work on to reach the next level.
-- **For Parents**: Understand how your children are developing as athletes—not just scores, but actual skill progression and physical development. Build comprehensive performance histories they'll treasure.
-- **For Grassroots Coaches**: Access professional-grade analytics for community programs. Identify team-wide development priorities. Make informed training decisions based on actual performance gaps, not guesswork.
-- **For Clubs and Academies**: Centralised player development tracking across entire rosters. Identify systematic training needs. Balance technical, tactical, and athletic development priorities with evidence-based insights.
+- **For Junior Athletes**: Youth athlete performance tracking with AI-generated training priorities based on actual game data. Track skill development across seasons with sprint speed, vertical jump, and sport-specific benchmarks. Understand exactly what to work on to reach the next level.
+- **For Parents**: The app to track your child's sports performance—not just scores, but actual skill progression and physical development. Record kids' game scores, track kids' sports stats, and build comprehensive performance histories they'll treasure. The youth sports stats app Australia parents trust.
+- **For Grassroots Coaches**: Team sports performance analytics with professional-grade sports performance data for coaches. Identify team-wide development priorities. Make informed training decisions based on actual performance gaps, not guesswork.
+- **For Clubs and Academies**: Centralised youth athletic development program tracking across entire rosters. Identify systematic training needs. Balance technical, tactical, and athletic development priorities with evidence-based insights.
 
 ## Core Features
 - **AI Training Intelligence**: Analyses match performance to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 games.
@@ -91,8 +91,8 @@ Location: Australia
 Year: 2025
 
 ## Quotable Stats
-"ScorX transforms game statistics into AI-powered player development insights across 16 sports."
-"AI training recommendations identify skill development priorities from actual game performance data."
-"ScorX works completely offline - score games anywhere, sync later when connected."
+"ScorX is the youth sports performance tracking app that transforms live game scoring into AI-powered training plans across 16 sports."
+"The junior athlete development app with AI training recommendations that identify skill development priorities from actual game performance data."
+"Track kids' sports stats anywhere—ScorX works completely offline. Score games at remote grounds, sync later when connected."
 "The average ScorX user sets up their first team roster in under 2 minutes."
-"Professional-grade player development analytics for $49.99/year - less than a single private training session."
+"Professional-grade youth sports stats app for $49.99/year — the team sports performance analytics platform Australia trusts."
