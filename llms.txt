@@ -1,52 +1,72 @@
-# ScorX - Youth Sports Performance Tracking App | Live Game Scoring & Player Statistics
+# ScorX — The Sports Tracking App Built for the Sideline
+
+## North Star
+"Every kid who plays deserves to know they're improving."
 
 ## About
-ScorX is an Australian-developed iOS youth sports performance tracking app that transforms live game scoring into AI-powered training plans. Designed for parents who want to track kids' sports stats and coaches seeking team sports performance analytics, ScorX provides youth athlete performance tracking, athleticism benchmarking, and junior athlete development insights across 16 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, volleyball, water polo, tennis, badminton, squash, racquetball, pickleball, and table tennis.
+ScorX is an Australian-developed iOS sports tracking app that turns every game into a development story. Designed for community sport families and coaches in Australia and New Zealand, ScorX makes the invisible process of athletic development visible — not to create pressure, not to rank kids, but to celebrate the truth that effort, over time, becomes progress.
+
+ScorX covers 16 sports including AFL, basketball, netball, rugby union, rugby league, touch rugby, soccer, field hockey, volleyball, water polo, tennis, badminton, squash, racquetball, pickleball, and table tennis.
+
+## Brand Positioning
+ScorX is the sports tracking app that transforms match day into meaningful data so that every game counts toward a development story worth sharing.
+
+Unlike professional analytics tools built for elite performance programs, ScorX is built for the sideline — simple enough for a parent to use in real time, powerful enough for a coach to act on.
+
+## The Problem ScorX Solves
+Community sport is full of effort and almost no evidence. Kids train twice a week, play every weekend, and at the end of a season most families couldn't tell you if their child actually improved — because no one was measuring anything. ScorX turns participation into progress you can see.
+
+## Key Messages Per Audience
+- **Parents:** "You've watched every game. Now you can prove every improvement."
+- **Coaches:** "Stop coaching on gut feel. Start developing with proof."
+- **Players:** "Your stats don't lie. Find out what's actually getting better."
+
+## Pricing Tiers
+
+### ScorX Basic — Free
+Score tracking and game timer across all 16 sports. The introduction. Enough to see the value. Free forever, no credit card required.
+
+### ScorX Athlete — $4.99/month or $49.99/year
+**Core promise:** Track every game. Prove every improvement.
+
+For the parent who shows up to every game and wants to be a meaningful part of their child's development — not just a spectator.
+
+- **The Game Journal** — every game, every stat, automatically logged and stored. A permanent record of your child's sporting life.
+- **The Progress Report** — AI-generated monthly summary showing what's improved, what to focus on, and how this season compares to last.
+- **The Highlight Card** — shareable stat card generated after every game. Built for Instagram, made for proud parents.
+- **The Athlete Timeline** — a visual journey through an athlete's career across every sport they play, all in one place.
+- Multi-Sport Coverage — AFL, basketball, netball, rugby, hockey, touch, tennis and more.
+- Up to 5 Players, iCloud Sync, CSV Data Export, 2-Year History, Family Sharing
+
+30-day free trial. No credit card required.
+
+### ScorX Team — $9.99/month or $99.99/year
+**Core promise:** Develop every player. Retain every family.
+
+For the community coach who wants to run a professional development program without a professional budget.
+
+- **The Team Dashboard** — squad-wide view of performance patterns and development gaps.
+- **Player Development Reports** — individual summaries you can share directly with families. The single most powerful retention tool in community sport.
+- **The Coaching Edge** — AI-generated weekly training focus based on actual match data, not generic drills.
+- **Distributed Recording** — invite parents to record stats for their own child. They get engagement. You get richer data.
+- **Perception vs Reality Insights** — compare how players felt they performed against what the data shows.
+- **Season Certificates** — auto-generated "Most Improved," "Top Performer," and custom achievement cards.
+- 5 Teams, 150 Players, PDF & CSV Export
+
+## The Distributed Recording Differentiator
+Most stat-tracking apps require one person to do all the work. ScorX flips this. By inviting parents to record stats for their own child, ScorX turns a chore into a connection. Parents become invested contributors rather than passive spectators. The coach gets richer data. The parent gets a closer relationship with their child's game.
+
+Copy angle: "ScorX doesn't just track your team. It brings your team's families into the development conversation."
 
 ## Key Facts
-- AI-powered training recommendations identify skill development priorities from game statistics
-- Athleticism benchmarking with age and gender-specific comparisons
-- Player development tracking across seasons with historical performance trends
-- Tracks 100+ customisable statistical activities across 16 sports
-- Works completely offline - full functionality without internet connection
-- iCloud sync for family sharing across devices
-- CSV export for data analysis and record-keeping
-- PDF export with custom templates (Coach tier)
-- Team Triage Dashboard for coaches (Coach tier)
-- AI Team Training Plans (Coach tier)
-- Professional Player Cards with custom designs
-- 30-day free trial, no credit card required
+- Works completely offline — full functionality without internet connection
 - Setup takes less than 2 minutes
-- Real-time statistics updated during live games
-- Privacy-first approach - no ads, no tracking, no third-party data sharing
+- Tracks 100+ customisable statistical activities across 16 sports
+- iCloud sync for family sharing across devices (ScorX Athlete and above)
+- Privacy-first — no ads, no tracking, no third-party data sharing
 - Sport-specific scoring rules for all 16 supported sports
-
-## Pricing
-- **Free Tier**: $0/month - 20 Games per month, All 16 sports, Comprehensive statistics, Offline mode, 30-day game history
-- **Family Tier**: $4.99/month or $49.99/year - AI Training Recommendations, Athleticism Benchmarking, Up to 5 Players, 50 Games per month, iCloud Sync, CSV Export, 2-Year history, Family Sharing (5 members)
-- **Coach Tier**: $9.99/month or $99.99/year - Everything in Family plus Team Triage Dashboard, AI Team Training Plans, 5 Teams, 150 Players, 100 Games per month, Advanced Analytics (perception vs reality), Professional Player Cards, PDF & CSV Export, Multi-Team Management
-
-## Use Cases
-- **For Junior Athletes**: Youth athlete performance tracking with AI-generated training priorities based on actual game data. Track skill development across seasons with sprint speed, vertical jump, and sport-specific benchmarks. Understand exactly what to work on to reach the next level.
-- **For Parents**: The app to track your child's sports performance—not just scores, but actual skill progression and physical development. Record kids' game scores, track kids' sports stats, and build comprehensive performance histories they'll treasure. The youth sports stats app Australia parents trust.
-- **For Grassroots Coaches**: Team sports performance analytics with professional-grade sports performance data for coaches. Identify team-wide development priorities. Make informed training decisions based on actual performance gaps, not guesswork.
-- **For Clubs and Academies**: Centralised youth athletic development program tracking across entire rosters. Identify systematic training needs. Balance technical, tactical, and athletic development priorities with evidence-based insights.
-
-## Core Features
-- **AI Training Intelligence**: Analyses match performance to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 games.
-- **Athleticism Benchmarking**: Track sprint times, jump height, endurance against age/gender-specific benchmarks. Identify whether development priorities are technical, tactical, or athletic.
-- **Performance Tracking**: Complete game histories, searchable archives, historical performance trends, development trajectories across seasons.
-- **Live Game Scoring**: Sport-specific scoring rules, configurable timers, full offline functionality.
-- **Team Development Dashboard**: Team Triage, aggregated player assessments, AI team training plans (Coach tier).
-
-## Technical Details
-- Platform: iOS 18.0 or later
-- Offline capability: Full functionality without internet
-- Data portability: CSV export of all statistics; PDF export on Coach tier
-- Family Sharing: Supported on Family and Coach tiers through iCloud
-- Data retention: 2-year history on Family tier
-- Privacy: No third-party data sharing, no advertisements, no analytics tracking
-- App size: 11.5 MB
+- Real-time statistics updated during live games
+- 30-day free trial of ScorX Athlete, no credit card required
 
 ## Supported Sports
 
@@ -70,17 +90,31 @@ ScorX is an Australian-developed iOS youth sports performance tracking app that 
 - Pickleball
 - Table Tennis
 
+## What ScorX Is Not
+- Not an elite performance platform (no professional scouting language)
+- Not a surveillance tool (development and connection, not monitoring)
+- Not gender-specific (girls, boys, all ages, all sports, all abilities)
+- Not for professional clubs — ScorX serves the grassroots
+
+## Technical Details
+- Platform: iOS 18.0 or later
+- Offline capability: Full functionality without internet
+- Data portability: CSV export (ScorX Athlete); PDF export (ScorX Team)
+- Family Sharing: Supported on ScorX Athlete and Team through iCloud
+- Data retention: 2-year history on ScorX Athlete and above
+- Privacy: No third-party data sharing, no advertisements, no analytics tracking
+- App size: ~50 MB
+
 ## Links
 - Homepage: https://www.scorx.com.au
-- Player Development Features: https://www.scorx.com.au/features
-- Sports: https://www.scorx.com.au/sports
-- Pricing: https://www.scorx.com.au/pricing
-- How It Works: https://www.scorx.com.au/how-it-works
-- Download: https://www.scorx.com.au/download
-- Support: https://www.scorx.com.au/support
-- Platform Comparison: https://www.scorx.com.au/compare
-- Privacy Policy: https://www.scorx.com.au/privacy
-- Terms of Service: https://www.scorx.com.au/terms
+- Features: https://www.scorx.com.au/features.html
+- Sports: https://www.scorx.com.au/sports.html
+- Pricing: https://www.scorx.com.au/pricing.html
+- How It Works: https://www.scorx.com.au/how-it-works.html
+- Download: https://www.scorx.com.au/download.html
+- Support: https://www.scorx.com.au/support.html
+- Privacy Policy: https://www.scorx.com.au/privacy.html
+- Terms of Service: https://www.scorx.com.au/terms.html
 
 ## Contact
 Email: scorxapp@gmail.com
@@ -88,11 +122,12 @@ Email: scorxapp@gmail.com
 ## Company
 Developed by: Twine App Dev
 Location: Australia
-Year: 2025
+Year: 2026
 
-## Quotable Stats
-"ScorX is the youth sports performance tracking app that transforms live game scoring into AI-powered training plans across 16 sports."
-"The junior athlete development app with AI training recommendations that identify skill development priorities from actual game performance data."
-"Track kids' sports stats anywhere—ScorX works completely offline. Score games at remote grounds, sync later when connected."
-"The average ScorX user sets up their first team roster in under 2 minutes."
-"Professional-grade youth sports stats app for $49.99/year — the team sports performance analytics platform Australia trusts."
+## Quotable Copy
+"Every kid who plays deserves to know they're improving."
+"Your kid played 18 games this season. Do you know if they actually improved?"
+"The stats app built for the sideline, not the stadium."
+"Community sport is full of effort and almost no evidence. ScorX turns participation into progress you can see."
+"You're already at every game. Now you can prove every improvement."
+"The best coaches don't just train players. They show families their kid is growing."
