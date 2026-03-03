@@ -354,6 +354,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Diagonal bottom edge — keeps navy throughout so white text always has contrast */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 60px), 0 100%);
 }
 
 /* Mesh gradient background */
@@ -370,18 +372,10 @@ nav {
   z-index: 0;
 }
 
-/* Diagonal accent */
+/* Diagonal accent removed — was an off-white block that overlapped hero text
+   causing white-on-white contrast failure. Diagonal edge now handled by clip-path above. */
 .hero::after {
-  content: '';
-  position: absolute;
-  bottom: -5%;
-  left: -10%;
-  right: -10%;
-  height: 200px;
-  background: var(--scorx-off-white);
-  transform: rotate(-3deg);
-  transform-origin: bottom left;
-  z-index: 1;
+  display: none;
 }
 
 /* Animated floating orbs */
@@ -2023,6 +2017,7 @@ footer::before {
   .hero {
     min-height: auto;
     padding: 2rem;
+    clip-path: none;
   }
 
   section {
