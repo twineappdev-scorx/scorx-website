@@ -31,18 +31,76 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
     <link rel="shortcut icon" href="./images/favicon32.png">
     <link rel="apple-touch-icon" href="./images/favicon192.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does AI Training Intelligence work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX analyses your game statistics after each match to identify skill development priorities and training focus areas. Personalised session recommendations are generated every 30 days or after 5 new games, ensuring your training stays aligned with your actual performance gaps—not guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Athleticism Benchmarking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Athleticism Benchmarking lets you log sprint speed, vertical jump height, and endurance scores, then compares them against age and gender-specific benchmarks. This helps identify whether development priorities are technical, tactical, or purely athletic—and tracks physical performance trends over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is game history retained?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Free tier retains 30 days of game history. Family tier retains 2 years of complete game history, giving junior athletes and families a full view of development across multiple seasons."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I customise which activities are tracked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ScorX supports 100+ activities across all 16 sports and allows you to customise which activities appear during live scoring. This ensures you capture the statistics most relevant to your player's development priorities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ScorX work without internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes—ScorX has full offline functionality. Score games anywhere including remote grounds with no mobile coverage. All data syncs automatically via iCloud when a connection is restored (Family tier)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Player Sentiment Tracking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Player Sentiment Tracking lets you record a player's emotional state throughout a match—positive, neutral, or negative. Over time this reveals patterns between mood and performance, helping coaches and families support wellbeing alongside development."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- HEADER -->
     <header>
         <nav>
-            <a href="./index.html" class="logo">ScorX</a>
+            <a href="./index.html" class="logo"><img src="./images/Card.png" alt="ScorX" class="logo-img"></a>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-links">
-                <li><a href="./features.html" class="active">Player Development</a></li>
+                <li><a href="./athletes.html">Athletes</a></li>
+                <li><a href="./coaches.html">Coaches</a></li>
                 <li><a href="./sports.html">Sports</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./how-it-works.html">How It Works</a></li>
                 <li><a href="./download.html" class="nav-cta">Download Free</a></li>
             </ul>
         </nav>
@@ -292,6 +350,41 @@
                 </div>
                 <div class="feature-demo-image">
                     <img src="./images/gamehistoryview.png" alt="Game history archive showing past games" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section-dark">
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Player Development FAQ</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-card">
+                    <h4>How does AI Training Intelligence work?</h4>
+                    <p>ScorX analyses your game statistics after each match to identify skill development priorities and training focus areas. Personalised session recommendations are generated every 30 days or after 5 new games, ensuring your training stays aligned with your actual performance gaps—not guesswork.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>What is Athleticism Benchmarking?</h4>
+                    <p>Athleticism Benchmarking lets you log sprint speed, vertical jump height, and endurance scores, then compares them against age and gender-specific benchmarks. This helps identify whether development priorities are technical, tactical, or purely athletic—and tracks physical performance trends over time.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>How long is game history retained?</h4>
+                    <p>Free tier retains 30 days of game history. Family tier retains 2 years of complete game history, giving junior athletes and families a full view of development across multiple seasons.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Can I customise which activities are tracked?</h4>
+                    <p>Yes. ScorX supports 100+ activities across all 16 sports and allows you to customise which activities appear during live scoring. This ensures you capture the statistics most relevant to your player's development priorities.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Does ScorX work without internet?</h4>
+                    <p>Yes—ScorX has full offline functionality. Score games anywhere including remote grounds with no mobile coverage. All data syncs automatically via iCloud when a connection is restored (Family tier).</p>
+                </div>
+                <div class="faq-card">
+                    <h4>What is Player Sentiment Tracking?</h4>
+                    <p>Player Sentiment Tracking lets you record a player's emotional state throughout a match—positive, neutral, or negative. Over time this reveals patterns between mood and performance, helping coaches and families support wellbeing alongside development.</p>
                 </div>
             </div>
         </div>
