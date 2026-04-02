@@ -1443,15 +1443,21 @@ section {
 /* Light FAQ variant */
 .faq-item-light {
   background: white;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .faq-item-light:hover {
-  border-color: rgba(0, 212, 196, 0.3);
+  border-color: rgba(0, 212, 196, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 212, 196, 0.1);
 }
 
 .faq-item-light summary {
   color: var(--scorx-deep-navy);
+}
+
+.faq-item-light[open] summary {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .faq-item-light .faq-answer {
