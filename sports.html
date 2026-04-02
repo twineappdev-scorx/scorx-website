@@ -31,17 +31,75 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
     <link rel="shortcut icon" href="./images/favicon32.png">
     <link rel="apple-touch-icon" href="./images/favicon192.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many sports does ScorX support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX currently supports 16 sports: 10 team sports (AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo) and 6 racquet sports (Tennis, Badminton, Squash, Racquetball, Pickleball, Table Tennis)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are sport-specific scoring rules built in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each sport uses its correct scoring system—AFL goals and behinds, basketball two and three-pointers, tennis sets and games with advantage/deuce, volleyball rally scoring, and more. No manual configuration is required to start scoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track individual player statistics in team sports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. During live scoring you can attribute each action (goal, assist, tackle, rebound, etc.) to a specific player. After the game, full player-by-player breakdowns are available for all team sports."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my sport is not listed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email scorxapp@gmail.com to request a sport. We review all requests and add new sports in future updates. Sports that generate the most interest are prioritised for development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can timer settings be adjusted for my competition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Period durations, number of periods, and timer display can all be configured to match your competition's specific rules—useful for modified junior formats that differ from standard rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do racquet sports handle tiebreaks and advantage/deuce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Tennis tracking includes full advantage/deuce handling, tiebreak support, and serve/return statistics. Badminton, Squash, Pickleball, and Table Tennis all use correct rally scoring rules with appropriate deuce/win-by-two handling."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html" class="logo">ScorX</a>
+            <a href="./index.html" class="logo"><img src="./images/Card.png" alt="ScorX" class="logo-img"></a>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-links">
-                <li><a href="./features.html">Player Development</a></li>
+                <li><a href="./athletes.html">Athletes</a></li>
+                <li><a href="./coaches.html">Coaches</a></li>
                 <li><a href="./sports.html" class="active">Sports</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./how-it-works.html">How It Works</a></li>
                 <li><a href="./download.html" class="nav-cta">Download Free</a></li>
             </ul>
         </nav>
@@ -204,6 +262,41 @@
                     <p><strong>Scoring:</strong> Rally scoring to 11 points, win by 2 (Best of 5 or 7 sets)</p>
                     <p><strong>Activities:</strong> Serves, Returns, Winners, Errors, Spins</p>
                     <p><strong>Special Features:</strong> Service rotation, deuce rules</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section>
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>Sports FAQ</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-card">
+                    <h4>How many sports does ScorX support?</h4>
+                    <p>ScorX currently supports 16 sports: 10 team sports (AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo) and 6 racquet sports (Tennis, Badminton, Squash, Racquetball, Pickleball, Table Tennis).</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Are sport-specific scoring rules built in?</h4>
+                    <p>Yes. Each sport uses its correct scoring system—AFL goals and behinds, basketball two and three-pointers, tennis sets and games with advantage/deuce, volleyball rally scoring, and more. No manual configuration is required to start scoring.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Can I track individual player statistics in team sports?</h4>
+                    <p>Yes. During live scoring you can attribute each action (goal, assist, tackle, rebound, etc.) to a specific player. After the game, full player-by-player breakdowns are available for all team sports.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>What happens if my sport is not listed?</h4>
+                    <p>Email scorxapp@gmail.com to request a sport. We review all requests and add new sports in future updates. Sports that generate the most interest are prioritised for development.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Can timer settings be adjusted for my competition?</h4>
+                    <p>Yes. Period durations, number of periods, and timer display can all be configured to match your competition's specific rules—useful for modified junior formats that differ from standard rules.</p>
+                </div>
+                <div class="faq-card">
+                    <h4>Do racquet sports handle tiebreaks and advantage/deuce?</h4>
+                    <p>Yes. Tennis tracking includes full advantage/deuce handling, tiebreak support, and serve/return statistics. Badminton, Squash, Pickleball, and Table Tennis all use correct rally scoring rules with appropriate deuce/win-by-two handling.</p>
                 </div>
             </div>
         </div>
