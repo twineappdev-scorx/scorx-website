@@ -3134,7 +3134,7 @@ footer::before {
 
 .blog-post-hero {
   background: var(--scorx-gradient-dark);
-  padding: 64px 2rem 56px;
+  padding: 96px 2rem 56px;
 }
 
 .blog-post-hero .container-sm {
