@@ -3,24 +3,28 @@ layout: default
 ---
 
 <main class="blog-post-main">
+
+    <section class="blog-post-hero">
+        <div class="container-sm">
+            {% if page.category %}
+            <div class="blog-post-category">{{ page.category }}</div>
+            {% endif %}
+            <h1 class="blog-post-title">{{ page.title }}</h1>
+            <div class="blog-post-meta">
+                <span class="blog-post-date">{{ page.date | date: "%-d %B %Y" }}</span>
+                {% if page.author %}<span class="blog-post-author">By {{ page.author }}</span>{% endif %}
+                {% if page.read_time %}<span class="blog-post-read-time">{{ page.read_time }} min read</span>{% endif %}
+            </div>
+        </div>
+    </section>
+
     <article class="blog-post">
-        <div class="container">
-            <header class="blog-post-header">
-                {% if page.category %}
-                <div class="blog-post-category">{{ page.category }}</div>
-                {% endif %}
-                <h1 class="blog-post-title">{{ page.title }}</h1>
-                <div class="blog-post-meta">
-                    <span class="blog-post-date">{{ page.date | date: "%-d %B %Y" }}</span>
-                    {% if page.author %}<span class="blog-post-author">By {{ page.author }}</span>{% endif %}
-                    {% if page.read_time %}<span class="blog-post-read-time">{{ page.read_time }} min read</span>{% endif %}
-                </div>
-                {% if page.excerpt_image %}
-                <div class="blog-post-hero-image">
-                    <img src="{{ page.excerpt_image }}" alt="{{ page.title }}">
-                </div>
-                {% endif %}
-            </header>
+        <div class="container-sm">
+            {% if page.excerpt_image %}
+            <div class="blog-post-feature-image">
+                <img src="{{ page.excerpt_image }}" alt="{{ page.title }}">
+            </div>
+            {% endif %}
 
             <div class="blog-post-body">
                 {{ content }}
@@ -34,9 +38,9 @@ layout: default
                         Download ScorX Free
                     </a>
                 </div>
-
                 <a href="/blog/" class="blog-back-link">&larr; Back to Blog</a>
             </footer>
         </div>
     </article>
+
 </main>
