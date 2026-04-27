@@ -1,0 +1,32 @@
+title: ScorX
+description: Youth Sports Performance Tracking App — Live Game Scoring & Player Statistics
+url: "https://scorx.com.au"
+baseurl: ""
+
+permalink: /blog/:slug/
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - documentation/
+  - CLAUDE.md
+  - "images/scor_x.zip"
+  - Gemfile
+  - Gemfile.lock
