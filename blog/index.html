@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Blog"
+description: "Tips, guides, and insights for parents and coaches tracking youth athlete performance with ScorX."
+---
+
+<main class="blog-main">
+    <section class="blog-hero">
+        <div class="container">
+            <h1 class="blog-hero-title">ScorX Blog</h1>
+            <p class="blog-hero-subtitle">Tips, guides, and insights for parents and coaches tracking youth athlete performance.</p>
+        </div>
+    </section>
+
+    <section class="blog-listing">
+        <div class="container">
+            {% if site.posts.size > 0 %}
+            <div class="blog-grid">
+                {% for post in site.posts %}
+                <article class="blog-card">
+                    {% if post.excerpt_image %}
+                    <a href="{{ post.url }}" class="blog-card-image-link">
+                        <img src="{{ post.excerpt_image }}" alt="{{ post.title }}" class="blog-card-image" loading="lazy">
+                    </a>
+                    {% endif %}
+                    <div class="blog-card-body">
+                        {% if post.category %}
+                        <div class="blog-card-category">{{ post.category }}</div>
+                        {% endif %}
+                        <h2 class="blog-card-title">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </h2>
+                        <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">{{ post.date | date: "%-d %B %Y" }}</span>
+                            {% if post.read_time %}<span class="blog-card-read-time">{{ post.read_time }} min read</span>{% endif %}
+                        </div>
+                        <a href="{{ post.url }}" class="blog-card-read-more">Read more &rarr;</a>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="blog-empty">
+                <p>Posts coming soon. Check back shortly.</p>
+            </div>
+            {% endif %}
+        </div>
+    </section>
+</main>

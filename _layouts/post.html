@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main class="blog-post-main">
+    <article class="blog-post">
+        <div class="container">
+            <header class="blog-post-header">
+                {% if page.category %}
+                <div class="blog-post-category">{{ page.category }}</div>
+                {% endif %}
+                <h1 class="blog-post-title">{{ page.title }}</h1>
+                <div class="blog-post-meta">
+                    <span class="blog-post-date">{{ page.date | date: "%-d %B %Y" }}</span>
+                    {% if page.author %}<span class="blog-post-author">By {{ page.author }}</span>{% endif %}
+                    {% if page.read_time %}<span class="blog-post-read-time">{{ page.read_time }} min read</span>{% endif %}
+                </div>
+                {% if page.excerpt_image %}
+                <div class="blog-post-hero-image">
+                    <img src="{{ page.excerpt_image }}" alt="{{ page.title }}">
+                </div>
+                {% endif %}
+            </header>
+
+            <div class="blog-post-body">
+                {{ content }}
+            </div>
+
+            <footer class="blog-post-footer">
+                <div class="blog-post-cta">
+                    <h3>Ready to track your athlete's development?</h3>
+                    <p>Download ScorX free and start turning match data into training plans.</p>
+                    <a href="https://apps.apple.com/app/6753859833" class="btn btn-primary" target="_blank" rel="noopener">
+                        Download ScorX Free
+                    </a>
+                </div>
+
+                <a href="/blog/" class="blog-back-link">&larr; Back to Blog</a>
+            </footer>
+        </div>
+    </article>
+</main>
