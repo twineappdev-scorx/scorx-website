@@ -83,19 +83,19 @@ And if you're already tracking your child's stats in ScorX, you might notice it 
 
 ## Frequently Asked Questions
 
-**How much water should a junior athlete drink before a game?**
+### How much water should a junior athlete drink before a game?
 A general guide is around 400–600ml of water in the two hours before a game, sipped gradually rather than all at once. During the game, offer water at every break. In hot weather, increase this and consider a sports drink during longer games.
 
-**What's the best meal the night before a game?**
+### What's the best meal the night before a game?
 Pasta, rice, or noodles with a simple protein like chicken or fish and some vegetables. Keep fat and fibre moderate — both slow digestion. The goal is a comfortable, well-fuelled start to sleep, not a heavy meal.
 
-**How many hours of sleep does a junior athlete need before game day?**
+### How many hours of sleep does a junior athlete need before game day?
 For children aged 8–12, aim for 10 hours. Teenagers aged 13–17 need at least nine. These aren't ideal targets — they're the minimums for normal cognitive and physical function. Game day is not the day to catch up on a sleep debt.
 
-**My child says they're not hungry before a game. Should I force them to eat?**
+### My child says they're not hungry before a game. Should I force them to eat?
 Don't force it, but don't skip it entirely either. Pre-game nerves are real and can suppress appetite. A small, easy-to-digest snack — half a banana, a few crackers — is better than nothing. Make sure they've eaten well the night before so the morning meal is a top-up, not the main event.
 
-**How does ScorX send game day preparation reminders?**
+### How does ScorX send game day preparation reminders?
 When you add an upcoming game to ScorX, the app automatically schedules a series of reminders based on the game time — covering sleep, nutrition, and hydration at the right moments in the lead-up. No setup required. Just enter the game and let ScorX handle the timing.
 
 ---
