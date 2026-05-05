@@ -64,14 +64,14 @@
       "offers": [
         {
           "@type": "Offer",
-          "name": "Free Tier",
+          "name": "ScorX Free",
           "price": "0",
           "priceCurrency": "AUD",
-          "description": "1 Team, 1 Player, 20 Games per month, all 16 sports"
+          "description": "Always free — unlimited teams, players and games, live scoring for 16 sports, post-game Triage Dashboard, full offline mode"
         },
         {
           "@type": "Offer",
-          "name": "Family Tier",
+          "name": "ScorX Premium Monthly",
           "price": "4.99",
           "priceCurrency": "AUD",
           "priceSpecification": {
@@ -80,11 +80,11 @@
             "priceCurrency": "AUD",
             "unitText": "MONTH"
           },
-          "description": "Up to 5 Players, unlimited games, AI Training Recommendations, Athleticism Benchmarking, iCloud Sync, Data Export"
+          "description": "AI Training Recommendations, athleticism benchmarking, Player Cards, Career Timeline, Season Narratives, PDF & CSV export, Family Sharing"
         },
         {
           "@type": "Offer",
-          "name": "Family Tier Annual",
+          "name": "ScorX Premium Annual",
           "price": "49.99",
           "priceCurrency": "AUD",
           "priceSpecification": {
@@ -93,33 +93,7 @@
             "priceCurrency": "AUD",
             "unitText": "YEAR"
           },
-          "description": "Annual subscription - Save $10"
-        },
-        {
-          "@type": "Offer",
-          "name": "Coach Tier",
-          "price": "9.99",
-          "priceCurrency": "AUD",
-          "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "price": "9.99",
-            "priceCurrency": "AUD",
-            "unitText": "MONTH"
-          },
-          "description": "5 Teams, 150 Players, 100 Games per month, AI Training Assistant, Team Triage Dashboard, Advanced Analytics, Professional Player Cards, PDF Export"
-        },
-        {
-          "@type": "Offer",
-          "name": "Coach Tier Annual",
-          "price": "99.99",
-          "priceCurrency": "AUD",
-          "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "price": "99.99",
-            "priceCurrency": "AUD",
-            "unitText": "YEAR"
-          },
-          "description": "Annual subscription - Save $20"
+          "description": "All ScorX Premium features — save vs monthly billing. Includes 30-day free trial."
         }
       ],
       "aggregateRating": {
@@ -166,7 +140,7 @@
           "name": "Will it work offline at remote grounds?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically when you're back online."
+            "text": "Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically via iCloud when you're back online."
           }
         },
         {
@@ -174,7 +148,7 @@
           "name": "How do AI Training Recommendations work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, ensuring training stays aligned with actual performance gaps."
+            "text": "ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, ensuring training stays aligned with actual performance gaps. Available on ScorX Premium."
           }
         },
         {
@@ -190,7 +164,7 @@
           "name": "Can I try before I buy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely! Start with the free tier (no credit card required) or enjoy a 30-day free trial of the Family tier with full features including AI Training Recommendations. Cancel anytime with one tap."
+            "text": "ScorX Free is always free with no artificial limits — coaches never need to pay. ScorX Premium includes a 30-day free trial with no credit card required. Cancel anytime with one tap."
           }
         },
         {
@@ -198,7 +172,7 @@
           "name": "Can I export my data if I stop using ScorX?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Your data exports with you. All game statistics and player performance data can be exported to CSV format at any time. Your data belongs to you."
+            "text": "Yes. ScorX Premium subscribers can export all game data to CSV and PDF at any time. Your performance data always belongs to you."
           }
         },
         {
@@ -241,7 +215,7 @@
             <p class="tagline fade-in-up">ScorX is the junior athlete development app that turns every match into a training roadmap. Track kids' sports stats with AI-powered training recommendations, athleticism benchmarking, and youth athlete performance tracking across 16 sports including AFL, basketball, netball and rugby. Built for families and coaches in Australia who want data-driven athletic development, not just final scores.</p>
 
             <div class="cta-buttons fade-in-up">
-                <a href="https://apps.apple.com/app/6753859833" class="app-store-badge" target="_blank" rel="noopener">
+                <a href="https://apps.apple.com/au/app/scorx/id6753859833" class="app-store-badge" target="_blank" rel="noopener">
                     <img src="./images/app-store-badge.svg" alt="Download on the App Store" />
                 </a>
                 <a href="./how-it-works.html" class="btn btn-secondary"><span>See How It Works</span></a>
@@ -544,150 +518,54 @@
     <!-- PRICING TEASER SECTION -->
     <section class="section-dark">
         <div class="section-title">
-            <h2>Invest in Player Development, Not Just Team Management</h2>
-            <p class="section-subtitle" style="color: var(--scorx-off-white);">Professional-grade player development analytics for less than the cost of a single private training session</p>
+            <h2>Free for Coaches. Premium for Athlete Development.</h2>
+            <p class="section-subtitle" style="color: var(--scorx-off-white);">Every coaching tool is free — no trial, no paywall. ScorX Premium turns your child's game data into a development story they can act on.</p>
         </div>
 
-        <div class="pricing-grid-simple">
+        <div class="pricing-grid" style="max-width: 900px; margin: 0 auto;">
             <div class="pricing-card">
-                <span class="pricing-badge-alt">Always Free</span>
-                <h3>Free</h3>
-                <p>Try ScorX risk-free</p>
-                <div class="price">
-                    $0
-                </div>
+                <span class="pricing-badge-alt" style="background: var(--scorx-success-green);">Always Free</span>
+                <h3>ScorX Free</h3>
+                <p>Run your team. Record every game.</p>
+                <div class="price">$0<span class="price-period">/forever</span></div>
+                <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; text-align: center; margin-bottom: 1rem;">No credit card. No trial. No artificial limits.</p>
                 <ul class="pricing-features-simple">
-                    <li>20 Games per month</li>
-                    <li>All 16 sports</li>
-                    <li>Comprehensive statistics</li>
-                    <li>Offline mode</li>
+                    <li>Unlimited teams, players &amp; games</li>
+                    <li>Live scoring across 16 sports</li>
+                    <li>Post-game Triage Dashboard</li>
+                    <li>Athleticism metric tracking</li>
+                    <li>Full offline mode</li>
                 </ul>
                 <a href="./download.html" class="btn btn-secondary" style="width: 100%;"><span>Download Free</span></a>
             </div>
 
             <div class="pricing-card featured">
                 <span class="pricing-badge">30-Day Free Trial</span>
-                <h3>Family</h3>
-                <p>Complete development platform</p>
-                <div class="price">
-                    $49.99
-                    <span class="price-period">/year</span>
-                </div>
-                <p style="color: var(--scorx-bright-turquoise); margin-top: -0.5rem; font-weight: 600; font-size: 1.1rem;">Only $4.17/month</p>
+                <h3>ScorX Premium</h3>
+                <p>Turn every game into your child's development story.</p>
+                <div class="price">$49.99<span class="price-period">/year</span></div>
+                <p style="color: var(--scorx-bright-turquoise); margin-top: -0.5rem; font-weight: 600; font-size: 1.1rem;">Only $4.16/month</p>
                 <p style="color: var(--scorx-medium-gray); margin-top: 0.5rem; margin-bottom: 1rem; font-size: 0.95rem;">or $4.99/month billed monthly</p>
                 <ul class="pricing-features-simple">
+                    <li>Everything in ScorX Free</li>
                     <li>AI Training Recommendations</li>
-                    <li>Athleticism Benchmarking</li>
-                    <li>Up to 5 Players</li>
-                    <li>50 Games per month</li>
-                    <li>iCloud Sync</li>
-                    <li>Data Export (CSV)</li>
-                    <li>2-Year history</li>
-                    <li>Family Sharing</li>
+                    <li>Age &amp; sex athleticism benchmarking</li>
+                    <li>Full Player Card style library</li>
+                    <li>Career Timeline &amp; Season Narratives</li>
+                    <li>PDF &amp; CSV export</li>
+                    <li>Family Sharing (5 members)</li>
+                    <li>iCloud sync across devices</li>
                 </ul>
                 <a href="./download.html" class="btn btn-primary" style="width: 100%;"><span>Start Free Trial</span></a>
-
-                <!-- Enhanced Risk Reversal -->
                 <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(0,0,0,0.1);">
                     <p style="font-size: 0.9rem; color: var(--scorx-medium-gray); text-align: center; margin: 0.25rem 0;">Cancel anytime with one tap</p>
                     <p style="font-size: 0.9rem; color: var(--scorx-medium-gray); text-align: center; margin: 0.25rem 0;">Your data exports with you</p>
                 </div>
             </div>
-
-            <div class="pricing-card">
-                <span class="pricing-badge-alt" style="background: var(--scorx-deep-navy);">Team Development</span>
-                <h3>Coach</h3>
-                <p>Team development intelligence</p>
-                <div class="price">
-                    $99.99
-                    <span class="price-period">/year</span>
-                </div>
-                <p style="color: var(--scorx-bright-turquoise); margin-top: -0.5rem; font-weight: 600; font-size: 1.1rem;">Only $8.33/month</p>
-                <p style="color: var(--scorx-medium-gray); margin-top: 0.5rem; margin-bottom: 1rem; font-size: 0.95rem;">or $9.99/month billed monthly</p>
-                <ul class="pricing-features-simple">
-                    <li>Team Triage Dashboard</li>
-                    <li>AI Team Training Plans</li>
-                    <li>5 Teams, 150 Players</li>
-                    <li>100 Games per month</li>
-                    <li>Advanced Analytics</li>
-                    <li>Professional Player Cards</li>
-                    <li>PDF & CSV Export</li>
-                </ul>
-                <a href="./download.html" class="btn btn-primary" style="width: 100%;"><span>Get Coach Tier</span></a>
-            </div>
         </div>
 
         <div style="text-align: center; margin-top: 2rem;">
             <a href="./pricing.html" class="btn btn-secondary"><span>See Full Pricing Details</span></a>
-        </div>
-    </section>
-
-    <!-- FAQ SECTION -->
-    <section>
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div style="max-width: 800px; margin: 0 auto;">
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    How do AI Training Recommendations work?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    ScorX analyses your game statistics to identify skill development priorities, athleticism gaps, and training focus areas. Recommendations regenerate every 30 days or after 5 new games, ensuring your training plan stays aligned with actual performance. Available on Family tier and above.
-                </p>
-            </details>
-
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    Will it work offline at remote grounds?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically when you're back online.
-                </p>
-            </details>
-
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    Is it complicated to set up?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    Not at all! The average user sets up their first team roster in under 2 minutes. Just add player names and you're ready to start scoring. ScorX is designed for parents and coaches on the go.
-                </p>
-            </details>
-
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    Can I try before I buy?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    Start with the free tier (no credit card required) or enjoy a 30-day free trial of the Family tier with full features including AI Training Recommendations. Cancel anytime with one tap.
-                </p>
-            </details>
-
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    Can I export my data?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    Yes! All game statistics and player performance data can be exported to CSV format at any time. Coach tier includes PDF export with custom templates. Your data belongs to you.
-                </p>
-            </details>
-
-            <details style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; box-shadow: var(--shadow-sm);">
-                <summary style="font-size: 1.15rem; font-weight: 600; color: var(--scorx-deep-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-                    Which sports are supported?
-                    <span style="font-size: 1.5rem; color: var(--scorx-turquoise);">+</span>
-                </summary>
-                <p style="margin-top: 1rem; color: var(--scorx-charcoal); line-height: 1.6;">
-                    ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each sport has custom scoring rules, sport-specific statistics, and AI-powered development insights.
-                </p>
-            </details>
         </div>
     </section>
 
@@ -697,7 +575,7 @@
         <p style="font-size: 1.25rem; color: var(--scorx-off-white); max-width: 600px; margin: 0 auto 2.5rem;">Download ScorX and start turning game statistics into training insights—30-day free trial, no credit card required.</p>
 
         <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
-            <a href="https://apps.apple.com/app/6753859833" class="app-store-badge" target="_blank" rel="noopener">
+            <a href="https://apps.apple.com/au/app/scorx/id6753859833" class="app-store-badge" target="_blank" rel="noopener">
                 <img src="./images/app-store-badge.svg" alt="Download on the App Store" style="height: 70px;" />
             </a>
             <a href="./features.html" class="btn btn-secondary"><span>Explore Features</span></a>
@@ -720,11 +598,11 @@
             <div style="max-width: 800px; margin: 0 auto;">
                 <details class="faq-item">
                     <summary>Will it work offline at remote grounds?</summary>
-                    <div class="faq-answer"><p>Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically via iCloud when you're back online (Family tier).</p></div>
+                    <div class="faq-answer"><p>Yes! ScorX has full offline functionality. Score games anywhere without internet connection. Your data syncs automatically via iCloud when you're back online.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>How do AI Training Recommendations work?</summary>
-                    <div class="faq-answer"><p>ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, ensuring training stays aligned with actual performance gaps.</p></div>
+                    <div class="faq-answer"><p>ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, ensuring training stays aligned with actual performance gaps. Available on ScorX Premium.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>Is it complicated to set up?</summary>
@@ -732,15 +610,15 @@
                 </details>
                 <details class="faq-item">
                     <summary>Can I try before I buy?</summary>
-                    <div class="faq-answer"><p>Absolutely! Start with the free tier (no credit card required) or enjoy a 30-day free trial of the Family tier with full features including AI Training Recommendations. Cancel anytime with one tap.</p></div>
+                    <div class="faq-answer"><p>ScorX Free is always free with no artificial limits — coaches never need to pay. ScorX Premium includes a 30-day free trial with no credit card required. Cancel anytime with one tap.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>Can I export my data if I stop using ScorX?</summary>
-                    <div class="faq-answer"><p>Yes. Family and Coach tier subscribers can export all game data to CSV at any time. Your performance data always belongs to you.</p></div>
+                    <div class="faq-answer"><p>Yes. ScorX Premium subscribers can export all game data to CSV and PDF at any time. Your performance data always belongs to you.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>Which sports are supported?</summary>
-                    <div class="faq-answer"><p>ScorX supports 16 sports including AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis.</p></div>
+                    <div class="faq-answer"><p>ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each sport has custom scoring rules, sport-specific statistics, and AI-powered development insights.</p></div>
                 </details>
             </div>
         </div>
@@ -753,7 +631,7 @@
                 <h4>ScorX</h4>
                 <p style="color: var(--scorx-off-white);">Player Development Analytics</p>
                 <p style="margin-top: 1rem;">
-                    <a href="https://apps.apple.com/app/6753859833" target="_blank" rel="noopener">
+                    <a href="https://apps.apple.com/au/app/scorx/id6753859833" target="_blank" rel="noopener">
                         <img src="./images/app-store-badge.svg" alt="Download on the App Store" style="height: 40px;" />
                     </a>
                 </p>
@@ -775,6 +653,7 @@
                 <ul>
                     <li><a href="./support.html">FAQ & Support</a></li>
                     <li><a href="./compare.html">Platform Comparison</a></li>
+                    <li><a href="./about.html">About</a></li>
                     <li><a href="mailto:scorxapp@gmail.com">Contact</a></li>
                 </ul>
             </div>
@@ -790,7 +669,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2025 Twine App Dev. All rights reserved.</p>
+            <p>&copy; 2026 ScorX &bull; Twine App Dev</p>
         </div>
     </footer>
 
