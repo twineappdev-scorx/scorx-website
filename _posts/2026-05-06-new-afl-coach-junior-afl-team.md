@@ -1,7 +1,7 @@
 ---
 title: "How to Coach a Junior AFL Team: A Practical Guide for New Volunteers"
 description: "Starting out as a junior AFL coach? Here's how to run great training sessions, keep every player engaged, prevent injuries, and make better decisions on game day."
-category: "Coaching"
+category: "AFL Coaching"
 author: "ScorX Team"
 read_time: 9
 keywords: "junior AFL coaching guide, community AFL coach tips, how to coach junior AFL, volunteer coach AFL, AFL youth team coaching"
@@ -95,7 +95,7 @@ A few practical ways to increase the fitness load inside your existing session s
 
 The goal at junior level is for players to arrive at the end of the season fitter than they started — without any of them being aware that was part of the plan.
 
-
+## Game-Day
 
 Game day for a junior coach is a blur of rotations, in-game adjustments, and sideline conversations with parents. Having a simple system helps.
 
