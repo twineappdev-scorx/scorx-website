@@ -1,10 +1,10 @@
 ---
 title: "The Parent's Guide to Junior AFL Development"
 description: "A beginner-friendly guide to supporting your child's AFL development from U8s to U18s — what to track, what to say, and what to leave to the coach."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 11
-keywords: "junior AFL player development, how to support your child in AFL, junior AFL parent guide, AFL development stages, youth AFL tips for parents"
+keywords: "junior AFL player development, how to support your child in AFL, junior AFL parent guide, AFL development stages, youth AFL tips for parents, AFL rules for junior grades"
 ---
 
 Supporting your child through junior AFL is one of the most rewarding things you can do as a parent. It's also, if we're honest, one of the most confusing — especially if footy wasn't your game growing up.
