@@ -95,6 +95,8 @@ A few practical ways to increase the fitness load inside your existing session s
 
 The goal at junior level is for players to arrive at the end of the season fitter than they started — without any of them being aware that was part of the plan.
 
+---
+
 ## Game-Day
 
 Game day for a junior coach is a blur of rotations, in-game adjustments, and sideline conversations with parents. Having a simple system helps.
