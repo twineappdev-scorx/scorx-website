@@ -1,7 +1,7 @@
 ---
 title: "How to Track AFL Stats on Your Phone During a Game"
 description: "Track your child's AFL stats on the sideline without missing the action. A practical guide for parents on what to record and how to stay present."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 5
 keywords: "how to track AFL stats phone, AFL stats app, track kids AFL stats, youth AFL statistics, AFL parent sideline"
