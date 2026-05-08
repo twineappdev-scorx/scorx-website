@@ -81,7 +81,7 @@ Not deeply. Disposals (kicks and handballs) and tackles are easy to identify for
 
 ### What's the best app for tracking AFL stats for kids?
 
-[ScorX](https://scorx.app) is built specifically for youth sport stat tracking on the sideline. It's free to download, covers AFL and 15+ other sports, and is designed for parents recording during a game — not analysts entering data after the fact.
+ScorX is built specifically for youth sport stat tracking on the sideline. It's free to download, covers AFL and 15+ other sports, and is designed for parents recording during a game — not analysts entering data after the fact.
 
 ---
 
