@@ -1,7 +1,7 @@
 ---
 title: "7 AFL Stats That Matter for Junior Development — And 3 That Don't"
 description: "Not all junior AFL stats tell the same story. Here are 7 that show real development by position and age group — and 3 that mislead more than they reveal."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 6
 keywords: "junior AFL player stats improvement, AFL stats for kids, AFL player development junior, track AFL stats youth, how to measure AFL improvement"
