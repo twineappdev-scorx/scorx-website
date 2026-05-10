@@ -1,7 +1,7 @@
 ---
 title: "The Parent's Sideline Playbook: How to Watch Junior AFL Like a Development Coach"
 description: "Most parents watch junior AFL for goals. Here's what to look for instead — and how it changes what you see in your kid's game."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 6
 keywords: "how to watch junior AFL player development parent, junior AFL parent tips, AFL sideline guide, junior player development AFL, AFL stats for kids"
