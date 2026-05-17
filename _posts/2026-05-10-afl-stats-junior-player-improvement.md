@@ -7,17 +7,17 @@ read_time: 6
 keywords: "junior AFL player stats improvement, AFL stats for kids, AFL player development junior, track AFL stats youth, how to measure AFL improvement"
 ---
 
-Seven AFL stats actually tell you whether your child is developing as a player. Three others get most of the attention — and they're the least useful at junior level.
+Seven AFL stats will actually tell you whether your child is getting better. Three others get most of the attention on the sideline — and they're the least useful ones to watch.
 
-It's not that kicks, handballs, and goals don't matter. It's that at junior and youth level, those numbers are mostly a reflection of game time, team strategy, and where your kid happens to be standing on a given day. They don't tell you whether your child is genuinely getting better.
+It's not that kicks, handballs, and goals don't matter. It's that at junior and youth level, those numbers mostly reflect game time, team strategy, and where your kid happened to be standing on the day. They don't show you whether your child is genuinely developing.
 
-The stats below do. And because a forward, midfielder, and defender are doing very different jobs on the field, the ones worth watching depend on where your child plays — and how old they are.
+The stats below do. And because a forward, midfielder, and defender are doing completely different jobs on the field, the ones worth watching depend on where your child plays — and how old they are.
 
 ---
 
 ## Quick Reference: Stats by Position and Age Group
 
-Not sure which stats to focus on? Find your child's position and age group in the table below, then read the sections underneath to understand what each one actually means.
+Find your child's position and age group in the table below, then read the sections underneath to understand what each stat actually means.
 
 | Stat | Forwards | Midfielders | Backs | Junior (up to U11) | Youth (U12–U17) |
 |---|---|---|---|---|---|
@@ -30,79 +30,79 @@ Not sure which stats to focus on? Find your child's position and age group in th
 | Contested Marks | ✓ | | ✓ | | Youth only |
 | Disposal Efficiency | | | | Not recommended | U16+ only |
 
-**Primary** = a key development indicator at this level. **Secondary** = worth watching, but context-dependent. Blank = less relevant for this group.
+**Primary** = a key development indicator at this level. **Secondary** = worth watching, but context-dependent. Blank = less relevant for this position.
 
 ---
 
 ## The Stats That Matter at Every Age and Position
 
-These two stats apply regardless of where your child plays or how old they are. If you only track two things, start here.
+These two apply no matter where your child plays or how old they are. If you only track two things this season, start here.
 
 ### Pressure Acts
 
-Pressure acts include chasing, tackling, and smothering. They are the effort stats.
+Pressure acts cover chasing, tackling, and smothering. They're the effort stats — and effort is something every kid can control.
 
-A child can't control where the ball goes. They can always control whether they chase. A player who racks up pressure acts consistently is developing the work ethic and defensive awareness that coaches value at every level of the game.
+Your child can't control where the ball goes. They can always control whether they chase. A player who racks up pressure acts every week is building the work ethic and defensive awareness that coaches love, at every level from U8 through to open age.
 
-For junior players (up to U11) especially, pressure acts are the single most reliable development indicator you can track from the sideline. Technique is still developing. Fitness is still building. But the decision to chase — to put the effort in — shows character, and that character compounds over seasons.
+For junior players especially (up to U11), pressure acts are the most reliable development indicator you can track from the sideline. Technique is still developing. Fitness is still building. But the decision to chase — to put the effort in regardless of the scoreboard — that shows real character. And it compounds over seasons.
 
-If your child finishes a game with five or six pressure acts, that is a meaningful contribution regardless of what their possession count looks like.
+Five or six pressure acts in a game is a genuinely good contribution. Write it down.
 
 ### Tackles Made
 
-Tackles are the most visible pressure stat and one of the most meaningful across all age groups.
+Tackles are visible, exciting, and one of the most meaningful stats across every age group.
 
-A child who tackles consistently has learned two important things: how to read where the ball carrier is going, and how to commit to the contest. Both are coachable skills that take time and practice to develop.
+A child who tackles consistently has figured out two important things: where the ball carrier is going, and how to commit to the contest. Both are coachable skills. Both take time. And both show up clearly in the numbers when a player is growing.
 
-A steady increase in tackles over a season — even from two per game to four — is real growth. Note it. Celebrate it.
+Going from two tackles a game in Round 1 to four by Round 10 is real development. Celebrate it like a goal.
 
 ---
 
-## Stats to Watch as Players Get Older (U12 and Above)
+## Stats That Start to Matter From U12 Upward
 
-Once players move into the U12–U17 age range, more specialist stats start to become meaningful. Game structures become more defined, positions become more distinct, and the difference between a forward's development and a midfielder's becomes easier to read in the numbers.
+Once players move into the U12 to U17 range, more position-specific stats become worth tracking. Game structures get more defined. Positions get more distinct. And you can start to see — in the numbers — the difference between a forward who is developing and one who is just getting the ball in space.
 
 ### Ground Ball Gets (Midfielders and Backs)
 
-A ground ball get is when a player wins a loose ball — in congestion, in a pack, or in a one-on-one situation.
+A ground ball get is when your child wins a loose ball — in traffic, in a pack, or in a one-on-one scramble on the deck.
 
-This stat is particularly useful for midfielders and backs. Midfielders win ground balls in the centre of the ground where games are won and lost. Backs win them when the ball spills out of a pack in the defensive 50 and a moment of composure under pressure is needed.
+For midfielders, this happens in the centre where games are won and lost. For backs, it happens when the ball spills out of a defensive pack and someone needs to be brave enough to get down and claim it.
 
-Players who consistently go for ground balls are developing two things simultaneously: bravery and anticipation. Both are skills that show clear improvement over a season.
+Players who go for ground balls are developing two things at once: bravery and anticipation. Knowing where the ball is going to land before it gets there — that's a skill that grows with experience. Watch the trend across a season.
 
 ### Contested Possessions (Forwards and Midfielders)
 
-A contested possession is any time your child wins the ball when an opponent is right there, fighting for the same ball.
+A contested possession is when your child wins the ball with an opponent right there, fighting for the same ball.
 
-For forwards and midfielders in the youth age groups, this is one of the best indicators of whether a player is genuinely competing or collecting the ball in space. A player who wins contested possessions under physical and mental pressure is developing the competitiveness that AFL demands.
+For youth-age forwards and midfielders, this is one of the clearest signs that a player is genuinely competing, not just finding space. Winning contested ball under pressure takes courage and competitiveness — qualities that show up in this stat before they show up anywhere else.
 
-At U11 and below, this stat is less reliable — game structures are looser, so genuinely contested situations arise less predictably. From U12 upward, watch for a trend across a season.
+At U11 and below, game structures are loose enough that "contested" situations are harder to measure consistently. From U12 upward, look for an upward trend over the course of a season.
 
 ### Inside 50s (Forwards and Midfielders)
 
-An inside 50 is recorded every time a player moves the ball from the middle of the ground into the attacking zone.
+An inside 50 is recorded every time a player moves the ball from the midfield into the attacking zone.
 
-For youth-age midfielders and forwards, this is a measure of football IQ — knowing when to push forward, when to carry the ball, when to look for the corridor. A player who consistently generates inside 50s is learning to read the game, not just reacting to it.
+For youth midfielders and forwards, this is a football IQ stat. It tells you whether your child is reading the game — knowing when to push, when to carry, when to find the corridor. A player who consistently generates inside 50s is making decisions in real time, not just reacting.
 
-This stat is not meaningful at junior level where game structures are fluid and inside 50s are often accidental. From U12 upward, it starts to tell a genuine story.
+At junior level, inside 50s often happen by accident. From U12 upward, they start to tell a real story.
 
 ### Intercept Marks (Backs — Youth Only)
 
-An intercept mark is when a defender reads the play, gets into position ahead of the ball, and takes a mark that cuts off the opposition's attack.
+An intercept mark is when a defender reads where the ball is going, gets there first, and takes the mark before the opposition can react.
 
-This is one of the best development stats you can track for a back. It measures three things at once: game awareness (reading where the ball is going), decision-making (choosing to intercept rather than spoil), and skill (actually holding the mark). A player racking up intercept marks is not just defending — they are actively winning the ball back for their team.
+It's one of the best stats you can track for a back — because it measures three things at once. Game awareness (reading the flight and intent of the ball). Decision-making (committing to intercept rather than spoil). And skill (actually holding the mark under pressure).
 
-Unlike most defensive stats, intercept marks are highly visible from the sideline. You can see the moment a defender commits to the intercept path before the ball arrives. That commitment is the skill. The mark is the result.
+Here's what makes it special: you can actually see the moment it's happening from the sideline. The instant a back commits to the intercept path — before the ball arrives — that's the skill on display. The mark is just the confirmation.
 
-Track this from U13–U14 upward when defensive structures become more defined and backs start to hold position consistently enough for intercepts to be a genuine read of the play rather than accidental positioning.
+Start tracking this from U13–U14 onwards, when defensive positioning becomes deliberate enough that intercepts are a genuine read of the player rather than lucky positioning.
 
 ### Contested Marks (Forwards and Backs — Youth Only)
 
-Catching the ball under pressure requires timing, positioning, reading the flight of the ball, and the willingness to compete in the air.
+Taking a mark under pressure is hard. It needs timing, positioning, aerial courage, and the ability to read the ball in flight — all at the same moment.
 
-For youth-age key forwards and key defenders, contested marks are one of the clearest aerial development indicators you can track. An uncontested mark might mean the opposition broke down. A contested mark means your child won a battle in the air.
+For youth key forwards and key defenders, contested marks are one of the clearest indicators of aerial development. An uncontested mark might mean the opposition just broke down. A contested mark means your child won a genuine battle in the air.
 
-This stat is worth tracking from around U13–U14 onwards, when aerial contests become a genuine feature of the game. At younger ages, marking contests are rare enough that the sample size per game is too small to draw conclusions from.
+Track this from around U13–U14, when aerial contests become a real feature of the game. At younger ages, there simply aren't enough marking contests per game to draw useful conclusions.
 
 ---
 
@@ -110,37 +110,37 @@ This stat is worth tracking from around U13–U14 onwards, when aerial contests 
 
 ### Kicks and Handballs
 
-Total disposals are the most-watched number in junior AFL and the most misleading.
+Total disposals are the most-watched number at junior AFL — and the most misleading.
 
-At under-age level, disposals are heavily influenced by position, game plan, and game flow. A midfielder in a ball-dominant team might rack up 15 touches. A half-back in a defensive side might get five. Neither number tells you much about whether that player is improving.
+At under-age level, disposals are shaped by position, game plan, and how the game flows. A midfielder in a ball-dominant team might rack up 15 touches. A half-back in a defensive side might get five. Neither number tells you whether that player is actually improving.
 
-Disposals matter — but in isolation, they create a distorted picture of development.
+Disposals matter. But on their own, they create a distorted picture of development — and sometimes a discouraging one that has nothing to do with your child's effort or growth.
 
 ### Goals Kicked
 
-Goals are exciting and they should be celebrated. But at junior level, goals are one of the stats most likely to flatter or unfairly punish a player depending on circumstances well outside their control.
+Goals should be celebrated. But at junior level, they're one of the stats most likely to flatter or unfairly punish a player based on things well outside their control.
 
-A forward who gets five entries into the forward 50 might kick two goals. Another who gets two entries might kick none. The entry count says more about what is happening in the midfield. The goal count says more about luck, angle, and which way the wind is blowing.
+A forward who earns five entries into the forward 50 might kick two goals. Another who earns two entries might kick none. The entry count tells you about midfield performance. The goal count tells you about angles, wind, and a bit of luck.
 
-Use goals as a bonus — something fun to track — not as a measure of whether your child is improving as a footballer.
+Enjoy goals. Just don't use them to measure whether your child is getting better.
 
 ### Disposal Efficiency
 
-Disposal efficiency — the percentage of kicks and handballs that reach their target — is a genuinely useful stat. But it is strictly for older youth players.
+Disposal efficiency — the percentage of kicks and handballs that find their target — is a genuinely useful stat. But only for older players.
 
-Under 14s are still developing the fundamental kicking and handballing mechanics that make efficiency a fair measurement. A 55% efficiency rate at U12 can reflect a player who is brave enough to take the game on under pressure, not one who is struggling. Penalising that with a low number does more harm than good.
+Under 14s are still developing the core kicking and handballing mechanics that make efficiency a fair measurement. A 55% efficiency rate at U12 might mean your child is brave enough to take the game on under pressure. That's a good thing. Measuring it harshly at that age does more harm than good.
 
-From U16 upward, disposal efficiency starts to mean something real. At that point, tracking whether efficiency is improving over a season is worth adding to your toolkit. Before that, leave it out.
+From U16 upward, it starts to mean something real. If efficiency is climbing over the course of a season, that's meaningful development worth tracking. Below that age, leave it out of the picture.
 
 ---
 
 ## How to Track These During a Game
 
-You do not need a professional analytics setup. Most parents can accurately track two or three stats from the sideline with a notes app or a simple tally.
+You don't need a professional setup. Most parents can accurately track two or three stats from the sideline with the notes app on their phone or a simple tally.
 
-Pick the stats that match your child's position and age group from the table above. Track them consistently across every game. Look for trends across four to six rounds, not single-game peaks.
+Pick two stats that match your child's position and age group from the table above. Track them every game. Look for a trend across four to six rounds — not a reaction to one good or one bad game.
 
-A player who averages one ground ball get per game in Round 1 and four per game by Round 10 has genuinely developed — regardless of the scoreboard. That is the number worth paying attention to.
+A player who averages one ground ball get per game in Round 1 and four per game by Round 10 has genuinely developed. That number — quiet, unsexy, easy to miss in the moment — is the one that matters.
 
 ---
 
@@ -148,24 +148,24 @@ A player who averages one ground ball get per game in Round 1 and four per game 
 
 ### What AFL stats should I track for an Under 10 or Under 11 player?
 
-At those ages, stick to pressure acts and tackles. They are the most reliable development indicators at junior level because they reflect attitude and effort rather than technique, which is still developing. They are also the easiest to track accurately from the sideline.
+Stick to pressure acts and tackles. They reflect effort and attitude rather than technique, which is still developing at those ages. They're also the easiest to track accurately from the sideline — you'll know one when you see it.
 
 ### My child plays multiple positions. Which stats apply?
 
-Pick the position they spend the most time in and use that column as your guide. If they genuinely rotate across multiple roles, pressure acts and tackles are always relevant regardless of where they play.
+Start with the position they spend the most time in and use that column as your guide. If they genuinely float across multiple roles, pressure acts and tackles are always worth tracking regardless of where they're playing.
 
 ### Is it normal for stats to go up and down week to week?
 
-Completely normal. Game conditions, opponent quality, weather, and game flow all affect individual numbers significantly. A single round is just noise. Four to six rounds starts to look like a trend. That is what you are looking for.
+Completely. Game conditions, opponent quality, weather, and game flow all move individual numbers around significantly. One round is noise. Four to six rounds is a trend. That's what you're looking for.
 
 ### At what age does disposal efficiency become useful to track?
 
-Around Under 16s, once players have had enough time to develop repeatable kicking and handballing technique. Before that age, it is more useful to track whether a player is attempting difficult disposals under pressure than whether those disposals hit the target.
+Around Under 16s, once players have had enough time to build repeatable kicking and handballing technique. Before that, it's more useful to notice whether your child is attempting difficult disposals under pressure than whether those disposals find their target.
 
 ### How many stats should I try to track in one game?
 
-Two or three is a practical limit if you want to watch the game as well. More than that and your accuracy drops. Quality tracking of a few stats over a full season is far more useful than rough tracking of many.
+Two or three is a practical limit if you also want to watch the game. Quality tracking of a few stats across a full season is far more useful than rough tracking of many. Pick your two, be consistent, and the story will emerge.
 
 ---
 
-*ScorX is a free app for parents and coaches to track junior AFL player stats during games. Download it and start tracking your child's development this weekend.*
+*ScorX is free to download. Track your child's first game this weekend and start seeing their development in the numbers.*
