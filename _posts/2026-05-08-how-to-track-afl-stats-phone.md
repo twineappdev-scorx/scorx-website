@@ -7,57 +7,55 @@ read_time: 5
 keywords: "how to track AFL stats phone, AFL stats app, track kids AFL stats, youth AFL statistics, AFL parent sideline"
 ---
 
-You can track your child's AFL stats on your phone during a game without constantly staring at a screen. The key is knowing what to watch for — and what to leave out.
+Tracking your child's AFL stats on your phone during a game is easier than it sounds. You don't need to know the game inside out. You don't need to be glued to your screen. You just need to know which four things to watch for, and when to tap.
 
-This isn't about capturing everything. It's about capturing the right things, quickly enough that you still see the game.
+This guide walks you through exactly that.
 
-## What Stats Are Actually Worth Tracking?
+## Which Stats Should You Actually Track?
 
-Not all AFL stats are equal. Some happen fast and are easy to log. Others require you to watch a longer sequence of play that you'll miss if you're fumbling with your phone.
+Start small. Four stats cover almost everything that matters for a junior player, and all four are easy to spot from the sideline.
 
-Start with these four. They're visible, discrete, and take one tap to record:
+**Disposals** are every kick and handball your child makes. This is the one to nail first. It happens clearly, it ends clearly, and it tells you how much ball they're getting.
 
-**Disposals** — Every kick and handball your child makes. This is the foundation stat. You'll see it happen, it ends clearly, and it gives you a genuine picture of how involved they were.
+**Marks** are clean catches. You'll know one when you see it.
 
-**Marks** — When they take a clean catch. Easy to spot, worth celebrating in the data.
+**Tackles** are when they bring an opponent to ground. This one matters more than people realise. Tackles show effort and pressure, and they almost never make it into a post-game conversation unless you've been tracking them.
 
-**Tackles** — When they bring an opponent to ground. Physical effort that often goes unrecognised in a team scoreline.
+**Goals and behinds** are self-explanatory. If your child plays forward, this is the one they'll ask about on the drive home.
 
-**Goals and behinds** — If they play forward, this matters to them. A lot.
+Those four are your starting point. Once they feel natural, you can add contested possessions, clearances, or hit-outs. But don't try to track everything from game one. You'll end up watching your phone instead of the game, which is the opposite of what you're going for.
 
-Once you're comfortable with those four, you can layer in extras like contested possessions, clearances, or hit-outs if your child plays in the ruck. But for most parents starting out, disposals, marks, tackles, and score involvements cover what you need.
+## How Do You Record Stats Without Missing the Game?
 
-## How to Stay Present on the Sideline
+The trick is to record after the moment, not during it.
 
-The biggest concern parents have is the same one: "I'll be looking at my phone when they do something great."
+Don't watch your phone waiting to tap something. Watch your child. When they get a disposal, finish watching the play, then tap. The whole thing takes two seconds. Your eyes are back on the game before the next kick lands.
 
-Here's how to avoid it.
+It feels awkward the first game. By the third game, it's automatic.
 
-Record reactively, not predictively. Don't watch your phone waiting for something to tap — watch the game. When your child does something, log it immediately after. A disposal takes two seconds to tap. Your eyes can go back to the game before the next kick has even been taken.
+One rule that makes a real difference: if you're not sure, leave it blank. Don't guess. A scramble in the forward pocket where you think they might have touched it? Let it go. A handball you half-saw through a crowd of kids? Leave it out. Stats you're not confident in quietly corrupt the picture over time. A gap in the data is honest. A guess isn't.
 
-And accept that you'll miss some. You're a parent watching your kid play, not a data analyst. If you catch 80% of their disposals, that's still meaningful data. Perfection is not the goal. Participation is.
+You'll miss some. That's fine. If you catch 80% of your child's disposals across a game, you've got enough to work with. This isn't official match statistics. It's your record of your kid's game, and it only needs to be good enough to be useful.
 
-When you do miss something, leave it blank. Don't guess. A stat you're not sure about is worse than a gap — it quietly corrupts the picture over time. If your child kicks a goal and you caught it, log it. If there was a scramble in the forward pocket and you think they might have touched it, let it go. The numbers are only useful if you trust them.
+## What Do You Do at Halftime?
 
-## The Halftime Check-In
+Take 30 seconds to look at what you've got.
 
-One of the best sideline habits you can build: do a quick review at halftime.
+Not to analyse it. Just to see it. Four disposals and two tackles in the first half. One mark. That's already a picture of how the game is going for your child specifically, not just for the team.
 
-Not to analyse anything deeply — just to glance at the numbers. Four disposals in the first half. Two tackles. One mark. That's a picture of how the game is going for your child specifically, not just for the team.
+If you're using [ScorX](https://scorx.app), the summary is right there on your screen. Nothing to add up.
 
-If you're using an app like [ScorX](https://scorx.app), that halftime summary is already on your screen. You don't have to add anything up.
+It also gives you something real to say when your child comes off. "Four disposals already, you're really in the game today" is a different conversation from "good work, keep it up." Specifics land. Kids remember them.
 
-It also gives you something specific to say at the end of the game that isn't just "well done." "You had eight disposals today, that's your best game this season" lands differently than a general pat on the back. Kids notice. They remember.
+## After the Game Is Where It Gets Really Good
 
-## After the Game: Where the Stats Actually Matter
+One game of stats is interesting. Three or four games of stats start to tell a story.
 
-The game is the easy part. What you do with the data is where development happens.
+Are they getting more disposals as the season goes on? Are their tackles going up while their disposals stay the same, meaning they're working hard but not getting the ball as often? Is there a quarter where their numbers consistently drop off?
 
-Even something simple like comparing three or four games side by side starts to show patterns. Are they getting more involved as the season goes on? Are their tackles going up while their disposals stay flat — suggesting they're working hard but not getting the ball? Is there a specific quarter where their numbers drop off?
+These are conversations worth having with your child. And if you've got something to show a coach, even better. "She had 12 disposals in the last two games" is a lot more useful than "I think she's been playing really well."
 
-These are the conversations worth having with your child and their coach — grounded in something real, not just impressions from the sideline.
-
-Recording stats during a game takes maybe 30 seconds of your attention across a whole quarter. The return on that investment, in terms of actual development conversations, is significant.
+You're not building a scouting report. You're building a record of improvement that your child can actually see. That's the whole point.
 
 ---
 
@@ -65,24 +63,24 @@ Recording stats during a game takes maybe 30 seconds of your attention across a 
 
 ### What AFL stats should I track for a junior player?
 
-Start with disposals (kicks and handballs), marks, tackles, and goals or behinds. These four give you a clear picture of involvement and effort without requiring specialist knowledge to record.
+Start with disposals, marks, tackles, and goals or behinds. These four give you a clear picture of involvement and effort without needing specialist knowledge to record them.
 
 ### Can I track AFL stats on my phone without missing the game?
 
-Yes. The key is recording after each event, not during it. Each stat takes one or two taps and a second of attention. With a bit of practice, you'll barely notice you're doing it.
+Yes. Record after each moment, not during it. Each stat takes a couple of taps and a second of your attention. After a few games, you'll barely notice you're doing it.
 
 ### Is it worth tracking stats if my child is under 12?
 
-Absolutely. At younger ages, the data is less about performance and more about visibility. Seeing that your child ran hard, made four tackles, and took two marks is meaningful to them regardless of the scoreboard.
+Absolutely. At younger ages it's less about performance and more about visibility. Knowing your child took four tackles and had six disposals gives you something real to talk about, and something for them to build on.
 
-### Do I need to understand AFL well to track stats?
+### What if I miss a stat during the game?
 
-Not deeply. Disposals (kicks and handballs) and tackles are easy to identify for any parent who's watched a few games. You can always ask a more experienced parent or coach to help you understand contested vs. uncontested possession if you want to go deeper.
+Leave it blank. Guessing quietly corrupts your data over time. A gap in the numbers is honest and still useful. A stat you're not confident about isn't.
 
-### What's the best app for tracking AFL stats for kids?
+### What's a good app for tracking AFL stats for kids?
 
-ScorX is built specifically for youth sport stat tracking on the sideline. It's free to download, covers AFL and 15+ other sports, and is designed for parents recording during a game — not analysts entering data after the fact.
+ScorX is designed for exactly this. Free to download, built for parents recording on the sideline, and it covers AFL and 15+ other sports.
 
 ---
 
-*ScorX is free to download on the App Store. Track your child's first game this weekend.*
+*ScorX is free on the App Store. Track your child's next game this weekend.*
