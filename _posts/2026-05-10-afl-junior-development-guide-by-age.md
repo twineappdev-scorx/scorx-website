@@ -71,7 +71,7 @@ And celebrate the mark. A clean chest mark at this age is a real skill. Make a b
 
 ## Under 10: The Coach Steps Back. The Kids Step Up.
 
-**Field:** 85m x 65m — players still restricted to their third of the field  
+**Field:** 85m x 65m
 **Players:** 12-a-side (max 15 per squad)  
 **Game time:** 4 x 12-minute quarters  
 **Ball:** Size 2 (synthetic)  
@@ -94,7 +94,7 @@ Also: encourage them to kick when they have the option. At this age, many kids h
 
 ## Under 11: The Scoreboard Goes On. The Pressure Doesn't Have To.
 
-**Field:** 115m x 75m — noticeably bigger, players still restricted to their third  
+**Field:** 115m x 75m — noticeably bigger
 **Players:** 12-a-side (max 15 per squad)  
 **Game time:** 4 x 15-minute quarters  
 **Ball:** Size 3 (synthetic or leather)  
@@ -117,7 +117,7 @@ Also: speed of decision. The game is faster than it was at Under 10. The window 
 
 ## Under 12: Everything's the Same. Everything's Different.
 
-**Field:** 115m x 75m — same as Under 11, players still restricted to their third  
+**Field:** 115m x 75m — same as Under 11
 **Players:** 12-a-side (max 15 per squad)  
 **Game time:** 4 x 15-minute quarters  
 **Ball:** Size 3 (synthetic or leather)  
@@ -138,7 +138,7 @@ If there's a gap in your child's game, Under 12 is the right time to work on it.
 
 ## Under 13: This Is Actually Footy Now
 
-**Field:** 125m x 95m — bigger again, and position restrictions lift  
+**Field:** 125m x 95m — bigger again
 **Players:** 15-a-side (max 18 per squad)  
 **Game time:** 4 x 15–20-minute quarters (varies by competition)  
 **Ball:** Size 4  
