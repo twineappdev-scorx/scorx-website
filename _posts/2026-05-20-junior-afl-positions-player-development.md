@@ -1,7 +1,7 @@
 ---
 title: "What Junior AFL Positions Actually Develop in Kids Under 12 (And Why Rotating Matters)"
 description: "Junior AFL positions aren't about where kids play — they're about what they learn. Here's the developmental logic behind position rotation under 12."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 6
 keywords: "junior AFL positions player development, AFL position rotation, junior AFL coaching, AFL under 12 development, youth AFL skills"
