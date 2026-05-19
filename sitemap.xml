@@ -65,6 +65,20 @@
   </url>
 
   <url>
+    <loc>https://www.scorx.com.au/athletes.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/coaches.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.scorx.com.au/privacy.html</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>yearly</changefreq>
@@ -76,6 +90,99 @@
     <lastmod>2026-02-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+
+  <!-- Blog -->
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/welcome-to-the-scorx-blog/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/which-youth-sports-stats-actually-matter/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/how-to-build-speed-young-athletes/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/new-afl-coach-junior-afl-team/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/parents-guide-junior-afl-development/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/how-to-track-afl-stats-phone/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/junior-afl-carnivals/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
