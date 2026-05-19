@@ -89,4 +89,12 @@ Yes. The acceleration qualities that matter in AFL — first-step quickness, cha
 
 ---
 
+**Related reading**
+
+- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](/blog/fuel-sleep-game-day-performance/) — the recovery side of physical development that unlocks speed gains
+- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — how speed shows up in contest work rate, one-on-ones, and ground ball gets
+- [5 Development Goals to Set at the Start of the AFL Season](/blog/junior-afl-season-goals-player-development/) — how to build speed improvement into a goal your athlete can actually track
+
+---
+
 *ScorX is free to download. Start recording your athlete's sprint times at training and track their progress across the season.*

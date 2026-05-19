@@ -161,4 +161,12 @@ Look for patterns across multiple games rather than individual performances. Are
 
 ---
 
+**Related reading**
+
+- [The Parent's Guide to Junior AFL: U8–U13](/blog/afl-junior-development-guide-by-age/) — rules, field sizes, and what your child should be working on at each age group
+- [What Development Coaches Watch at Junior AFL](/blog/parents-sideline-playbook-junior-afl/) — how to watch a game the way someone who understands player development watches it
+- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — which numbers show real improvement by position, and which ones mislead
+
+---
+
 *If you want a way to track your child's development across a season, ScorX is free to download. It records game statistics across 16 sports — including AFL — and helps you see your child's progress over time, not just from one Saturday to the next.*

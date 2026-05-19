@@ -106,3 +106,11 @@ Yes, with the right framing. Stats are useful when they show a player how they'r
 ### How do I know if my child is actually improving at AFL?
 
 Look for consistency, not standout moments. A player who is making slightly better decisions each month, who is winning a higher percentage of their one-on-ones, and who is backing up harder to contests is improving — even if the scoreboard doesn't always show it. Tracking a few simple stats across the season makes that progress visible.
+
+---
+
+**Related reading**
+
+- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — the specific numbers that make the strongest season targets, by position and age group
+- [The Parent's Guide to Junior AFL Development](/blog/parents-guide-junior-afl-development/) — the bigger development picture these goals sit within, from Auskick through to U18s
+- [The Carnival Season: How to Make the Most of AFL Carnivals](/blog/junior-afl-carnivals/) — how carnival weekends can reset and sharpen your mid-season goals

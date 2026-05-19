@@ -213,3 +213,11 @@ When a team builds an unassailable lead — around 60 points — junior leagues 
 ### What stats should I track for my child?
 
 At U8–U10, disposals — every time they handle the ball, by kick or handball — is all that matters. At U11–U12, add marks and start noticing the split between kicks and handballs. By U13 you can track disposals, marks, tackles, and goals. The goal isn't the number. It's having something concrete to look back on at the end of the season.
+
+---
+
+**Related reading**
+
+- [The Parent's Guide to Junior AFL Development](/blog/parents-guide-junior-afl-development/) — the full development picture from Auskick through to U18s, including what to say and what to leave to the coach
+- [How to Coach a Junior AFL Team](/blog/new-afl-coach-junior-afl-team/) — a practical guide to running training and managing rotations across these age groups
+- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — which numbers to track at each age, broken down by position
