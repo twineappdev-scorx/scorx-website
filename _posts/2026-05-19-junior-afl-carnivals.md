@@ -1,7 +1,7 @@
 ---
 title: "The Carnival Season: How to Make the Most of AFL Carnivals for Player Development"
 description: "Junior AFL carnival player development — why a carnival weekend gives you more useful data than a whole school term, and how to use it."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 7
 keywords: "junior AFL carnival player development, AFL carnival Queensland, track kids AFL stats, junior player development, AFL carnival tips for parents"
