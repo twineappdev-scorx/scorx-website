@@ -169,4 +169,12 @@ You don't have to track everything — and trying to do so while coaching usuall
 
 ---
 
+**Related reading**
+
+- [The Parent's Guide to Junior AFL: U8–U13](/blog/afl-junior-development-guide-by-age/) — age-appropriate rules, field sizes, and development expectations for every grade you might coach
+- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — which numbers tell the real story when you can't watch every player at once
+- [What Development Coaches Watch at Junior AFL](/blog/parents-sideline-playbook-junior-afl/) — how experienced coaches read the game beyond the scoreboard
+
+---
+
 *ScorX is free for coaches. It's designed for exactly the kind of community coaching described in this guide — track what you're seeing across the season, build a picture of your team's patterns, and have something concrete to say at training and on the sideline. Download on the App Store.*
