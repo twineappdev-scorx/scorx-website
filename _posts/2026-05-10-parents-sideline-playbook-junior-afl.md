@@ -1,114 +1,96 @@
 ---
-title: "The Parent's Sideline Playbook: How to Watch Junior AFL Like a Development Coach"
-description: "Most parents watch junior AFL for goals. Here's what to look for instead — and how it changes what you see in your kid's game."
+title: "What Development Coaches Watch at Junior AFL (And Why It's Not the Goals)"
+description: "Most parents follow the ball. Development coaches watch everything else. Here's what to look for on the sideline — and why it changes what you see in your kid."
 category: "AFL Guide"
 author: "ScorX Team"
 read_time: 6
-keywords: "how to watch junior AFL player development parent, junior AFL parent tips, AFL sideline guide, junior player development AFL, AFL stats for kids"
+keywords: "how to watch junior AFL player development parent, junior AFL parent tips, junior player development AFL, AFL sideline guide, AFL stats for kids"
 ---
 
-Most parents watch junior AFL games hoping their kid kicks a goal. Development coaches watch the same game and barely notice the goals at all.
+Development coaches at junior AFL games barely notice the goals. Goals are fine. But goals aren't where the game actually happens for a nine-year-old.
 
-That gap — between what parents see and what actually shows up in a player's growth — is worth closing. Not because you need to become a coach, but because watching well changes what you celebrate. And what you celebrate shapes how your kid develops.
+Most parents spend the whole game following the ball. Which means most parents miss about eighty percent of what their kid is doing. That gap — between what's easy to watch and what actually matters for development — is worth closing.
 
-Here's how to watch junior AFL like someone who actually knows what player development looks like.
+Here's how to watch a junior AFL game the way someone who understands player development watches it.
 
-## What Does "Watching Well" Actually Mean?
+## Watch Your Kid When They Don't Have the Ball
 
-It means shifting your attention from outcomes to actions. Goals and scores are outcomes. They're satisfying, but they hide most of what's happening in a game.
+This is the single biggest shift you can make as a sideline parent, and it takes about three games before it becomes natural.
 
-Actions are the hundreds of small decisions your kid makes before the ball ever gets near them. Where they position themselves. Whether they keep trying after a mistake. How they respond when play goes the other way.
+When the ball is on the far side of the oval, where is your kid? Are they moving to find space? Working to become an option for a teammate? Or standing still, watching the play, waiting for something to come to them?
 
-Development coaches track actions. They know that a player who consistently finds space, competes at every contest, and makes good decisions with the ball will improve faster than a player who occasionally flukes a goal and then disengages.
+The skill coaches call "playing without the ball" is one of the hardest things to develop and one of the first things they look for. A kid who is always scanning, always moving, always trying to get in a useful position is doing something genuinely hard — even if the ball never reaches them.
 
-Start watching actions, and you'll see a completely different game.
+If your kid does this, they probably don't know you've noticed. Tell them after the game. Specifically. "I saw you keep moving to find space in the second quarter even when you weren't getting the ball" lands differently than "great effort."
 
-## Where Is My Kid When They Don't Have the Ball?
+## What Real Effort Actually Looks Like at This Level
 
-This is the single biggest shift you can make as a sideline watcher.
+There's the obvious stuff — running hard, going in for a tackle. And then there are the effort indicators that don't make the highlight reel but tell you a lot about where a player is heading.
 
-Most parents' eyes follow the ball. Development coaches watch the players away from the ball — because that's where positioning, effort, and game sense actually show up.
+**Chasing after turning the ball over.** When your kid gives the ball away and the opposition runs with it, do they chase back or drift off hoping a teammate covers it? A kid who sprints back into the contest after making a mistake is showing something coaches genuinely value — more than the kid who only works hard when things are going well.
 
-Ask yourself: when the ball is on the other side of the ground, where is your kid? Are they finding space? Getting into a position to receive? Working to make themselves available? Or are they standing still, watching?
+**Second efforts.** After a mark is taken, the ball goes to the ground underneath it. After an opponent marks or receives a kick, someone has to run to close them down. Does your kid do that, or is it always someone else? Second efforts don't show up in any scoreboard. Development coaches count them constantly.
 
-A kid who is always moving, always finding space, and always making themselves an option is doing something coaches call "playing without the ball." It's one of the hardest skills to develop, and it's almost invisible to parents watching for goals.
+**Body language between plays.** Watch your kid's face and posture after something goes wrong. Do they put their head down? Do they look at the bench? Or do they reset and get into position? Resilience is a skill, and it shows up in body language well before it shows up in results. If your kid resets quickly after a mistake, that's worth acknowledging.
 
-If your kid does this well, notice it. Tell them after the game. It matters more than the score.
+These are the things worth talking about on the drive home. Not the shot that hit the post.
 
-## What Effort Indicators Actually Look Like
+## Decision-Making Is a Skill You Can Actually Watch For
 
-Effort in junior AFL isn't just running fast or tackling hard. Those are the obvious ones. Real effort indicators are subtler, and they're worth knowing.
+When your kid receives the ball, there's a moment before they act — maybe half a second. In that moment they're supposed to be scanning: where are my teammates, where are the opposition, what's the right option?
 
-**Chasing the contest.** Does your kid run back when they've turned the ball over, or do they drift away hoping someone else covers it? Chasing hard after a mistake is one of the clearest signs of a committed player.
+Watch that moment. Did they look up before they got the ball, or were they watching it all the way into their hands? Did they make a quick, clear decision, or hesitate and get caught? When they kicked or handballed, did the option they chose make sense — even if it didn't come off perfectly?
 
-**Second efforts.** After a mark is paid to someone else, does your kid compete for the ground ball underneath it? After a kick goes to an opponent, are they already running to get in position? Second efforts don't show up in any scoreboard, but development coaches count them constantly.
+Decision quality and outcome are different things. A well-weighted kick to a leading teammate who drops it was still a good decision. A goal off a wild kick in the wrong direction was a poor decision that happened to work. Development coaches track the decision, not the result.
 
-**Body language between plays.** Watch your kid's face and posture after something goes wrong. Do they put their head down? Do they snap at a teammate? Or do they reset quickly and get back into position? Resilience is a skill, and it shows up in body language well before it shows up in results.
-
-These are the things worth texting your partner about. Not the near-miss that hit the post.
-
-## Reading Decision-Making in Real Time
-
-Junior AFL is a fast, chaotic game. Decision-making under pressure is one of the highest-value skills a young player can develop — and it's something you can actually watch for.
-
-When your kid gets the ball, there's a brief moment before they act. In that moment, they're scanning: where are my teammates, where are the opponents, what's the best option?
-
-Watch that moment. Did they look up before they received the ball, or were they watching the ball all the way into their hands? Did they make a quick, confident decision, or hesitate? When they kicked or handballed, did the option they chose look like the right one — even if it didn't work out perfectly?
-
-Outcome and decision quality are different things. A perfect kick that the receiver fumbles was still a good decision. A goal off a wild kick in the wrong direction is a poor decision that happened to work. Development coaches care about the decision, not the lucky result.
-
-When you talk to your kid after a game, try asking "what were you thinking there?" instead of "why didn't you kick it to so-and-so?" It changes the conversation from blame to reflection.
+Try this one question on the drive home: "What were you thinking when you got the ball in the third quarter?" Not "why didn't you kick it to so-and-so." What were you thinking. It shifts the conversation from blame to reflection, and it's a habit that takes about two games to start feeling natural.
 
 ## The Stats That Actually Tell a Development Story
 
-Once you start watching differently, you'll naturally want to capture what you're seeing.
+Once you start watching differently, you'll notice things you want to remember.
 
-Goals are easy to count. But the numbers that actually track player development are things like contested possessions, tackles, hard-ball gets, and disposals by efficiency. These tell you whether your kid is competing, contributing, and making good decisions — not just whether they happened to be in the right place when a goal went through.
+Goals are easy to count. But the numbers that track development are disposals — every time a player touches the ball, whether they kick it or handball it — tackles, contested possessions, and how often their disposals lead somewhere useful. These tell you whether your kid is getting involved, competing hard, and making good decisions — not just whether they happened to be nearby when a goal went through.
 
-A lot of parents find that once they start tracking even a handful of these, they notice patterns they'd never seen before. Their kid might not kick many goals but consistently leads the team in tackles. Or they might be brilliant in the first half and fade in the third quarter — something that never showed up just from watching the score.
+A lot of parents find that even tracking two or three of these numbers changes what they see. Their kid might not kick goals but consistently tackle more than anyone else. Or they might start the game well and fade in the last quarter — a pattern that was always there but never visible when you were just watching the score.
 
-Apps like ScorX are built for exactly this. Parents record stats from the sideline during the game — not as a job, but as a way of watching with purpose. The numbers give you something to talk about with your kid that isn't "you played well" or "tough day." You can say: you had eight disposals in the first half and three in the second — what changed?
+ScorX is built for exactly this. Parents record stats from the sideline during the game — disposals, tackles, contested ball. Not as a job, but as a way of watching with purpose. By the end of the game you have something real to talk about. Not "you played well" or "tough day." Something like: you had nine disposals in the first half and four in the second. What changed?
 
-That kind of conversation is where development actually happens.
+That kind of conversation is where development actually happens. Most kids finish a season with a vague feeling they got better. Seeing it in their own numbers — watching those numbers move across a season — is something else entirely.
 
-## What to Watch in a Full Game: A Simple Sideline Checklist
+## A Simple Sideline Focus for Each Game
 
-You don't need to track everything. Pick two or three things to focus on each game and you'll come away with far more useful observations than a parent watching randomly for ninety minutes.
+You don't need to track everything. Pick one or two things to pay attention to each game and you'll come away knowing more than a parent who watched randomly for ninety minutes.
 
-**Early in the game:** Where is my kid positioning themselves? Are they getting into the game?
+- **Early in the game:** Where is my kid when they don't have the ball? Are they moving or watching?
+- **During play:** Am I watching my kid, or am I watching the ball?
+- **After a mistake:** How quickly do they reset? What does their body say?
+- **When they get the ball:** Do they look up first? Is the decision clear and quick?
+- **Final quarter:** Is the effort still there when it's genuinely hard?
 
-**During play:** Am I watching my kid even when they don't have the ball?
-
-**After a mistake:** How quickly does my kid reset? What does their body language say?
-
-**Key moments:** When my kid gets the ball, do they look up or look down? Are they making decisions or reacting?
-
-**Final quarter:** Is the effort still there when it's hard? Are they still competing?
-
-Pick one of these each week. Over a season, you'll know your child's game better than most junior coaches.
+Pick one of these each week. Over a season, you'll know your child's game better than you'd expect.
 
 ## Frequently Asked Questions
 
 ### What stats should I track for a junior AFL player?
 
-Start simple: disposals (kicks and handballs), tackles, and contested possessions. These three capture whether your kid is touching the ball, competing hard, and winning the ball in pressure situations — without requiring deep AFL knowledge to count accurately.
+Start with three: disposals (every kick or handball), tackles, and contested possessions (times they won the ball with opponents close). These capture whether your kid is getting involved, competing, and earning the ball under pressure — without needing deep AFL knowledge to count them accurately.
 
-### How do I talk to my kid about their performance without it becoming negative?
+### How do I talk to my kid about their game without it becoming negative?
 
-Focus on decisions and effort, not outcomes. "I noticed you kept chasing even when it was hard in the third quarter" is more useful than "you didn't kick any goals today." Questions work better than statements — ask what they were thinking in key moments rather than telling them what they should have done.
+Focus on decisions and effort, not outcomes. "I noticed you kept chasing even when it was hard in the third quarter" is more useful than "you didn't kick any goals." Questions work better than statements — ask what they were thinking in a key moment rather than telling them what they should have done.
 
-### Is it useful to track stats if my kid's team doesn't use the data?
+### Is it worth tracking stats if my kid's team doesn't use them?
 
-Yes. The stats are primarily for your kid's own development picture, not for the coach's game plan. Seeing their own numbers improve over a season — more disposals, more tackles, better efficiency — is motivating in a way that team results alone can't provide.
+Yes. The numbers are for your kid's own development picture, not for the coach's game plan. Watching their own stats improve across a season — more disposals, more tackles, more efficiency — is motivating in a way that team results can't replicate, especially in junior footy where team balance varies hugely between clubs.
 
-### How do I know if my child is actually developing, even if their team keeps losing?
+### How do I know if my child is developing, even if the team keeps losing?
 
-Look at individual trends over time, not game results. Is your kid getting more involved as the season goes on? Are their disposals becoming more efficient? Are they competing harder in contests? Development doesn't always show up in wins and losses, especially in junior sport where team balance varies hugely between clubs.
+Look at individual trends, not game results. Is your kid getting more involved as the season goes on? Are their disposals leading somewhere? Are they competing harder for the ball? Development doesn't always show up in wins and losses — particularly in junior sport, where the gap between clubs at the same age group can be enormous.
 
 ### What if I don't know enough about AFL to understand what I'm seeing?
 
-You know more than you think. The basics — effort, body language, decision-making under pressure, whether your kid is finding space — don't require deep tactical knowledge. Start with effort indicators and build from there. The longer you watch with purpose, the more you'll naturally learn.
+You know more than you think. Effort, body language, whether your kid is finding space, how quickly they reset after a mistake — none of that requires tactical knowledge. Start with effort indicators and build from there. The longer you watch with purpose, the more you'll naturally understand.
 
 ---
 
-*ScorX is a free app that lets parents track their kid's stats from the sideline. Download it and try it at your next game.*
+*ScorX is free to download. Track your kid's disposals, tackles, and contested ball at the next game — you'll see the season differently.*
