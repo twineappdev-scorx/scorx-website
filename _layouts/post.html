@@ -31,22 +31,22 @@ layout: default
             </div>
 
             <footer class="blog-post-footer">
-                <!-- Replace "scorx" with your Buttondown username after creating your account at buttondown.com -->
                 <div class="blog-post-newsletter">
                     <h3 class="blog-post-newsletter-title">Enjoyed this? Get the next one.</h3>
                     <p class="blog-post-newsletter-sub">Tips for parents and coaches — delivered when we publish.</p>
                     <form
                         action="https://buttondown.com/api/emails/embed-subscribe/scorx"
                         method="post"
-                        target="popupwindow"
-                        onsubmit="window.open('https://buttondown.com/scorx', 'popupwindow')"
-                        class="newsletter-form newsletter-form--inline"
+                        class="newsletter-form newsletter-form--inline embeddable-buttondown-form"
                     >
-                        <input type="email" name="email" placeholder="Your email address" required class="newsletter-input">
-                        <input type="hidden" value="1" name="embed">
-                        <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+                        <label for="bd-email-post" class="sr-only">Enter your email</label>
+                        <input type="email" name="email" id="bd-email-post" placeholder="Your email address" required class="newsletter-input">
+                        <input type="submit" value="Subscribe" class="btn btn-primary newsletter-btn">
                     </form>
-                    <p class="newsletter-disclaimer">No spam. Unsubscribe any time.</p>
+                    <p class="newsletter-disclaimer">
+                        No spam. Unsubscribe any time. &nbsp;·&nbsp;
+                        <a href="https://buttondown.com/refer/scorx" target="_blank" rel="noopener" class="newsletter-powered">Powered by Buttondown</a>
+                    </p>
                 </div>
 
                 <div class="blog-post-cta">

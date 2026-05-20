@@ -54,19 +54,19 @@ description: "Practical guides and performance insights for parents tracking kid
                 <div class="newsletter-icon">📬</div>
                 <h2 class="newsletter-title">Get new posts in your inbox</h2>
                 <p class="newsletter-subtitle">Tips for parents and coaches tracking youth athlete performance — delivered when we publish.</p>
-                <!-- Replace "scorx" with your Buttondown username after creating your account at buttondown.com -->
                 <form
                     action="https://buttondown.com/api/emails/embed-subscribe/scorx"
                     method="post"
-                    target="popupwindow"
-                    onsubmit="window.open('https://buttondown.com/scorx', 'popupwindow')"
-                    class="newsletter-form"
+                    class="newsletter-form embeddable-buttondown-form"
                 >
-                    <input type="email" name="email" placeholder="Your email address" required class="newsletter-input">
-                    <input type="hidden" value="1" name="embed">
-                    <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+                    <label for="bd-email-index" class="sr-only">Enter your email</label>
+                    <input type="email" name="email" id="bd-email-index" placeholder="Your email address" required class="newsletter-input">
+                    <input type="submit" value="Subscribe" class="btn btn-primary newsletter-btn">
                 </form>
-                <p class="newsletter-disclaimer">No spam. Unsubscribe any time.</p>
+                <p class="newsletter-disclaimer">
+                    No spam. Unsubscribe any time. &nbsp;·&nbsp;
+                    <a href="https://buttondown.com/refer/scorx" target="_blank" rel="noopener" class="newsletter-powered">Powered by Buttondown</a>
+                </p>
             </div>
         </div>
     </section>

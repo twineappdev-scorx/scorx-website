@@ -3408,6 +3408,28 @@ footer::before {
   margin: 0;
 }
 
+.newsletter-powered {
+  color: rgba(248, 249, 250, 0.4);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.newsletter-powered:hover {
+  color: var(--scorx-turquoise);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Inline variant used inside blog posts */
 .blog-post-newsletter {
   background: linear-gradient(135deg, rgba(0, 212, 196, 0.08) 0%, rgba(15, 42, 68, 0.6) 100%);
