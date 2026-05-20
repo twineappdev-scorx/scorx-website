@@ -31,6 +31,24 @@ layout: default
             </div>
 
             <footer class="blog-post-footer">
+                <!-- Replace "scorx" with your Buttondown username after creating your account at buttondown.com -->
+                <div class="blog-post-newsletter">
+                    <h3 class="blog-post-newsletter-title">Enjoyed this? Get the next one.</h3>
+                    <p class="blog-post-newsletter-sub">Tips for parents and coaches — delivered when we publish.</p>
+                    <form
+                        action="https://buttondown.com/api/emails/embed-subscribe/scorx"
+                        method="post"
+                        target="popupwindow"
+                        onsubmit="window.open('https://buttondown.com/scorx', 'popupwindow')"
+                        class="newsletter-form newsletter-form--inline"
+                    >
+                        <input type="email" name="email" placeholder="Your email address" required class="newsletter-input">
+                        <input type="hidden" value="1" name="embed">
+                        <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+                    </form>
+                    <p class="newsletter-disclaimer">No spam. Unsubscribe any time.</p>
+                </div>
+
                 <div class="blog-post-cta">
                     <h3>Ready to track your athlete's development?</h3>
                     <p>Download ScorX free and start turning match data into training plans.</p>
