@@ -1,7 +1,7 @@
 ---
 title: "5 Development Goals to Set at the Start of the AFL Season (That Don't Involve the Scoreboard)"
 description: "Junior AFL season goals should go beyond wins and losses. Here are 5 player development goals that actually tell you if your kid is improving."
-category: "Guide"
+category: "AFL Guide"
 author: "ScorX Team"
 read_time: 6
 keywords: "junior AFL season goals player development, AFL player development kids, how to set goals junior AFL, youth AFL improvement, AFL development goals"
