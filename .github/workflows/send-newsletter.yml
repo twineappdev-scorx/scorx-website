@@ -72,7 +72,7 @@ jobs:
               payload = json.dumps({
                   'subject': title,
                   'body': body,
-                  'status': 'sent',
+                  'status': 'about_to_send',
               }).encode()
 
               req = urllib.request.Request(
