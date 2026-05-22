@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '_posts/**.md'
+  workflow_dispatch:  # allows manual trigger from the Actions tab
 
 jobs:
   send-newsletter:
