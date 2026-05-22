@@ -1,0 +1,94 @@
+name: Send newsletter for new blog posts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**.md'
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # need previous commit to diff against
+
+      - name: Detect new posts and send via Buttondown API
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          python3 << 'PYEOF'
+          import os, re, json, urllib.request, urllib.error, subprocess, sys
+
+          # Find files added (not modified) in this push
+          result = subprocess.run(
+              ['git', 'diff', '--name-only', '--diff-filter=A', 'HEAD~1', 'HEAD'],
+              capture_output=True, text=True, check=True
+          )
+          new_posts = [
+              f for f in result.stdout.strip().splitlines()
+              if f.startswith('_posts/') and f.endswith('.md')
+          ]
+
+          if not new_posts:
+              print('No new posts in this push — nothing to send.')
+              sys.exit(0)
+
+          api_key = os.environ['BUTTONDOWN_API_KEY']
+          failed = False
+
+          for post_file in new_posts:
+              content = open(post_file).read()
+
+              # Parse YAML front matter (simple key: value, handles quoted strings)
+              fm = {}
+              match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+              if match:
+                  for line in match.group(1).splitlines():
+                      if ':' in line:
+                          k, _, v = line.partition(':')
+                          fm[k.strip()] = v.strip().strip('"\'')
+
+              title       = fm.get('title', 'New post from ScorX')
+              description = fm.get('description', '')
+              category    = fm.get('category', '')
+
+              # Derive URL slug: strip YYYY-MM-DD- prefix and .md extension
+              basename = os.path.basename(post_file)
+              slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', os.path.splitext(basename)[0])
+              post_url = f'https://scorx.com.au/blog/{slug}/'
+
+              category_line = f'**{category}**\n\n' if category else ''
+              body = (
+                  f'{category_line}'
+                  f'{description}\n\n'
+                  f'[Read the full post →]({post_url})\n\n'
+                  f'---\n'
+                  f'*You received this because you subscribed to the ScorX blog. '
+                  f'[Unsubscribe](https://buttondown.com/scorx)*'
+              )
+
+              payload = json.dumps({
+                  'subject': title,
+                  'body': body,
+                  'status': 'sent',
+              }).encode()
+
+              req = urllib.request.Request(
+                  'https://api.buttondown.email/v1/emails',
+                  data=payload,
+                  headers={
+                      'Authorization': f'Token {api_key}',
+                      'Content-Type': 'application/json',
+                  }
+              )
+              try:
+                  with urllib.request.urlopen(req) as resp:
+                      print(f'Sent: "{title}" → {post_url} (HTTP {resp.status})')
+              except urllib.error.HTTPError as e:
+                  print(f'ERROR sending "{title}": HTTP {e.code} — {e.read().decode()}')
+                  failed = True
+
+          sys.exit(1 if failed else 0)
+          PYEOF
