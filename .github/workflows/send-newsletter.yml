@@ -60,11 +60,16 @@ jobs:
               slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', os.path.splitext(basename)[0])
               post_url = f'https://scorx.com.au/blog/{slug}/'
 
+              # Extract post body (everything after the closing --- of front matter)
+              post_body = ''
+              fm_match = re.match(r'^---\s*\n.*?\n---\s*\n(.*)', content, re.DOTALL)
+              if fm_match:
+                  post_body = fm_match.group(1).strip()
+
               category_line = f'**{category}**\n\n' if category else ''
               body = (
                   f'{category_line}'
-                  f'{description}\n\n'
-                  f'[Read the full post →]({post_url})\n\n'
+                  f'{post_body}\n\n'
                   f'---\n'
                   f'*You received this because you subscribed to the ScorX blog. '
                   f'[Unsubscribe](https://buttondown.com/scorx)*'
