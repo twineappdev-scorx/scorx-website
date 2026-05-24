@@ -91,7 +91,7 @@ Three to four games will start to show a pattern. Ten games is where you can sta
 
 ## Other Useful Reading
 
-- [What junior AFL positions actually develop in kids under 12 (and why rotating matters)](/blog/junior-afl-positions-player-development/)
-- [What development coaches watch at junior AFL (and why it's not the goals)](/blog/parents-sideline-playbook-junior-afl/)
-- [7 AFL stats that matter for junior development — and 3 that don't](/blog/afl-stats-junior-player-improvement/)
-- [What volunteer AFL coaches actually wish parents understood about game stats](/blog/what-volunteer-afl-coaches-wish-parents-understood-about-game-stats/)
+- [What junior AFL positions actually develop in kids under 12 (and why rotating matters)](https://scorx.com.au/blog/junior-afl-positions-player-development/)
+- [What development coaches watch at junior AFL (and why it's not the goals)](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/)
+- [7 AFL stats that matter for junior development — and 3 that don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/)
+- [What volunteer AFL coaches actually wish parents understood about game stats](https://scorx.com.au/blog/what-volunteer-afl-coaches-wish-parents-understood-about-game-stats/)

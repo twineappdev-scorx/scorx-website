@@ -95,9 +95,9 @@ You know more than you think. Effort, body language, whether your kid is finding
 
 **Related reading**
 
-- [7 AFL Stats That Matter for Junior Development](/blog/afl-stats-junior-player-improvement/) — the numerical side of what you're watching: which stats tell the real story by position and age
-- [How to Track AFL Stats on Your Phone During a Game](/blog/how-to-track-afl-stats-phone/) — how to record what you see without taking your eyes off the game
-- [The Parent's Guide to Junior AFL Development](/blog/parents-guide-junior-afl-development/) — the bigger picture of development across every age group from Auskick to U18s
+- [7 AFL Stats That Matter for Junior Development](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — the numerical side of what you're watching: which stats tell the real story by position and age
+- [How to Track AFL Stats on Your Phone During a Game](https://scorx.com.au/blog/how-to-track-afl-stats-phone/) — how to record what you see without taking your eyes off the game
+- [The Parent's Guide to Junior AFL Development](https://scorx.com.au/blog/parents-guide-junior-afl-development/) — the bigger picture of development across every age group from Auskick to U18s
 
 ---
 
