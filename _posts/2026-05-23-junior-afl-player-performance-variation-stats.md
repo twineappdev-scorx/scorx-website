@@ -1,10 +1,9 @@
-\---
-
+---
 title: "Why Your Child's AFL Stats Look Different from Game to Game (And Why That's Normal)"
 description: "Junior AFL performance varies week to week — and that's not a problem. Here's why a single bad game tells you almost nothing, and what to look at instead."
 category: "AFL Guide"
 author: "ScorX Team"
-read\_time: 6
+read_time: 6
 keywords: "junior AFL player performance variation stats, youth AFL stats, junior AFL development, tracking AFL player improvement, AFL performance consistency kids"
 ---
 
@@ -60,7 +59,7 @@ Three or four games of data starts to mean something. Ten games is genuinely use
 
 Apps like ScorX let you log touches, disposals, goal assists, and pressure acts game by game — not to obsess over any individual number, but so that at the end of the season your child can look back and see, clearly, that they improved. Not a feeling. Actual numbers. Kids who can see their own improvement are more likely to keep playing — which, at this age, is the whole point.
 
-\---
+---
 
 ## Frequently Asked Questions
 
@@ -84,11 +83,11 @@ Effort-based stats are more useful than outcome-based ones at junior level. Thin
 
 Three to four games will start to show a pattern. Ten games is where you can start making reasonable conclusions about trends. One or two games — even if they're very good or very bad — should be treated as data points, not verdicts.
 
-\---
+---
 
 *ScorX is free to download. Track your first game this weekend and start building the picture that actually matters.*
 
-\---
+---
 
 ## Other Useful Reading
 

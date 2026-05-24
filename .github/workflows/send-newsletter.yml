@@ -61,10 +61,9 @@ jobs:
               post_url = f'https://scorx.com.au/blog/{slug}/'
 
               # Extract post body (everything after the closing --- of front matter)
-              post_body = ''
-              fm_match = re.match(r'^---\s*\n.*?\n---\s*\n(.*)', content, re.DOTALL)
-              if fm_match:
-                  post_body = fm_match.group(1).strip()
+              # Split on the front matter delimiters; parts[0]=empty, parts[1]=fm, parts[2]=body
+              parts = re.split(r'(?m)^---[ \t]*$', content, maxsplit=2)
+              post_body = parts[2].strip() if len(parts) >= 3 else content.strip()
 
               category_line = f'**{category}**\n\n' if category else ''
               body = (
