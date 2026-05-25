@@ -131,9 +131,9 @@ One of the best. Junior carnivals bring together clubs from across a region — 
 
 **Related reading**
 
-- [5 Development Goals to Set at the Start of the AFL Season](/blog/junior-afl-season-goals-player-development/) — how carnival data can sharpen your mid-season development targets
-- [What Development Coaches Watch at Junior AFL](/blog/parents-sideline-playbook-junior-afl/) — how to watch three games in a row with purpose rather than just hope
-- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](/blog/fuel-sleep-game-day-performance/) — keeping your athlete sharp when games are back-to-back across a weekend
+- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — how carnival data can sharpen your mid-season development targets
+- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — how to watch three games in a row with purpose rather than just hope
+- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://scorx.com.au/blog/fuel-sleep-game-day-performance/) — keeping your athlete sharp when games are back-to-back across a weekend
 
 ---
 
