@@ -2,7 +2,7 @@ future: true
 
 title: ScorX
 description: Youth Sports Performance Tracking App — Live Game Scoring & Player Statistics
-url: "https://scorx.com.au"
+url: "https://www.scorx.com.au"
 baseurl: ""
 
 permalink: /blog/:slug/
