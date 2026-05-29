@@ -99,15 +99,15 @@ You don't need to be a physiotherapist to make a difference here. If your child 
 
 **From Dr Brooke Patterson:** "The science is there. The programs are free. What we need now is coaches and parents who know these programs exist and have the confidence to use them. That's what changes outcomes."
 
-\---
+---
 
 ScorX tracks the development stats that tell you your child is improving across the season — tackles, marks, distance, speed. But the most important stat is the one that doesn't show up in any app: the game they didn't miss because they stayed healthy. Start with the warm-up.
 
-\---
+---
 
 *Dr Brooke Patterson (she/her) is an Australian Research Council Early Career Industry Research Fellow at the La Trobe University Sport and Exercise Medicine Research Centre, School of Allied Health, Human Services, and Sport. She is lead author of the Prep-to-Play program and a contributor to the global FAIR Consensus on injury prevention in female, women's, and girls' sport.*
 
-\---
+---
 
 ## Frequently Asked Questions
 
@@ -131,11 +131,11 @@ FAIR stands for Female, woman, and/or girl Athlete Injury pRevention. It's a glo
 
 ACL (anterior cruciate ligament) tears are among the most serious and most preventable. They disproportionately affect girls and young women, particularly in pivoting sports like football, netball, soccer, and basketball. The good news: structured warm-up and landing programs have been shown in multiple trials to reduce ACL injury rates significantly.
 
-\---
+---
 
 *ScorX is free to download. Track your first game this weekend.*
 
-\---
+---
 
 ## Related Sideline Blogs
 
