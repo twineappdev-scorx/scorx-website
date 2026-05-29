@@ -1,12 +1,11 @@
-\---
-
+---
 title: "The Warm-Up That Actually Prevents Injuries (According to a Researcher Who Played AFLW)"
 date: 2026-05-26
-author: \["ScorX", "Dr Brooke Patterson"]
+author: ["ScorX", "Dr Brooke Patterson"]
 category: Guide
-tags: \["injury prevention", "warm up", "strength training", "junior sport", "AFL", "netball", "soccer"]
+tags: ["injury prevention", "warm up", "strength training", "junior sport", "AFL", "netball", "soccer"]
 keywords: "junior sport injury prevention, warm up for kids sport, ACL injury prevention, strength training for young athletes, AFL Prep to Play"
-read\_time: 7
+read_time: 7
 slug: warm-up-injury-prevention-junior-sport
 excerpt: "A proper warm-up isn't just a formality — research shows it can cut serious knee injuries by a third. Dr Brooke Patterson, the La Trobe physiotherapist who co-developed AFL's Prep-to-Play program for women and girls, explains what actually works."
 ---
