@@ -1,6 +1,6 @@
 ---
-title: "Why Your Child's AFL Stats Look Different from Game to Game (And Why That's Normal)"
-description: "Junior AFL performance varies week to week — and that's not a problem. Here's why a single bad game tells you almost nothing, and what to look at instead."
+title: "Why Your Child's sports Stats Look Different from Game to Game (And Why That's Normal)"
+description: "Sports performance varies week to week — and that's not a problem. Here's why a single bad game tells you almost nothing, and what to look at instead."
 category: "Guide"
 author: "ScorX Team"
 read_time: 6
@@ -11,7 +11,7 @@ Your child had ten touches last week and three this week. Same kid. Same club. D
 
 If you spent the drive home trying to figure out what went wrong, you're not alone. But here's the thing: nothing went wrong. Performance variation in junior players is so normal it has its own name in sports science circles — and if you know what to expect, it stops feeling like a warning sign and starts feeling like just... footy.
 
-## Why does a junior AFL player's performance change so much week to week?
+## Why does a junior player's performance change so much week to week?
 
 Because they're kids, and kids aren't machines.
 
