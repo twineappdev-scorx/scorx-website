@@ -1,5 +1,5 @@
 ---
-title: "The Warm-Up That Actually Prevents Injuries (According to a Researcher Who Played AFLW)"
+title: "Why Warm-Up and Conditioning is Critical for Preventing Injuries (According to a Researcher Who Played AFLW)"
 date: 2026-05-26
 author: ["ScorX"," & ","Dr Brooke Patterson"]
 category: Guide
