@@ -3296,6 +3296,22 @@ footer::before {
   color: rgba(248, 249, 250, 0.8);
 }
 
+.blog-post-cta-links {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.blog-post-cta-links a {
+  color: var(--scorx-bright-turquoise);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-post-cta-links a:hover {
+  text-decoration: underline;
+}
+
 .blog-back-link {
   font-size: 0.9rem;
   font-weight: 600;

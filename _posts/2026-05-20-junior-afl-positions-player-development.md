@@ -83,4 +83,12 @@ Tell them the truth: "The coach is helping you learn the whole game." Then watch
 
 ---
 
-*ScorX is free to download. Track your first game this weekend — it takes about two minutes, and by season's end you'll have something real to show your kid.*
+*ScorX is free to download. Track your first game this weekend — it takes about two minutes, and by season's end you'll have something real to show your kid. [See how it works](https://scorx.com.au/how-it-works.html).*
+
+---
+
+## Other Useful Reading
+
+- [Why Your Child's Stats Look Different from Game to Game (And Why That's Normal)](https://scorx.com.au/blog/junior-afl-player-performance-variation-stats/)
+- [How to Tell If Your Child Is Getting Enough Game Time (And What to Do If They're Not)](https://scorx.com.au/blog/junior-afl-game-time-player-development/)
+- [The Parent's Guide to Junior AFL: U8–U13s](https://scorx.com.au/blog/afl-junior-development-guide-by-age/)

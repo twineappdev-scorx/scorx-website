@@ -81,4 +81,12 @@ Yes — even for younger players, keeping a record of disposals and quarters pla
 
 ---
 
-*ScorX lets parents track their child's stats during the game, building a season-long picture of development one match at a time. Free to download — start tracking this weekend.*
+*ScorX lets parents track their child's stats during the game, building a season-long picture of development one match at a time. Free to download — start tracking this weekend. [See the features](https://scorx.com.au/features.html).*
+
+---
+
+## Other Useful Reading
+
+- [Why Warm-Up and Conditioning is Critical for Preventing Injuries](https://scorx.com.au/blog/warm-up-injury-prevention-junior-sport/)
+- [Why Your Child's Stats Look Different from Game to Game (And Why That's Normal)](https://scorx.com.au/blog/junior-afl-player-performance-variation-stats/)
+- [What Junior AFL Positions Actually Develop in Kids Under 12 (And Why Rotating Matters)](https://scorx.com.au/blog/junior-afl-positions-player-development/)
