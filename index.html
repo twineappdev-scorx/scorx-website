@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -621,6 +623,37 @@
                     <summary>Which sports are supported?</summary>
                     <div class="faq-answer"><p>ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each sport has custom scoring rules, sport-specific statistics, and AI-powered development insights.</p></div>
                 </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- LATEST FROM THE BLOG -->
+    <section style="padding: 80px 2rem;">
+        <div class="section-title">
+            <h2>Latest from the Blog</h2>
+            <p class="section-subtitle">Practical guides and performance insights for parents and coaches tracking junior athlete development.</p>
+        </div>
+
+        <div class="container">
+            <div class="blog-grid">
+                {% for post in site.posts limit:3 %}
+                <article class="blog-card">
+                    <div class="blog-card-body">
+                        {% if post.category %}<div class="blog-card-category">{{ post.category }}</div>{% endif %}
+                        <h3 class="blog-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">{{ post.date | date: "%-d %B %Y" }}</span>
+                            {% if post.read_time %}<span class="blog-card-read-time">{{ post.read_time }} min read</span>{% endif %}
+                        </div>
+                        <a href="{{ post.url }}" class="blog-card-read-more">Read more &rarr;</a>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+
+            <div style="text-align: center; margin-top: 2.5rem;">
+                <a href="/blog/" class="btn btn-secondary"><span>View all posts</span></a>
             </div>
         </div>
     </section>
