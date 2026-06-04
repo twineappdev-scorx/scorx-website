@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "name": "ScorX",
+  "tagline": "Youth sports performance tracking app — live game scoring into AI-powered training plans",
+  "description": "ScorX is an iOS app for parents, coaches, and junior athletes that transforms live game scoring into AI-powered development plans. Track 100+ statistics across 16 sports, benchmark athleticism against age and gender peers, and generate AI training recommendations — all offline-first.",
+  "platform": "iOS",
+  "minimum_os": "iOS 18.0",
+  "region": "Australia (available worldwide)",
+  "developer": "Twine App Dev",
+  "contact": "scorxapp@gmail.com",
+  "app_size_mb": 11.5,
+
+  "primary_users": ["parents", "youth coaches", "junior athletes", "sports clubs"],
+
+  "key_facts": [
+    "Works completely offline — no internet required",
+    "16 sports supported",
+    "100+ customisable statistical activities",
+    "AI training recommendations updated every 30 days or after 5 games",
+    "Age and gender-specific athleticism benchmarking",
+    "Setup under 2 minutes",
+    "30-day free trial, no credit card required",
+    "Privacy-first: no ads, no third-party data sharing"
+  ],
+
+  "sports": {
+    "team": ["AFL", "Basketball", "Netball", "Rugby Union", "Rugby League", "Touch Rugby", "Soccer", "Field Hockey", "Volleyball", "Water Polo"],
+    "racquet": ["Tennis", "Badminton", "Squash", "Racquetball", "Pickleball", "Table Tennis"]
+  },
+
+  "pricing": {
+    "ref": "https://www.scorx.com.au/pricing.json",
+    "summary": "Free tier always free; Family $4.99/month or $49.99/year; Coach $9.99/month or $99.99/year"
+  },
+
+  "actions": [
+    {
+      "id": "download",
+      "label": "Download ScorX (free)",
+      "description": "Opens the App Store listing to download ScorX for iOS.",
+      "url": "https://www.scorx.com.au/go?action=download",
+      "method": "GET",
+      "platform_required": "iOS 18.0+"
+    },
+    {
+      "id": "contact_support",
+      "label": "Contact support",
+      "description": "Email the ScorX support team. Response within 24 hours.",
+      "url": "mailto:scorxapp@gmail.com"
+    },
+    {
+      "id": "request_feature",
+      "label": "Request a feature or sport",
+      "description": "Email a feature or new sport request to the ScorX team.",
+      "url": "mailto:scorxapp@gmail.com?subject=Feature%20Request"
+    }
+  ],
+
+  "links": {
+    "homepage": "https://www.scorx.com.au",
+    "features": "https://www.scorx.com.au/features.html",
+    "sports": "https://www.scorx.com.au/sports.html",
+    "pricing": "https://www.scorx.com.au/pricing.html",
+    "pricing_data": "https://www.scorx.com.au/pricing.json",
+    "how_it_works": "https://www.scorx.com.au/how-it-works.html",
+    "download": "https://www.scorx.com.au/go?action=download",
+    "app_store_direct": "https://apps.apple.com/app/id6753859833",
+    "support_faq": "https://www.scorx.com.au/support.html",
+    "privacy_policy": "https://www.scorx.com.au/privacy.html",
+    "terms": "https://www.scorx.com.au/terms.html",
+    "llms_txt": "https://www.scorx.com.au/llms.txt"
+  }
+}

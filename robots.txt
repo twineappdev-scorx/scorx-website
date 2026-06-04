@@ -15,13 +15,37 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# Allow Claude crawler
+# Allow Claude crawlers
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
 Allow: /
 
 # Allow Google AI
 User-agent: Google-Extended
 Allow: /
+
+# Allow Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# Allow Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Allow Amazon AI
+User-agent: Amazonbot
+Allow: /
+
+# Allow Common Crawl (used by AI training datasets)
+User-agent: CCBot
+Allow: /
+
+# Agent-readable files
+Allow: /agent.json
+Allow: /pricing.json
+Allow: /llms.txt
 
 # Sitemap
 Sitemap: https://www.scorx.com.au/sitemap.xml

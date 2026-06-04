@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScorX — Opening App Store</title>
+    <meta name="description" content="Download ScorX — the youth sports performance tracking app for iOS. Redirecting to the App Store.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://www.scorx.com.au/download.html">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EntryPoint",
+      "name": "Download ScorX",
+      "description": "Redirects to the App Store listing for ScorX — the youth sports performance tracking app for iOS.",
+      "urlTemplate": "https://www.scorx.com.au/go?action={action}",
+      "httpMethod": "GET",
+      "actionAccessibilityRequirement": {
+        "@type": "ActionAccessSpecification",
+        "requiresSubscription": false
+      },
+      "application": {
+        "@type": "MobileApplication",
+        "name": "ScorX",
+        "operatingSystem": "iOS 18.0+",
+        "applicationCategory": "SportsApplication",
+        "downloadUrl": "https://apps.apple.com/app/id6753859833",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "AUD"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: -apple-system, SF Pro Display, Inter, sans-serif;
+            background: #0F2A44;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container { max-width: 480px; }
+        h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        p { color: #a0b4c8; margin-bottom: 1.5rem; }
+        a.btn {
+            display: inline-block;
+            background: #00D4C4;
+            color: #0F2A44;
+            font-weight: 700;
+            padding: 0.875rem 2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .spinner {
+            width: 32px; height: 32px;
+            border: 3px solid rgba(0,212,196,0.2);
+            border-top-color: #00D4C4;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>Opening App Store…</h1>
+        <p>You're being redirected to ScorX on the App Store.<br>
+           Free to download — no credit card required.</p>
+        <a class="btn" id="fallback-link" href="https://apps.apple.com/app/id6753859833">
+            Open App Store
+        </a>
+    </div>
+
+    <script>
+        const APP_STORE_URL = 'https://apps.apple.com/app/id6753859833';
+        const params = new URLSearchParams(window.location.search);
+        const action = params.get('action');
+        const source = params.get('utm_source') || params.get('source') || 'direct';
+
+        // All supported actions redirect to App Store for now
+        const destination = APP_STORE_URL;
+
+        document.getElementById('fallback-link').href = destination;
+
+        // Redirect after a brief pause so the page is visible to crawlers
+        setTimeout(() => { window.location.href = destination; }, 800);
+    </script>
+</body>
+</html>
