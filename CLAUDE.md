@@ -79,7 +79,7 @@ git push origin main
 scorx/
 ├── index.html              # Homepage - hero, features, sports showcase
 ├── features.html           # 12 detailed features
-├── sports.html             # 14 sports (8 team + 6 racquet)
+├── sports.html             # 16 sports (10 team + 6 racquet)
 ├── pricing.html            # 4 pricing tiers (Free, Family, Coach, Club)
 ├── how-it-works.html       # 4-step guide
 ├── download.html           # App Store download page
@@ -227,12 +227,12 @@ This is a **static site with zero build tooling**. When making changes:
 ## Content Guidelines
 
 ### Sports Coverage
-**14 Sports Supported** (DO NOT add/remove without product team approval):
+**16 Sports Supported** (DO NOT add/remove without product team approval):
 
-**Team Sports (8):**
-- AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey
+**Team Sports (10):**
+- AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo
 
-**Racquet Sports (6):**
+**Racquet Sports (6) — simplified game tracking only (not full stat recording):**
 - Tennis, Badminton, Squash, Racquetball, Pickleball, Table Tennis
 
 ### Pricing Tiers
@@ -248,7 +248,7 @@ When updating content, maintain these established claims:
 - "Setup takes less than 2 minutes"
 - "Works completely offline"
 - "30-day free trial, no credit card required"
-- "14 sports supported"
+- "16 sports supported"
 
 ---
 
@@ -305,7 +305,7 @@ Before committing changes:
 
 **v1.1 - January 2025** (Current)
 - Added 5 new pages (features, sports, pricing, how-it-works, download)
-- Expanded from 9 to 14 sports
+- Expanded from 9 to 16 sports (Volleyball and Water Polo added to team sports)
 - Complete pricing tier documentation
 - Comprehensive FAQ (24+ questions)
 - Enhanced SEO with Schema.org structured data
