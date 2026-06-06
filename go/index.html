@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download ScorX on the App Store</title>
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.scorx.com.au/go?action=download">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EntryPoint",
+      "name": "Download ScorX",
+      "description": "Download ScorX — youth sports performance tracking app for iOS",
+      "urlTemplate": "https://www.scorx.com.au/go?action=download",
+      "actionAccessibilityRequirement": {
+        "@type": "EntryPoint",
+        "actionPlatform": "http://schema.org/IOSPlatform"
+      },
+      "actionApplication": {
+        "@type": "MobileApplication",
+        "name": "ScorX",
+        "applicationCategory": "SportsApplication",
+        "operatingSystem": "iOS 18.0 or later",
+        "offers": [
+          {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "AUD",
+            "name": "ScorX Free"
+          },
+          {
+            "@type": "Offer",
+            "price": "49.99",
+            "priceCurrency": "AUD",
+            "name": "ScorX Premium Annual"
+          }
+        ],
+        "url": "https://apps.apple.com/au/app/scorx/id6753859833"
+      }
+    }
+    </script>
+
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0F2A44; color: white; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; text-align: center; padding: 2rem; }
+        .container { max-width: 480px; }
+        h1 { color: #00D4C4; font-size: 2rem; margin-bottom: 1rem; }
+        p { color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: 2rem; }
+        .btn { display: inline-block; background: #00D4C4; color: #0F2A44; padding: 14px 32px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+        .note { font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-top: 1.5rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Taking you to the App Store…</h1>
+        <p>ScorX — youth sports performance tracking for iOS.<br>Free to download, free core features, no credit card required.</p>
+        <a href="https://apps.apple.com/au/app/scorx/id6753859833" class="btn" id="app-store-link">Open App Store</a>
+        <p class="note">If you are not redirected automatically, tap the button above.</p>
+    </div>
+    <script>
+        var action = new URLSearchParams(window.location.search).get('action');
+        if (action === 'download') {
+            setTimeout(function() {
+                window.location.href = 'https://apps.apple.com/au/app/scorx/id6753859833';
+            }, 800);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "schema": "scorx-pricing/1.0",
+  "updated": "2026-06-06",
+  "currency": "AUD",
+  "tiers": [
+    {
+      "id": "free",
+      "name": "ScorX Free",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "trial_days": null,
+      "limits": {
+        "teams": "unlimited",
+        "players": "unlimited",
+        "games": "unlimited"
+      },
+      "features": [
+        "Live scoring across 16 sports",
+        "Team mode and individual stat recording",
+        "Player rotations and playing time tracking",
+        "Match Invitations (distributed stat recording)",
+        "Post-Game Triage Dashboard",
+        "Perception vs Reality analysis",
+        "Full game history and stats",
+        "Activity timeline per game",
+        "Athleticism metric tracking (10 metrics)",
+        "Trend indicators per metric",
+        "Career Timeline",
+        "One standard Player Card style",
+        "Full offline mode"
+      ],
+      "notes": "Core scoring, tracking, and team management tools. Free forever, no credit card required."
+    },
+    {
+      "id": "premium",
+      "name": "ScorX Premium",
+      "price_monthly": 4.99,
+      "price_annual": 49.99,
+      "price_annual_equivalent_monthly": 4.16,
+      "trial_days": 30,
+      "trial_requires_card": false,
+      "family_sharing": true,
+      "family_sharing_members": 5,
+      "limits": {
+        "teams": "unlimited",
+        "players": "unlimited",
+        "games": "unlimited"
+      },
+      "premium_capability_buckets": [
+        {
+          "bucket": "AI analytics",
+          "features": [
+            "AI Training Recommendations (personalised, regenerates every 30 days or after 5 games)",
+            "AI athleticism insight",
+            "AI Season Narratives"
+          ]
+        },
+        {
+          "bucket": "Advanced analytics",
+          "features": [
+            "Age and sex-specific athleticism benchmarking"
+          ]
+        },
+        {
+          "bucket": "Graphics",
+          "features": [
+            "Full Player Card style library",
+            "Sticker format Player Cards",
+            "Custom colour themes and card configurator"
+          ]
+        },
+        {
+          "bucket": "Data portability",
+          "features": [
+            "PDF export",
+            "CSV export",
+            "iCloud sync across devices"
+          ]
+        }
+      ],
+      "notes": "Unlocks AI training intelligence, advanced analytics, and shareable graphics. Includes everything in ScorX Free."
+    }
+  ],
+  "actions": {
+    "download": "https://apps.apple.com/au/app/scorx/id6753859833",
+    "download_redirect": "https://www.scorx.com.au/go?action=download"
+  }
+}

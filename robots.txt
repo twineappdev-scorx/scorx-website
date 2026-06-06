@@ -1,27 +1,50 @@
 # robots.txt for ScorX website
 
-# Allow all search engines
+# Allow all search engines and AI crawlers
 User-agent: *
 Allow: /
 
-# Allow ChatGPT crawler
+# OpenAI
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Allow Perplexity crawler
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
-# Allow Claude crawler
+# Anthropic
 User-agent: ClaudeBot
 Allow: /
 
-# Allow Google AI
+User-agent: anthropic-ai
+Allow: /
+
+# Google
 User-agent: Google-Extended
 Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta
+User-agent: FacebookBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# Structured data files for AI agents — explicitly listed for discoverability
+Allow: /agent.json
+Allow: /pricing.json
+Allow: /llms.txt
 
 # Sitemap
 Sitemap: https://www.scorx.com.au/sitemap.xml
