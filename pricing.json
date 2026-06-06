@@ -1,83 +1,88 @@
 {
-  "schema_version": "1.0",
-  "product": "ScorX",
+  "schema": "scorx-pricing/1.0",
+  "updated": "2026-06-06",
   "currency": "AUD",
-  "trial": {
-    "duration_days": 30,
-    "credit_card_required": false,
-    "applies_to": ["family", "coach"]
-  },
   "tiers": [
     {
       "id": "free",
-      "name": "Free",
+      "name": "ScorX Free",
       "price_monthly": 0,
       "price_annual": 0,
-      "players": 1,
-      "teams": 1,
-      "games_per_month": 20,
-      "history_days": 30,
+      "trial_days": null,
+      "limits": {
+        "teams": "unlimited",
+        "players": "unlimited",
+        "games": "unlimited"
+      },
       "features": [
-        "All 16 sports",
-        "Comprehensive statistics",
-        "Offline mode",
-        "Live game scoring"
+        "Live scoring across 16 sports",
+        "Team mode and individual stat recording",
+        "Player rotations and playing time tracking",
+        "Match Invitations (distributed stat recording)",
+        "Post-Game Triage Dashboard",
+        "Perception vs Reality analysis",
+        "Full game history and stats",
+        "Activity timeline per game",
+        "Athleticism metric tracking (10 metrics)",
+        "Trend indicators per metric",
+        "Career Timeline",
+        "One standard Player Card style",
+        "Full offline mode"
       ],
-      "missing_features": [
-        "AI training recommendations",
-        "Athleticism benchmarking",
-        "iCloud sync",
-        "CSV export",
-        "Family Sharing"
-      ]
+      "notes": "Core scoring, tracking, and team management tools. Free forever, no credit card required."
     },
     {
-      "id": "family",
-      "name": "Family",
+      "id": "premium",
+      "name": "ScorX Premium",
       "price_monthly": 4.99,
       "price_annual": 49.99,
-      "annual_saving_percent": 17,
-      "players": 5,
-      "teams": 1,
-      "games_per_month": 50,
-      "history_years": 2,
+      "price_annual_equivalent_monthly": 4.16,
+      "trial_days": 30,
+      "trial_requires_card": false,
+      "family_sharing": true,
       "family_sharing_members": 5,
-      "features": [
-        "Everything in Free",
-        "AI training recommendations",
-        "Athleticism benchmarking",
-        "iCloud sync",
-        "CSV export",
-        "2-year history",
-        "Family Sharing (5 members)"
-      ]
-    },
-    {
-      "id": "coach",
-      "name": "Coach",
-      "price_monthly": 9.99,
-      "price_annual": 99.99,
-      "annual_saving_percent": 17,
-      "players": 150,
-      "teams": 5,
-      "games_per_month": 100,
-      "history_years": 2,
-      "family_sharing_members": 5,
-      "features": [
-        "Everything in Family",
-        "Team Triage Dashboard",
-        "AI Team Training Plans",
-        "Advanced Analytics (perception vs reality)",
-        "Professional Player Cards",
-        "PDF export",
-        "Multi-team management",
-        "5 teams, 150 players"
-      ]
+      "limits": {
+        "teams": "unlimited",
+        "players": "unlimited",
+        "games": "unlimited"
+      },
+      "premium_capability_buckets": [
+        {
+          "bucket": "AI analytics",
+          "features": [
+            "AI Training Recommendations (personalised, regenerates every 30 days or after 5 games)",
+            "AI athleticism insight",
+            "AI Season Narratives"
+          ]
+        },
+        {
+          "bucket": "Advanced analytics",
+          "features": [
+            "Age and sex-specific athleticism benchmarking"
+          ]
+        },
+        {
+          "bucket": "Graphics",
+          "features": [
+            "Full Player Card style library",
+            "Sticker format Player Cards",
+            "Custom colour themes and card configurator"
+          ]
+        },
+        {
+          "bucket": "Data portability",
+          "features": [
+            "PDF export",
+            "CSV export",
+            "iCloud sync across devices"
+          ]
+        }
+      ],
+      "notes": "Unlocks AI training intelligence, advanced analytics, and shareable graphics. Includes everything in ScorX Free."
     }
   ],
-  "links": {
-    "pricing_page": "https://www.scorx.com.au/pricing.html",
-    "download": "https://www.scorx.com.au/go?action=download",
-    "app_store": "https://apps.apple.com/app/id6753859833"
+  "actions": {
+    "download": "https://apps.apple.com/au/app/scorx/id6753859833",
+    "download_redirect": "https://www.scorx.com.au/go?action=download"
   }
 }

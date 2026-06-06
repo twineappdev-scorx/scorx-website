@@ -1,48 +1,47 @@
 # robots.txt for ScorX website
 
-# Allow all search engines
+# Allow all search engines and AI crawlers
 User-agent: *
 Allow: /
 
-# Allow ChatGPT crawler
+# OpenAI
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Allow Perplexity crawler
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
-# Allow Claude crawlers
+# Anthropic
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
-# Allow Google AI
+# Google
 User-agent: Google-Extended
 Allow: /
 
-# Allow Apple AI
 User-agent: Applebot-Extended
 Allow: /
 
-# Allow Meta AI
+# Meta
 User-agent: FacebookBot
 Allow: /
 
-# Allow Amazon AI
+# Amazon
 User-agent: Amazonbot
 Allow: /
 
-# Allow Common Crawl (used by AI training datasets)
+# Common Crawl
 User-agent: CCBot
 Allow: /
 
-# Agent-readable files
+# Structured data files for AI agents — explicitly listed for discoverability
 Allow: /agent.json
 Allow: /pricing.json
 Allow: /llms.txt
