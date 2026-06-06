@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "product": "ScorX",
+  "currency": "AUD",
+  "trial": {
+    "duration_days": 30,
+    "credit_card_required": false,
+    "applies_to": ["family", "coach"]
+  },
+  "tiers": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "players": 1,
+      "teams": 1,
+      "games_per_month": 20,
+      "history_days": 30,
+      "features": [
+        "All 16 sports",
+        "Comprehensive statistics",
+        "Offline mode",
+        "Live game scoring"
+      ],
+      "missing_features": [
+        "AI training recommendations",
+        "Athleticism benchmarking",
+        "iCloud sync",
+        "CSV export",
+        "Family Sharing"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "price_monthly": 4.99,
+      "price_annual": 49.99,
+      "annual_saving_percent": 17,
+      "players": 5,
+      "teams": 1,
+      "games_per_month": 50,
+      "history_years": 2,
+      "family_sharing_members": 5,
+      "features": [
+        "Everything in Free",
+        "AI training recommendations",
+        "Athleticism benchmarking",
+        "iCloud sync",
+        "CSV export",
+        "2-year history",
+        "Family Sharing (5 members)"
+      ]
+    },
+    {
+      "id": "coach",
+      "name": "Coach",
+      "price_monthly": 9.99,
+      "price_annual": 99.99,
+      "annual_saving_percent": 17,
+      "players": 150,
+      "teams": 5,
+      "games_per_month": 100,
+      "history_years": 2,
+      "family_sharing_members": 5,
+      "features": [
+        "Everything in Family",
+        "Team Triage Dashboard",
+        "AI Team Training Plans",
+        "Advanced Analytics (perception vs reality)",
+        "Professional Player Cards",
+        "PDF export",
+        "Multi-team management",
+        "5 teams, 150 players"
+      ]
+    }
+  ],
+  "links": {
+    "pricing_page": "https://www.scorx.com.au/pricing.html",
+    "download": "https://www.scorx.com.au/go?action=download",
+    "app_store": "https://apps.apple.com/app/id6753859833"
+  }
+}
