@@ -55,8 +55,8 @@ In the meantime, there are already well-researched programs available for most s
 
 **Soccer**
 
-* [11+ and 11+ Kids](https://footballaustralia.com.au/performance/football-australia-perform) — the FIFA-backed program with strong ACL prevention evidence, hosted by Football Australia
-* SHRED Injuries — applicable across multiple sports including soccer
+* [Perform+, 11+ and 11+ Kids](https://footballaustralia.com.au/performance/football-australia-perform) — the FIFA-backed program, hosted by Football Australia
+* [SHRED Injuries](https://www.ucalgary.ca/shred-injuries/all-sports/soccer) — applicable across multiple sports including soccer
 
 **Netball**
 
@@ -65,12 +65,12 @@ In the meantime, there are already well-researched programs available for most s
 
 **Basketball**
 
-* SHRED Injuries — evidence-based and applicable to basketball's cutting movements
+* [SHRED Injuries](https://www.ucalgary.ca/shred-injuries/all-sports/basketball) — evidence-based and applicable to basketball's cutting movements
 
 **Volleyball**
 
 * VolleyVeilig — Dutch-developed, strong evidence base
-* SHRED Injuries
+* [SHRED Injuries](https://www.ucalgary.ca/shred-injuries/all-sports/volleyball) - 
 
 **Touch Football**
 
@@ -79,7 +79,7 @@ In the meantime, there are already well-researched programs available for most s
 **Rugby**
 
 * Activate — World Rugby's warm-up program
-* SHRED Injuries
+* [SHRED Injuries](https://www.ucalgary.ca/shred-injuries/all-sports/rugby)
 
 **Field Hockey**
 
