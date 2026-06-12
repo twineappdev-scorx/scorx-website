@@ -734,6 +734,15 @@ section {
   box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
 }
 
+/* Step cards in dark sections - same contrast override as feature cards */
+.section-dark .step-card h3 {
+  color: var(--scorx-deep-navy) !important;
+}
+
+.section-dark .step-card p {
+  color: var(--scorx-medium-gray) !important;
+}
+
 .section-gradient {
   background: linear-gradient(180deg, var(--scorx-off-white) 0%, white 100%);
 }
