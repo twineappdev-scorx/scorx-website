@@ -743,6 +743,15 @@ section {
   color: var(--scorx-medium-gray) !important;
 }
 
+/* Pricing cards in dark sections - same contrast override as feature cards */
+.section-dark .pricing-card h3 {
+  color: var(--scorx-deep-navy) !important;
+}
+
+.section-dark .pricing-card p {
+  color: var(--scorx-medium-gray) !important;
+}
+
 .section-gradient {
   background: linear-gradient(180deg, var(--scorx-off-white) 0%, white 100%);
 }
