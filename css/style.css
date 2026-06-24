@@ -2324,6 +2324,28 @@ footer::before {
   color: rgba(255, 255, 255, 0.8);
 }
 
+/* Sport card link to dedicated landing page */
+.sport-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--scorx-turquoise);
+  text-decoration: none;
+  transition: gap var(--transition-base), color var(--transition-base);
+}
+
+.sport-card-link:hover {
+  gap: 0.6rem;
+  color: var(--scorx-bright-turquoise);
+}
+
+.section-dark .sport-card-link {
+  color: var(--scorx-bright-turquoise);
+}
+
 /* ===== FEATURE DETAIL CARDS ===== */
 .feature-detail {
   margin-bottom: 3rem;
