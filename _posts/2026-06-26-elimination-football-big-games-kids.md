@@ -17,25 +17,25 @@ Most kids playing finals footy, netball, or basketball this season are about to 
 
 Coaches and parents often try to lower the temperature before a big game by saying it's just like any other. It isn't, and kids generally know that, which is why the line doesn't land. A grand final has the same rules as round three, but it doesn't have the same forgiveness built in. There's no next week to fix it.
 
-The World Cup gives you a cleaner way to say this. Point out that the teams who lost their first or second group game still had a path forward â they could lose once and recover. From the round of 32, that path's gone. One mistake at the wrong moment and it's over, no matter what they did to get there.
+The World Cup gives you a cleaner way to say this. Point out that the teams who lost their first or second group game still had a path forward. They could lose once and recover. From the round of 32, that path's gone. One mistake at the wrong moment and it's over, no matter what they did to get there.
 
 Ask your kid: "Do you reckon the players feel different walking out for a knockout game compared to a group game?" They'll say yes. Ask why. Most kids land on something close to the truth without you needing to supply it: there's no next chance to fix it.
 
 ## The actual skill: playing the same way regardless of the stakes
 
-The best teams in a knockout round don't play differently because of the stakes. They try to play exactly like they did in the group stage â same shape, same patience, same process â and let the result take care of itself. The teams that get caught out are usually the ones who can feel the stakes changing their decisions mid-game.
+The best teams in a knockout round don't play differently because of the stakes. They try to play exactly like they did in the group stage with the same shape, same patience, same process and let the result take care of itself. The teams that get caught out are usually the ones who can feel the stakes changing their decisions mid-game.
 
 This is the single most useful idea to hand a kid before a final. Not "just relax," which is impossible to act on, but "play it like round three." Same routines before the game. Same warm-up. Same first touch, same first tackle, same instructions from the coach. The stakes are different. The way they play shouldn't be.
 
 ## What changes for coaches running a finals week
 
-If you're coaching a side into finals, the World Cup gives you a low-stakes way to raise this with your group before it becomes their problem. A ten-minute conversation about what's different about knockout football â using a match they've already watched, not their own upcoming game â gets the idea into their heads without making the conversation feel like it's about them specifically.
+If you're coaching a side into finals, the World Cup gives you a low-stakes way to raise this with your group before it becomes their problem. A ten-minute conversation about what's different about knockout football. By using a match they've already watched, not their own upcoming game, it gets the idea into their heads without making the conversation feel like it's about them specifically.
 
 Keep training the same in the week before a final. Same drills, same warm-up structure, same rotations talk. The temptation is to do something different because the game feels different. Resist it. Consistency in the lead-up is the thing that actually helps a nervous group, not a special pep talk on the day.
 
 ## What to say in the car on the way to a final
 
-Skip "good luck" and skip "just have fun," which kids have heard so many times it's stopped meaning anything. Try something closer to what the knockout teams are actually doing: "Play it exactly like you played last week. That's all that's different â everything else stays the same."
+Skip "good luck" and skip "just have fun," which kids have heard so many times it's stopped meaning anything. Try something closer to what the knockout teams are actually doing: "Play it exactly like you played last week. That's all that's different. Everything else stays the same."
 
 That sentence does more work than it looks like, because it gives a nervous kid something to do with their hands, so to speak. A specific, familiar instruction is calming in a way that "relax" never manages to be.
 
@@ -55,12 +55,12 @@ Mostly, they shouldn't. Keeping the structure, warm-up, and rotations consistent
 
 ---
 
-*ScorX is free to download. Track the season, not just the final â most development happens long before the game that gets remembered.*
+*ScorX is free to download. Track the season, not just the final. Most development happens long before the game that gets remembered.*
 
 ---
 
 ## Related Sideline Blogs
 
-- [The Carnival Season: How to Make the Most of AFL Carnivals](https://scorx.com.au/blog/junior-afl-carnivals/) â for the carnival-decider version of this same high-stakes moment.
-- [How to Coach a Junior AFL Team](https://scorx.com.au/blog/new-afl-coach-junior-afl-team/) â practical guidance for coaches managing a team through a finals run.
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) â more on reading what's actually happening in a big game beyond the scoreboard.
+- [The Carnival Season: How to Make the Most of AFL Carnivals](https://scorx.com.au/blog/junior-afl-carnivals/) - or the carnival-decider version of this same high-stakes moment.
+- [How to Coach a Junior AFL Team](https://scorx.com.au/blog/new-afl-coach-junior-afl-team/) - practical guidance for coaches managing a team through a finals run.
+- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) - more on reading what's actually happening in a big game beyond the scoreboard.
