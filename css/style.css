@@ -2348,6 +2348,10 @@ footer::before {
 
 /* ===== FEATURE DETAIL CARDS ===== */
 .feature-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
   margin-bottom: 3rem;
   padding: 3rem;
   background: white;
@@ -2357,6 +2361,27 @@ footer::before {
   border: 1px solid rgba(0, 0, 0, 0.04);
   position: relative;
   overflow: hidden;
+}
+
+.feature-detail.reverse .feature-detail-content {
+  order: 2;
+}
+
+.feature-detail.reverse .feature-detail-image {
+  order: 1;
+}
+
+.feature-detail-image img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-base);
+}
+
+.feature-detail-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px rgba(0, 212, 196, 0.3);
 }
 
 .feature-detail::before {
@@ -2966,12 +2991,16 @@ footer::before {
   }
 
   .feature-demo,
-  .feature-demo.reverse {
+  .feature-demo.reverse,
+  .feature-detail,
+  .feature-detail.reverse {
     grid-template-columns: 1fr;
   }
 
   .feature-demo.reverse .feature-demo-text,
-  .feature-demo.reverse .feature-demo-image {
+  .feature-demo.reverse .feature-demo-image,
+  .feature-detail.reverse .feature-detail-content,
+  .feature-detail.reverse .feature-detail-image {
     order: initial;
   }
 
