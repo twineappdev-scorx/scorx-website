@@ -31,14 +31,14 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ page.title }} | ScorX">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:image" content="https://scorx.com.au{{ page.og_image | default: '/images/social-preview.png' }}">
-    <meta property="og:url" content="https://scorx.com.au{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.og_image | default: '/images/social-preview.png' }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }} | ScorX">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-    <meta name="twitter:image" content="https://scorx.com.au{{ page.og_image | default: '/images/twitter-card.jpg' }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.og_image | default: '/images/twitter-card.jpg' }}">
 
     <!-- Apple -->
     <meta name="apple-itunes-app" content="app-id=6753859833">
@@ -51,7 +51,7 @@
     <link rel="shortcut icon" href="/images/favicon32.png">
     <link rel="apple-touch-icon" href="/images/favicon192.png">
 
-    {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}">{% endif %}
+    {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}">{% else %}<link rel="canonical" href="{{ site.url }}{{ page.url }}">{% endif %}
 
     <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="ScorX Blog" href="/blog/feed.xml">
