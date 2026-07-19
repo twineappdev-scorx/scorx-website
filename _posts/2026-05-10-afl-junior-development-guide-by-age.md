@@ -2,7 +2,7 @@
 title: "The Parent's Guide to Junior AFL: U8-U13s"
 description: "AFL junior rules by age group explained — field sizes, team sizes, contact rules, and what your child should actually be focusing on at U8 through U13."
 category: "AFL Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 8
 keywords: "AFL junior rules by age group, junior AFL development, under 8 AFL rules, under 13 AFL development, junior AFL field size"
 ---

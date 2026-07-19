@@ -2,7 +2,7 @@
 title: "What Elimination Football Teaches Kids About Big Games"
 description: "World Cup knockout football has no second chances. Here's what that structure can teach your junior athlete before their own grand final or carnival decider."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "how to prepare kids for big games, junior sport pressure, grand final nerves kids, youth sports parent tips, elimination football"
 ---

@@ -2,9 +2,10 @@
 title: "How to Track AFL Stats on Your Phone During a Game"
 description: "Track your child's AFL stats on the sideline without missing the action. A practical guide for parents on what to record and how to stay present."
 category: "AFL Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "how to track AFL stats phone, AFL stats app, track kids AFL stats, youth AFL statistics, AFL parent sideline"
+last_modified_at: 2026-07-19
 ---
 
 Tracking your child's AFL stats on your phone during a game is easier than it sounds. You don't need to know the game inside out. You don't need to be glued to your screen. You just need to know which four things to watch for, and when to tap.
@@ -63,7 +64,11 @@ You're not building a scouting report. You're building a record of improvement t
 
 ### What AFL stats should I track for a junior player?
 
-Start with disposals, marks, tackles, and goals or behinds. These four give you a clear picture of involvement and effort without needing specialist knowledge to record them.
+Start with disposals, marks, tackles, and goals or behinds. These four give you a clear picture of involvement and effort without needing specialist knowledge to record them, and any parent on the sideline can spot them without having played the game themselves.
+
+Disposals (kicks and handballs) tell you how much of the ball your child is getting. Marks show clean overhead work. Tackles show effort and defensive pressure, arguably the easiest stat to spot because the whistle blows the moment it happens. Goals and behinds are just the scoreboard, but worth noting if your child plays forward.
+
+You don't need anything more complicated than that for a junior player, particularly under 12. Once your child moves into older age groups and starts specialising in a position, you can add more detail: contested possessions for a midfielder, intercept marks for a defender, inside 50s for a forward. But four stats, tracked consistently across a season, tell you more about your child's development than any single big game.
 
 ### Can I track AFL stats on my phone without missing the game?
 

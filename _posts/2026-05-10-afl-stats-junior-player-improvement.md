@@ -2,9 +2,10 @@
 title: "7 AFL Stats That Matter for Junior Development — And 3 That Don't"
 description: "Not all junior AFL stats tell the same story. Here are 7 that show real development by position and age group — and 3 that mislead more than they reveal."
 category: "AFL Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL player stats improvement, AFL stats for kids, AFL player development junior, track AFL stats youth, how to measure AFL improvement"
+last_modified_at: 2026-07-19
 ---
 
 Seven AFL stats will actually tell you whether your child is getting better. Three others get most of the attention on the sideline — and they're the least useful ones to watch.
@@ -50,11 +51,13 @@ Five or six pressure acts in a game is a genuinely good contribution. Write it d
 
 ### Tackles Made
 
-Tackles are visible, exciting, and one of the most meaningful stats across every age group.
+Tackles are visible, exciting, and one of the most meaningful stats to track across every age group, from Auskick right through to Under 16s.
 
-A child who tackles consistently has figured out two important things: where the ball carrier is going, and how to commit to the contest. Both are coachable skills. Both take time. And both show up clearly in the numbers when a player is growing.
+A child who tackles consistently has figured out two important things: where the ball carrier is going, and how to commit to the contest. Both are coachable skills. Both take time to develop, and both show up clearly in the numbers when a player is growing in confidence.
 
-Going from two tackles a game in Round 1 to four by Round 10 is real development. Celebrate it like a goal.
+Tackling also tells you something a lot of other stats can't: effort. A quiet game with the ball can still be a good game if the tackle count is up, because it means the player was working hard without the ball too, chasing and applying pressure. That's exactly the kind of contribution coaches reward with more game time.
+
+Going from two tackles a game in Round 1 to four by Round 10 is real development. Celebrate it like a goal, and ask the coach what to work on next to keep the trend going.
 
 ---
 

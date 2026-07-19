@@ -2,7 +2,7 @@
 title: "Why Speed Changes Everything for Young Athletes in Team Sports"
 description: "Speed isn't just a talent — it's trainable. Learn how building acceleration helps young athletes compete for the ball, get more game time, and grow faster."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "how to build speed in youth sports, junior athlete speed training, acceleration drills for kids, youth sports competitiveness, speed development young athletes"
 ---
