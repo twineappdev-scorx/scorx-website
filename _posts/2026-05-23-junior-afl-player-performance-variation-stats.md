@@ -2,7 +2,7 @@
 title: "Why Your Child's sports Stats Look Different from Game to Game (And Why That's Normal)"
 description: "Sports performance varies week to week — and that's not a problem. Here's why a single bad game tells you almost nothing, and what to look at instead."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL player performance variation stats, youth AFL stats, junior AFL development, tracking AFL player improvement, AFL performance consistency kids"
 ---

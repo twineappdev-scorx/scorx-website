@@ -2,7 +2,7 @@
 title: "How to Coach a Junior AFL Team: A Practical Guide for New Volunteers"
 description: "Starting out as a junior AFL coach? Here's how to run great training sessions, keep every player engaged, prevent injuries, and make better decisions on game day."
 category: "AFL Coaching"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 9
 keywords: "junior AFL coaching guide, community AFL coach tips, how to coach junior AFL, volunteer coach AFL, AFL youth team coaching"
 ---

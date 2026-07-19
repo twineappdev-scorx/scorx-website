@@ -2,7 +2,7 @@
 title: "Why Performance Academies Run Testing Days (And What They're Measuring)"
 description: "Ever wondered why sports academies run testing days? Here's what's actually being measured, and why, explained without the jargon."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "testing days youth sport, sports academy testing day, youth athlete assessment, AFL testing day explained"
 ---

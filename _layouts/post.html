@@ -2,6 +2,33 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "image": "{{ site.url }}{{ page.og_image | default: '/images/social-preview.png' }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": [
+    {% assign blog_authors = page.author | split: " & " %}{% for blog_author in blog_authors %}{ "@type": "Person", "name": {{ blog_author | strip | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "ScorX",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/favicon192.png"
+    }
+  }
+}
+</script>
+
 <main class="blog-post-main">
 
     <section class="blog-post-hero">

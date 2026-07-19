@@ -1,12 +1,14 @@
 ---
 title: "Why Warm-Up and Conditioning is Critical for Preventing Injuries (According to a Researcher Who Played AFLW)"
 date: 2026-05-26
-author: ["ScorX"," & ","Dr Brooke Patterson"]
+author: "Tim Stoddard & Dr Brooke Patterson"
+description: "A proper warm-up can cut serious knee injuries by a third. AFLW researcher Dr Brooke Patterson explains what an evidence-based warm-up actually involves."
 category: Guide
 tags: ["injury prevention", "warm up", "strength training", "junior sport", "AFL", "netball", "soccer"]
 keywords: "junior sport injury prevention, warm up for kids sport, ACL injury prevention, strength training for young athletes, AFL Prep to Play"
 read_time: 7
 slug: warm-up-injury-prevention-junior-sport
+last_modified_at: 2026-07-19
 excerpt: "A proper warm-up isn't just a formality — research shows it can cut serious knee injuries by a third. Dr Brooke Patterson, the La Trobe physiotherapist who co-developed AFL's Prep-to-Play program for women and girls, explains what actually works."
 ---
 
@@ -113,7 +115,11 @@ ScorX tracks the development stats that tell you your child is improving across 
 
 ### How long should a proper warm-up take for junior sport?
 
-Most evidence-based programs run 15–20 minutes. That includes dynamic movement, balance and landing drills, and short targeted strength work. If your child's team is warming up for less than 10 minutes, they're probably not doing enough.
+Most evidence-based programs run 15–20 minutes. That includes dynamic movement (leg swings, hip rotations, lateral shuffles), balance and landing drills, and short targeted strength work like split squats or glute bridges. If your child's team is warming up for less than 10 minutes, they're probably not doing enough to actually change injury risk.
+
+The order matters as much as the length. A rushed two-lap jog and a few arm circles raises heart rate but doesn't prepare the body for contact, cutting, or landing, which is where most serious injuries, including ACL tears, actually happen. Programs like Prep-to-Play and 11+ are structured deliberately: mechanical preparation first, then movement patterns, then strength.
+
+It doesn't need to feel like extra homework for a volunteer coach either. Once the sequence becomes routine, most teams get through it in roughly the time it used to take for a couple of laps and some stretching, just with far more benefit for the time spent.
 
 ### Do these injury prevention programs work for kids, not just adults?
 

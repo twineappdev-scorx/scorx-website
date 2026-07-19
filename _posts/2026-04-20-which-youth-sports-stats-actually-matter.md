@@ -2,9 +2,10 @@
 title: "Which Youth Sports Stats Actually Matter (And Which Don't)"
 description: "Not all statistics tell the same story. Here's how to focus on the numbers that drive real athlete development, not vanity metrics."
 category: "Coaching"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 6
 keywords: "youth sports statistics, junior athlete performance metrics, sports stats for kids, player development analytics"
+last_modified_at: 2026-07-19
 ---
 
 Every parent tracking their child's game has been there: you've got a spreadsheet full of numbers, or a notebook of tallies, and you're not sure what any of it actually means for next Saturday's training session.
@@ -29,9 +30,11 @@ Volume stats count how many times something happened: possessions, shot attempts
 
 ### 3. Quality and efficiency stats (most useful for development)
 
-These are the metrics that actually drive training decisions: disposal efficiency, successful pressure acts, error rate under fatigue, contested vs. uncontested ratios. They tell you *how well* the player is executing the core skills of their position.
+These are the metrics that actually drive training decisions: disposal efficiency, successful pressure acts, error rate under fatigue, contested vs. uncontested ratios. They tell you *how well* the player is executing the core skills of their position, not just how often they touched the ball.
 
-These are harder to collect — which is why most youth sport tracking never gets here — but they're the numbers that coaches can actually act on.
+Take disposal efficiency in AFL. A player who touches the ball 15 times but only lands 8 clean kicks or handballs is giving the ball to the opposition almost half the time. That number tells a coach exactly what to work on at training: decision-making under pressure, not raw ball skills. Compare that to a player on 10 touches with 9 clean disposals, and you've found the more reliable contributor, even though the volume stat looks smaller on paper.
+
+Quality metrics are harder to collect by hand mid-game, which is why most youth sport tracking never gets past outcomes and volume. But they're the numbers a coach can actually build a training session around.
 
 ## Sport-specific stats worth prioritising
 

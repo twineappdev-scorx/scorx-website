@@ -2,7 +2,7 @@
 title: "When Should Your Kid Start a Development Plan?"
 description: "Wondering when a junior athlete should start an individual development plan? Here's the right age, and exactly what to put in it — no jargon."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 6
 keywords: "junior development plan, individual development plan, junior AFL player development, youth sport development plan"
 ---

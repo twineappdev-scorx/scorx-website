@@ -2,7 +2,7 @@
 title: "What Penalty Shootouts Teach Kids About Staying Calm Under Pressure"
 description: "World Cup penalty shootouts look like nerve. They're actually routine. Here's what that means for your junior athlete's next big moment."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 4
 keywords: "how kids handle pressure in sport, penalty shootout composure, junior sport nerves, youth sports parent tips, staying calm under pressure sport"
 ---

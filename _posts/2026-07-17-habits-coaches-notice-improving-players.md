@@ -2,7 +2,7 @@
 title: "The Habits Coaches Notice Most in Kids Who Improve Fastest"
 description: "Coaches notice arrival time, effort in drills, and how a kid treats teammates before they notice talent. Here's what actually gets remembered."
 category: "Coaching"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "junior player development, how to improve in AFL, track athlete improvement, junior AFL habits, community coaching tips"
 ---

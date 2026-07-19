@@ -2,7 +2,7 @@
 title: "What the World Cup Can Actually Teach Your Junior Athlete"
 description: "Skip the vague sportsmanship talk. Here's how to turn World Cup moments into specific things your junior athlete can try at training this week."
 category: "Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 5
 keywords: "what kids learn from watching sport, junior sport development, World Cup lessons for kids, youth sports parent tips, junior athlete development"
 ---

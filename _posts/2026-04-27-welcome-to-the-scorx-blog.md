@@ -2,7 +2,7 @@
 title: "Welcome to the ScorX Blog"
 description: "Introducing the ScorX blog — your go-to resource for youth sports performance tracking, parent guides, and coaching insights."
 category: "News"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 2
 keywords: "youth sports blog, junior athlete development, sports tracking app Australia"
 ---

@@ -2,9 +2,10 @@
 title: "The Parent's Guide to Junior AFL Development"
 description: "A beginner-friendly guide to supporting your child's AFL development from U8s to U18s — what to track, what to say, and what to leave to the coach."
 category: "AFL Guide"
-author: "ScorX Team"
+author: "Tim Stoddard"
 read_time: 11
 keywords: "junior AFL player development, how to support your child in AFL, junior AFL parent guide, AFL development stages, youth AFL tips for parents, AFL rules for junior grades"
+last_modified_at: 2026-07-19
 ---
 
 Supporting your child through junior AFL is one of the most rewarding things you can do as a parent. It's also, if we're honest, one of the most confusing — especially if footy wasn't your game growing up.
@@ -153,7 +154,11 @@ Always privately, and always framed as curiosity rather than criticism. "I'd lov
 
 ### What's the difference between development and performance at junior level?
 
-Performance is how your child goes in a single game. Development is how they go across a season, a year, or a career. A child can perform well in a game without developing (big kid dominating through size) and develop significantly across a season without a standout performance. Development is the slower, more important measure.
+Performance is how your child goes in a single game. Development is how they go across a season, a year, or a career. A child can perform well in a game without developing at all, think of a bigger or faster kid who dominates purely through size or a growth spurt rather than improved skill. They win the ball, they look good on the day, but nothing about their decision-making, technique, or fitness has actually changed.
+
+The reverse happens just as often. A child can develop significantly across a season without ever having a standout performance. Their disposal efficiency might climb from 55% to 70%, their tackling might improve, their reading of the play might sharpen, and none of that shows up as a highlight in any single game.
+
+Development is the slower, more important measure. It's what you're actually trying to build over years of junior sport, not what shows up on a Saturday scoreboard.
 
 ### How do I know if my child is actually improving?
 
