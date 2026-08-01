@@ -82,6 +82,6 @@ Yes, ideally. A weakness without a drill is just an observation — naming it do
 
 ## Related Sideline Blogs
 
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — Pairs well with this one if you're building a plan and need concrete goal ideas to start with.
-- [What Junior AFL Positions Actually Develop in Kids Under 12](https://scorx.com.au/blog/junior-afl-positions-player-development/) — Useful if the focus skill in your kid's plan is position-specific.
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — Helps you pick the right number to track once the plan is set.
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — Pairs well with this one if you're building a plan and need concrete goal ideas to start with.
+- [What Junior AFL Positions Actually Develop in Kids Under 12](https://www.scorx.com.au/blog/junior-afl-positions-player-development/) — Useful if the focus skill in your kid's plan is position-specific.
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — Helps you pick the right number to track once the plan is set.

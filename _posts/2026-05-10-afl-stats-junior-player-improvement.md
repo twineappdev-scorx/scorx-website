@@ -173,9 +173,9 @@ Two or three is a practical limit if you also want to watch the game. Quality tr
 
 **Related reading**
 
-- [How to Track AFL Stats on Your Phone During a Game](https://scorx.com.au/blog/how-to-track-afl-stats-phone/) — the practical guide to recording these stats on the sideline without missing the action
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — how the numbers pair with what you see in movement, effort, and body language
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — turning these stats into season targets that keep your athlete motivated
+- [How to Track AFL Stats on Your Phone During a Game](https://www.scorx.com.au/blog/how-to-track-afl-stats-phone/) — the practical guide to recording these stats on the sideline without missing the action
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — how the numbers pair with what you see in movement, effort, and body language
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — turning these stats into season targets that keep your athlete motivated
 
 ---
 

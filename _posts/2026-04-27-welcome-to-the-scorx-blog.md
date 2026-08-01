@@ -33,10 +33,10 @@ We built it because we were tired of parents going home from games not knowing h
 
 **Start here**
 
-- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — the principles behind tracking numbers that drive development, not vanity metrics
-- [The Parent's Guide to Junior AFL Development](https://scorx.com.au/blog/parents-guide-junior-afl-development/) — a complete roadmap from Auskick through to U18s
-- [How to Coach a Junior AFL Team](https://scorx.com.au/blog/new-afl-coach-junior-afl-team/) — a practical guide for volunteer coaches starting from scratch
+- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://www.scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — the principles behind tracking numbers that drive development, not vanity metrics
+- [The Parent's Guide to Junior AFL Development](https://www.scorx.com.au/blog/parents-guide-junior-afl-development/) — a complete roadmap from Auskick through to U18s
+- [How to Coach a Junior AFL Team](https://www.scorx.com.au/blog/new-afl-coach-junior-afl-team/) — a practical guide for volunteer coaches starting from scratch
 
 ---
 
-Download ScorX free and start tracking your athlete today. New to the app? Check out our [How It Works](https://scorx.com.au/how-it-works.html) guide to get set up in under two minutes.
+Download ScorX free and start tracking your athlete today. New to the app? Check out our [How It Works](https://www.scorx.com.au/how-it-works.html) guide to get set up in under two minutes.

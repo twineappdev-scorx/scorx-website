@@ -61,6 +61,6 @@ Mostly, they shouldn't. Keeping the structure, warm-up, and rotations consistent
 
 ## Related Sideline Blogs
 
-- [The Carnival Season: How to Make the Most of AFL Carnivals](https://scorx.com.au/blog/junior-afl-carnivals/) - or the carnival-decider version of this same high-stakes moment.
-- [How to Coach a Junior AFL Team](https://scorx.com.au/blog/new-afl-coach-junior-afl-team/) - practical guidance for coaches managing a team through a finals run.
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) - more on reading what's actually happening in a big game beyond the scoreboard.
+- [The Carnival Season: How to Make the Most of AFL Carnivals](https://www.scorx.com.au/blog/junior-afl-carnivals/) - or the carnival-decider version of this same high-stakes moment.
+- [How to Coach a Junior AFL Team](https://www.scorx.com.au/blog/new-afl-coach-junior-afl-team/) - practical guidance for coaches managing a team through a finals run.
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) - more on reading what's actually happening in a big game beyond the scoreboard.

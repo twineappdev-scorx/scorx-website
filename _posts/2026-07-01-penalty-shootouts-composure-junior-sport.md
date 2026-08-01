@@ -59,6 +59,6 @@ Any age where a kid takes a set shot, free kick, or serve with a pause beforehan
 
 ## Related Sideline Blogs
 
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — more on the specific, observable things worth noticing instead of just the scoreboard.
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — for parents wanting to separate what's actually useful to track from what just looks impressive.
-- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://scorx.com.au/blog/fuel-sleep-game-day-performance/) — another look at the unglamorous preparation behind a calm performance on game day.
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — more on the specific, observable things worth noticing instead of just the scoreboard.
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — for parents wanting to separate what's actually useful to track from what just looks impressive.
+- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/) — another look at the unglamorous preparation behind a calm performance on game day.

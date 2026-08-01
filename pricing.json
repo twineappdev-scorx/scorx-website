@@ -83,6 +83,6 @@
   ],
   "actions": {
     "download": "https://apps.apple.com/au/app/scorx/id6753859833",
-    "download_redirect": "https://www.scorx.com.au/go?action=download"
+    "download_redirect": "https://www.scorx.com.au/go/?action=download"
   }
 }

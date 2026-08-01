@@ -90,9 +90,9 @@ ScorX is designed for exactly this. Free to download, built for parents recordin
 
 **Related reading**
 
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — which stats are worth tracking by position and age group, and which ones mislead
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — what to notice between the stats: movement, effort, and body language
-- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — the underlying principles behind choosing the right numbers across any sport
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — which stats are worth tracking by position and age group, and which ones mislead
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — what to notice between the stats: movement, effort, and body language
+- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://www.scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — the underlying principles behind choosing the right numbers across any sport
 
 ---
 

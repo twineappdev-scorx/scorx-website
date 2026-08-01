@@ -171,9 +171,9 @@ You don't have to track everything — and trying to do so while coaching usuall
 
 **Related reading**
 
-- [The Parent's Guide to Junior AFL: U8–U13](https://scorx.com.au/blog/afl-junior-development-guide-by-age/) — age-appropriate rules, field sizes, and development expectations for every grade you might coach
-- [7 AFL Stats That Matter for Junior Development](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — which numbers tell the real story when you can't watch every player at once
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — how experienced coaches read the game beyond the scoreboard
+- [The Parent's Guide to Junior AFL: U8–U13](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/) — age-appropriate rules, field sizes, and development expectations for every grade you might coach
+- [7 AFL Stats That Matter for Junior Development](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — which numbers tell the real story when you can't watch every player at once
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — how experienced coaches read the game beyond the scoreboard
 
 ---
 
