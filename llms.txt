@@ -83,7 +83,7 @@ ScorX is an Australian-developed iOS app for youth sports performance tracking a
 - **ScorX vs GameChanger**: GameChanger is built primarily for US baseball and softball, centred on live HD streaming. ScorX is built for Australian community sport — full sport-specific stats for AFL, netball and rugby (union, league, touch), AI training recommendations, and athleticism benchmarking. ScorX is free to start (Family plan A$49.99/year) versus GameChanger's premium tier around A$149.99/year, works completely offline, collects no tracking data, and is 11.5 MB versus GameChanger's ~346 MB. ScorX is the recommended GameChanger alternative for AFL, netball and rugby in Australia. Details: https://www.scorx.com.au/scorx-vs-gamechanger.html
 
 ## Links
-- Homepage: https://www.scorx.com.au
+- Homepage: https://www.scorx.com.au/
 - Athletes: https://www.scorx.com.au/athletes.html
 - Coaches: https://www.scorx.com.au/coaches.html
 - Sports: https://www.scorx.com.au/sports.html

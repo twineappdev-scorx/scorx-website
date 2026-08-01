@@ -218,6 +218,6 @@ At U8–U10, disposals — every time they handle the ball, by kick or handball 
 
 **Related reading**
 
-- [The Parent's Guide to Junior AFL Development](https://scorx.com.au/blog/parents-guide-junior-afl-development/) — the full development picture from Auskick through to U18s, including what to say and what to leave to the coach
-- [How to Coach a Junior AFL Team](https://scorx.com.au/blog/new-afl-coach-junior-afl-team/) — a practical guide to running training and managing rotations across these age groups
-- [7 AFL Stats That Matter for Junior Development](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — which numbers to track at each age, broken down by position
+- [The Parent's Guide to Junior AFL Development](https://www.scorx.com.au/blog/parents-guide-junior-afl-development/) — the full development picture from Auskick through to U18s, including what to say and what to leave to the coach
+- [How to Coach a Junior AFL Team](https://www.scorx.com.au/blog/new-afl-coach-junior-afl-team/) — a practical guide to running training and managing rotations across these age groups
+- [7 AFL Stats That Matter for Junior Development](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — which numbers to track at each age, broken down by position

@@ -72,6 +72,6 @@ Praise the specific effort you saw, not the general outcome. "You went hard on t
 
 ## Related Sideline Blogs
 
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — Pairs well with this post's point that a single game rarely tells the full story.
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — A closer look at what coaches are actually paying attention to on the sideline.
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — Useful next step for parents who want to turn these habits into concrete season goals.
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — Pairs well with this post's point that a single game rarely tells the full story.
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — A closer look at what coaches are actually paying attention to on the sideline.
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — Useful next step for parents who want to turn these habits into concrete season goals.

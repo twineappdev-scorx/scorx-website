@@ -3,7 +3,7 @@
 **Version:** 1.1
 **Updated:** January 19, 2025
 **Purpose:** Official website for ScorX iOS app - comprehensive PRD implementation
-**Website URL:** https://scorx.com.au
+**Website URL:** https://www.scorx.com.au
 **Contact:** scorxapp@gmail.com
 
 ---
@@ -429,7 +429,7 @@ If tracking analytics, use privacy-first options:
 
 **Website Email:** scorxapp@gmail.com
 **Developer:** Twine App Dev
-**Website URL:** https://scorx.com.au
+**Website URL:** https://www.scorx.com.au
 **App Store:** [Link to be added after app approval]
 
 ---

@@ -65,6 +65,6 @@ The principle works with any sport they do watch, including replays of their own
 
 ## Related Sideline Blogs
 
-- [What Development Coaches Watch at Junior AFL](https://scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — same idea applied week to week: what to actually look for instead of just watching the scoreboard.
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — for parents who want to turn a moment like this into something tracked over a whole season.
-- [Why Speed Changes Everything for Young Athletes](https://scorx.com.au/blog/how-to-build-speed-young-athletes/) — another example of a specific, trainable thing rather than a general virtue.
+- [What Development Coaches Watch at Junior AFL](https://www.scorx.com.au/blog/parents-sideline-playbook-junior-afl/) — same idea applied week to week: what to actually look for instead of just watching the scoreboard.
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — for parents who want to turn a moment like this into something tracked over a whole season.
+- [Why Speed Changes Everything for Young Athletes](https://www.scorx.com.au/blog/how-to-build-speed-young-athletes/) — another example of a specific, trainable thing rather than a general virtue.

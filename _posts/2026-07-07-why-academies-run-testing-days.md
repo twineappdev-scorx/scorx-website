@@ -58,6 +58,6 @@ Not with a program worth being part of. One number on one morning doesn't erase 
 
 ## Related Sideline Blogs
 
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — A useful companion for parents wondering which numbers are actually worth watching, testing day or not.
-- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — Cuts through the noise on data in youth sport more broadly.
-- [Why Speed Changes Everything for Young Athletes](https://scorx.com.au/blog/how-to-build-speed-young-athletes/) — Goes deeper on one of the specific qualities testing days measure, and how it actually develops in kids.
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — A useful companion for parents wondering which numbers are actually worth watching, testing day or not.
+- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://www.scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — Cuts through the noise on data in youth sport more broadly.
+- [Why Speed Changes Everything for Young Athletes](https://www.scorx.com.au/blog/how-to-build-speed-young-athletes/) — Goes deeper on one of the specific qualities testing days measure, and how it actually develops in kids.

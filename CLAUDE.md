@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is the official marketing website for **ScorX**, a multi-sport scoring and statistics iOS app. The site is a **static HTML/CSS website** with no build process, frameworks, or server-side code.
 
 **Key Information:**
-- **Website URL:** https://scorx.com.au
+- **Website URL:** https://www.scorx.com.au
 - **Target Platform:** iOS 18.0+
 - **Contact Email:** scorxapp@gmail.com
 - **Developer:** Twine App Dev

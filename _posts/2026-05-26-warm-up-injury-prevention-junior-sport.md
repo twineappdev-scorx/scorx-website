@@ -145,7 +145,7 @@ ACL (anterior cruciate ligament) tears are among the most serious and most preve
 
 ## Related Sideline Blogs
 
-* [Why Speed Changes Everything for Young Athletes](https://scorx.com.au/blog/how-to-build-speed-young-athletes/) — Understanding what physical development actually looks like across a junior season.
-* [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://scorx.com.au/blog/fuel-sleep-game-day-performance/) — The recovery side of the equation — what happens after training matters as much as the session.
-* [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — Practical goal-setting that keeps junior players growing through the whole year.
+* [Why Speed Changes Everything for Young Athletes](https://www.scorx.com.au/blog/how-to-build-speed-young-athletes/) — Understanding what physical development actually looks like across a junior season.
+* [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/) — The recovery side of the equation — what happens after training matters as much as the session.
+* [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — Practical goal-setting that keeps junior players growing through the whole year.
 

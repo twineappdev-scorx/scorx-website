@@ -90,10 +90,10 @@ ScorX tracks all of this automatically as you score games in real time. At the e
 
 **Related reading**
 
-- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — the AFL-specific breakdown of which numbers show real improvement by position and age group
-- [How to Track AFL Stats on Your Phone During a Game](https://scorx.com.au/blog/how-to-track-afl-stats-phone/) — putting these principles into practice on the sideline without missing the action
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — how to turn the right stats into goals that actually mean something
+- [7 AFL Stats That Matter for Junior Development — And 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — the AFL-specific breakdown of which numbers show real improvement by position and age group
+- [How to Track AFL Stats on Your Phone During a Game](https://www.scorx.com.au/blog/how-to-track-afl-stats-phone/) — putting these principles into practice on the sideline without missing the action
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — how to turn the right stats into goals that actually mean something
 
 ---
 
-Want to see how ScorX tracks these stats across all 16 supported sports? Check out our [Features page](https://scorx.com.au/features.html) or [download the app free](https://scorx.com.au/download.html) to start tracking your next game.
+Want to see how ScorX tracks these stats across all 16 supported sports? Check out our [Features page](https://www.scorx.com.au/features.html) or [download the app free](https://www.scorx.com.au/download.html) to start tracking your next game.

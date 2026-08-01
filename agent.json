@@ -7,7 +7,7 @@
     "platform": "iOS",
     "os_minimum": "iOS 18.0",
     "developer": "Twine App Dev",
-    "website": "https://www.scorx.com.au",
+    "website": "https://www.scorx.com.au/",
     "app_store_url": "https://apps.apple.com/au/app/scorx/id6753859833",
     "app_store_id": "6753859833",
     "contact": "scorxapp@gmail.com",
@@ -74,7 +74,7 @@
       "id": "download",
       "label": "Download ScorX",
       "description": "Redirect to the ScorX App Store listing",
-      "url": "https://www.scorx.com.au/go?action=download",
+      "url": "https://www.scorx.com.au/go/?action=download",
       "method": "GET"
     },
     {

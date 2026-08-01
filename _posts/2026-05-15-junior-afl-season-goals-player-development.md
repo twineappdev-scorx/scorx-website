@@ -111,6 +111,6 @@ Look for consistency, not standout moments. A player who is making slightly bett
 
 **Related reading**
 
-- [7 AFL Stats That Matter for Junior Development](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — the specific numbers that make the strongest season targets, by position and age group
-- [The Parent's Guide to Junior AFL Development](https://scorx.com.au/blog/parents-guide-junior-afl-development/) — the bigger development picture these goals sit within, from Auskick through to U18s
-- [The Carnival Season: How to Make the Most of AFL Carnivals](https://scorx.com.au/blog/junior-afl-carnivals/) — how carnival weekends can reset and sharpen your mid-season goals
+- [7 AFL Stats That Matter for Junior Development](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — the specific numbers that make the strongest season targets, by position and age group
+- [The Parent's Guide to Junior AFL Development](https://www.scorx.com.au/blog/parents-guide-junior-afl-development/) — the bigger development picture these goals sit within, from Auskick through to U18s
+- [The Carnival Season: How to Make the Most of AFL Carnivals](https://www.scorx.com.au/blog/junior-afl-carnivals/) — how carnival weekends can reset and sharpen your mid-season goals

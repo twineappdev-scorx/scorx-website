@@ -102,9 +102,9 @@ When you add an upcoming game to ScorX, the app automatically schedules a series
 
 **Related reading**
 
-- [Why Speed Changes Everything for Young Athletes in Team Sports](https://scorx.com.au/blog/how-to-build-speed-young-athletes/) — the other physical quality that determines how much ball your kid gets
-- [The Carnival Season: How to Make the Most of AFL Carnivals](https://scorx.com.au/blog/junior-afl-carnivals/) — when game day prep matters most: back-to-back games across a weekend
-- [5 Development Goals to Set at the Start of the AFL Season](https://scorx.com.au/blog/junior-afl-season-goals-player-development/) — building a full-season picture that includes the off-field factors
+- [Why Speed Changes Everything for Young Athletes in Team Sports](https://www.scorx.com.au/blog/how-to-build-speed-young-athletes/) — the other physical quality that determines how much ball your kid gets
+- [The Carnival Season: How to Make the Most of AFL Carnivals](https://www.scorx.com.au/blog/junior-afl-carnivals/) — when game day prep matters most: back-to-back games across a weekend
+- [5 Development Goals to Set at the Start of the AFL Season](https://www.scorx.com.au/blog/junior-afl-season-goals-player-development/) — building a full-season picture that includes the off-field factors
 
 ---
 
