@@ -5,6 +5,7 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior development plan, individual development plan, junior AFL player development, youth sport development plan"
+cluster: "afl"
 ---
 
 You've probably heard the phrase somewhere — a coach mentioned it at training, another parent dropped it in the group chat, or it turned up in a club email about "player pathways." Individual development plan. It sounds like something that needs a meeting room and a laminator. It doesn't.
@@ -76,7 +77,7 @@ Yes, ideally. A weakness without a drill is just an observation — naming it do
 
 ---
 
-*ScorX is free to download. Set your first development goal this weekend.*
+*ScorX is free to download. See how [junior AFL stat tracking and development planning](/sports/afl/) fit together, then set your first development goal this weekend.*
 
 ---
 

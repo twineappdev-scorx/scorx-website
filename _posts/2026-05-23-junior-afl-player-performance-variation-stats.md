@@ -5,6 +5,7 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL player performance variation stats, youth AFL stats, junior AFL development, tracking AFL player improvement, AFL performance consistency kids"
+cluster: "afl"
 ---
 
 Your child had ten touches last week and three this week. Same kid. Same club. Different oval.
@@ -57,7 +58,7 @@ If you are going to record anything, record enough of it to see a trend.
 
 Three or four games of data starts to mean something. Ten games is genuinely useful. One game, no matter how dramatic it felt on the day, is noise.
 
-Apps like ScorX let you log touches, disposals, goal assists, and pressure acts game by game — not to obsess over any individual number, but so that at the end of the season your child can look back and see, clearly, that they improved. Not a feeling. Actual numbers. Kids who can see their own improvement are more likely to keep playing — which, at this age, is the whole point.
+Apps like [ScorX for junior AFL](/sports/afl/) let you log touches, disposals, goal assists, and pressure acts game by game — not to obsess over any individual number, but so that at the end of the season your child can look back and see, clearly, that they improved. Not a feeling. Actual numbers. Kids who can see their own improvement are more likely to keep playing — which, at this age, is the whole point.
 
 ---
 

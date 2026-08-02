@@ -6,6 +6,7 @@ author: "Tim Stoddard"
 read_time: 11
 keywords: "junior AFL player development, how to support your child in AFL, junior AFL parent guide, AFL development stages, youth AFL tips for parents, AFL rules for junior grades"
 last_modified_at: 2026-07-19
+cluster: "afl"
 ---
 
 Supporting your child through junior AFL is one of the most rewarding things you can do as a parent. It's also, if we're honest, one of the most confusing — especially if footy wasn't your game growing up.
@@ -174,4 +175,4 @@ Look for patterns across multiple games rather than individual performances. Are
 
 ---
 
-*If you want a way to track your child's development across a season, ScorX is free to download. It records game statistics across 16 sports — including AFL — and helps you see your child's progress over time, not just from one Saturday to the next.*
+*If you want a way to track your child's development across a season, ScorX is free to download. See how [junior AFL stat tracking](/sports/afl/) works — disposals, marks and tackles recorded from the sideline — and how it builds a picture of your child's progress over time, not just from one Saturday to the next.*

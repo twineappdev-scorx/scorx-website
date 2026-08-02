@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "how to watch junior AFL player development parent, junior AFL parent tips, junior player development AFL, AFL sideline guide, AFL stats for kids"
+cluster: "afl"
 ---
 
 Development coaches at junior AFL games barely notice the goals. Goals are fine. But goals aren't where the game actually happens for a nine-year-old.
@@ -53,7 +54,7 @@ Goals are easy to count. But the numbers that track development are disposals �
 
 A lot of parents find that even tracking two or three of these numbers changes what they see. Their kid might not kick goals but consistently tackle more than anyone else. Or they might start the game well and fade in the last quarter — a pattern that was always there but never visible when you were just watching the score.
 
-ScorX is built for exactly this. Parents record stats from the sideline during the game — disposals, tackles, contested ball. Not as a job, but as a way of watching with purpose. By the end of the game you have something real to talk about. Not "you played well" or "tough day." Something like: you had nine disposals in the first half and four in the second. What changed?
+[ScorX for AFL](/sports/afl/) is built for exactly this. Parents record stats from the sideline during the game — disposals, tackles, contested ball. Not as a job, but as a way of watching with purpose. By the end of the game you have something real to talk about. Not "you played well" or "tough day." Something like: you had nine disposals in the first half and four in the second. What changed?
 
 That kind of conversation is where development actually happens. Most kids finish a season with a vague feeling they got better. Seeing it in their own numbers — watching those numbers move across a season — is something else entirely.
 

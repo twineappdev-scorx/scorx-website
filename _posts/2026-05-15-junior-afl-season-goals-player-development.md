@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL season goals player development, AFL player development kids, how to set goals junior AFL, youth AFL improvement, AFL development goals"
+cluster: "afl"
 ---
 
 Before your kid's first pre-season session, it's worth asking one question: what does a good season actually look like?
@@ -81,7 +82,7 @@ The simplest approach: after each game, spend five minutes on three questions.
 
 That's it. Five minutes. Done over a season, it builds a picture that tells you far more than the ladder ever will.
 
-If you want something more structured, ScorX lets you track stats like disposals, tackles, and contest numbers directly from your phone during the game. At the end of the season, your kid gets to see the actual arc — not a feeling, but numbers. That tends to hit differently.
+If you want something more structured, [ScorX lets you track junior AFL stats](/sports/afl/) like disposals, tackles, and contest numbers directly from your phone during the game. At the end of the season, your kid gets to see the actual arc — not a feeling, but numbers. That tends to hit differently.
 
 ---
 

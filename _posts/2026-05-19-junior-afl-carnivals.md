@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 7
 keywords: "junior AFL carnival player development, AFL carnival Queensland, track kids AFL stats, junior player development, AFL carnival tips for parents"
+cluster: "afl"
 ---
 
 A carnival weekend tells you more about your kid's development than ten regular-season games. Three or four games in two days, against different clubs, different styles, different pressures — it's the closest thing junior footy has to a genuine stress test.
@@ -63,7 +64,7 @@ If you want the weekend to be genuinely useful for development — not just a go
 
 It doesn't have to be elaborate. A note on your phone between games: three things you noticed, one thing that surprised you, one thing they did consistently across the game. Three minutes of writing that gives you something real to work with later.
 
-ScorX makes this easier — you can log stats and observations during the game and review them across the whole carnival at the end of the weekend. Seeing the numbers side by side across game one, two, and three is a different kind of clarity than trying to reconstruct it on the drive home Sunday night. But even without an app, the habit of writing something down matters more than the tool you use.
+[ScorX for junior AFL](/sports/afl/) makes this easier — you can log stats and observations during the game and review them across the whole carnival at the end of the weekend. Seeing the numbers side by side across game one, two, and three is a different kind of clarity than trying to reconstruct it on the drive home Sunday night. But even without an app, the habit of writing something down matters more than the tool you use.
 
 ## What to Do With What You Find
 

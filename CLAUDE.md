@@ -236,11 +236,19 @@ This is a **static site with zero build tooling**. When making changes:
 - Tennis, Badminton, Squash, Racquetball, Pickleball, Table Tennis
 
 ### Pricing Tiers
-**Current Structure** (verify before updating):
-1. **Free:** $0 - 1 team, 1 player, 5 games/month
-2. **Family:** $4.99/month or $49.99/year - 5 players, iCloud sync, CSV export
-3. **Coach:** TBA (Coming v1.1)
-4. **Club:** TBA (Coming v1.1)
+**`pricing.json` is the single source of truth.** Read it before writing any pricing copy;
+the tier model changed in April 2026 and older pages may still be stale.
+
+1. **ScorX Free:** $0 forever — unlimited teams, players and games. All scoring, tracking,
+   rotations and coaching tools included. No credit card.
+2. **ScorX Premium:** A$4.99/month or A$49.99/year — adds AI training recommendations,
+   age/sex athleticism benchmarking, full Player Card library, AI Season Narratives,
+   PDF/CSV export and iCloud sync. 30-day free trial, no card required. Family Sharing
+   for up to 5 members.
+
+The old **Family**, **Coach** and **Club** tiers no longer exist. Premium replaced Family
+and Coach; all coaching tools are now free with no exceptions. Never reintroduce these tier
+names into site copy.
 
 ### Key Statistics & Claims
 When updating content, maintain these established claims:

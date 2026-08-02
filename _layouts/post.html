@@ -58,6 +58,34 @@ layout: default
             </div>
 
             <footer class="blog-post-footer">
+                {%- if page.cluster == 'afl' -%}
+                {%- assign cluster_posts = site.posts | where: "cluster", "afl" -%}
+                {%- assign cluster_total = cluster_posts | size -%}
+                {%- if cluster_total > 1 -%}
+                <div class="blog-post-cluster">
+                    <h3 class="blog-post-cluster-title">More on junior AFL</h3>
+                    <p class="blog-post-cluster-intro">Part of our guide to <a href="/sports/afl/">junior AFL stat tracking and player development</a>.</p>
+                    <ul class="blog-post-cluster-list">
+                        {%- comment -%}
+                        Start from this post's own position and walk forward, so each post in the
+                        cluster links to a different set of siblings rather than every post
+                        pointing at the four most recent.
+                        {%- endcomment -%}
+                        {%- assign current_index = 0 -%}
+                        {%- for cluster_post in cluster_posts -%}
+                            {%- if cluster_post.url == page.url -%}{%- assign current_index = forloop.index0 -%}{%- endif -%}
+                        {%- endfor -%}
+                        {%- if cluster_total < 5 -%}{%- assign show_count = cluster_total | minus: 1 -%}{%- else -%}{%- assign show_count = 4 -%}{%- endif -%}
+                        {%- for offset in (1..show_count) -%}
+                            {%- assign sibling_index = current_index | plus: offset | modulo: cluster_total -%}
+                            {%- assign sibling = cluster_posts[sibling_index] -%}
+                        <li><a href="{{ sibling.url }}">{{ sibling.title }}</a></li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+                {%- endif -%}
+                {%- endif %}
+
                 <div class="blog-post-newsletter">
                     <h3 class="blog-post-newsletter-title">Enjoyed this? Get the next one.</h3>
                     <p class="blog-post-newsletter-sub">Tips for parents and coaches — delivered when we publish.</p>
