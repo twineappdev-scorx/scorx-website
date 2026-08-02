@@ -20,7 +20,7 @@ description: "Practical guides and performance insights for parents tracking kid
                 <article class="blog-card">
                     {% if post.excerpt_image %}
                     <a href="{{ post.url }}" class="blog-card-image-link">
-                        <img src="{{ post.excerpt_image }}" alt="{{ post.title }}" class="blog-card-image" loading="lazy">
+                        <img src="{{ post.excerpt_image }}" alt="{{ post.excerpt_image_alt | default: post.title }}" class="blog-card-image" loading="lazy" decoding="async">
                     </a>
                     {% endif %}
                     <div class="blog-card-body">

@@ -5,6 +5,9 @@ category: "Coaching"
 author: "Tim Stoddard"
 read_time: 5
 keywords: "junior player development, how to improve in AFL, track athlete improvement, junior AFL habits, community coaching tips"
+excerpt_image: /images/habits-coaches-notice.webp
+excerpt_image_alt: "A junior AFL player kicking a football on a suburban oval before training starts"
+og_image: /images/habits-coaches-notice.webp
 ---
 
 Coaches remember the kid who was warming up before training officially started, more clearly than they remember the kid who kicked the best goal that day. Talent gets noticed in the moment. Habits get noticed over a season.
@@ -22,6 +25,13 @@ You don't need to manufacture this. If your kid is naturally an early arriver, t
 ## Full effort in the boring drills is the real tell
 
 Anyone can go hard in a match. It's what a kid does in a repetitive, low-stakes drill. It's the fifteenth handball in a row, the cone drill nobody's watching closely that tells a coach how a player actually trains.
+
+<figure class="blog-post-figure">
+  <img src="/images/afl_handball_practice.webp"
+       alt="A junior AFL player handballing during a cone drill while teammates wait their turn"
+       width="1920" height="1280" loading="lazy" decoding="async">
+  <figcaption>The fifteenth handball in a row, with nobody watching closely, tells a coach more than a highlight does.</figcaption>
+</figure>
 
 Coaches talk about this a lot: the kid who treats a warm-up lap like it's the last quarter of a final. Not because the drill demands it, but because that's just how they move. It's not about being the fastest kid on the track. It's about not switching off just because the stakes feel low.
 
