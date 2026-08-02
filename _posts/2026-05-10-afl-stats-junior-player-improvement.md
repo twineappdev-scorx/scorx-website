@@ -6,6 +6,7 @@ author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL player stats improvement, AFL stats for kids, AFL player development junior, track AFL stats youth, how to measure AFL improvement"
 last_modified_at: 2026-07-19
+cluster: "afl"
 ---
 
 Seven AFL stats will actually tell you whether your child is getting better. Three others get most of the attention on the sideline — and they're the least useful ones to watch.
@@ -179,4 +180,4 @@ Two or three is a practical limit if you also want to watch the game. Quality tr
 
 ---
 
-*ScorX is free to download. Track your child's first game this weekend and start seeing their development in the numbers.*
+*ScorX is free to download. See how [junior AFL stat tracking](/sports/afl/) works, then track your child's first game this weekend and start seeing their development in the numbers.*

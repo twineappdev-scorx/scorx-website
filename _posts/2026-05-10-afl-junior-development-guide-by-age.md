@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 8
 keywords: "AFL junior rules by age group, junior AFL development, under 8 AFL rules, under 13 AFL development, junior AFL field size"
+cluster: "afl"
 ---
 
 Every junior AFL age group has different rules, different field sizes, and different things your child should be working on. Here's what those are, and why they're designed that way.
@@ -186,7 +187,7 @@ Your child will play a full season of junior footy and at the end of it, you'll 
 
 Kids need to see their own progress. Not to feel proud — though that matters too — but because improvement you can't see doesn't feel real. A kid who can look back at their first game of the season and compare it to their last one has something to hold onto. Something that belongs to them, separate from whether the team won.
 
-That's what ScorX tracks. Disposals — every time your child touches the ball, whether kicking or handballing — marks, goals, and tackles, recorded simply from the sideline. Not to build a performance report. To give your kid a story about their own season.
+That's what [ScorX tracks for junior AFL](/sports/afl/). Disposals — every time your child touches the ball, whether kicking or handballing — marks, goals, and tackles, recorded simply from the sideline. Not to build a performance report. To give your kid a story about their own season.
 
 Free to download. You can track your first game this weekend.
 

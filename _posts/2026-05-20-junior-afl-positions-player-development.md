@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL positions player development, AFL position rotation, junior AFL coaching, AFL under 12 development, youth AFL skills"
+cluster: "afl"
 ---
 
 When your child keeps getting moved to a different position each week, it's not because the coach doesn't know where to put them. It's because the AFL doesn't want them stuck in one spot yet — and there's a good reason for that.
@@ -55,7 +56,7 @@ Stats help here — not because you need a spreadsheet, but because numbers make
 
 A child who's developing might have a quiet game in defence where they only had three disposals — but two of them led directly to team goals. A forward who's improving might start appearing in stats further from the goal as they learn to create opportunities rather than just finish them.
 
-ScorX was designed for exactly this. Parents record their own child's stats during the game — it takes about thirty seconds per quarter — and over time you get a picture of development that no end-of-season trophy can give you. When your kid rotates to midfield for the first time and suddenly has twelve disposals, you see it. When they play back for the next two rounds and their tackles go up, you see that too.
+[ScorX for AFL](/sports/afl/) was designed for exactly this. Parents record their own child's stats during the game — it takes about thirty seconds per quarter — and over time you get a picture of development that no end-of-season trophy can give you. When your kid rotates to midfield for the first time and suddenly has twelve disposals, you see it. When they play back for the next two rounds and their tackles go up, you see that too.
 
 That's what "your kid is developing really well" actually looks like when you can see the numbers.
 

@@ -5,6 +5,7 @@ category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL game time player development, junior player development, AFL kids game time, bench time AFL, junior football participation"
+cluster: "afl"
 ---
 
 If your child spent most of last Saturday on the bench, you already know this feeling. Something sits in your chest on the drive home. They say they're fine. You're not sure you believe them.
@@ -81,7 +82,7 @@ Yes — even for younger players, keeping a record of disposals and quarters pla
 
 ---
 
-*ScorX lets parents track their child's stats during the game, building a season-long picture of development one match at a time. Free to download — start tracking this weekend. [See the features](https://www.scorx.com.au/features.html).*
+*ScorX lets parents track their child's stats during the game, building a season-long picture of development one match at a time. Free to download — start tracking this weekend. See how [junior AFL stat tracking](/sports/afl/) works.*
 
 ---
 

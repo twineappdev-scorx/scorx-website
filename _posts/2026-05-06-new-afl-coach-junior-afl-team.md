@@ -5,6 +5,7 @@ category: "AFL Coaching"
 author: "Tim Stoddard"
 read_time: 9
 keywords: "junior AFL coaching guide, community AFL coach tips, how to coach junior AFL, volunteer coach AFL, AFL youth team coaching"
+cluster: "afl"
 ---
 
 Volunteering to coach a junior AFL team is one of the most rewarding things you can do in your community — and one of the least prepared-for. Most new coaches receive a squad list, a training slot, and a good luck. The rest you figure out as you go.
@@ -107,7 +108,7 @@ Game day for a junior coach is a blur of rotations, in-game adjustments, and sid
 
 **Watch the patterns, not just the ball.** Your players are already watching the ball. Your job is to see what's happening away from it — who's moving into space, who's dropping off their opponent, where your structure is breaking down. That's where the useful observations live.
 
-**Record what you can, even simply.** A tally of tackles, marks, or disposals — even scribbled on your phone between quarters — gives you something to work with beyond memory. It doesn't need to be comprehensive. Even one or two tracked stats per game starts to show patterns across the season that your instinct alone won't catch. Which players are doing more than they get credit for. Where the team is improving. What still needs work. Apps like ScorX let parents help with this during the game, which means you can stay focused on coaching while still building a useful record.
+**Record what you can, even simply.** A tally of tackles, marks, or disposals — even scribbled on your phone between quarters — gives you something to work with beyond memory. It doesn't need to be comprehensive. Even one or two tracked stats per game starts to show patterns across the season that your instinct alone won't catch. Which players are doing more than they get credit for. Where the team is improving. What still needs work. Apps like [ScorX for junior AFL stat tracking](/sports/afl/) let parents help with this during the game, which means you can stay focused on coaching while still building a useful record.
 
 **Adjust at quarter time, not continuously.** Junior players can't process a constant stream of instructions during the game. Save your key messages for breaks. During the quarter, keep direction short and specific — one clear instruction to one player at a time.
 

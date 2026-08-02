@@ -6,6 +6,7 @@ author: "Tim Stoddard"
 read_time: 5
 keywords: "how to track AFL stats phone, AFL stats app, track kids AFL stats, youth AFL statistics, AFL parent sideline"
 last_modified_at: 2026-07-19
+cluster: "afl"
 ---
 
 Tracking your child's AFL stats on your phone during a game is easier than it sounds. You don't need to know the game inside out. You don't need to be glued to your screen. You just need to know which four things to watch for, and when to tap.
@@ -44,7 +45,7 @@ Take 30 seconds to look at what you've got.
 
 Not to analyse it. Just to see it. Four disposals and two tackles in the first half. One mark. That's already a picture of how the game is going for your child specifically, not just for the team.
 
-If you're using [ScorX](https://scorx.app), the summary is right there on your screen. Nothing to add up.
+If you're using [ScorX for AFL](/sports/afl/), the summary is right there on your screen. Nothing to add up.
 
 It also gives you something real to say when your child comes off. "Four disposals already, you're really in the game today" is a different conversation from "good work, keep it up." Specifics land. Kids remember them.
 
