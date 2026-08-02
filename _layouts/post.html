@@ -49,7 +49,7 @@ layout: default
         <div class="container-sm">
             {% if page.excerpt_image %}
             <div class="blog-post-feature-image">
-                <img src="{{ page.excerpt_image }}" alt="{{ page.title }}">
+                <img src="{{ page.excerpt_image }}" alt="{{ page.excerpt_image_alt | default: page.title }}" decoding="async">
             </div>
             {% endif %}
 
