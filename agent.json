@@ -102,7 +102,7 @@
     ],
     "branding": ["Team logo (set once in Team Management)", "Opposition logo per game", "ScorX or Team Colors palette on player cards", "Game photo background"],
     "output": ["Save to camera roll", "Share via iOS share sheet"],
-    "constraints": ["No watermark on the free plan", "No limit on graphics generated", "Works fully offline", "Uses each sport's own scoring format across all 16 sports"]
+    "constraints": ["No limit on graphics generated on either plan", "A small discreet ScorX mark appears in the corner of every card, identical on free and Premium", "Works fully offline", "Uses each sport's own scoring format across all 16 sports"]
   },
   "key_facts": [
     "Setup takes under 2 minutes",
