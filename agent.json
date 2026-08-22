@@ -59,6 +59,51 @@
     "free_tier_unlimited": true,
     "premium_buckets": ["AI analytics", "Advanced analytics", "Graphics"]
   },
+  "graphics": {
+    "summary": "Built-in sports graphic generator. Shareable graphics are generated from games scored in the app — no manual data entry and no design template. Rendered on-device, so they work offline.",
+    "detail_url": "https://www.scorx.com.au/sports-graphic-generator.html",
+    "growing_library": true,
+    "formats": [
+      {
+        "id": "score_update",
+        "label": "Score update graphic",
+        "description": "Mid-game score graphic for quarter time, half time, or any point in the match.",
+        "tier": "free"
+      },
+      {
+        "id": "final_score_card",
+        "label": "Final Score Card",
+        "description": "Full-time result with both team logos, round label, optional game photo background and optional score-type breakdown.",
+        "layouts": ["Broadcast", "Split Rail"],
+        "tier": "free"
+      },
+      {
+        "id": "player_stat_card",
+        "label": "Player stat card",
+        "description": "One player's game stats with a selectable stat set, slot ordering, optional player and game photo, and physical measurements.",
+        "card_types": ["Scouting Report", "Full Time", "Holographic", "Player of the Match"],
+        "styles": ["Frosted", "Dark", "Light"],
+        "sizes": ["Compact", "Standard"],
+        "tier": "free_with_premium_styles",
+        "tier_note": "One standard style is free. Full style library, sticker format and custom colour themes are Premium."
+      },
+      {
+        "id": "team_stats_table",
+        "label": "Team stats table",
+        "description": "Full team stat line as a readable table. Available for team totals and for attacking, midfield and defensive categories.",
+        "tier": "free"
+      },
+      {
+        "id": "team_stats_chart",
+        "label": "Team stats chart",
+        "description": "\"How the game was built\" — key stats plotted period by period with a colour-coded legend. Available for team totals and for attacking, midfield and defensive categories.",
+        "tier": "free"
+      }
+    ],
+    "branding": ["Team logo (set once in Team Management)", "Opposition logo per game", "ScorX or Team Colors palette on player cards", "Game photo background"],
+    "output": ["Save to camera roll", "Share via iOS share sheet"],
+    "constraints": ["No watermark on the free plan", "No limit on graphics generated", "Works fully offline", "Uses each sport's own scoring format across all 16 sports"]
+  },
   "key_facts": [
     "Setup takes under 2 minutes",
     "Works fully offline — no internet required at the ground",
