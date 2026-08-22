@@ -14,7 +14,7 @@ Official website for ScorX - a comprehensive multi-sport scoring and statistics 
 
 **Key Features:**
 - ✅ 14 sports supported (Team Sports + Racquet Sports)
-- ✅ Comprehensive pricing information (Free, Family, Coach, Club tiers)
+- ✅ Comprehensive pricing information (ScorX Free and ScorX Premium)
 - ✅ Detailed feature documentation
 - ✅ Step-by-step how-it-works guide
 - ✅ Extensive FAQ and support resources
@@ -143,8 +143,8 @@ The website uses the official ScorX brand colors:
 4. Configurable Game Timers
 5. Easy Team & Roster Management
 6. Complete Game History & Archives
-7. iCloud Sync Across Devices (Family Tier)
-8. Data Export & Analysis (Family Tier)
+7. iCloud Sync Across Devices (ScorX Premium)
+8. Data Export & Analysis (ScorX Premium)
 9. Seamless Sport Switching
 10. Full Offline Functionality
 11. Player Sentiment & Emotion Tracking
@@ -183,7 +183,7 @@ Plus pricing-specific FAQ section
 - Optimized devices list
 - 5-step what happens after download
 - Quick start checklist
-- Family tier promotion
+- ScorX Premium trial promotion
 
 ### Support (`support.html`)
 **Comprehensive FAQ with categories:**
