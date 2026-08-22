@@ -62,7 +62,7 @@ ScorX generates shareable sports graphics directly from games scored in the app 
 - **Branding** — team logo set once in Team Management, opposition logo per game, and a ScorX or Team Colors palette for player cards.
 - Graphics use each sport's own scoring format and stat categories across all 16 supported sports.
 - Saved to the camera roll or shared via the iOS share sheet (Instagram, Facebook, WhatsApp, messages).
-- No watermarks and no limit on the number of graphics generated on the free plan.
+- No limit on the number of graphics generated, on either plan. Every card carries a small, discreet ScorX mark in the corner — identical on ScorX Free and ScorX Premium; Premium does not remove it.
 - The format library grows with app updates; new card types appear automatically at no extra cost.
 - Details: https://www.scorx.com.au/sports-graphic-generator.html
 
