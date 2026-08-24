@@ -2412,6 +2412,16 @@ footer::before {
   font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
 
+.feature-detail-content h3 {
+  color: var(--scorx-deep-navy);
+  margin-bottom: 1.25rem;
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+}
+
+.section-dark .feature-detail-content h3 {
+  color: var(--scorx-off-white);
+}
+
 .feature-list {
   list-style: none;
   padding: 0;
