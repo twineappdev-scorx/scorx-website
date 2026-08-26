@@ -105,6 +105,6 @@ Name the feeling as a physical thing rather than a problem, because nerves and r
 
 ## Related Sideline Blogs
 
-- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://scorx.com.au/blog/fuel-sleep-game-day-performance/) — The detail behind the sleep and food advice above, for any week of the season.
-- [What Elimination Football Teaches Kids About Big Games](https://scorx.com.au/blog/elimination-football-big-games-kids/) — How to talk to your kid about what a win-or-go-home game actually means.
-- [7 AFL Stats That Matter for Junior Development, and 3 That Don't](https://scorx.com.au/blog/afl-stats-junior-player-improvement/) — What's worth pointing to when you want to show a nervous kid what they've already done.
+- [What Your Kid Eats and How They Sleep Matters More Than the Warm-Up](https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/) — The detail behind the sleep and food advice above, for any week of the season.
+- [What Elimination Football Teaches Kids About Big Games](https://www.scorx.com.au/blog/elimination-football-big-games-kids/) — How to talk to your kid about what a win-or-go-home game actually means.
+- [7 AFL Stats That Matter for Junior Development, and 3 That Don't](https://www.scorx.com.au/blog/afl-stats-junior-player-improvement/) — What's worth pointing to when you want to show a nervous kid what they've already done.

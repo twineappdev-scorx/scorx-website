@@ -69,4 +69,4 @@ They're the one day the whole team wants the exact same outcome at the same inte
 
 - [How to Prepare Your Kid for a Footy Final](https://www.scorx.com.au/blog/how-to-prepare-for-a-footy-final/) — The week-before guide, for once you've decided the day is worth marking.
 - [What to Say to Your Kid After They Lose a Final](https://www.scorx.com.au/blog/what-to-say-after-losing-a-final/) — For the drive home, whichever way Saturday goes.
-- [Why Your Child's Stats Look Different from Game to Game](https://scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why one game, even this one, is a single data point in a much longer story.
+- [Why Your Child's Stats Look Different from Game to Game](https://www.scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why one game, even this one, is a single data point in a much longer story.

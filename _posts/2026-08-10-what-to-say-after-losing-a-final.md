@@ -119,6 +119,6 @@ Yes, and pretending otherwise doesn't fool them. Just make sure your disappointm
 
 ## Related Sideline Blogs
 
-- [How to Prepare Your Kid for a Footy Final](https://scorx.com.au/blog/how-to-prepare-for-a-footy-final/) — The companion piece for the week before, when there's still something you can do.
-- [Why Your Child's Stats Look Different from Game to Game](https://scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why one bad game, even a final, tells you almost nothing on its own.
-- [The Parent's Guide to Junior AFL: U8-U13s](https://scorx.com.au/blog/afl-junior-development-guide-by-age/) — What changes at each age group, including where the scoreboard starts counting.
+- [How to Prepare Your Kid for a Footy Final](https://www.scorx.com.au/blog/how-to-prepare-for-a-footy-final/) — The companion piece for the week before, when there's still something you can do.
+- [Why Your Child's Stats Look Different from Game to Game](https://www.scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why one bad game, even a final, tells you almost nothing on its own.
+- [The Parent's Guide to Junior AFL: U8-U13s](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/) — What changes at each age group, including where the scoreboard starts counting.

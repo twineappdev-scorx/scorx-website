@@ -71,6 +71,6 @@ No — that's actually the opposite of the point. A card built from real stats g
 
 ## Related Sideline Blogs
 
-- [The Habits Coaches Notice Most in Kids Who Improve Fastest](https://scorx.com.au/blog/habits-coaches-notice-improving-players/) — What "getting better" actually looks like week to week, before it ever shows up in a highlight reel.
-- [Why Your Child's Stats Look Different from Game to Game](https://scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why the numbers behind a great card fluctuate, and what that actually tells you.
-- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — The stats worth building a season around, before you worry about how they look on a card.
+- [The Habits Coaches Notice Most in Kids Who Improve Fastest](https://www.scorx.com.au/blog/habits-coaches-notice-improving-players/) — What "getting better" actually looks like week to week, before it ever shows up in a highlight reel.
+- [Why Your Child's Stats Look Different from Game to Game](https://www.scorx.com.au/blog/junior-afl-player-performance-variation-stats/) — Why the numbers behind a great card fluctuate, and what that actually tells you.
+- [Which Youth Sports Stats Actually Matter (And Which Don't)](https://www.scorx.com.au/blog/which-youth-sports-stats-actually-matter/) — The stats worth building a season around, before you worry about how they look on a card.

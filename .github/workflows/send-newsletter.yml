@@ -58,7 +58,7 @@ jobs:
               # Derive URL slug: strip YYYY-MM-DD- prefix and .md extension
               basename = os.path.basename(post_file)
               slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', os.path.splitext(basename)[0])
-              post_url = f'https://scorx.com.au/blog/{slug}/'
+              post_url = f'https://www.scorx.com.au/blog/{slug}/'
 
               # Extract post body (everything after the closing --- of front matter)
               post_body = ''
