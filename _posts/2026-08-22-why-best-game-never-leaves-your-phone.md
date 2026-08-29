@@ -1,5 +1,6 @@
 ---
-title: "Why the Best Game of the Season often goes Uncelebrated"
+title: "Why the Best Game of the Season Often Goes Uncelebrated"
+seo_title: "Why the Best Game of the Season Goes Uncelebrated"
 description: "Most parents have no easy way to turn a great game into something shareable. Here's why a sports graphics generator fixes that faster than Canva ever could."
 category: "Guide"
 author: "Tim Stoddard"

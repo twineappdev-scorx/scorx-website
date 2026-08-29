@@ -1,5 +1,6 @@
 ---
 title: "What Your Kid Eats and How They Sleep Matters More Than the Warm-Up"
+seo_title: "Food and Sleep Matter More Than the Warm-Up"
 description: "Rest and nutrition make or break game day for junior athletes. Here's what the research says — and how ScorX helps you act on it automatically."
 category: "Guide"
 author: "Tim Stoddard"

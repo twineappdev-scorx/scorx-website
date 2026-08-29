@@ -1,5 +1,6 @@
 ---
 title: "The Carnival Season: How to Make the Most of AFL Carnivals for Player Development"
+seo_title: "How to Make the Most of Junior AFL Carnivals"
 description: "Junior AFL carnival player development — why a carnival weekend gives you more useful data than a whole school term, and how to use it."
 category: "AFL Guide"
 author: "Tim Stoddard"

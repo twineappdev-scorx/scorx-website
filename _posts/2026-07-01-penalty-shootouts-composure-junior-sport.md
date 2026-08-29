@@ -1,5 +1,6 @@
 ---
 title: "What Penalty Shootouts Teach Kids About Staying Calm Under Pressure"
+seo_title: "What Penalty Shootouts Teach Kids About Pressure"
 description: "World Cup penalty shootouts look like nerve. They're actually routine. Here's what that means for your junior athlete's next big moment."
 category: "Guide"
 author: "Tim Stoddard"

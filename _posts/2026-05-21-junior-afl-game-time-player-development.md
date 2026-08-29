@@ -1,5 +1,6 @@
 ---
 title: "How to Tell If Your Child Is Getting Enough Game Time (And What to Do If They're Not)"
+seo_title: "Is Your Child Getting Enough Game Time?"
 description: "Junior AFL game time affects player development more than most parents realise. Here's how to understand what's happening — and how to help your child."
 category: "AFL Guide"
 author: "Tim Stoddard"

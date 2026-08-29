@@ -86,6 +86,17 @@ html {
   scroll-padding-top: 100px;
 }
 
+/* Images carry intrinsic width/height attributes so the browser can reserve
+   layout space before they load (prevents CLS). Those attributes also apply as
+   presentational size hints, so height must be reset to auto here — otherwise
+   any image whose width CSS constrains gets stretched to its full intrinsic
+   height. Components that deliberately fix a height (.app-screenshots,
+   .blog-card-image, .qr-code-container, .logo-img) override this by specificity. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: var(--font-text);
   color: var(--scorx-charcoal);
