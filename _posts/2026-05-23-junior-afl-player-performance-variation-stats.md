@@ -1,5 +1,6 @@
 ---
-title: "Why Your Child's sports Stats Look Different from Game to Game (And Why That's Normal)"
+title: "Why Your Child's Sports Stats Look Different from Game to Game (And Why That's Normal)"
+seo_title: "Why Your Child's Stats Change from Game to Game"
 description: "Sports performance varies week to week — and that's not a problem. Here's why a single bad game tells you almost nothing, and what to look at instead."
 category: "Guide"
 author: "Tim Stoddard"

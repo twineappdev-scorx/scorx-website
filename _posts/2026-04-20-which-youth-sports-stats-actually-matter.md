@@ -1,5 +1,6 @@
 ---
 title: "Which Youth Sports Stats Actually Matter (And Which Don't)"
+seo_title: "Which Youth Sports Stats Actually Matter"
 description: "Not all statistics tell the same story. Here's how to focus on the numbers that drive real athlete development, not vanity metrics."
 category: "Coaching"
 author: "Tim Stoddard"

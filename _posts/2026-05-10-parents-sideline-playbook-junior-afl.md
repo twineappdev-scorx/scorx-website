@@ -1,5 +1,6 @@
 ---
 title: "What Development Coaches Watch at Junior AFL (And Why It's Not the Goals)"
+seo_title: "What Coaches Watch at Junior AFL (Not the Goals)"
 description: "Most parents follow the ball. Development coaches watch everything else. Here's what to look for on the sideline — and why it changes what you see in your kid."
 category: "AFL Guide"
 author: "Tim Stoddard"

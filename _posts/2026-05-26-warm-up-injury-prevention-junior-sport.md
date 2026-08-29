@@ -1,5 +1,6 @@
 ---
 title: "Why Warm-Up and Conditioning is Critical for Preventing Injuries (According to a Researcher Who Played AFLW)"
+seo_title: "Why Warm-Ups Prevent Injuries in Junior Sport"
 date: 2026-05-26
 author: "Tim Stoddard & Dr Brooke Patterson"
 description: "A proper warm-up can cut serious knee injuries by a third. AFLW researcher Dr Brooke Patterson explains what an evidence-based warm-up actually involves."

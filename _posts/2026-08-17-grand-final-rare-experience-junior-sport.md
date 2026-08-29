@@ -1,6 +1,6 @@
 ---
 title: "Playing in a Grand Final Is Rarer Than It Feels"
-description: "Most kids who play community sport never make a grand final. If your child is in one, here's why it's worth marking, and why they'll be talking about it for years."
+description: "Most kids who play community sport never make a grand final. If your child is in one, here's why it's worth marking — they'll talk about it for years."
 category: "Guide"
 author: "Tim Stoddard"
 read_time: 6
