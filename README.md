@@ -258,8 +258,8 @@ Before publishing, add these to `/images/`:
 - Place in `/images/favicon.png`
 
 ### 3. Social Preview Images
-- **Open Graph:** `social-preview.png` (1200x630 PNG)
-- **Twitter Card:** `twitter-card.jpg` (1200x628 JPG)
+- **Open Graph:** `phone_screen_game_card.jpg` (1200x630 JPG)
+- **Twitter Card:** `phone_screen_game_card.jpg` (1200x630 JPG)
 - Show app screenshot + ScorX branding
 
 ### 4. App Screenshots (Optional)

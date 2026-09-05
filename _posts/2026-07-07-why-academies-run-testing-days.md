@@ -1,5 +1,6 @@
 ---
 title: "Why Performance Academies Run Testing Days (And What They're Measuring)"
+seo_title: "Why Performance Academies Run Testing Days"
 description: "Ever wondered why sports academies run testing days? Here's what's actually being measured, and why, explained without the jargon."
 category: "Guide"
 author: "Tim Stoddard"

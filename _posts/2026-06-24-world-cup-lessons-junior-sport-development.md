@@ -1,5 +1,6 @@
 ---
 title: "What the World Cup Can Actually Teach Your Junior Athlete"
+seo_title: "What the World Cup Teaches Junior Athletes"
 description: "Skip the vague sportsmanship talk. Here's how to turn World Cup moments into specific things your junior athlete can try at training this week."
 category: "Guide"
 author: "Tim Stoddard"

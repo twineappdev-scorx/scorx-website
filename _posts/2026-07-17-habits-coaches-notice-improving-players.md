@@ -1,5 +1,6 @@
 ---
 title: "The Habits Coaches Notice Most in Kids Who Improve Fastest"
+seo_title: "Habits Coaches Notice in Kids Who Improve Fastest"
 description: "Coaches notice arrival time, effort in drills, and how a kid treats teammates before they notice talent. Here's what actually gets remembered."
 category: "Coaching"
 author: "Tim Stoddard"

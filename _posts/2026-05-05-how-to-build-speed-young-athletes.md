@@ -1,5 +1,6 @@
 ---
 title: "Why Speed Changes Everything for Young Athletes in Team Sports"
+seo_title: "Why Speed Changes Everything for Young Athletes"
 description: "Speed isn't just a talent — it's trainable. Learn how building acceleration helps young athletes compete for the ball, get more game time, and grow faster."
 category: "Guide"
 author: "Tim Stoddard"
