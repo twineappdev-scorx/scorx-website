@@ -83,7 +83,7 @@ The simplest approach: after each game, spend five minutes on three questions.
 
 That's it. Five minutes. Done over a season, it builds a picture that tells you far more than the ladder ever will.
 
-If you want something more structured, [ScorX lets you track junior AFL stats](/sports/afl/) like disposals, tackles, and contest numbers directly from your phone during the game. At the end of the season, your kid gets to see the actual arc — not a feeling, but numbers. That tends to hit differently.
+If you want something more structured, [ScorX lets you track junior AFL stats](/sports/afl/) like disposals, tackles, and contest numbers directly from your phone during the game. At the end of the season, your kid gets to see the actual arc — not a feeling, but numbers. That tends to hit differently. See how [goal setting and development planning work for athletes](/athletes.html) once the stats are being recorded.
 
 ---
 

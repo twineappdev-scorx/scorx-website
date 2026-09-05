@@ -45,7 +45,7 @@ What doesn't need to be in it: disposal counts from every single game, a compari
 
 ## Where ScorX fits in
 
-Making sure that focused time actually happens is exactly the gap ScorX's training module was built to close. We've just added development planning into it — so instead of strengths, weaknesses, and drills living in a coach's notebook or a parent's head, a kid can set them properly, log against them through the season, and actually see the shift. Not "you played well today." A number that moves.
+Making sure that focused time actually happens is exactly the gap ScorX's training module was built to close. We've just added development planning into it — so instead of strengths, weaknesses, and drills living in a coach's notebook or a parent's head, a kid can set them properly, log against them through the season, and actually see the shift. Not "you played well today." A number that moves. The full picture of how that works — recording games, measuring athleticism, and building the plan from both — is on the [ScorX for athletes page](/athletes.html).
 
 ## A quick example
 
