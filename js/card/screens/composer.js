@@ -80,7 +80,8 @@ export function mount(el, c) {
       <p class="cmp-sub">We’ll unlock a high-res copy to save and share.</p>
       <label class="field">
         <span class="field__label">Email</span>
-        <input class="input" type="email" name="email" autocomplete="email" inputmode="email" required placeholder="you@example.com">
+        <input class="input" type="email" name="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" aria-describedby="cmp-guardian">
+        <span class="field__hint" id="cmp-guardian">Under 16? Ask a parent or guardian to enter their email and tick the boxes.</span>
       </label>
       <label class="check"><input type="checkbox" name="nurture"><span>Send me a few tips on getting more out of ScorX</span></label>
       <label class="check"><input type="checkbox" name="sideline"><span>Subscribe to The ScorX Sideline, our blog for sports parents</span></label>

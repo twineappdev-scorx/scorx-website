@@ -47,13 +47,13 @@ export function enter() {
 
   root.innerHTML = `
     <h1 class="screen-title">Your card is ready</h1>
-    <p class="screen-sub">Save it to your photos or share it straight to the family chat.</p>
+    <p class="screen-sub">Save it to your photos or share it with family and friends.</p>
     <div class="done-card"><img src="${objUrl}" alt="Your finished full-time card"></div>
     <button type="button" class="btn btn--primary btn--block" data-act="share">Save or share</button>
     ${kind === 'ios' ? '<p class="done-tip">Tip: choose Save Image to put it in Photos.</p>' : ''}
     <section class="panel done-pitch">
       <h2 class="cmp-h2">That’s one game.</h2>
-      <p class="cmp-sub">ScorX makes one every week, and builds the season story.</p>
+      <p class="cmp-sub">ScorX makes one after every game, and builds your season story.</p>
       ${pitch}
     </section>
     <div class="done-actions">

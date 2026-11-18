@@ -32,7 +32,7 @@ function render() {
   const resumable = store.hasResumable();
   root.innerHTML = `
     <h1 class="screen-title start-title">Make a card from <em>Saturday's game</em>.</h1>
-    <p class="screen-sub">Score it from the sideline, or enter the result afterwards. Add a photo and share a full-time card with the family.</p>
+    <p class="screen-sub">Score it live, or enter the result afterwards. Add a photo and share your full-time card with family and friends.</p>
     ${resumable ? `
     <div class="resume panel" data-resume>
       <button type="button" class="resume__main" data-act="resume"><span class="resume__label"></span><span class="resume__chev">${CHEV}</span></button>
@@ -41,7 +41,7 @@ function render() {
     <div class="choices">
       <button type="button" class="choice" data-act="live">
         <span class="choice__icon">${ICON_LIVE}</span>
-        <span class="choice__text"><span class="choice__title">Score a game live</span><span class="choice__sub">Timer and scoreboard for the sideline. Card ready at the siren.</span></span>
+        <span class="choice__text"><span class="choice__title">Score a game live</span><span class="choice__sub">Timer and scoreboard. A parent or coach can tap it in from the sideline. Card ready at the siren.</span></span>
         <span class="choice__chev">${CHEV}</span>
       </button>
       <button type="button" class="choice" data-act="result">
@@ -51,7 +51,7 @@ function render() {
       </button>
     </div>
     <p class="start-note">Free. No app or account needed for this one-game demo.</p>
-    <p class="start-note start-note--app">Want a card after every game, and their whole season in one place? <a href="${appStoreUrl('card-start')}" target="_blank" rel="noopener">Get ScorX free on the App Store</a></p>`;
+    <p class="start-note start-note--app">Want a card after every game, and your whole season in one place? <a href="${appStoreUrl('card-start')}" target="_blank" rel="noopener">Get ScorX free on the App Store</a></p>`;
   if (resumable) root.querySelector('.resume__label').textContent = resumeLabel(store.getState());
 }
 
