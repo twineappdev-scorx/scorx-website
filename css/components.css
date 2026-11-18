@@ -274,3 +274,12 @@ a.x-chip:hover { color: var(--ink); border-color: var(--turq-ink); }
   .x-btn { transition: none; }
   .x-btn:active, .x-btn--primary:hover { transform: none; }
 }
+
+/* ---------- Blog end-of-post CTA (_includes/card-cta.html) ---------- */
+.x-card--cta { margin: 40px 0 8px; text-align: left; }
+.x-card--cta .x-btn { margin-top: 6px; }
+.x-card--cta .x-eyebrow { margin-bottom: 8px; }
+.x-card--cta h3 { text-transform: none; letter-spacing: -0.01em; line-height: 1.25; }
+.x-card--cta p { font-family: var(--font-text); color: var(--mid); line-height: 1.6; }
+.x-card--cta p.x-eyebrow { color: var(--turq-ink); font-size: 11px; line-height: 1.4; }
+.x-card--cta a.x-btn--primary, .x-card--cta a.x-btn--primary:hover { color: #0F2A44; }

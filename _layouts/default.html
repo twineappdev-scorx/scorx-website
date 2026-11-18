@@ -44,6 +44,11 @@
 
     <title>{{ page.seo_title | default: page.title }} | ScorX</title>
     <link rel="stylesheet" href="/css/style.css">
+    {%- if page.collection == 'posts' %}
+    <!-- Blog posts: site components only (tokens.css would override legacy --font-display). Used by the end-of-post card CTA. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900&family=Archivo:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="/css/components.css">
+    {%- endif %}
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon32.png">

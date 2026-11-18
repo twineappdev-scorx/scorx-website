@@ -69,6 +69,8 @@ layout: default
                 {{ content }}
             </div>
 
+            {% include card-cta.html %}
+
             <footer class="blog-post-footer">
                 {%- if page.cluster == 'afl' -%}
                 {%- assign cluster_posts = site.posts | where: "cluster", "afl" -%}

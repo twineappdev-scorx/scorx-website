@@ -14,8 +14,8 @@ export function mount(el, c) {
     <p class="screen-sub">Final score and team names. That's all we need.</p>
     <form class="panel setup-form" novalidate>
       <div class="field"><span class="field__label">Sport</span>${sportSegmentHTML()}</div>
-      ${teamFieldHTML('home', 'Home team')}
-      ${teamFieldHTML('away', 'Away team')}
+      ${teamFieldHTML('home', 'Home team', 'r')}
+      ${teamFieldHTML('away', 'Away team', 'r')}
       <div class="field"><span class="field__label" data-score-label>Final score</span>
         <div class="score-grid" data-score-grid></div>
       </div>

@@ -24,12 +24,12 @@ export function sportSegmentHTML() {
 }
 
 /** Team name + badge initial inputs. The initial follows the first letter until the user changes it. */
-export function teamFieldHTML(team, label) {
+export function teamFieldHTML(team, label, pre = 's') {
   return `<div class="field team-field">
-    <label class="field__label" for="${team}-name">${label}</label>
+    <label class="field__label" for="${pre}-${team}-name">${label}</label>
     <div class="team-field__row">
-      <input class="input" id="${team}-name" data-team="${team}" data-f="name" type="text" maxlength="30" autocomplete="off" autocapitalize="words" placeholder="${team === 'home' ? 'Kenmore' : 'Wests'}">
-      <input class="input input--num badge-in" id="${team}-init" data-team="${team}" data-f="initial" type="text" maxlength="1" autocomplete="off" autocapitalize="characters" aria-label="${label} badge initial" placeholder="K">
+      <input class="input" id="${pre}-${team}-name" data-team="${team}" data-f="name" type="text" maxlength="30" autocomplete="off" autocapitalize="words" placeholder="${team === 'home' ? 'Kenmore' : 'Wests'}">
+      <input class="input input--num badge-in" id="${pre}-${team}-init" data-team="${team}" data-f="initial" type="text" maxlength="1" autocomplete="off" autocapitalize="characters" aria-label="${label} badge initial" placeholder="K">
     </div></div>`;
 }
 
@@ -44,8 +44,8 @@ export function wireTeamFields(root, store) {
       const follows = !before.initial || before.initial === autoInitial(before.name);
       const next = autoInitial(t.value);
       store.update(s => { s[team].name = t.value; if (follows) s[team].initial = next; });
-      if (follows) root.querySelector(`#${team}-init`).value = next;
-      const ph = root.querySelector(`#${team}-init`);
+      if (follows) root.querySelector(`[data-team="${team}"][data-f="initial"]`).value = next;
+      const ph = root.querySelector(`[data-team="${team}"][data-f="initial"]`);
       ph.placeholder = next || (team === 'home' ? 'K' : 'W');
     } else if (t.dataset.f === 'initial') {
       const v = t.value.trim().slice(-1).toUpperCase();
@@ -57,8 +57,8 @@ export function wireTeamFields(root, store) {
 
 export function fillTeamFields(root, s) {
   for (const team of ['home', 'away']) {
-    root.querySelector(`#${team}-name`).value = s[team].name || '';
-    root.querySelector(`#${team}-init`).value = s[team].initial || '';
+    root.querySelector(`[data-team="${team}"][data-f="name"]`).value = s[team].name || '';
+    root.querySelector(`[data-team="${team}"][data-f="initial"]`).value = s[team].initial || '';
   }
 }
 
