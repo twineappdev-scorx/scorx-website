@@ -63,6 +63,26 @@ function loadRailImage(sport) {
   return railCache[sport];
 }
 
+// ---------- brand assets (from the site favicon) ----------
+// Icon tile = /images/favicon192.png. Wordmark X = the favicon's mark, cut out on transparent
+// (/images/brand/scorx-mark-on-dark.png). Never redraw the logo by hand.
+const brandCache = {};
+function loadBrand(name, path) {
+  if (!brandCache[name]) {
+    brandCache[name] = new Promise(resolve => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = () => resolve(null);
+      img.src = new URL(path, import.meta.url).href;
+    });
+  }
+  return brandCache[name];
+}
+const loadBrandAssets = () => Promise.all([
+  loadBrand('icon', '../../images/favicon192.png'),
+  loadBrand('mark', '../../images/brand/scorx-mark-on-dark.png'),
+]);
+
 // ---------- helpers ----------
 function rrect(c, x, y, w, h, r) {
   r = Math.min(r, w / 2, h / 2);
@@ -281,26 +301,34 @@ async function drawRail(c, data, opts) {
   c.lineWidth = b; c.strokeStyle = accent; c.stroke();
 }
 
-function drawTile(c, x, y, s) {
-  const g = c.createLinearGradient(x, y, x + s, y + s);
-  g.addColorStop(0, '#1b3a52'); g.addColorStop(1, '#0d2236');
-  rrect(c, x, y, s, s, s * 0.24); c.fillStyle = g; c.fill();
-  rrect(c, x + 0.5, y + 0.5, s - 1, s - 1, s * 0.24);
+function drawIcon(c, icon, x, y, s) {
+  c.save();
+  rrect(c, x, y, s, s, s * 0.22); c.clip();
+  if (icon) c.drawImage(icon, x, y, s, s);
+  else { c.fillStyle = '#0F2A42'; c.fillRect(x, y, s, s); }
+  c.restore();
+  rrect(c, x + 0.5, y + 0.5, s - 1, s - 1, s * 0.22);
   c.lineWidth = 1.5; c.strokeStyle = 'rgba(255,255,255,0.14)'; c.stroke();
-  c.lineCap = 'round'; c.lineWidth = s * 0.07;
-  const p = s * 0.27, q = s * 0.73;
-  c.strokeStyle = '#e8fbf8';
-  c.beginPath(); c.moveTo(x + p, y + p); c.lineTo(x + q, y + q); c.stroke();
-  c.strokeStyle = TURQ;
-  c.beginPath(); c.moveTo(x + q, y + p); c.lineTo(x + p, y + q); c.stroke();
 }
 
-function drawFooter(c) {
+/** Brand wordmark: "SCOR" + the favicon X mark, as in /images/Card.png. Returns the right edge. */
+function drawWordmark(c, mark, x, baseline, size) {
+  c.font = font(UI, size); c.fillStyle = '#fff'; c.textAlign = 'left'; c.textBaseline = 'alphabetic';
+  c.fillText('SCOR', x, baseline);
+  const capH = size * 0.72;
+  const mh = capH * 1.55, mw = mark ? mh * mark.width / mark.height : 0;
+  const mx = x + c.measureText('SCOR').width + size * 0.08;
+  if (mark) c.drawImage(mark, mx, baseline - capH / 2 - mh / 2, mw, mh);
+  else c.fillText('X', mx, baseline);
+  return mx + mw;
+}
+
+function drawFooter(c, brand) {
+  const [icon, mark] = brand;
   c.fillStyle = 'rgba(0,0,0,0.38)'; c.fillRect(0, 1790, CARD_W, CARD_H - 1790);
   c.fillStyle = 'rgba(255,255,255,0.08)'; c.fillRect(0, 1790, CARD_W, 2);
-  drawTile(c, 60, 1823, 66);
-  c.textBaseline = 'alphabetic'; c.textAlign = 'left';
-  c.font = font(UI, 36); c.fillStyle = '#fff'; c.fillText('ScorX', 146, 1855);
+  drawIcon(c, icon, 60, 1823, 66);
+  drawWordmark(c, mark, 146, 1857, 34);
   c.font = font(UI, 21); c.fillStyle = TURQ;
   drawTracked(c, 'GROW YOUR GAME', 147, 1885, 5.4);
   c.font = font(COND, 26); c.fillStyle = 'rgba(255,255,255,0.5)';
@@ -325,7 +353,7 @@ function drawPreviewMark(c) {
 
 // ---------- public ----------
 export async function renderSplitRail(canvas, data, opts = {}) {
-  await ensureFonts();
+  const [, brand] = await Promise.all([ensureFonts(), loadBrandAssets()]);
   const scale = opts.scale || 1;
   canvas.width = Math.round(CARD_W * scale);
   canvas.height = Math.round(CARD_H * scale);
@@ -341,7 +369,7 @@ export async function renderSplitRail(canvas, data, opts = {}) {
   drawBackground(c, colours);
   drawLeft(c, d);
   await drawRail(c, d, opts);
-  drawFooter(c);
+  drawFooter(c, brand);
   if (opts.preview) drawPreviewMark(c);
   return canvas;
 }

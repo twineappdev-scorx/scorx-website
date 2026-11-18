@@ -212,6 +212,11 @@ This is a **static site with zero build tooling**. When making changes:
 
 **MUST preserve:**
 - ScorX brand colors (turquoise #00D4C4, navy #0F2A44)
+- **Logo assets come from the favicon, never hand-drawn or typed:**
+  - App icon / tile anywhere: `images/favicon192.png` (or `favicon32.png` for tab icons)
+  - Wordmark: "SCOR" in bold caps + the favicon's X mark (`images/brand/scorx-mark-on-dark.png` on dark backgrounds, `scorx-mark-on-light.png` on light). Use the `.brand-wordmark` class. Never write "ScorX" with a typed X as a logo
+  - Full logo image: `images/Card.png` (site header)
+  - `images/scorx.png` is an old icon. Don't use it
 - Clean, modern iOS-inspired design aesthetic
 - Mobile-first responsive approach
 - Accessibility (WCAG AA compliance)

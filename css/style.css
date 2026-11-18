@@ -3699,3 +3699,9 @@ footer::before {
     padding: 1.5rem 1.25rem;
   }
 }
+
+/* ===== Brand wordmark: SCOR + favicon X mark (images/brand/). Matches /images/Card.png. ===== */
+.brand-wordmark { display: inline-flex; align-items: center; font-family: 'Archivo', var(--font-text), sans-serif; font-weight: 800; letter-spacing: 0.01em; line-height: 1; }
+.brand-wordmark__x { height: 1.15em; width: auto; margin-left: 0.06em; display: block; }
+.logo.brand-wordmark { font-family: var(--font-text); font-weight: 800; font-size: 1.6rem; color: #fff; letter-spacing: 0.01em; gap: 0; }
+.logo.brand-wordmark::after { display: none; }
