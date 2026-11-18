@@ -311,12 +311,12 @@ function drawPreviewMark(c) {
   c.save();
   c.beginPath(); c.rect(0, 0, CARD_W, CARD_H); c.clip();
   c.translate(CARD_W / 2, CARD_H / 2); c.rotate(-Math.PI / 6);
-  c.font = font(DISPLAY, 150); c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = font(DISPLAY, 130); c.textAlign = 'center'; c.textBaseline = 'middle';
   c.fillStyle = 'rgba(255,255,255,0.25)';
   c.strokeStyle = 'rgba(0,0,0,0.12)'; c.lineWidth = 2;
-  for (let row = -6; row <= 6; row++) {
+  for (let row = -4; row <= 4; row++) {
     for (let col = -2; col <= 2; col++) {
-      const px = col * 780 + (row % 2 ? 390 : 0), py = row * 330;
+      const px = col * 920 + (row % 2 ? 460 : 0), py = row * 430;
       c.fillText('PREVIEW', px, py); c.strokeText('PREVIEW', px, py);
     }
   }
