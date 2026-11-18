@@ -22,8 +22,10 @@ button { cursor: pointer; }
   display: flex; align-items: center; justify-content: space-between;
   max-width: 480px; margin: 0 auto; padding: 14px 20px 6px;
 }
-.app-bar__brand { font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: -0.02em; color: var(--navy); text-decoration: none; }
-.app-bar__brand span { color: var(--turq-ink); }
+.app-bar__brand { font-size: 22px; color: var(--navy); text-decoration: none; }
+/* Brand wordmark: SCOR + the favicon X mark (images/brand/). Matches /images/Card.png. */
+.brand-wordmark { display: inline-flex; align-items: center; font-family: var(--font-text); font-weight: 800; letter-spacing: 0.01em; line-height: 1; }
+.brand-wordmark__x { height: 1.15em; width: auto; margin-left: 0.06em; display: block; }
 .app-bar__get {
   font-size: 13px; font-weight: 800; color: var(--navy-deep); text-decoration: none;
   background: var(--grad-turq); border-radius: var(--r-pill); padding: 8px 14px;
