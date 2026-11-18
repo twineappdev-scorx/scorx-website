@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScorX Card Design Carousel</title>
+<style>
+:root{
+  --canvas:#F4F7F8;--surface:#FFFFFF;--inset:#E8EEF1;--line:#E2E9ED;--line-strong:#D2DCE2;
+  --navy:#0F2A44;--mid:#51677A;--faint:#8DA0AF;--turq:#00D4C4;--turq-bright:#1FEDD8;--turq-ink:#00897C;
+  --deep-navy:#0F2A44;--gold:#C77F12;--desk:#DCE5EA;--frame:#0B1824;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --canvas:#0A1F33;--surface:#16344F;--inset:#1E4060;--line:rgba(248,249,250,.08);--line-strong:rgba(248,249,250,.14);
+    --navy:#F8F9FA;--mid:rgba(248,249,250,.62);--faint:rgba(248,249,250,.38);--turq-ink:#00D4C4;
+    --gold:#E8A33D;--desk:#061421;--frame:#000;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --canvas:#0A1F33;--surface:#16344F;--inset:#1E4060;--line:rgba(248,249,250,.08);--line-strong:rgba(248,249,250,.14);
+  --navy:#F8F9FA;--mid:rgba(248,249,250,.62);--faint:rgba(248,249,250,.38);--turq-ink:#00D4C4;
+  --gold:#E8A33D;--desk:#061421;--frame:#000;color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:var(--desk);color:var(--navy);font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--turq-ink);outline-offset:2px}
+
+.page{min-height:100vh;display:grid;grid-template-columns:minmax(240px,300px) auto;justify-content:center;align-items:center;gap:56px;padding:32px 24px}
+.panel h1{font-size:26px;line-height:1.15;letter-spacing:-.02em;margin:0 0 8px}
+.panel>p{margin:0 0 24px;color:var(--mid);max-width:34ch}
+.setting{margin-bottom:18px}
+.setting>span{display:block;font-size:13px;font-weight:600;color:var(--mid);margin-bottom:6px}
+.segment{display:flex;background:var(--inset);border-radius:9px;padding:2px}
+.segment button{flex:1;padding:7px 8px;border-radius:7px;font-size:13px;font-weight:600;color:var(--mid);white-space:nowrap}
+.segment button[aria-pressed="true"]{background:var(--surface);color:var(--navy);box-shadow:0 1px 3px rgba(5,20,35,.2)}
+.replay{width:100%;padding:10px;border:1px solid var(--line-strong);border-radius:9px;font-size:13px;font-weight:600;color:var(--turq-ink)}
+.replay small{display:block;font-weight:400;font-size:12px;color:var(--mid);margin-top:2px}
+
+.phone{width:min(390px,calc(100vw - 32px));height:min(844px,calc(100vh - 48px));min-height:640px;background:var(--canvas);border-radius:46px;box-shadow:0 0 0 10px var(--frame),0 28px 60px -18px rgba(3,14,24,.55);overflow:hidden;position:relative;display:flex;flex-direction:column}
+.status{height:50px;flex:none;display:flex;align-items:flex-end;justify-content:space-between;padding:0 30px 6px;font-size:15px;font-weight:600}
+.status i{width:96px;height:28px;background:#000;border-radius:16px;position:absolute;left:50%;top:11px;transform:translateX(-50%)}
+.status b{font-weight:600;font-size:12px;letter-spacing:-.02em}
+.screens{position:relative;flex:1;min-height:0}
+.screen{position:absolute;inset:0;display:flex;flex-direction:column;background:var(--canvas);transition:transform .34s cubic-bezier(.3,.7,.2,1)}
+.screen.detail{transform:translateX(100%);box-shadow:-10px 0 30px rgba(3,14,24,.18)}
+.detail-open .screen.detail{transform:none}
+.detail-open .screen.picker{transform:translateX(-26%)}
+.nav{height:46px;flex:none;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 16px}
+.nav h2{font-size:17px;font-weight:600;margin:0}
+.nav .back{justify-self:start;color:var(--turq-ink);font-size:16px;display:flex;align-items:center;gap:3px}
+.nav .back svg{width:11px;height:18px}
+.tabs{flex:none;margin:2px 16px 8px}
+.tabs button{padding:8px}
+.tabs button[hidden]{display:none}
+.people{flex:none;display:flex;gap:8px;overflow-x:auto;padding:2px 16px 6px;scrollbar-width:none}
+.people::-webkit-scrollbar{display:none}
+.people[hidden]{display:none}
+.person{flex:none;display:flex;align-items:center;gap:7px;padding:4px 12px 4px 4px;border-radius:19px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600;min-height:38px}
+.person b{width:28px;height:28px;border-radius:50%;background:var(--inset);display:grid;place-items:center;font-size:12px}
+.person[aria-pressed="true"]{border-color:var(--turq-ink);box-shadow:inset 0 0 0 1px var(--turq-ink)}
+.person[aria-pressed="true"] b{background:var(--turq);color:#0F2A44}
+
+.stage{flex:1;min-height:0;position:relative;perspective:900px}
+.track{position:absolute;inset:0;display:flex;align-items:center;gap:12px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;touch-action:pan-x;cursor:grab;padding-block:14px}
+.track::-webkit-scrollbar{display:none}
+.track.dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.cell{flex:none;scroll-snap-align:center;border-radius:14px;position:relative;will-change:transform;transform-style:preserve-3d;display:block;box-shadow:0 14px 28px -10px rgba(3,14,24,.55);overflow:hidden;background:var(--tint);-webkit-tap-highlight-color:transparent}
+.cell img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;pointer-events:none;-webkit-user-drag:none}
+/* Swap, don't cross-fade: an image fading in over the tinted placeholder reads as a frosted, washed-out card. */
+.cell.ready img{opacity:1}
+.cell.ready .tile{visibility:hidden}
+.tile{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:#F8F9FA;font-weight:700;font-size:17px;text-align:center;padding:16px;background:linear-gradient(165deg,color-mix(in srgb,var(--tint) 88%,#fff),color-mix(in srgb,var(--tint) 62%,#000))}
+.spin{width:24px;height:24px;border-radius:50%;border:2.5px solid rgba(255,255,255,.28);border-top-color:#fff;animation:spin .8s linear infinite;opacity:0;transition:opacity .15s}
+.cell.slow .spin{opacity:1}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.caption{flex:none;text-align:center;padding:4px 16px 0;min-height:66px}
+.caption strong{display:block;font-size:20px;font-weight:700;letter-spacing:-.01em}
+.tier{display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:var(--gold);min-height:19px}
+.tier svg{width:11px;height:13px}
+.tier.free{color:var(--turq-ink)}
+.sample{font-size:13px;color:var(--mid);margin:1px 0 0;min-height:19px}
+.dots{flex:none;display:flex;justify-content:center;gap:7px;padding:8px 0 12px}
+.dots span{width:7px;height:7px;border-radius:50%;background:var(--line-strong);transition:background .15s,transform .15s}
+.dots span.on{background:var(--turq-ink);transform:scale(1.2)}
+.foot{flex:none;padding:0 16px 30px}
+.cta{width:100%;padding:15px;border-radius:12px;font-size:17px;font-weight:600;color:#0F2A44;background:linear-gradient(90deg,#00D4C4,#1FEDD8);box-shadow:0 4px 10px rgba(0,212,196,.3)}
+
+.detail .body{flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;padding:4px 16px 0}
+.option{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:15px;font-weight:500;flex:none}
+.option.btn{justify-content:center;gap:8px;width:100%;padding:12px}
+.option.row{width:100%;text-align:left}
+.option.row span{color:var(--mid);font-size:14px;display:flex;align-items:center;gap:6px}
+.option.row svg{width:7px;height:12px;transform:scaleX(-1)}
+.area-group{flex:none}
+.area-group>span{display:block;font-size:13px;font-weight:600;color:var(--mid);margin:0 0 5px 2px}
+.area-group .segment button{font-size:12px;padding:7px 2px}
+.option.btn svg{width:18px;height:16px;color:var(--turq-ink)}
+.mini{display:flex;gap:6px}
+.mini button{padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;background:var(--inset)}
+.mini button[aria-pressed="true"]{background:var(--turq);color:#0F2A44}
+.switch{width:44px;height:26px;border-radius:13px;background:var(--turq-ink);position:relative}
+.switch::after{content:"";position:absolute;width:22px;height:22px;border-radius:50%;background:#fff;top:2px;right:2px;transition:right .15s}
+.switch[aria-checked="false"]{background:var(--inset)}.switch[aria-checked="false"]::after{right:20px}
+.preview{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:6px 0}
+.preview img{height:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:12px;box-shadow:0 8px 20px rgba(3,14,24,.45);display:block}
+.actions{flex:none;display:flex;gap:16px;padding:10px 16px 30px}
+.actions button{flex:1;padding:14px;border-radius:12px;font-size:17px;font-weight:600}
+.save{background:var(--surface);border:1.5px solid color-mix(in srgb,var(--turq-ink) 50%,transparent);color:var(--turq-ink)}
+.share{background:linear-gradient(90deg,#00D4C4,#1FEDD8);color:#0F2A44}
+
+.scrim{position:absolute;inset:0;background:rgba(4,14,24,.5);opacity:0;pointer-events:none;transition:opacity .2s;z-index:4}
+.paywall{position:absolute;left:0;right:0;bottom:0;background:var(--surface);border-radius:18px 18px 0 0;padding:22px 20px 32px;transform:translateY(102%);transition:transform .26s cubic-bezier(.3,.7,.2,1);z-index:5;text-align:center}
+.paywall h3{margin:0 0 4px;font-size:18px}.paywall p{margin:0 0 16px;color:var(--mid)}
+.paywall .later{display:block;width:100%;padding:12px 12px 0;color:var(--turq-ink);font-weight:600}
+.pay-open .scrim,.stats-open .scrim{opacity:1;pointer-events:auto}.pay-open .paywall{transform:none}
+.statsheet{position:absolute;left:0;right:0;bottom:0;background:var(--surface);border-radius:18px 18px 0 0;padding:18px 20px 32px;transform:translateY(102%);transition:transform .26s cubic-bezier(.3,.7,.2,1);z-index:5}
+.stats-open .statsheet{transform:none}
+.statsheet h3{margin:0;font-size:18px}.statsheet>p{margin:2px 0 12px;color:var(--mid);font-size:14px}
+.stat-row{display:flex;width:100%;align-items:center;gap:10px;padding:11px 2px;border-top:1px solid var(--line);font-size:15px;text-align:left}
+.stat-row i{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--line-strong);flex:none;display:grid;place-items:center;font-style:normal;font-size:13px;color:#0F2A44}
+.stat-row[aria-pressed="true"] i{background:var(--turq);border-color:var(--turq)}
+.stat-row b{margin-left:auto}
+.statsheet .cta{margin-top:12px}
+.statsheet .cta:disabled{opacity:.45;cursor:default}
+
+@media (max-width:820px){
+  .page{grid-template-columns:1fr;justify-items:center;gap:26px;padding:24px 16px 40px}
+  .panel{width:min(390px,100%);order:2}.panel>p{max-width:none}
+  .phone{height:760px;max-height:calc(100vh - 32px);border-radius:32px;box-shadow:0 0 0 6px var(--frame),0 20px 44px -18px rgba(3,14,24,.55)}
+}
+@media (prefers-reduced-motion:reduce){
+  .screen,.paywall,.statsheet,.cell img{transition:none}.spin{animation:none}
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="panel" aria-label="Mockup settings">
+    <h1>Share Cards</h1>
+    <p>One screen replaces the gallery. Switch tabs, swipe to browse, then tap the centre card to customise it. Tap a side card to bring it forward.</p>
+    <div class="setting"><span>Game</span><div class="segment" data-setting="sport">
+      <button data-value="team" aria-pressed="true">Team sport</button><button data-value="racquet" aria-pressed="false">Racquet sport</button></div></div>
+    <div class="setting"><span>Opposition logo</span><div class="segment" data-setting="logo">
+      <button data-value="set" aria-pressed="true">Set at setup</button><button data-value="missing" aria-pressed="false">Missing</button></div></div>
+    <div class="setting"><span>Subscription</span><div class="segment" data-setting="tier">
+      <button data-value="basic" aria-pressed="true">Basic</button><button data-value="premium" aria-pressed="false">Premium</button></div></div>
+    <div class="setting"><span>Appearance</span><div class="segment" data-setting="theme">
+      <button data-value="dark" aria-pressed="true">Dark</button><button data-value="light" aria-pressed="false">Light</button></div></div>
+    <button class="replay" id="replay">Replay live previews<small>Simulated timing, not measured</small></button>
+  </section>
+
+  <section class="phone" id="phone" aria-label="ScorX app mockup">
+    <div class="status"><span>9:41</span><i></i><b>5G</b></div>
+    <div class="screens">
+      <div class="screen picker">
+        <div class="nav"><button class="back" id="pickerBack">Close</button><h2>Share Cards</h2><span></span></div>
+        <div class="segment tabs" data-setting="tab" aria-label="Card type">
+          <button data-value="team" aria-pressed="true">Team</button><button data-value="player" aria-pressed="false">Player</button><button data-value="sticker" aria-pressed="false">Stickers</button></div>
+        <div class="people" id="people" aria-label="Choose a player" hidden></div>
+        <div class="stage"><div class="track" id="track"></div></div>
+        <div class="caption" aria-live="polite">
+          <strong id="capName"></strong>
+          <span class="tier" id="capTier"></span>
+          <p class="sample" id="capSample"></p>
+        </div>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+        <div class="foot"><button class="cta" id="customise">Customise</button></div>
+      </div>
+      <div class="screen detail" id="detail" aria-hidden="true">
+        <div class="nav"><button class="back" id="detailBack"><svg viewBox="0 0 11 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 1.5 2 9l7.5 7.5"/></svg>Designs</button><h2 id="detailTitle"></h2><span></span></div>
+        <div class="body">
+          <div id="detailOptions" style="display:flex;flex-direction:column;gap:10px;flex:none"></div>
+          <div class="preview"><img id="detailImg" alt=""></div>
+        </div>
+        <div class="actions"><button class="save" id="save">Save</button><button class="share" id="share">Share</button></div>
+      </div>
+      <div class="scrim" id="scrim"></div>
+      <div class="paywall" role="dialog" aria-label="Premium design">
+        <h3>Save this design with Premium</h3>
+        <p>You can preview every design for free.</p>
+        <button class="cta" id="payUpgrade">See Premium</button>
+        <button class="later" id="payLater">Keep previewing</button>
+      </div>
+      <div class="statsheet" id="statsheet" role="dialog" aria-label="Choose stats" aria-hidden="true">
+        <h3 id="statsName"></h3>
+        <p id="statsCount"></p>
+        <div id="statsList"></div>
+        <button class="cta" id="statsDone">Done</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+const DATA = {"cards": {"statHighlight": {"label": "Stat Highlight", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "chromePlayer": {"label": "Chrome", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "scoutingReport": {"label": "Scouting Report", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "fullTime": {"label": "Full Time", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "holographic": {"label": "Holographic", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "playerOfMatch": {"label": "Player of Match", "group": "player", "free": false, "usesPhoto": true, "players": {"reid": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "okafor": {"src": "DATAURI", "srcEmpty": "DATAURI"}, "tran": {"src": "DATAURI", "srcEmpty": "DATAURI"}}}, "statsByPeriodPlayer": {"label": "Stats by Period", "group": "player", "free": false, "usesPhoto": false, "players": {"reid": {"src": "DATAURI"}, "okafor": {"src": "DATAURI"}, "tran": {"src": "DATAURI"}}}, "statsProgressionPlayer": {"label": "Stats Chart", "group": "player", "free": false, "usesPhoto": false, "players": {"reid": {"src": "DATAURI"}, "okafor": {"src": "DATAURI"}, "tran": {"src": "DATAURI"}}}, "finalScoreBroadcast": {"label": "Broadcast", "group": "final", "free": true, "usesPhoto": true, "src": "DATAURI", "srcEmpty": "DATAURI"}, "matchdayPoster": {"label": "Matchday", "group": "final", "free": false, "usesPhoto": true, "src": "DATAURI", "srcEmpty": "DATAURI"}, "chromeFinalScore": {"label": "Chrome Score", "group": "final", "free": false, "usesPhoto": true, "src": "DATAURI", "srcEmpty": "DATAURI"}, "finalScoreSplit": {"label": "Split Rail", "group": "final", "free": true, "usesPhoto": true, "src": "DATAURI", "srcEmpty": "DATAURI"}, "scoreDetail": {"label": "Score Detail", "group": "final", "free": false, "usesPhoto": true, "src": "DATAURI", "srcEmpty": "DATAURI"}, "statsByPeriodTeam": {"label": "Stats Table", "group": "stats", "free": false, "usesPhoto": false, "areas": {"team": "DATAURI", "attacking": "DATAURI", "midfield": "DATAURI", "defence": "DATAURI"}}, "statsProgressionTeam": {"label": "Stats Chart", "group": "stats", "free": false, "usesPhoto": false, "areas": {"team": "DATAURI", "attacking": "DATAURI", "midfield": "DATAURI", "defence": "DATAURI"}}, "heroStat": {"label": "Hero Stat", "group": "sticker", "free": false, "usesPhoto": false, "players": {"reid": {"src": "DATAURI"}, "okafor": {"src": "DATAURI"}, "tran": {"src": "DATAURI"}}}, "milestone": {"label": "Milestone", "group": "sticker", "free": false, "usesPhoto": false, "players": {"reid": {"src": "DATAURI"}, "okafor": {"src": "DATAURI"}, "tran": {"src": "DATAURI"}}}, "sticker": {"label": "Sticker", "group": "sticker", "free": true, "usesPhoto": false, "players": {"reid": {"src": "DATAURI"}, "okafor": {"src": "DATAURI"}, "tran": {"src": "DATAURI"}}}}, "players": {"reid": {"name": "Jordan Reid", "last": "Reid", "num": "14", "stats": [["Disposals", 24], ["Goals", 3], ["Marks", 7], ["Tackles", 6]]}, "okafor": {"name": "Sam Okafor", "last": "Okafor", "num": "7", "stats": [["Disposals", 31], ["Clearances", 9], ["Tackles", 8], ["Marks", 5]]}, "tran": {"name": "Alex Tran", "last": "Tran", "num": "22", "stats": [["Spoils", 11], ["Rebounds", 9], ["Marks", 6], ["Tackles", 4]]}}};
+const CARDS = DATA.cards, PLAYERS = DATA.players;
+const LOCK = '<svg viewBox="0 0 11 13" fill="currentColor" aria-hidden="true"><path d="M5.5 0A3.5 3.5 0 0 0 2 3.5V5H1.4C.6 5 0 5.6 0 6.4v5.2c0 .8.6 1.4 1.4 1.4h8.2c.8 0 1.4-.6 1.4-1.4V6.4C11 5.6 10.4 5 9.6 5H9V3.5A3.5 3.5 0 0 0 5.5 0Zm2 5h-4V3.5a2 2 0 1 1 4 0V5Z"/></svg>';
+const CHEVRON = '<svg viewBox="0 0 11 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 1.5 2 9l7.5 7.5"/></svg>';
+const FLOWS = {
+  team:{tint:'#7C1430',ids:['finalScoreBroadcast','matchdayPoster','chromeFinalScore','finalScoreSplit','scoreDetail','statsByPeriodTeam','statsProgressionTeam']},
+  player:{tint:'#0F2A44',ids:['statHighlight','chromePlayer','scoutingReport','fullTime','holographic','playerOfMatch','statsByPeriodPlayer','statsProgressionPlayer']},
+  sticker:{tint:'#3E5468',ids:['heroStat','milestone','sticker']}
+};
+const AREAS = [['team','Team'],['attacking','Attacking'],['midfield','Midfield'],['defence','Defence']];
+const MAX_STATS = 6;
+const RENDER_MS = 620, SETTLE_MS = 150, SPINNER_MS = 500, RADIUS = 2;
+const $ = id => document.getElementById(id);
+const track = $('track'), phone = $('phone');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const state = {flow:'team',tier:'basic',centre:0,centres:{team:0,player:0,sticker:0},readyBy:{team:new Set(),player:new Set(),sticker:new Set()},
+  get ready(){return this.readyBy[this.flow]},photo:{team:false,player:false},player:'reid',area:'team',logoMissing:false,statPick:{}};
+let cells = [], renderTimer = null, slowTimer = null, settleTimer = null, renderingIndex = null;
+
+const flowCards = () => FLOWS[state.flow].ids.map(id => ({id,...CARDS[id]}));
+const isLocked = c => state.tier === 'basic' && !c.free;
+const photoKey = () => state.flow === 'team' ? 'team' : 'player';
+const hasPhoto = () => state.photo[photoKey()];
+const picked = () => state.statPick[state.player] || (state.statPick[state.player] = new Set(PLAYERS[state.player].stats.slice(0,MAX_STATS).map(s => s[0])));
+const version = c => c.players ? c.players[state.player] : c;
+const carouselArt = c => c.areas ? c.areas.team : version(c).src;
+/* The carousel always shows a photo (sample until the user adds one). The configurator never shows the sample. */
+const detailArt = c => {
+  if (c.areas) return c.areas[state.area];
+  const v = version(c);
+  return (c.usesPhoto && v.srcEmpty && !hasPhoto()) ? v.srcEmpty : v.src;
+};
+
+function layout(){
+  const w = track.clientWidth, h = track.clientHeight - 28;
+  const cw = Math.round(Math.min(h * 9/16, w * .64, 360));
+  const ch = Math.round(cw * 16/9), side = Math.round((w - cw)/2);
+  track.style.paddingInline = side + 'px';
+  cells.forEach(c => { c.style.width = cw + 'px'; c.style.height = ch + 'px'; });
+  paint();
+}
+
+function paint(){
+  const mid = track.scrollLeft + track.clientWidth/2;
+  let nearest = 0, best = Infinity;
+  cells.forEach((cell,i) => {
+    const centre = cell.offsetLeft + cell.offsetWidth/2;
+    const raw = (centre - mid) / (cell.offsetWidth + 12);
+    const d = Math.max(-1.4, Math.min(1.4, raw)), a = Math.min(1, Math.abs(d));
+    if (Math.abs(raw) < best){ best = Math.abs(raw); nearest = i; }
+    const scale = reduceMotion.matches ? 1 : 1 - .2*a;
+    const rot = reduceMotion.matches ? 0 : d * -10;
+    const pull = reduceMotion.matches ? 0 : -d * cell.offsetWidth * .13;
+    cell.style.transform = `translateX(${pull}px) rotateY(${rot}deg) scale(${scale})`;
+    cell.style.filter = `saturate(${1 - .85*a})`;
+    cell.style.opacity = 1 - .25*a;
+    cell.style.zIndex = 10 - Math.round(a*5);
+    cell.tabIndex = i === nearest ? 0 : -1;
+  });
+  if (nearest !== state.centre){ state.centre = nearest; updateCaption(); }
+}
+
+function updateCaption(){
+  const c = flowCards()[state.centre];
+  $('capName').textContent = c.label;
+  const tier = $('capTier');
+  if (isLocked(c)){ tier.className = 'tier'; tier.innerHTML = LOCK + 'Premium'; }
+  else if (state.tier === 'basic'){ tier.className = 'tier free'; tier.textContent = 'Free with Basic'; }
+  else { tier.className = 'tier free'; tier.textContent = ''; }
+  $('capSample').textContent = c.areas ? 'Choose Team, Attacking, Midfield or Defence next.' : c.usesPhoto && !hasPhoto() ? 'Sample photo. Add yours in the next step.' : '';
+  [...$('dots').children].forEach((d,i) => d.classList.toggle('on', i === state.centre));
+  cells.forEach((cell,i) => {
+    const cc = flowCards()[i];
+    cell.setAttribute('aria-label', cc.label + (isLocked(cc) ? ', Premium' : '') + (i === state.centre ? '. Opens customisation.' : ''));
+  });
+}
+
+/* Mirrors the planned CardPreviewScheduler: centre first, then +1, -1, +2, -2, one at a time. */
+function renderOrder(){
+  const out = [state.centre];
+  for (let r = 1; r <= RADIUS; r++) out.push(state.centre + r, state.centre - r);
+  return out.filter(i => i >= 0 && i < cells.length && !state.ready.has(i));
+}
+function cancelRender(){
+  clearTimeout(renderTimer); clearTimeout(slowTimer);
+  cells.forEach(c => c.classList.remove('slow'));
+  renderingIndex = null;
+}
+function pump(){
+  if (renderingIndex !== null) return;
+  const next = renderOrder()[0];
+  if (next === undefined) return;
+  renderingIndex = next;
+  const cell = cells[next];
+  if (next === state.centre) slowTimer = setTimeout(() => cell.classList.add('slow'), SPINNER_MS);
+  renderTimer = setTimeout(() => {
+    clearTimeout(slowTimer); cell.classList.remove('slow');
+    state.ready.add(next); cell.classList.add('ready');
+    renderingIndex = null; pump();
+  }, next === state.centre ? RENDER_MS + 240 : RENDER_MS);
+}
+function onScroll(){
+  paint();
+  if (renderingIndex !== null && Math.abs(renderingIndex - state.centre) > 1) cancelRender();
+  clearTimeout(settleTimer);
+  settleTimer = setTimeout(pump, SETTLE_MS + 60);
+}
+
+function renderPeople(){
+  const show = state.flow !== 'team';
+  $('people').hidden = !show;
+  $('people').innerHTML = Object.entries(PLAYERS).map(([id,p]) =>
+    `<button class="person" data-id="${id}" aria-pressed="${id === state.player}" aria-label="${p.name}, number ${p.num}"><b>${p.num}</b>${p.last}</button>`).join('');
+}
+function build(){
+  cancelRender();
+  renderPeople();
+  track.innerHTML = '';
+  const want = state.centres[state.flow];
+  track.style.setProperty('--tint', FLOWS[state.flow].tint);
+  $('dots').innerHTML = flowCards().map(() => '<span></span>').join('');
+  cells = flowCards().map((c,i) => {
+    const b = document.createElement('button');
+    b.className = 'cell' + (state.ready.has(i) ? ' ready' : ''); b.style.setProperty('--tint', FLOWS[state.flow].tint);
+    b.innerHTML = `<span class="tile">${c.label}<span class="spin"></span></span><img alt="" draggable="false" src="${carouselArt(c)}">`;
+    b.addEventListener('click', () => { if (!dragMoved) tapCell(i); });
+    track.appendChild(b);
+    return b;
+  });
+  track.scrollLeft = 0;
+  state.centre = 0;
+  layout();
+  if (want) scrollToCard(want,false);
+  paint(); updateCaption(); setTimeout(pump, 200);
+}
+function switchTab(tab){
+  state.centres[state.flow] = state.centre;
+  state.flow = tab; closeIfOpen();
+  document.querySelectorAll('[data-setting="tab"] button').forEach(b => b.setAttribute('aria-pressed', b.dataset.value === tab));
+  build();
+}
+/* A new player invalidates every Player and Sticker preview. The centred design stays where it is. */
+function choosePlayer(id){
+  if (id === state.player) return;
+  state.player = id; state.photo.player = false;
+  state.readyBy.player.clear(); state.readyBy.sticker.clear();
+  state.centres[state.flow] = state.centre;
+  build();
+}
+function scrollToCard(i,smooth=true){
+  const cell = cells[i]; if (!cell) return;
+  track.scrollTo({left:cell.offsetLeft - (track.clientWidth - cell.offsetWidth)/2, behavior:smooth && !reduceMotion.matches ? 'smooth' : 'auto'});
+}
+function tapCell(i){ i === state.centre ? openDetail() : scrollToCard(i); }
+
+function option(html){ return `<div class="option">${html}</div>`; }
+function optionsFor(c){
+  const photoName = c.group === 'player' ? 'Player Photo' : 'Game Photo';
+  const photoBtn = `<button class="option btn" id="addPhoto"><svg viewBox="0 0 18 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="1" width="16" height="14" rx="2.5"/><circle cx="6" cy="6" r="1.6"/><path d="m1.5 13 5-4.5 3.5 3 2.5-2 4 3.5"/></svg>${hasPhoto() ? 'Change Photo' : 'Add ' + photoName}</button>`;
+  const statsRow = `<button class="option row" id="editStats">Stats<span>${picked().size} of ${MAX_STATS}${CHEVRON}</span></button>`;
+  let extra = '';
+  if (c.areas) extra = `<div class="area-group"><span>Show stats for</span><div class="segment" id="areaPick">${AREAS.map(([id,n]) => `<button data-area="${id}" aria-pressed="${id === state.area}">${n}</button>`).join('')}</div></div>`;
+  if (c.id === 'finalScoreBroadcast') extra = option('Show Score Type Count<button class="switch" role="switch" aria-checked="true" aria-label="Show Score Type Count"></button>');
+  if (c.id === 'matchdayPoster') extra = option('Strip<span class="mini"><button aria-pressed="true">Home</button><button aria-pressed="false">Away</button></span>');
+  if (c.id === 'scoreDetail') extra = option('Text Colour<span style="width:26px;height:26px;border-radius:50%;background:#F8F9FA;border:1px solid var(--line-strong)"></span>');
+  if (c.group === 'player') extra = statsRow + option('Colours<span class="mini"><button aria-pressed="true">ScorX</button><button aria-pressed="false">Team Colors</button></span>');
+  if (c.group === 'sticker') extra = statsRow + option('Style<span class="mini"><button aria-pressed="true">Frosted</button><button aria-pressed="false">Dark</button><button aria-pressed="false">Light</button></span>');
+  const logo = c.group === 'final' && state.logoMissing ? `<button class="option btn" id="addLogo">Add opposition logo</button>` : '';
+  return logo + (c.usesPhoto ? photoBtn : '') + extra;
+}
+function renderDetail(){
+  const c = flowCards()[state.centre];
+  $('detailTitle').textContent = c.label;
+  $('detailImg').src = detailArt(c);
+  $('detailImg').alt = c.label + ' card preview';
+  $('detailOptions').innerHTML = optionsFor(c);
+  const add = $('addPhoto');
+  if (add) add.onclick = () => { state.photo[photoKey()] = true; renderDetail(); updateCaption(); };
+  const logo = $('addLogo');
+  if (logo) logo.onclick = () => { setLogoMissing(false); renderDetail(); };
+  const stats = $('editStats');
+  if (stats) stats.onclick = openStats;
+  const area = $('areaPick');
+  if (area) area.onclick = e => { const b = e.target.closest('button'); if (!b) return; state.area = b.dataset.area; renderDetail(); };
+  $('detailOptions').querySelectorAll('.mini').forEach(m => m.addEventListener('click', e => {
+    if (e.target.tagName !== 'BUTTON') return;
+    m.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b === e.target));
+  }));
+  $('detailOptions').querySelectorAll('.switch').forEach(s => s.onclick = () => s.setAttribute('aria-checked', s.getAttribute('aria-checked') !== 'true'));
+}
+function renderStats(){
+  const set = picked(), p = PLAYERS[state.player];
+  $('statsName').textContent = p.name;
+  $('statsCount').textContent = `${set.size} of ${MAX_STATS} selected`;
+  $('statsList').innerHTML = p.stats.map(([k,v]) => `<button class="stat-row" data-stat="${k}" aria-pressed="${set.has(k)}"><i>${set.has(k) ? '✓' : ''}</i>${k}<b>${v}</b></button>`).join('');
+  $('statsDone').disabled = set.size === 0;
+}
+function openStats(){ renderStats(); phone.classList.add('stats-open'); $('statsheet').setAttribute('aria-hidden','false'); }
+function closeStats(){ phone.classList.remove('stats-open'); $('statsheet').setAttribute('aria-hidden','true'); renderDetail(); }
+function setLogoMissing(v){
+  state.logoMissing = v;
+  document.querySelectorAll('[data-setting="logo"] button').forEach(b => b.setAttribute('aria-pressed', (b.dataset.value === 'missing') === v));
+}
+function openDetail(){
+  cancelRender(); renderDetail();
+  phone.classList.add('detail-open');
+  $('detail').setAttribute('aria-hidden','false');
+  $('detailBack').focus({preventScroll:true});
+}
+function closeDetail(){
+  phone.classList.remove('detail-open');
+  $('detail').setAttribute('aria-hidden','true');
+  setTimeout(pump, 360);
+  cells[state.centre].focus({preventScroll:true});
+}
+function saveTapped(){
+  if (isLocked(flowCards()[state.centre])) phone.classList.add('pay-open');
+}
+
+/* Mouse drag for desktop review. Touch uses native scrolling. */
+let dragMoved = false, dragStart = null;
+track.addEventListener('pointerdown', e => {
+  dragMoved = false;
+  if (e.pointerType !== 'mouse') return;
+  dragStart = {x:e.clientX,left:track.scrollLeft};
+});
+addEventListener('pointermove', e => {
+  if (!dragStart) return;
+  const dx = e.clientX - dragStart.x;
+  if (Math.abs(dx) > 5){ dragMoved = true; track.classList.add('dragging'); }
+  if (dragMoved) track.scrollLeft = dragStart.left - dx;
+});
+addEventListener('pointerup', () => {
+  if (!dragStart) return;
+  dragStart = null;
+  if (dragMoved){
+    track.classList.remove('dragging');
+    scrollToCard(state.centre);
+    setTimeout(() => { dragMoved = false; }, 30);
+  }
+});
+track.addEventListener('scroll', onScroll, {passive:true});
+track.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight'){ e.preventDefault(); scrollToCard(Math.min(state.centre+1,cells.length-1)); cells[Math.min(state.centre+1,cells.length-1)].focus({preventScroll:true}); }
+  if (e.key === 'ArrowLeft'){ e.preventDefault(); scrollToCard(Math.max(state.centre-1,0)); cells[Math.max(state.centre-1,0)].focus({preventScroll:true}); }
+});
+$('customise').onclick = openDetail;
+$('detailBack').onclick = closeDetail;
+$('save').onclick = saveTapped; $('share').onclick = saveTapped;
+const closePay = () => phone.classList.remove('pay-open');
+$('payLater').onclick = closePay; $('payUpgrade').onclick = closePay;
+$('scrim').onclick = () => { if (phone.classList.contains('stats-open')) { if (picked().size) closeStats(); } else closePay(); };
+$('statsDone').onclick = closeStats;
+$('statsList').onclick = e => {
+  const b = e.target.closest('.stat-row'); if (!b) return;
+  const set = picked(), k = b.dataset.stat;
+  if (set.has(k)) set.delete(k); else if (set.size < MAX_STATS) set.add(k);
+  renderStats();
+};
+$('people').onclick = e => { const b = e.target.closest('.person'); if (b) choosePlayer(b.dataset.id); };
+$('replay').onclick = () => { closeIfOpen(); Object.values(state.readyBy).forEach(r => r.clear()); state.centres[state.flow] = state.centre; build(); };
+function closeIfOpen(){ phone.classList.remove('detail-open','pay-open','stats-open'); $('detail').setAttribute('aria-hidden','true'); $('statsheet').setAttribute('aria-hidden','true'); }
+
+function setTheme(v){ document.documentElement.dataset.theme = v; }
+document.querySelectorAll('.segment[data-setting]').forEach(seg => seg.addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (seg.dataset.setting === 'tab') return switchTab(b.dataset.value);
+  seg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  const k = seg.dataset.setting, v = b.dataset.value;
+  if (k === 'theme') setTheme(v);
+  if (k === 'tier'){ state.tier = v; updateCaption(); }
+  if (k === 'logo'){ setLogoMissing(v === 'missing'); if (phone.classList.contains('detail-open')) renderDetail(); }
+  if (k === 'sport'){
+    const team = document.querySelector('[data-setting="tab"] [data-value="team"]');
+    team.hidden = v === 'racquet';
+    if (v === 'racquet' && state.flow === 'team') switchTab('player'); else if (v === 'team') { switchTab('team'); }
+  }
+}));
+const startDark = matchMedia('(prefers-color-scheme: dark)').matches;
+setTheme(startDark ? 'dark' : 'light');
+document.querySelectorAll('[data-setting="theme"] button').forEach(b => b.setAttribute('aria-pressed', (b.dataset.value === 'dark') === startDark));
+addEventListener('resize', layout);
+build();
+</script>
+</body>
+</html>
