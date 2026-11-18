@@ -302,18 +302,16 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
                 <h1 class="x-display">18 games this season. <em>Did they actually improve?</em></h1>
                 <p class="x-lede">Track their games from the sideline. Share a card the whole family will love. Free.</p>
 
-                <!-- Desktop set is server-rendered and is the no-JS fallback. The inline script below swaps it for iOS and Android. -->
+                <!-- App Store is the primary action; the card demo is secondary. Desktop set is server-rendered (no-JS fallback); the script below adapts it for iOS and Android. -->
                 <div class="hero-cta" id="hero-cta" data-device="desktop">
-                    <a href="/card/?src=hero" class="x-btn x-btn--primary" data-role="primary">Make a free card now</a>
-                    <div class="hero-store" data-role="secondary">
-                        <a class="hero-store__badge" href="https://apps.apple.com/au/app/scorx/id6753859833?ct=hero&amp;mt=8" target="_blank" rel="noopener">
-                            <img src="/images/app-store-badge.svg" width="120" height="40" alt="Download on the App Store">
-                        </a>
+                    <div class="hero-store" data-role="primary">
+                        <a href="https://apps.apple.com/au/app/scorx/id6753859833?ct=hero&amp;mt=8" class="x-btn x-btn--primary" target="_blank" rel="noopener">Download free on the App Store</a>
                         <div class="hero-store__qr">
                             <img src="/images/qr-app-store.svg" width="100" height="100" alt="QR code to download ScorX on the App Store" loading="lazy">
                             <span>Scan with<br>your iPhone</span>
                         </div>
                     </div>
+                    <a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm" data-role="secondary">Or try it first: make a free card</a>
                 </div>
                 <p class="hero-v2__trust">Free forever. No credit card. Built in Australia.</p>
             </div>
@@ -401,7 +399,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
                     <h2 class="x-display x-display--md">Make a card from <em>Saturday's game</em></h2>
                     <p>Score it live or just enter the result, add a photo, and get a full-time card ready for the group chat. Free, and it works right here in your browser.</p>
                 </div>
-                <div><a href="/card/?src=home-promo" class="x-btn x-btn--primary">Make a free card now</a></div>
+                <div><a href="/card/?src=home-promo" class="x-btn x-btn--ghost">Make a free card now</a></div>
             </div>
         </div>
     </section>
@@ -612,7 +610,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
                 el.setAttribute('data-device', 'ios');
                 el.innerHTML =
                     '<a href="https://apps.apple.com/au/app/scorx/id6753859833?ct=hero&amp;mt=8" class="x-btn x-btn--primary" target="_blank" rel="noopener">Download free on the App Store</a>' +
-                    '<a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm">Make a free card now</a>';
+                    '<a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm">Or try it first: make a free card</a>';
             } else {
                 el.setAttribute('data-device', 'android');
                 el.innerHTML = '<a href="/card/?src=hero" class="x-btn x-btn--primary">Make a free card now</a>';

@@ -24,7 +24,11 @@ button { cursor: pointer; }
 }
 .app-bar__brand { font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: -0.02em; color: var(--navy); text-decoration: none; }
 .app-bar__brand span { color: var(--turq-ink); }
-.app-bar__tag { font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--faint); font-weight: 700; }
+.app-bar__get {
+  font-size: 13px; font-weight: 800; color: var(--navy-deep); text-decoration: none;
+  background: var(--grad-turq); border-radius: var(--r-pill); padding: 8px 14px;
+  box-shadow: 0 4px 12px -5px rgba(0, 168, 150, 0.5);
+}
 
 .app-main { max-width: 480px; margin: 0 auto; padding: 8px 18px calc(40px + env(safe-area-inset-bottom)); }
 .app-noscript { padding: 40px 0; color: var(--mid); }

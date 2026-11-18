@@ -1,5 +1,6 @@
 // /card landing screen: two entry paths plus resume.
 import { track } from '../analytics.js';
+import { appStoreUrl } from '../config.js';
 
 const CHEV = '<svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M2 2l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const ICON_LIVE = '<svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><circle cx="13" cy="14" r="8.5" stroke="currentColor" stroke-width="2"/><path d="M13 14V9.5M10.5 3h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
@@ -49,7 +50,8 @@ function render() {
         <span class="choice__chev">${CHEV}</span>
       </button>
     </div>
-    <p class="start-note">Free. No app or account needed.</p>`;
+    <p class="start-note">Free. No app or account needed for this one-game demo.</p>
+    <p class="start-note start-note--app">Want a card after every game, and their whole season in one place? <a href="${appStoreUrl('card-start')}" target="_blank" rel="noopener">Get ScorX free on the App Store</a></p>`;
   if (resumable) root.querySelector('.resume__label').textContent = resumeLabel(store.getState());
 }
 

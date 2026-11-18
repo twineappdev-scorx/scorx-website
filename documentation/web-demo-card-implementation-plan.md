@@ -220,6 +220,8 @@ Build the function in Stage 2C with the Resend call behind a `RESEND_ENABLED` fl
 
 ## 5. Homepage and site changes (PRD 2.1–2.2)
 
+**CTA hierarchy (owner decision, 18 Nov 2026):** the card is a demo. The App Store download is the main action everywhere (homepage hero on iOS and desktop, blog post CTA, `/card` app bar and start screen). The card builder is always the secondary "Or try it first: make a free card". This overrides PRD 2.1's desktop row, which made the card primary. Exception: Android visitors can't install, so their hero keeps the card as primary.
+
 - **Hero:** split layout. Left side: a 2–3 line Fraunces headline ("18 games this season. *Did they actually improve?*"), a one-line subhead, device-aware buttons, and the trust line. Right side: a real Split Rail card (same renderer as `/card`, so the homepage shows exactly what the demo makes), with scores counting up on load (skipped under `prefers-reduced-motion`). Remove the "See ScorX for AFL" button
 - **Device-aware buttons:** server-render the desktop version (default). A small inline script swaps it on iOS (`/iPhone|iPad/` or iPadOS `MacIntel` + touch) and on Android. With no JS, the visitor sees the desktop version, which is safe
 - **Desktop QR:** a static SVG generated once for the campaign-tagged App Store URL. No runtime QR library
