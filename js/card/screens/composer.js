@@ -17,6 +17,7 @@ export function clearPhoto() { bitmap = null; }
 
 export function mount(el, c) {
   root = el; ctx = c;
+  window.addEventListener('scorx-card-reset', clearPhoto);
   root.innerHTML = `
     <button type="button" class="link-btn composer-back" data-act="back">&larr; Back</button>
     <h1 class="screen-title">Your full-time card</h1>
@@ -27,22 +28,7 @@ export function mount(el, c) {
       <p class="cmp-hint" data-el="hint" hidden>Drag to move the photo</p>
     </div>
 
-    <form class="panel cmp-gate" data-el="gate" novalidate>
-      <h2 class="cmp-h2">Get the full-size card</h2>
-      <p class="cmp-sub">We’ll unlock a high-res copy to save and share.</p>
-      <label class="field">
-        <span class="field__label">Email</span>
-        <input class="input" type="email" name="email" autocomplete="email" inputmode="email" required placeholder="you@example.com">
-      </label>
-      <label class="check"><input type="checkbox" name="nurture"><span>Send me a few tips on getting more out of ScorX</span></label>
-      <label class="check"><input type="checkbox" name="sideline"><span>Subscribe to The ScorX Sideline, our blog for sports parents</span></label>
-      <div data-el="turnstile" class="cmp-turnstile"></div>
-      <p class="form-error" data-el="error" role="alert" hidden></p>
-      <button class="btn btn--primary btn--block" type="submit" data-el="submit">Get my card</button>
-      <p class="cmp-privacy">Your photo never leaves your device. We keep your email and the boxes you tick, nothing else. <a href="/privacy.html">Privacy policy</a></p>
-    </form>
-
-    <span class="eyebrow">Customise</span>
+    <span class="eyebrow">Make it yours</span>
     <div class="panel cmp-options">
       <div class="cmp-photo-row">
         <button type="button" class="btn btn--quiet cmp-add" data-act="photo" data-el="photoBtn">
@@ -88,6 +74,21 @@ export function mount(el, c) {
         </div>
       </details>
     </div>
+
+    <form class="panel cmp-gate" data-el="gate" novalidate>
+      <h2 class="cmp-h2">Get the full-size card</h2>
+      <p class="cmp-sub">We’ll unlock a high-res copy to save and share.</p>
+      <label class="field">
+        <span class="field__label">Email</span>
+        <input class="input" type="email" name="email" autocomplete="email" inputmode="email" required placeholder="you@example.com">
+      </label>
+      <label class="check"><input type="checkbox" name="nurture"><span>Send me a few tips on getting more out of ScorX</span></label>
+      <label class="check"><input type="checkbox" name="sideline"><span>Subscribe to The ScorX Sideline, our blog for sports parents</span></label>
+      <div data-el="turnstile" class="cmp-turnstile"></div>
+      <p class="form-error" data-el="error" role="alert" hidden></p>
+      <button class="btn btn--primary btn--block" type="submit" data-el="submit">Get my card</button>
+      <p class="cmp-privacy">Your photo never leaves your device. We keep your email and the boxes you tick, nothing else. <a href="/privacy.html">Privacy policy</a></p>
+    </form>
   `;
   canvas = $('[data-el="canvas"]');
 

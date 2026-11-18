@@ -57,7 +57,11 @@ export function update(fn) {
 }
 
 export function replace(next) { state = next; save(); listeners.forEach(l => l(state)); }
-export function reset(sportId) { replace(newGame(sportId)); }
+export function reset(sportId) {
+  replace(newGame(sportId));
+  // In-memory state owned elsewhere (e.g. the composer's photo bitmap) listens for this.
+  window.dispatchEvent(new Event('scorx-card-reset'));
+}
 export function subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); }
 
 /** True if there's a saved game worth offering to resume. */
