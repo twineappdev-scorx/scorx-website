@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Split Rail render test</title>
+<style>
+  body { margin: 0; padding: 16px; background: #1b1b1b; color: #ddd; font: 14px/1.4 system-ui, sans-serif; }
+  h1 { font-size: 18px; margin: 0 0 16px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+  figure { margin: 0; }
+  figcaption { margin: 6px 0 0; max-width: 540px; font-size: 12px; color: #aaa; }
+  canvas, img.ref { display: block; width: 270px; height: 480px; background: #000; }
+  label { display: block; margin-top: 6px; }
+</style>
+</head>
+<body>
+<h1>Split Rail render test (dev only, scale 0.5)</h1>
+<div class="grid" id="grid"></div>
+<script type="module">
+import { renderSplitRail, CARD_W, CARD_H } from '../js/card/render-split-rail.js';
+import { loadPhoto } from '../js/card/photo.js';
+
+const MAROON = { primary: '#7C1430', accent: '#F2C14E', secondary: '#8EC5F0' };
+const SCORX = { primary: '#0F2A44', accent: '#1FEDD8', secondary: '#8EC5F0' }; // what store.cardData() returns in ScorX mode
+const side = (name, score, breakdown = '') => ({ name, initial: name.trim()[0].toUpperCase(), score, breakdown });
+const afl = { sport: 'afl', sportLabel: 'AFL', competition: '', round: '12',
+  home: side('Bayside Bulldogs', 84, '13.6'), away: side('Northcote Hawks', 61, '9.7'), colours: MAROON };
+
+const fixtures = [
+  { id: 'afl-maroon', title: 'AFL home win, maroon (should match the mock)', data: afl, ref: true },
+  { id: 'afl-scorx', title: 'AFL, ScorX colours', data: { ...afl, colours: SCORX } },
+  { id: 'netball-draw', title: 'Netball draw 31-31, competition + round',
+    data: { sport: 'netball', sportLabel: 'Netball', competition: 'Under 12s', round: '4',
+      home: side('Kenmore', 31), away: side('Wests', 31), colours: SCORX } },
+  { id: 'basketball-long', title: 'Basketball 102 v 9, very long names',
+    data: { sport: 'basketball', sportLabel: 'Basketball', competition: '', round: '',
+      home: side('Western Districts Warriors Under 14 Girls', 102), away: side("St Mary's", 9), colours: MAROON } },
+  { id: 'soccer-noround', title: 'Soccer, no round', data: { sport: 'soccer', sportLabel: 'Soccer', competition: '', round: '',
+      home: side('Riverside FC', 3), away: side('Hillcrest United', 1), colours: SCORX } },
+  { id: 'photo', title: 'With a photo (choose a file below)', data: afl, photo: true },
+  { id: 'preview', title: 'preview: true', data: { ...afl, colours: SCORX }, preview: true },
+];
+
+const grid = document.getElementById('grid');
+window.__cards = {};
+for (const f of fixtures) {
+  const fig = document.createElement('figure');
+  if (f.ref) {
+    const wrap = document.createElement('figure');
+    const img = document.createElement('img'); img.className = 'ref';
+    img.src = '../documentation/reference/split-rail-with-photo.jpg'; img.alt = 'Reference mock';
+    wrap.append(img); const cap = document.createElement('figcaption'); cap.textContent = 'Reference mock'; wrap.append(cap);
+    grid.append(wrap);
+  }
+  const cv = document.createElement('canvas'); cv.id = f.id;
+  const cap = document.createElement('figcaption'); cap.textContent = f.title;
+  fig.append(cv, cap);
+  let photo = null;
+  const draw = () => renderSplitRail(cv, f.data, { scale: 0.5, preview: !!f.preview, photo });
+  if (f.photo) {
+    const lab = document.createElement('label'); lab.textContent = 'Photo: ';
+    const inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*';
+    const msg = document.createElement('div'); msg.style.color = '#f99';
+    inp.addEventListener('change', async () => {
+      msg.textContent = '';
+      try { const p = await loadPhoto(inp.files[0]); photo = { bitmap: p.bitmap, x: 0.5, y: 0.5, zoom: 1 }; draw(); }
+      catch (e) { msg.textContent = e.message; }
+    });
+    lab.append(inp); fig.append(lab, msg);
+    window.__setPhoto = async (file, focal = {}) => { const p = await loadPhoto(file); photo = { bitmap: p.bitmap, x: 0.5, y: 0.5, zoom: 1, ...focal }; await draw(); };
+  }
+  grid.append(fig);
+  window.__cards[f.id] = { f, draw, canvas: cv };
+  draw();
+}
+window.__fixtures = fixtures;
+window.__renderFull = async (id, extra = {}) => {
+  const f = fixtures.find(x => x.id === id); const cv = document.createElement('canvas');
+  await renderSplitRail(cv, f.data, { scale: 1, ...extra }); return cv.toDataURL('image/png');
+};
+window.__ready = Promise.all(Object.values(window.__cards).map(c => c.draw()));
+</script>
+</body>
+</html>

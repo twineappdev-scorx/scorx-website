@@ -81,20 +81,7 @@ permalink: /terms.html
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <nav>
-            <a href="./" class="logo"><img src="./images/Card.png" width="900" height="300" alt="ScorX" class="logo-img"></a>
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-            <ul class="nav-links">
-                <li><a href="./athletes.html">Athletes</a></li>
-                <li><a href="./coaches.html">Coaches</a></li>
-                <li><a href="./sports.html">Sports</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./blog/">Blog</a></li>
-                <li><a href="./download.html" class="nav-cta">Download Free</a></li>
-            </ul>
-        </nav>
-    </header>
+{% include site-header.html %}
 
     <!-- TERMS OF SERVICE CONTENT -->
     <div class="legal-content">
@@ -402,49 +389,7 @@ permalink: /terms.html
         </div>
     </div>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-brand">
-                <div class="logo">ScorX</div>
-                <p>Grow your Game</p>
-            </div>
-            <div class="footer-section">
-                <h4>Product</h4>
-                <ul>
-                    <li><a href="./features.html">Features</a></li>
-                    <li><a href="./sports.html">Sports</a></li>
-                    <li><a href="./pricing.html">Pricing</a></li>
-                    <li><a href="./how-it-works.html">How It Works</a></li>
-                    <li><a href="./sports-graphic-generator.html">Sports Graphic Generator</a></li>
-                    <li><a href="./download.html">Download</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="./support.html">FAQ</a></li>
-                    <li><a href="mailto:scorxapp@gmail.com">Contact</a></li>
-                    <li><a href="./privacy.html">Privacy Policy</a></li>
-                    <li><a href="./terms.html">Terms of Service</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 ScorX &bull; Twine App Dev</p>
-        </div>
-    </footer>
+{% include site-footer.html %}
 
-    <script>
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => navLinks.classList.remove('active'));
-        });
-    </script>
 </body>
 </html>

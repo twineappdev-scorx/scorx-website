@@ -14,6 +14,8 @@ button, input, select { font: inherit; color: inherit; }
 button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--turq-ink); outline-offset: 2px; }
 [hidden] { display: none !important; }
+/* Router moves focus to the screen heading for screen readers; no visible ring needed there. */
+[data-screen] h1:focus, [data-screen] h2:focus { outline: none; }
 
 /* App bar */
 .app-bar {

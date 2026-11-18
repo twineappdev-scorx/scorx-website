@@ -1,0 +1,23 @@
+# Homepage social proof strip (index.html, directly under the hero).
+# The strip renders NOTHING while quotes, clubs and rating are all empty.
+# Only add entries that are real AND have written permission to publish
+# (PRD open question 7). Never invent testimonials, clubs or ratings.
+#
+# Example shape (keep commented until real):
+#
+# quotes:
+#   - text: "The kids passed the phone around at the clubrooms to see their card."
+#     name: "Sam"
+#     club: "Example Junior Football Club"
+#
+# clubs:
+#   - "Example Junior Football Club"
+#
+# rating:
+#   value: 4.9
+#   count: 120
+#   source: "App Store"
+
+quotes: []
+clubs: []
+rating: null
