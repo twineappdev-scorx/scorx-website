@@ -29,7 +29,7 @@ export function mount(node, c) {
     <div data-live>
       <div class="timer">
         <div class="timer-row">
-          <div class="clock"><span class="qchip" data-chip></span><span class="time" data-time role="timer" aria-label="Time remaining">0:00</span><span class="rem" data-rem>remaining</span></div>
+          <div class="clock"><span class="qchip" data-chip></span><span class="tcol"><span class="time" data-time role="timer" aria-label="Time remaining">0:00</span><span class="rem" data-rem>remaining</span></span></div>
           <div class="ctrl">
             <button type="button" class="pause" data-act="toggle" aria-label="Start the clock"></button>
             <button type="button" class="next" data-act="next"><span data-next-icon></span><span class="nl" data-next-label>Next</span></button>

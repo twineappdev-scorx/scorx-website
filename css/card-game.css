@@ -68,10 +68,11 @@
 /* timer */
 .timer { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: 14px 16px 13px; box-shadow: var(--shadow-card); }
 .timer-row { display: flex; align-items: center; gap: 12px; }
-.clock { display: flex; align-items: baseline; gap: 10px; flex: 1; min-width: 0; }
+.clock { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
 .qchip { font-weight: 800; font-size: 13px; letter-spacing: 0.06em; color: var(--turq-ink); background: var(--inset); border-radius: 9px; padding: 6px 10px; flex: none; }
 .time { font-weight: 800; font-size: 34px; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1; }
-.rem { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); font-weight: 700; align-self: center; }
+.tcol { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.rem { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); font-weight: 700; }
 .ctrl { display: flex; align-items: center; gap: 8px; flex: none; }
 .pause { width: 46px; height: 46px; border-radius: 50%; background: var(--turq); color: var(--navy-deep); border: none; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px -5px rgba(0, 168, 150, 0.5); transition: transform .1s; }
 .pause:active { transform: scale(0.93); }
