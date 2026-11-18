@@ -5,6 +5,9 @@ description: Youth Sports Performance Tracking App — Live Game Scoring & Playe
 url: "https://www.scorx.com.au"
 baseurl: ""
 
+# Single source for the public contact address (footer, etc). Switch to the @scorx.com.au mailbox here once it exists.
+contact_email: scorxapp@gmail.com
+
 permalink: /blog/:slug/
 
 defaults:
@@ -32,3 +35,5 @@ exclude:
   - "images/scor_x.zip"
   - Gemfile
   - Gemfile.lock
+  - supabase/
+  - card/render-test.html

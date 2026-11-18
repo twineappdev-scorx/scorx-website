@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ScorX — Game View · Grid Scoreboard (Hybrid)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --canvas:#F4F7F8; --surface:#FFFFFF; --inset:#E8EEF1; --line:#E2E9ED; --line-strong:#D2DCE2;
+    --navy:#0F2A44; --navy-deep:#081B2E; --turq:#00D4C4; --turq-ink:#00897C; --turq-bright:#1FEDD8;
+    --mid:#51677A; --faint:#8DA0AF; --behind:#E8A33D; --danger:#E5604D;
+    --r-card:18px; --r-inner:13px; --r-pill:100px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Archivo',-apple-system,sans-serif; background:#E7EDF0; color:var(--navy); padding:48px 24px 80px; }
+
+  .gh { max-width:840px; margin:0 auto 40px; }
+  .gh .eyebrow { font-size:11px; letter-spacing:0.28em; text-transform:uppercase; color:var(--turq-ink); font-weight:700; margin-bottom:13px; }
+  .gh h1 { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,4.5vw,40px); letter-spacing:-0.02em; line-height:1.08; }
+  .gh p { margin-top:14px; color:var(--mid); font-size:15px; line-height:1.6; max-width:600px; }
+
+  .stage { max-width:840px; margin:0 auto; display:flex; gap:40px; justify-content:center; flex-wrap:wrap; align-items:flex-start; }
+  .col { display:flex; flex-direction:column; gap:16px; }
+  .cap { max-width:393px; font-size:12.5px; color:var(--mid); line-height:1.55; }
+  .cap b { color:var(--navy); }
+
+  .phone { width:393px; background:var(--canvas); border-radius:44px; border:1px solid rgba(15,42,68,0.1); box-shadow:0 40px 80px -30px rgba(15,42,68,0.3), inset 0 1px 0 #fff; overflow:hidden; }
+  .statusbar { height:52px; display:flex; align-items:center; justify-content:space-between; padding:18px 30px 0; font-size:14px; font-weight:600; }
+  .statusbar .ic { color:var(--mid); font-size:12px; }
+  .section { padding:6px 18px 20px; }
+
+  /* ── header ── */
+  .hdr { display:flex; align-items:center; gap:10px; padding:8px 2px 14px; }
+  .icbtn { width:38px; height:38px; border-radius:12px; flex-shrink:0; display:flex; align-items:center; justify-content:center; cursor:pointer; background:var(--surface); border:1px solid var(--line); box-shadow:0 1px 3px rgba(15,42,68,0.06); }
+  .hdr .title { flex:1; min-width:0; }
+  .hdr .title .t1 { font-weight:800; font-size:15px; letter-spacing:-0.01em; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .hdr .title .t1 .rd { color:var(--mid); font-weight:600; }
+  .hdr .title .t2 { font-size:11px; color:var(--faint); font-weight:600; margin-top:2px; }
+  .undo { display:flex; align-items:center; gap:7px; flex-shrink:0; background:var(--turq); border:none; color:var(--navy-deep); font-family:'Archivo'; font-weight:800; font-size:13px; border-radius:var(--r-pill); padding:9px 14px; cursor:pointer; box-shadow:0 4px 12px -5px rgba(0,168,150,0.5); }
+  .undo .badge { background:var(--navy-deep); color:var(--turq-bright); font-size:10px; font-weight:800; min-width:17px; height:17px; border-radius:9px; display:flex; align-items:center; justify-content:center; padding:0 4px; }
+  .undo:disabled { background:var(--inset); color:var(--faint); box-shadow:none; cursor:default; }
+  .undo:disabled .badge { background:var(--line-strong); color:var(--faint); }
+  .del { width:38px; height:38px; border-radius:12px; flex-shrink:0; display:flex; align-items:center; justify-content:center; cursor:pointer; background:var(--surface); border:1px solid var(--line); }
+
+  /* ── timer ── */
+  .timer { background:var(--surface); border:1px solid var(--line); border-radius:var(--r-card); padding:14px 16px 13px; box-shadow:0 6px 18px -14px rgba(15,42,68,0.18); }
+  .timer-row { display:flex; align-items:center; gap:12px; }
+  .clock { display:flex; align-items:baseline; gap:10px; flex:1; min-width:0; }
+  .clock .qchip { font-weight:800; font-size:13px; letter-spacing:0.06em; color:var(--turq-ink); background:var(--inset); border-radius:9px; padding:6px 10px; flex-shrink:0; }
+  .clock .time { font-weight:800; font-size:34px; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; line-height:1; }
+  .clock .rem { font-size:9px; letter-spacing:0.14em; text-transform:uppercase; color:var(--faint); font-weight:700; align-self:center; }
+  .ctrl { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+  .pause { width:46px; height:46px; border-radius:50%; background:var(--turq); border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 16px -5px rgba(0,168,150,0.5); transition:transform .1s; }
+  .pause:active { transform:scale(0.93); }
+  .next { display:flex; flex-direction:column; align-items:center; gap:2px; background:none; border:1px solid var(--line-strong); border-radius:14px; padding:8px 14px; cursor:pointer; color:var(--navy); font-family:'Archivo'; }
+  .next .nl { font-weight:800; font-size:11px; }
+  .pbar-wrap { margin-top:13px; }
+  .pbar-meta { display:flex; justify-content:space-between; font-size:10px; color:var(--faint); font-weight:600; font-variant-numeric:tabular-nums; margin-bottom:5px; }
+  .pbar { height:5px; border-radius:100px; background:var(--inset); overflow:hidden; }
+  .pbar .fill { height:100%; width:22%; border-radius:100px; background:linear-gradient(90deg,var(--turq-ink),var(--turq)); }
+
+  /* ── GRID SCOREBOARD ── */
+  .board { margin-top:14px; background:linear-gradient(165deg,#16385A,var(--navy-deep)); border-radius:var(--r-card); padding:13px 16px 15px; box-shadow:0 16px 36px -18px rgba(8,27,46,0.55); }
+  .board-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
+  .live { display:flex; align-items:center; gap:7px; }
+  .live .dot { width:8px; height:8px; border-radius:50%; background:var(--turq-bright); animation:blink 1.6s steps(2) infinite; }
+  @keyframes blink { 50%{opacity:.25;} }
+  .live .lb { font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:var(--turq-bright); font-weight:800; }
+  .board-top .hint { font-size:10px; color:rgba(248,249,250,0.5); font-weight:600; }
+
+  /* column-row grid */
+  .sb-grid { display:grid; grid-template-columns:1fr 54px 54px 54px; gap:9px 8px; align-items:center; }
+  .sb-head { font-size:10px; letter-spacing:0.14em; text-transform:uppercase; font-weight:800; text-align:center; padding-bottom:1px; }
+  .sb-head.team { text-align:left; }
+  .sb-head.g, .sb-head.b { color:rgba(248,249,250,0.5); }
+  .sb-head.pts { color:var(--turq-bright); }
+
+  .sb-team { font-weight:800; font-size:15px; letter-spacing:0.02em; text-transform:uppercase; color:#F8F9FA; }
+
+  /* plate */
+  .plate { position:relative; height:46px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:21px; font-variant-numeric:tabular-nums; }
+  .plate::before { content:''; position:absolute; top:-3px; left:50%; transform:translateX(-50%); width:5px; height:5px; border-radius:50%; background:rgba(248,249,250,0.35); }
+  /* tappable G/B plates */
+  .plate.tap { cursor:pointer; background:linear-gradient(180deg,#FFFFFF,#EEF2F4); color:var(--navy); border:none;
+    box-shadow:0 4px 0 #C3CED5, 0 7px 12px -4px rgba(0,0,0,0.4); transition:transform .08s ease, box-shadow .08s ease; -webkit-tap-highlight-color:transparent; }
+  .plate.tap:active { transform:translateY(3px); box-shadow:0 1px 0 #C3CED5, 0 3px 7px -3px rgba(0,0,0,0.4); }
+  /* derived PTS plate */
+  .plate.pts { background:linear-gradient(180deg,var(--turq-bright),var(--turq)); color:var(--navy-deep);
+    box-shadow:0 4px 0 #00A294, 0 7px 12px -4px rgba(0,0,0,0.4); }
+  .plate.pts::before { background:rgba(8,27,46,0.3); }
+
+  .bump { animation:bump .32s ease; }
+  @keyframes bump { 0%{transform:scale(1);} 38%{transform:scale(1.22);} 100%{transform:scale(1);} }
+
+  /* continuation */
+  .cont { margin:12px 18px 0; display:flex; align-items:center; gap:11px; background:var(--surface); border:1px solid var(--line); border-radius:var(--r-inner); padding:13px 15px; opacity:0.7; }
+  .cont .ci { width:30px; height:30px; border-radius:9px; background:var(--inset); display:flex; align-items:center; justify-content:center; }
+  .cont .ct { font-weight:700; font-size:13px; color:var(--navy); }
+  .fade { height:34px; background:linear-gradient(to bottom, transparent, var(--canvas)); margin-top:-20px; }
+
+  @media (max-width:460px){ body{padding:28px 8px;} .phone{width:100%; max-width:393px;} }
+</style>
+</head>
+<body>
+
+<header class="gh">
+  <div class="eyebrow">ScorX · Game view · Top section · Grid scoreboard</div>
+  <h1>Ground scoreboard, <em>made of buttons</em>.</h1>
+  <p>G / B / PTS columns, a row per team, hanging plates. The white G and B plates depress when tapped to score; the turquoise PTS plate is derived (6×G + B) and stays read-only. Undo reverses the last tap.</p>
+</header>
+
+<div class="stage">
+  <div class="col">
+    <div class="phone">
+      <div class="statusbar"><span>5:34</span><span class="ic">●●● ⌁ ▮</span></div>
+      <div class="section">
+
+        <!-- header -->
+        <div class="hdr">
+          <div class="icbtn" title="Back"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M9 3L5 7.5l4 4.5" stroke="#0F2A44" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="title">
+            <div class="t1">SEQ U15B D1 <span class="rd">· Round 8</span></div>
+            <div class="t2">Australian Football · Kenmore v Wests</div>
+          </div>
+          <button class="undo" id="undoBtn" disabled>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3L2 5.5 5 8M2 5.5h6.5a3 3 0 010 6H5.5" stroke="#081B2E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="badge" id="undoCount">0</span>
+          </button>
+          <div class="del" title="Delete game"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 4h10M6 4V2.5h4V4M4.5 4l.6 8.5a1 1 0 001 .9h3.8a1 1 0 001-.9L11.5 4" stroke="#E5604D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+
+        <!-- timer -->
+        <div class="timer">
+          <div class="timer-row">
+            <div class="clock"><span class="qchip">Q2</span><span class="time">11:42</span><span class="rem">remaining</span></div>
+            <div class="ctrl">
+              <button class="pause" title="Pause"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M4.5 3v9M10.5 3v9" stroke="#081B2E" stroke-width="2.6" stroke-linecap="round"/></svg></button>
+              <button class="next" title="Next period"><svg width="17" height="13" viewBox="0 0 17 13" fill="none"><path d="M2 2l6 4.5L2 11M11 2v9" stroke="#0F2A44" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nl">Next</span></button>
+            </div>
+          </div>
+          <div class="pbar-wrap">
+            <div class="pbar-meta"><span>3:18 elapsed</span><span>15:00 quarter</span></div>
+            <div class="pbar"><div class="fill"></div></div>
+          </div>
+        </div>
+
+        <!-- GRID SCOREBOARD -->
+        <div class="board">
+          <div class="board-top">
+            <div class="live"><span class="dot"></span><span class="lb">Live</span></div>
+            <div class="hint">Tap G or B to score</div>
+          </div>
+          <div class="sb-grid">
+            <!-- headers -->
+            <div class="sb-head team"></div>
+            <div class="sb-head g">G</div>
+            <div class="sb-head b">B</div>
+            <div class="sb-head pts">PTS</div>
+            <!-- KENMORE -->
+            <div class="sb-team">Kenmore</div>
+            <button class="plate tap" data-team="home" data-type="g"><span id="homeG">3</span></button>
+            <button class="plate tap" data-team="home" data-type="b"><span id="homeB">2</span></button>
+            <div class="plate pts"><span id="homePts">20</span></div>
+            <!-- WESTS -->
+            <div class="sb-team">Wests</div>
+            <button class="plate tap" data-team="away" data-type="g"><span id="awayG">1</span></button>
+            <button class="plate tap" data-team="away" data-type="b"><span id="awayB">4</span></button>
+            <div class="plate pts"><span id="awayPts">10</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cont">
+        <div class="ci"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="4" width="12" height="9" rx="1.5" stroke="#51677A" stroke-width="1.4"/><circle cx="8" cy="8.5" r="2.2" stroke="#51677A" stroke-width="1.4"/></svg></div>
+        <div class="ct">Capture Game Moments</div>
+      </div>
+      <div class="fade"></div>
+    </div>
+
+    <div class="cap"><b>Try it:</b> tap any G or B plate — it depresses, PTS recalculates and bumps, and the Undo badge climbs. PTS plates aren't tappable because points are derived, not entered.</div>
+  </div>
+</div>
+
+<script>
+  const state = { home:{g:3,b:2}, away:{g:1,b:4} };
+  const history = [];
+  const $ = id => document.getElementById(id);
+  function render(changed){
+    for (const t of ['home','away']){
+      $(t+'G').textContent = state[t].g;
+      $(t+'B').textContent = state[t].b;
+      $(t+'Pts').textContent = state[t].g*6 + state[t].b;
+    }
+    $('undoCount').textContent = history.length;
+    $('undoBtn').disabled = history.length === 0;
+    if (changed){
+      const el = $(changed.team + (changed.type==='g'?'G':'B'));
+      el.classList.remove('bump'); void el.offsetWidth; el.classList.add('bump');
+      const p = $(changed.team+'Pts'); p.classList.remove('bump'); void p.offsetWidth; p.classList.add('bump');
+    }
+  }
+  document.querySelectorAll('.plate.tap').forEach(p=>{
+    p.addEventListener('click',()=>{ const team=p.dataset.team, type=p.dataset.type; state[team][type]++; history.push({team,type}); render({team,type}); });
+  });
+  $('undoBtn').addEventListener('click',()=>{ const last=history.pop(); if(!last) return; state[last.team][last.type]--; render(); });
+  render();
+</script>
+</body>
+</html>

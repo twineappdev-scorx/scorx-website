@@ -1,0 +1,20 @@
+{%- comment -%}
+  Site header. Optional param: active = athletes | coaches | sports | pricing | blog | card
+  Usage: {% include site-header.html active="pricing" %}
+  The Blog link is also marked active automatically on any /blog/ URL.
+{%- endcomment -%}
+    <header>
+        <nav>
+            <a href="/" class="logo"><img src="/images/Card.png" width="900" height="300" alt="ScorX" class="logo-img"></a>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="/athletes.html"{% if include.active == 'athletes' %} class="active"{% endif %}>Athletes</a></li>
+                <li><a href="/coaches.html"{% if include.active == 'coaches' %} class="active"{% endif %}>Coaches</a></li>
+                <li><a href="/sports.html"{% if include.active == 'sports' %} class="active"{% endif %}>Sports</a></li>
+                <li><a href="/pricing.html"{% if include.active == 'pricing' %} class="active"{% endif %}>Pricing</a></li>
+                <li><a href="/blog/"{% if include.active == 'blog' or page.url contains '/blog/' %} class="active"{% endif %}>Blog</a></li>
+                <li><a href="/card/"{% if include.active == 'card' %} class="active"{% endif %}>Make a card</a></li>
+                <li><a href="/download.html" class="nav-cta">Download Free</a></li>
+            </ul>
+        </nav>
+    </header>
