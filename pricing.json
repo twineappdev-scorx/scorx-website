@@ -1,6 +1,7 @@
 {
-  "schema": "scorx-pricing/1.0",
-  "updated": "2026-06-06",
+  "schema": "scorx-pricing/1.1",
+  "updated": "2026-11-19",
+  "verified_by": "Owner interview 2026-11-19 (see documentation/app-facts.md)",
   "currency": "AUD",
   "tiers": [
     {
@@ -10,26 +11,52 @@
       "price_annual": 0,
       "trial_days": null,
       "limits": {
-        "teams": "unlimited",
-        "players": "unlimited",
-        "games": "unlimited"
+        "teams": 5,
+        "players": 25,
+        "games": 20,
+        "games_note": "20 saved games in total, not per month. At the cap you can't save a new game until you delete one or upgrade to Premium.",
+        "custom_metrics": 1
       },
-      "features": [
-        "Live scoring across 16 sports",
-        "Team mode and individual stat recording",
-        "Player rotations and playing time tracking",
-        "Match Invitations (distributed stat recording)",
-        "Post-Game Triage Dashboard",
-        "Perception vs Reality analysis",
-        "Full game history and stats",
-        "Activity timeline per game",
-        "Athleticism metric tracking (10 metrics)",
-        "Trend indicators per metric",
-        "Career Timeline",
-        "One standard Player Card style",
-        "Full offline mode"
-      ],
-      "notes": "Core scoring, tracking, and team management tools. Free forever, no credit card required."
+      "features": {
+        "score": [
+          "Live scoring across 16 sports",
+          "Team mode and individual stat recording",
+          "Player rotations and playing time tracking",
+          "Match Invitations (distributed stat recording)",
+          "Spreadsheet team import (PlayHQ .xlsx/.csv export)",
+          "Game pack export/import",
+          "Full offline mode"
+        ],
+        "track": [
+          "Game history and stats (up to 20 saved games)",
+          "Activity timeline per game",
+          "Post-Game Triage Dashboard",
+          "Perception vs Reality analysis",
+          "Player sentiment and reflections",
+          "Career Timeline",
+          "One standard Player Card style"
+        ],
+        "train": [
+          "Measure: 14 baseline athleticism metrics with trend and progress chart",
+          "Age and sex-specific athleticism benchmarking",
+          "Goal mode: target per metric with goal line on the chart",
+          "1 custom metric",
+          "Big goal (BHAG)",
+          "Development Plan: skill slots with 2 drills each, outcome goal, S&C goal",
+          "Run drills: Beep Test, 800m time trial, 2km time trial",
+          "Drill Library and Drill Animator (AFL first), including save and import",
+          "Play Library and Play Animator, including save and import",
+          "Training Sessions and Run Session with beep pacing",
+          "Drill assignment to a squad and team results",
+          "Favourite drills",
+          "Injury prevention and general programs"
+        ],
+        "devices": [
+          "iPad Team Mode (magnet board, lineup planning)",
+          "Share Extension"
+        ]
+      },
+      "notes": "Scoring, tracking and training tools. Free forever, no credit card required. Limits: 5 teams, 25 players, 20 saved games."
     },
     {
       "id": "premium",
@@ -39,14 +66,29 @@
       "price_annual_equivalent_monthly": 4.16,
       "trial_days": 30,
       "trial_requires_card": false,
+      "trial_scope": "Full Premium: every Premium feature, with no team, player or game limits.",
       "family_sharing": true,
       "family_sharing_members": 5,
       "limits": {
         "teams": "unlimited",
         "players": "unlimited",
-        "games": "unlimited"
+        "games": "unlimited",
+        "custom_metrics": "unlimited"
       },
       "premium_capability_buckets": [
+        {
+          "bucket": "Unlimited",
+          "features": [
+            "Unlimited teams, players and saved games",
+            "Unlimited custom metrics"
+          ]
+        },
+        {
+          "bucket": "Score",
+          "features": [
+            "Voice stat recording (team sports, iOS 26 and later)"
+          ]
+        },
         {
           "bucket": "AI analytics",
           "features": [
@@ -56,15 +98,17 @@
           ]
         },
         {
-          "bucket": "Advanced analytics",
+          "bucket": "Train",
           "features": [
-            "Age and sex-specific athleticism benchmarking"
+            "Full run drill library (sprint and interval drills)",
+            "Custom run drills"
           ]
         },
         {
           "bucket": "Graphics",
           "features": [
             "Full Player Card style library",
+            "Share Cards carousel and premium card designs",
             "Sticker format Player Cards",
             "Custom colour themes and card configurator"
           ]
@@ -78,7 +122,7 @@
           ]
         }
       ],
-      "notes": "Unlocks AI training intelligence, advanced analytics, and shareable graphics. Includes everything in ScorX Free."
+      "notes": "Removes the Free limits and adds AI training intelligence, voice recording, the full run drill library and the full card library. Includes everything in ScorX Free."
     }
   ],
   "actions": {

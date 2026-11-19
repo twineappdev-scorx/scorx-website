@@ -1,0 +1,90 @@
+# ScorX app facts for website copy
+
+**Last verified:** 2026-11-19, by owner interview against the current App Store build.
+**Use with:** `pricing.json` (prices, limits, tier lists). If this file and `pricing.json` disagree, stop and ask the owner. Don't pick one.
+
+This file is the only feature reference for site copy. Agents can't see the app repo, so anything not listed here is unverified: leave existing copy alone and raise it in your hand-off note.
+
+---
+
+## Owner decisions (2026-11-19)
+
+| ID | Question | Answer |
+|---|---|---|
+| D1 | Free tier limits | **Real: 5 teams, 25 players, 20 saved games.** The site must change to match. |
+| D1b | What happens at the 20-game cap | **New games are blocked.** To save another, delete a game or upgrade to Premium. The 20 is a total, not per month. |
+| D2 | Train tiers | Within Train, **only AI training recommendations and the full run drill library (sprint/interval drills and custom run drills) are Premium.** Everything else in Train is Free: Development Plan, BHAG, goal mode, **age/sex benchmarking (moved from Premium to Free)**, drill and play libraries including save/import, Training Sessions and Run Session, drill assignment and team results, favourites, injury prevention programs. |
+| D3a | Athleticism metrics | **14 baseline metrics**, plus custom metrics: Free 1, Premium unlimited. Replace every "10 metrics". |
+| D3b | Trial scope | **Full Premium for 30 days, no card**, with no team/player/game limits during the trial. (The scope doc said the trial excluded export and limits. That was wrong.) |
+| D3c | Free card wording | Keep **"One standard Player Card style"**. The full card library, Share Cards carousel, sticker cards and card configurator are Premium. |
+| D4 | Released in the App Store build | **All of these: voice stat recording, PlayHQ spreadsheet import, Training Sessions + Run Session, Drill and Play Animators, Share Cards carousel, iPad Team Mode, game pack export/import, Share Extension.** Still not released (don't mention): the Home feed / Home landing. |
+| D5 | Support email | **scorxapp@gmail.com** everywhere. No change. |
+| D6 | Analytics | **PostHog is live in the app.** "No tracking" is false and must come off the site. Use "No ads. We never sell your data." The owner updates `privacy.html` separately; agents don't edit legal text about analytics. |
+| D7 | Minimum iOS | **iOS 18.0.** Voice recording needs iOS 26 or later; say that wherever voice is mentioned. |
+
+Open: voice recording is listed as Premium (from the scope doc). The owner confirmed it's released but didn't restate the tier. Confirm before you publish the pricing table.
+
+---
+
+## Features by pillar
+
+Tier: **F** = ScorX Free, **P** = ScorX Premium.
+
+### Score
+| Feature | Tier | Notes |
+|---|---|---|
+| Live scoring, 16 sports (10 team, 6 racquet) | F | Racquet sports: simplified game tracking only |
+| Team mode and individual stat recording | F | |
+| Voice stat recording | P | Team sports only, iOS 26 and later |
+| Quick score, offline | F | |
+| Player rotations and playing time | F | |
+| Match Invitations (distributed stat recording) | F | |
+| Spreadsheet team import (PlayHQ .xlsx/.csv) | F | Write "PlayHQ" as plain text; no logo, no partnership implied |
+| Game pack export/import | F | |
+| iPad Team Mode (magnet board, lineup planning) | F | |
+| Share Extension | F | |
+
+### Track
+| Feature | Tier | Notes |
+|---|---|---|
+| Game history and per-game activity timeline | F | Free keeps up to 20 saved games; Premium unlimited |
+| Season and career stats, Career Timeline | F | |
+| Post-Game Triage Dashboard | F | |
+| Perception vs Reality | F | |
+| Player sentiment and reflections | F | |
+| One standard Player Card style | F | |
+| Full card library, Share Cards carousel, sticker cards, card configurator | P | |
+| AI Season Narratives | P | |
+| PDF/CSV export, iCloud sync | P | |
+
+### Train
+| Feature | Tier | Notes |
+|---|---|---|
+| Measure: 14 baseline metrics, log results, trend + progress chart | F | |
+| Age and sex-specific benchmarking | F | Changed from Premium on 2026-11-19 |
+| Goal mode (target per metric, goal line on chart) | F | |
+| Custom metrics | F: 1, P: unlimited | |
+| BHAG (one big player-level goal) | F | Explain it before using the acronym |
+| Development Plan (skills, 2 drills each, outcome goal, S&C goal) | F | |
+| Run drills: Beep Test, 800m TT, 2km TT | F | |
+| Full run drill library (sprint, interval) | P | |
+| Custom run drills | P | |
+| Drill Library + Drill Animator | F | AFL first |
+| Play Library + Play Animator | F | |
+| Training Sessions + Run Session (beep pacing) | F | |
+| Drill assignment to a squad, team results | F | |
+| Favourite drills | F | |
+| Injury prevention and general programs | F | |
+| AI training recommendations and AI athleticism insight | P | Regenerates every 30 days or after 5 games |
+
+### Premium extras
+Unlimited teams, players, games and custom metrics; Family Sharing (5 members); 30-day full trial, no card.
+
+---
+
+## Claims that are now false (remove or reword)
+- "Unlimited teams, players and games" for Free, and "no caps / no limits / no retention limit / no roster caps".
+- "10 athleticism metrics".
+- "Benchmarking is Premium".
+- "Training/Train section is Premium" (only AI recommendations and the full run drill library are).
+- "No tracking".
