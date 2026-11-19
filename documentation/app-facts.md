@@ -22,7 +22,20 @@ This file is the only feature reference for site copy. Agents can't see the app 
 | D6 | Analytics | **PostHog is live in the app.** "No tracking" is false and must come off the site. Use "No ads. We never sell your data." The owner updates `privacy.html` separately; agents don't edit legal text about analytics. |
 | D7 | Minimum iOS | **iOS 18.0.** Voice recording needs iOS 26 or later; say that wherever voice is mentioned. |
 
-Open: voice recording is listed as Premium (from the scope doc). The owner confirmed it's released but didn't restate the tier. Confirm before you publish the pricing table.
+### Second round of owner decisions (2026-11-19)
+
+| ID | Question | Answer |
+|---|---|---|
+| D8 | Voice recording tier | **Premium** (confirmed). |
+| D9 | "30-day money-back guarantee" | **Remove it.** Premium is billed through the App Store, so refunds go through Apple. Say "Cancel anytime in your App Store settings." |
+| D10 | Data after the trial ends or Premium stops, when over the Free limits | **Everything is kept and stays viewable (read-only).** You can't add new games, teams or players until you're under the limit or upgrade. |
+| D11 | "25 players" | **25 players in total across the account**, not per team. |
+| D12 | iCloud end-to-end encryption | **Unknown. Make no encryption claim.** Say "syncs through your own iCloud account" (Premium). |
+| D13 | Competitor claims without a source (prices, user counts, "150+ stats", Spond "ads") | **Remove them.** Keep only qualitative differences that can be checked. |
+| D14 | Racquet sports stats | Simplified game tracking **plus aces and let/stroke calls**. **Not** serve % and **not** pickleball kitchen violations. |
+| D15 | Drill library scope | **AFL drills, plus running drills for every sport.** Don't promise other sports' skill drills. |
+| D16 | Privacy policy | Draft a PostHog/analytics section for owner and legal review on a separate branch. It must not ship without approval. |
+| D17 | `train.html` primary keyword | **Research first** (seo-strategy) before shipping. |
 
 ---
 
@@ -33,7 +46,7 @@ Tier: **F** = ScorX Free, **P** = ScorX Premium.
 ### Score
 | Feature | Tier | Notes |
 |---|---|---|
-| Live scoring, 16 sports (10 team, 6 racquet) | F | Racquet sports: simplified game tracking only |
+| Live scoring, 16 sports (10 team, 6 racquet) | F | Racquet sports: simplified game tracking plus aces and let/stroke calls (D14) |
 | Team mode and individual stat recording | F | |
 | Voice stat recording | P | Team sports only, iOS 26 and later |
 | Quick score, offline | F | |
@@ -69,7 +82,7 @@ Tier: **F** = ScorX Free, **P** = ScorX Premium.
 | Run drills: Beep Test, 800m TT, 2km TT | F | |
 | Full run drill library (sprint, interval) | P | |
 | Custom run drills | P | |
-| Drill Library + Drill Animator | F | AFL first |
+| Drill Library + Drill Animator | F | AFL drills, plus running drills for every sport (D15) |
 | Play Library + Play Animator | F | |
 | Training Sessions + Run Session (beep pacing) | F | |
 | Drill assignment to a squad, team results | F | |
