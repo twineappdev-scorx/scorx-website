@@ -86,15 +86,19 @@ permalink: /privacy.html
 
     <!-- PRIVACY POLICY CONTENT -->
     <div class="legal-content">
+        <div class="highlight-box" style="border-left-color: #d97706;">
+            <p style="margin-bottom: 0;"><mark><strong>DRAFT FOR OWNER AND LEGAL REVIEW. DO NOT PUBLISH.</strong> This page discloses product analytics (PostHog). Every highlighted item is an open question or a placeholder. Remove this box and all highlighting only after the owner and legal advisers approve the final wording.</mark></p>
+        </div>
+
         <h1>ScorX Privacy Policy</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> October 6, 2025 | <strong>Effective Date:</strong> October 6, 2025</p>
+        <p class="last-updated"><strong>Last Updated:</strong> <mark>[OWNER TO SET ON PUBLISH]</mark> | <strong>Effective Date:</strong> <mark>[OWNER TO SET ON PUBLISH]</mark></p>
 
         <div class="highlight-box">
-            <p style="margin-bottom: 0;"><strong>Quick Summary:</strong> We don't sell your data. We don't use third-party trackers. We don't show ads. Your game data is yours, stored securely on your device and optionally synced via Apple iCloud (ScorX Premium).</p>
+            <p style="margin-bottom: 0;"><strong>Quick Summary:</strong> We don't sell your data and we don't show ads. We use a product analytics service (PostHog) to understand how the app is used so we can improve it. We don't use that data for advertising. Your game data is stored on your device and optionally synced via Apple iCloud (ScorX Premium).</p>
         </div>
 
         <h2>Introduction</h2>
-        <p>ScorX ("we," "our," or "the app") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the ScorX mobile application.</p>
+        <p>ScorX ("we," "our," or "the app") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the ScorX mobile application. ScorX is operated by Twine App Dev, an Australian business, and we manage personal information in line with the Australian Privacy Principles (APPs), including APP 1 (open and transparent management of personal information) and APP 5 (telling you what we collect and why).</p>
 
         <h2>Information We Collect</h2>
 
@@ -133,6 +137,31 @@ permalink: /privacy.html
             <li>Game creation and tracking statistics</li>
             <li>Sync activity timestamps</li>
         </ul>
+        <p>Some of this usage data is collected through a third-party product analytics service. See "Product Analytics (PostHog)" below.</p>
+
+        <h3>Product Analytics (PostHog)</h3>
+        <p>The ScorX app uses PostHog, a product analytics service provided by PostHog Inc., to collect information about how the app is used.</p>
+
+        <p><strong>What is collected:</strong></p>
+        <ul>
+            <li>Product usage events, such as screens viewed and features used</li>
+            <li>Device and app information, such as device type, iOS version and app version</li>
+            <li>An anonymous or pseudonymous identifier that lets us tell one installation from another without using your name <mark>[OWNER TO CONFIRM: is the identifier anonymous, or is it linked to an account, Apple ID or email? Is it reset on reinstall?]</mark></li>
+            <li><mark>[OWNER TO CONFIRM: complete list of event types and properties sent to PostHog, and confirmation that player names, team names, scores, photos, contact details and location are NOT sent]</mark></li>
+            <li><mark>[OWNER TO CONFIRM: whether session recordings, screenshots, IP address or geolocation capture, crash reports or autocapture are enabled in PostHog]</mark></li>
+        </ul>
+
+        <p><strong>Who processes it:</strong> PostHog Inc. processes this data on our behalf as a service provider. <mark>[OWNER TO CONFIRM: PostHog US or EU cloud, and whether a data processing agreement is in place with PostHog]</mark></p>
+
+        <p><strong>Why we collect it:</strong> To understand how the app is used, find and fix problems, and improve features and performance. We do not use analytics data for advertising, we do not use it to build advertising profiles, and we do not sell it.</p>
+
+        <p><strong>How long we keep it:</strong> <mark>[OWNER TO CONFIRM: PostHog data retention period]</mark></p>
+
+        <p><strong>How to opt out:</strong> <mark>[OWNER TO CONFIRM: in-app setting? If there is no opt-out, say so and describe how a user can ask us to stop collection or delete their analytics data]</mark> You can also contact <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with questions or to ask us to delete analytics data associated with you.</p>
+
+        <p><strong>Children:</strong> See "Children's Privacy" below for how analytics applies to younger users.</p>
+
+        <p><strong>Our website:</strong> This policy covers the ScorX app. <mark>[OWNER TO CONFIRM: the scorx.com.au website currently loads a Meta Pixel on its pages. Should website cookies and advertising pixels be covered here or in a separate section?]</mark></p>
 
         <h2>How We Use Your Information</h2>
         <p>We use the collected information to:</p>
@@ -150,7 +179,7 @@ permalink: /privacy.html
                 <ul>
                     <li>Optimize app performance</li>
                     <li>Identify and fix bugs</li>
-                    <li>Develop new features based on usage patterns</li>
+                    <li>Develop new features based on usage patterns, including analytics from PostHog</li>
                 </ul>
             </li>
             <li><strong>Subscription Management:</strong>
@@ -186,23 +215,29 @@ permalink: /privacy.html
             <li>iOS Keychain for sensitive credentials</li>
             <li>Secure API communication (HTTPS)</li>
             <li>Apple's CloudKit security infrastructure</li>
-            <li>No third-party analytics or tracking services</li>
+            <li>Analytics data is sent to PostHog over an encrypted connection <mark>[OWNER TO CONFIRM: HTTPS to PostHog]</mark></li>
         </ul>
 
         <h2>Data Sharing and Third Parties</h2>
 
         <div class="highlight-box">
-            <p style="margin-bottom: 0;"><strong>We do NOT share your data with third parties.</strong></p>
+            <p style="margin-bottom: 0;"><strong>We do not sell or rent your data, and we do not share it with advertisers.</strong></p>
         </div>
 
-        <p>The only external service we use is Apple's CloudKit for cloud synchronization (ScorX Premium). This is a first-party Apple service governed by Apple's privacy policy.</p>
-
-        <p><strong>No Third-Party Analytics:</strong></p>
+        <p>We use the following external services:</p>
         <ul>
-            <li>We do not use Google Analytics, Facebook SDK, or similar services</li>
-            <li>We do not sell or rent your data</li>
-            <li>We do not display third-party advertisements</li>
+            <li><strong>Apple CloudKit</strong> for cloud synchronisation (ScorX Premium). This is a first-party Apple service governed by Apple's privacy policy.</li>
+            <li><strong>PostHog Inc.</strong> for product analytics in the app, as described in "Product Analytics (PostHog)" above. PostHog processes analytics data on our behalf and only for the purposes described in this policy. <mark>[OWNER TO CONFIRM: PostHog is the only third-party SDK or service in the app; list any others, for example crash reporting or subscription tooling]</mark></li>
         </ul>
+
+        <ul>
+            <li>We do not sell or rent your data</li>
+            <li>We do not use your data for advertising</li>
+            <li>We do not display third-party advertisements</li>
+            <li>We do not use Google Analytics or the Facebook SDK in the app <mark>[OWNER TO CONFIRM]</mark></li>
+        </ul>
+
+        <p>We may also disclose information where required by law.</p>
 
         <h2>Your Data Rights</h2>
 
@@ -229,7 +264,9 @@ permalink: /privacy.html
         </ul>
 
         <h2>Children's Privacy</h2>
-        <p>ScorX is designed for users of all ages (4+). We do not knowingly collect personal information from children under 13 without parental consent.</p>
+        <p>ScorX is designed for users of all ages (4+). We do not knowingly collect personal information from children under 13 without parental consent. <mark>[OWNER TO CONFIRM: this policy says 4+ but the Terms of Service require users to be at least 13 (with parental permission under 18). Which is correct?]</mark></p>
+
+        <p><strong>Analytics and children:</strong> Many ScorX users are young athletes, and some are under 16. <mark>[OWNER TO CONFIRM: is analytics disabled, minimised or unchanged for users who are, or may be, under 16 (or under 13)? Is there an age gate or a parent/guardian setting? Describe exactly what is collected for them.]</mark> Analytics events do not include player names, team rosters or scores <mark>[OWNER TO CONFIRM]</mark>, and we do not use analytics data to advertise to anyone, including children.</p>
 
         <p><strong>Player profiles</strong> may include information about minors (team rosters), but this data:</p>
         <ul>
@@ -270,8 +307,10 @@ permalink: /privacy.html
         <ul>
             <li><strong>Locally:</strong> On your device, in your region</li>
             <li><strong>CloudKit:</strong> In Apple's data centers based on your Apple ID region</li>
+            <li><strong>Product analytics:</strong> PostHog Inc. processes analytics data in <mark>[OWNER TO CONFIRM: PostHog US or EU cloud]</mark>. This means analytics data may be sent outside Australia.</li>
             <li><strong>Compliance:</strong> We follow Apple's regional data protection requirements</li>
         </ul>
+        <p><strong>Disclosure outside Australia (APP 8):</strong> When we disclose personal information to PostHog overseas, we take reasonable steps to make sure PostHog handles it in a way that is consistent with the APPs. <mark>[OWNER TO CONFIRM: contractual protections in place, for example a data processing agreement with PostHog]</mark></p>
 
         <h2>Changes to Privacy Policy</h2>
         <p>We may update this Privacy Policy to reflect:</p>
@@ -293,6 +332,11 @@ permalink: /privacy.html
         <ul>
             <li>Data retained indefinitely while subscription is active</li>
             <li>Historical data preserved according to tier limits</li>
+        </ul>
+
+        <p><strong>Analytics Data:</strong></p>
+        <ul>
+            <li>Retained by PostHog for <mark>[OWNER TO CONFIRM: retention period]</mark>, then deleted or irreversibly de-identified <mark>[OWNER TO CONFIRM]</mark></li>
         </ul>
 
         <p><strong>After Cancellation:</strong></p>
@@ -323,12 +367,12 @@ permalink: /privacy.html
         </ul>
 
         <h2>Legal Compliance</h2>
-        <p>This Privacy Policy complies with:</p>
+        <p>This Privacy Policy is written with reference to the following laws and standards <mark>[OWNER TO CONFIRM: legal adviser to confirm which of these apply and whether "complies" can be claimed for each]</mark>:</p>
         <ul>
             <li>Apple App Store Review Guidelines</li>
             <li>General Data Protection Regulation (GDPR) - for EU users</li>
             <li>California Consumer Privacy Act (CCPA) - for CA users</li>
-            <li>Australian Privacy Principles (APP) - for AU users</li>
+            <li>Australian Privacy Principles (APP) under the Privacy Act 1988 (Cth) - for AU users, including APP 1 (open and transparent management), APP 5 (notification of collection) and APP 8 (cross-border disclosure)</li>
         </ul>
 
         <p><strong>Your Rights Under GDPR (EU Users):</strong></p>
@@ -340,19 +384,20 @@ permalink: /privacy.html
             <li>Right to restrict processing</li>
             <li>Right to object to processing</li>
         </ul>
+        <p>For EU users, analytics processing is based on <mark>[OWNER TO CONFIRM: lawful basis, for example consent or legitimate interests, to be advised by legal]</mark>.</p>
 
         <p><strong>Your Rights Under CCPA (California Users):</strong></p>
         <ul>
             <li>Right to know what personal data is collected</li>
             <li>Right to delete personal data</li>
-            <li>Right to opt-out of sale (we do not sell data)</li>
+            <li>Right to opt-out of sale or sharing (we do not sell data or share it for advertising) <mark>[OWNER TO CONFIRM: legal to confirm this statement against the CCPA definitions of "sell" and "share" in light of PostHog]</mark></li>
             <li>Right to non-discrimination for exercising rights</li>
         </ul>
 
         <h2>Consent</h2>
         <p>By using ScorX, you consent to:</p>
         <ul>
-            <li>Collection and use of information as described in this policy</li>
+            <li>Collection and use of information as described in this policy, including product analytics <mark>[OWNER TO CONFIRM: is analytics opt-in, opt-out, or always on? Wording of consent depends on this]</mark></li>
             <li>Storage of data locally and in iCloud (if subscribed to ScorX Premium)</li>
             <li>Use of notifications for subscription management (if permitted)</li>
         </ul>
@@ -361,6 +406,7 @@ permalink: /privacy.html
         <ul>
             <li>Canceling your subscription</li>
             <li>Disabling iCloud sync</li>
+            <li>Turning off analytics <mark>[OWNER TO CONFIRM: in-app setting?]</mark></li>
             <li>Deleting the app</li>
             <li>Contacting support for data deletion</li>
         </ul>
@@ -368,8 +414,8 @@ permalink: /privacy.html
         <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--scorx-light-gray); text-align: center; color: var(--scorx-medium-gray);">
             <p><strong>ScorX</strong><br>
             Version: 1.0<br>
-            Privacy Policy Version: 1.0<br>
-            Last Reviewed: October 6, 2025</p>
+            Privacy Policy Version: <mark>[OWNER TO SET ON PUBLISH]</mark><br>
+            Last Reviewed: <mark>[OWNER TO SET ON PUBLISH]</mark></p>
         </div>
     </div>
 
