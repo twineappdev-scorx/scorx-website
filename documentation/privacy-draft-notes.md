@@ -6,6 +6,10 @@
 
 **This is not legal advice.** The wording was drafted from the owner's confirmation that PostHog is live and nothing else. It has not been checked against the app's code, the PostHog configuration or the law. A qualified Australian privacy lawyer should review it before it is published. Every `<mark>[OWNER TO CONFIRM: ...]</mark>` in `privacy.html` is a fact I could not verify and did not invent.
 
+## Update: Meta Pixel and cookie banner disabled (D23, 2026-11-19)
+
+The owner disabled the Meta Pixel and the cookie banner on the website until ads go live (commented out, marker `ADS-OFF`). This draft now says the website uses no advertising pixels, third-party analytics or tracking cookies. The "Website Cookies and Meta Pixel" section is replaced by "Our Website", which lists the services that really do receive visitor data: GitHub Pages (hosting), Google Fonts, YouTube privacy-enhanced embeds on how-it-works, and Buttondown (newsletter). The card-maker email gate isn't live (`CARD_REQUEST_URL` is empty). The Meta-related lawyer items below (b, c) are **deferred until ads are planned**. Re-enabling ads requires restoring the consent-first Meta section from this branch's history (commit before this one) and legal review.
+
 ## Lawyer review: highest risk
 
 Please look at these four items first. They are the points where the draft is most exposed.
