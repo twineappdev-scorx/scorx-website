@@ -1,0 +1,56 @@
+/* Train page (/train.html). Scoped under body.train-page, built on tokens.css and components.css.
+   Flag for WP-9: .x-section-head, .x-faq and .closer duplicate the home page's inline styles. */
+body.train-page { background: var(--canvas); color: var(--ink); font-family: var(--font-text); overflow-x: clip; }
+body.train-page .x-section { padding: 48px 0; }
+body.train-page .x-section--tight { padding: 32px 0; }
+body.train-page p { color: var(--mid); font-size: 16px; line-height: 1.6; }
+body.train-page .x-display, body.train-page .x-card h3, body.train-page .x-card h2 { text-transform: none; }
+body.train-page .x-lede { color: var(--mid); font-size: clamp(16px, 4.2vw, 18px); margin-bottom: 18px; }
+body.train-page a.x-btn--primary, body.train-page a.x-btn--primary:hover { color: #0F2A44; }
+
+.tr-hero { padding: 96px 0 32px !important; }
+.tr-hero .x-display { font-size: clamp(30px, 8vw, 56px); margin-bottom: 14px; max-width: 820px; }
+.tr-hero .x-lede { max-width: 640px; }
+.tr-hero__cta { max-width: 360px; margin-bottom: 14px; }
+.tr-legend { font-size: 14px !important; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+
+.tr-split { display: grid; gap: 28px; grid-template-columns: 1fr; align-items: center; }
+.tr-copy .x-display { margin-bottom: 12px; }
+.tr-media { display: flex; flex-direction: column; gap: 22px; align-items: center; }
+.tr-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.tr-list li { display: flex; gap: 10px; align-items: flex-start; color: var(--ink); font-size: 16px; line-height: 1.5; }
+.tr-list .x-tier { flex: 0 0 auto; margin-top: 2px; min-width: 70px; justify-content: center; }
+.tr-note { margin-top: 16px; font-size: 14px !important; }
+
+.tr-safety h2 { font-family: var(--font-display); font-size: 22px; margin: 0 0 8px; color: var(--ink); }
+body.train-page .tr-safety p:last-child { margin: 0; color: var(--ink); }
+
+.x-section-head { margin-bottom: 26px; max-width: 680px; }
+.x-faq { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-inner); margin-bottom: 10px; }
+.x-faq summary { cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 16px; color: var(--ink); list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+.x-faq summary::-webkit-details-marker { display: none; }
+.x-faq summary::after { content: '+'; color: var(--turq-ink); font-size: 22px; line-height: 1; font-weight: 600; }
+.x-faq[open] summary::after { content: '\2212'; }
+.x-faq summary:focus-visible { outline: 3px solid var(--turq-ink); outline-offset: 2px; border-radius: var(--r-inner); }
+.x-faq__a { padding: 0 20px 18px; }
+.x-faq__a p { margin: 0; }
+
+.closer { background: var(--grad-board); border-radius: var(--r-card); padding: 44px 22px; text-align: center; color: #F8F9FA; box-shadow: var(--shadow-raised); }
+.closer .x-display { color: #F8F9FA; margin-left: auto; margin-right: auto; max-width: 760px; }
+body.train-page .closer p { color: rgba(248, 249, 250, 0.78); }
+.closer__badge { display: inline-block; margin: 8px 0 22px; }
+.closer__badge img { height: 56px; width: auto; display: block; }
+.closer__trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; list-style: none; padding: 0; margin: 0; }
+body.train-page .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(248, 249, 250, 0.85); }
+.closer__trust li::before { content: '\2713\00a0'; color: var(--turq-bright); }
+
+@media (min-width: 560px) {
+  .tr-media--pair { flex-direction: row; align-items: flex-start; justify-content: center; }
+  .tr-media--pair .x-shot { max-width: 240px; margin: 0; }
+}
+@media (min-width: 900px) {
+  body.train-page .x-section { padding: 72px 0; }
+  .tr-hero { padding: 128px 0 40px !important; }
+  .tr-split { grid-template-columns: 1fr 1fr; gap: 56px; }
+  .tr-split--alt .tr-copy { order: 2; }
+}
