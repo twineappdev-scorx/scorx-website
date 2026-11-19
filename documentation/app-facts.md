@@ -111,3 +111,9 @@ Unlimited teams, players, games and custom metrics; Family Sharing (5 members); 
 | D20 | App analytics (PostHog) | **Opt-in in the current App Store build.** Off until the user opts in. Used for app improvement only. |
 | D21 | `train.html` keyword | **Multi-sport first, AFL second**, e.g. title "Junior Training App: AFL Drills, Beep Test and Fitness Tests". Point AFL-only drill searches at the future `/afl-drills.html`. Research: `documentation/seo-train-keywords.md` on branch `seo-train-keywords`. |
 | D22 | `terms.html` legal claims ("no third-party analytics", "no data sharing", E2E encryption) | **Add these to the legal draft branch** `privacy-draft-posthog` for owner/lawyer approval. Don't change them in the release. |
+
+### Fourth round of owner decisions (2026-11-19)
+
+| ID | Question | Answer |
+|---|---|---|
+| D23 | Meta Pixel and cookie banner | **Both disabled until ads go live.** Every `consent.js` script tag and footer "Cookie settings" link is commented out with the marker `ADS-OFF`. `js/consent.js`, `css/consent.css` and the gate in `js/card/analytics.js` stay in the repo. To re-enable: `grep -rn "ADS-OFF" --include=*.html .`, uncomment, and get legal review first (retargeting plus a youth audience). While it's off, the website loads no third-party trackers and sets no cookies. |
