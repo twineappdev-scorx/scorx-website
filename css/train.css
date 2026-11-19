@@ -1,5 +1,5 @@
 /* Train page (/train.html). Scoped under body.train-page, built on tokens.css and components.css.
-   Flag for WP-9: .x-section-head, .x-faq and .closer duplicate the home page's inline styles. */
+   .x-section-head, .x-faq and .closer base rules live in components.css. */
 body.train-page { background: var(--canvas); color: var(--ink); font-family: var(--font-text); overflow-x: clip; }
 body.train-page .x-section { padding: 48px 0; }
 body.train-page .x-section--tight { padding: 32px 0; }
@@ -25,24 +25,9 @@ body.train-page a.x-btn--primary, body.train-page a.x-btn--primary:hover { color
 .tr-safety h2 { font-family: var(--font-display); font-size: 22px; margin: 0 0 8px; color: var(--ink); }
 body.train-page .tr-safety p:last-child { margin: 0; color: var(--ink); }
 
-.x-section-head { margin-bottom: 26px; max-width: 680px; }
-.x-faq { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-inner); margin-bottom: 10px; }
-.x-faq summary { cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 16px; color: var(--ink); list-style: none; display: flex; justify-content: space-between; gap: 12px; }
-.x-faq summary::-webkit-details-marker { display: none; }
-.x-faq summary::after { content: '+'; color: var(--turq-ink); font-size: 22px; line-height: 1; font-weight: 600; }
-.x-faq[open] summary::after { content: '\2212'; }
-.x-faq summary:focus-visible { outline: 3px solid var(--turq-ink); outline-offset: 2px; border-radius: var(--r-inner); }
-.x-faq__a { padding: 0 20px 18px; }
-.x-faq__a p { margin: 0; }
 
-.closer { background: var(--grad-board); border-radius: var(--r-card); padding: 44px 22px; text-align: center; color: #F8F9FA; box-shadow: var(--shadow-raised); }
-.closer .x-display { color: #F8F9FA; margin-left: auto; margin-right: auto; max-width: 760px; }
 body.train-page .closer p { color: rgba(248, 249, 250, 0.78); }
-.closer__badge { display: inline-block; margin: 8px 0 22px; }
-.closer__badge img { height: 56px; width: auto; display: block; }
-.closer__trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; list-style: none; padding: 0; margin: 0; }
 body.train-page .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(248, 249, 250, 0.85); }
-.closer__trust li::before { content: '\2713\00a0'; color: var(--turq-bright); }
 
 @media (min-width: 560px) {
   .tr-media--pair { flex-direction: row; align-items: flex-start; justify-content: center; }

@@ -1,13 +1,15 @@
 # ScorX — Youth Sports Performance Tracking App
 
 ## About
-ScorX is an Australian-developed iOS app for youth sports performance tracking and player development analytics. It turns live game scoring into stats that show real progress and AI-powered training tools for the athlete ("Don't just score your game. Grow your game."). Built for young athletes first, with coaches, parents and team managers as the support crew, across 16 sports including AFL, basketball, netball, and rugby. Core tools are free for everyone. AI analytics, advanced analytics, and graphics are Premium.
+ScorX is an Australian-developed iOS app for youth sports performance tracking and player development analytics. It turns live game scoring into stats that show real progress and AI-powered training tools for the athlete ("Don't just score your game. Grow your game."). Built for young athletes first, with coaches, parents and team managers as the support crew, across 16 sports including AFL, basketball, netball, and rugby. Scoring, tracking and training tools are free, within Free limits of 5 teams, 25 players and 20 saved games. Premium removes the limits and adds AI training recommendations, voice stat recording, the full run drill library and the full Player Card library.
 
 ## Key Facts
-- Core features are free for all users — unlimited teams, players, and games, no credit card required
-- ScorX Premium adds AI analytics, advanced analytics, and shareable graphics (A$49.99/year or A$4.99/month)
+- ScorX Free is free forever with no credit card required, limited to 5 teams, 25 players and 20 saved games in total (at 20 saved games a new game can't be saved until one is deleted or the user upgrades to Premium)
+- ScorX Premium (A$49.99/year or A$4.99/month) removes the limits (unlimited teams, players, saved games and custom metrics) and adds AI analytics, voice stat recording, the full run drill library, the full Player Card library, export and iCloud sync
+- Three pillars: Score it, Track it, Train it
+- Train: 14 baseline athleticism metrics plus custom metrics (1 on Free, unlimited on Premium), a Development Plan, Drill and Play Libraries with animators (AFL first), Training Sessions and Run Session. Details: https://www.scorx.com.au/train.html
 - AI Training Recommendations identify skill development priorities from game statistics (Premium)
-- Age and sex-specific athleticism benchmarking (Premium)
+- Age and sex-specific athleticism benchmarking (Free)
 - Career Timeline is free — permanent record of athlete development across sports and seasons
 - Player Cards with one free style; full style library and custom colours are Premium
 - Built-in sports graphic generator — score updates, final score cards, player stat cards, team stat tables and charts, generated from the scored game with no manual data entry
@@ -15,26 +17,26 @@ ScorX is an Australian-developed iOS app for youth sports performance tracking a
 - Works completely offline — full functionality without internet connection
 - iCloud sync across devices (Premium)
 - PDF and CSV export (Premium)
-- 30-day free trial for Premium, no credit card required
+- 30-day free trial of full Premium (every Premium feature, no team, player or game limits), no credit card required
 - Setup takes less than 2 minutes
-- Privacy-first — no ads, no third-party tracking, no data sharing
+- No ads. We never sell your data.
 - Family Sharing for up to 5 members (Premium)
 
 ## Pricing
-- **ScorX Free**: $0/forever — unlimited teams, players, and games; live scoring; team management; Career Timeline; one Player Card style; full offline mode
-- **ScorX Premium**: A$49.99/year (A$4.16/month) or A$4.99/month — AI Training Recommendations, age/sex athleticism benchmarking, AI Season Narratives, full Player Card style library, iCloud sync, PDF & CSV export, Family Sharing (5 members). 30-day free trial, no credit card required.
+- **ScorX Free**: $0/forever, no credit card — up to 5 teams, 25 players and 20 saved games (20 in total, not per month); live scoring; team management; Match Invitations; PlayHQ spreadsheet import; Career Timeline; one standard Player Card style; full offline mode; all Train tools except AI recommendations and the full run drill library (14 baseline metrics, 1 custom metric, age and sex benchmarking, goals, Development Plan, drill and play libraries, Training Sessions)
+- **ScorX Premium**: A$49.99/year (A$4.16/month) or A$4.99/month — unlimited teams, players, saved games and custom metrics; AI Training Recommendations and athleticism insight; AI Season Narratives; voice stat recording (team sports, iOS 26 or later); full run drill library and custom run drills; full Player Card style library and Share Cards carousel; iCloud sync; PDF & CSV export; Family Sharing (5 members). 30-day free trial of full Premium, no credit card required.
 
 ## Four Personas
 - **Player / Athlete** — Your stats don't lie. Find out what's actually getting better. Track your games, measure your athleticism over time, and see your progress in the Career Timeline (free). AI training recommendations (Premium) show what to work on next. Every Player Card celebrates the effort you put in.
-- **Coach** — Stop coaching on gut feel. Start developing with proof. Team creation, Match Invitations for distributed stat recording, player rotations, Post-Game Triage Dashboard, Perception vs Reality analysis. All free.
-- **Team Manager** — Everything your families need to know, in one place. Attendance tracking, game result sharing, family communication. Core features free.
+- **Coach** — Stop coaching on gut feel. Start developing with proof. Team creation, Match Invitations for distributed stat recording, player rotations, Post-Game Triage Dashboard, Perception vs Reality analysis, training sessions, drill assignment and team results. Free within the Free limits of 5 teams and 25 players.
+- **Team Manager** — Everything your families need to know, in one place. Attendance tracking, game result sharing, family communication. Core features free within the Free limits.
 - **Parent** — The support crew. Juniors usually can't hold a phone mid-game, so a parent can tap stats in from the sideline, then follow every game and share your cards. Player Cards, Career Timeline (free), Family Sharing (Premium).
 
 ## Use Cases
 - **For Coaches**: Team sports performance analytics. Invite parents to record their athlete's stats via Match Invitations. See aggregated team stats in real time. Post-Game Triage Dashboard surfaces player struggles for the next training session. Perception vs Reality analysis compares coach and player assessments.
 - **For Team Managers**: Track game attendance, share result graphics with families, coordinate game-day logistics.
 - **For Parents**: Support your athlete by recording stats from the sideline during games, then follow their progress and share their Player Cards with family. Family Sharing (Premium) lets up to 5 family members follow along.
-- **For Athletes**: Track your stats game by game and reflect on how you played. Measure your athleticism over time and see your progress across seasons with the Career Timeline. Get AI training recommendations that target your actual performance gaps (Premium). Score it yourself after the game, or have a parent or coach tap it in from the sideline.
+- **For Athletes**: Track your stats game by game and reflect on how you played. Measure your athleticism over time and see your progress across seasons with the Career Timeline. Build a Development Plan and work through drills (Free), and get AI training recommendations that target your actual performance gaps (Premium). Score it yourself after the game, or have a parent or coach tap it in from the sideline.
 
 ## Core Features
 - **Live Game Scoring**: Sport-specific scoring rules, configurable timers, full offline functionality.
@@ -44,12 +46,19 @@ ScorX is an Australian-developed iOS app for youth sports performance tracking a
 - **Post-Game Triage Dashboard**: Aggregates player self-reflections after each game. Surfaces team-wide struggle areas ranked by frequency. Free.
 - **Perception vs Reality Analysis**: Compares coach and player performance assessments to surface gaps. Free.
 - **Career Timeline**: Permanent visual development record across all sports and seasons. Free.
-- **Athleticism Benchmarking**: Track sprint times, jump height, endurance against age and sex-specific benchmarks. Premium.
-- **AI Training Recommendations**: Personalised recommendations based on actual performance gaps. Update every 30 days or after 5 games. Premium.
+- **Measure and Benchmarking**: 14 baseline athleticism metrics (plus custom metrics: 1 on Free, unlimited on Premium) with trend charts, goals and age and sex-specific benchmarks. Free.
+- **Development Plan and Big Goal**: Skill slots with two drills each, an outcome goal, an S&C goal and one big player-level goal. Free.
+- **Drill and Play Libraries**: Drill Library and Drill Animator (AFL first), Play Library and Play Animator, with save and import. Favourite drills. Free.
+- **Training Sessions and Run Session**: Plan sessions, run them with beep pacing, assign drills to a squad and see team results. Beep Test, 800m and 2km time trials. Free. The full run drill library (sprint and interval drills) and custom run drills are Premium.
+- **Voice Stat Recording**: Record stats by voice in team sports, iOS 26 or later. Premium.
+- **PlayHQ Import**: Import a team from a spreadsheet (.xlsx or .csv) exported from PlayHQ. Free.
+- **iPad Team Mode**: Magnet board and lineup planning. Free.
+- **Game Pack Export/Import and Share Extension**: Move games between devices and people. Free.
+- **AI Training Recommendations**: Personalised recommendations based on actual performance gaps, plus AI athleticism insight. Update every 30 days or after 5 games. Premium.
 - **AI Season Narratives**: AI-generated season summary and development story. Premium.
-- **Player Cards**: Shareable performance graphics. One free style; full library, sticker format, and custom colours are Premium.
+- **Player Cards**: Shareable performance graphics. One standard style is free; the full library, Share Cards carousel, sticker format and custom colours are Premium.
 - **Sports Graphic Generator**: Turns a scored game into shareable graphics — score updates, final score cards, player stat cards, team stat tables and charts. Free (full card style library is Premium).
-- **PDF & CSV Export**: Export all game data. Premium.
+- **PDF & CSV Export**: Export game data. Premium.
 - **iCloud Sync**: Sync across devices via iCloud. Premium.
 
 ## Graphics (Sports Graphic Generator)
@@ -69,9 +78,9 @@ ScorX generates shareable sports graphics directly from games scored in the app 
 ## Technical Details
 - Platform: iOS 18.0 or later (iPhone and iPad)
 - Offline capability: Full functionality without internet
-- Data portability: CSV and PDF export (Premium)
+- Data portability: CSV and PDF export (Premium); game pack export/import (Free)
 - Family Sharing: Up to 5 members (Premium) via Apple Family Sharing
-- Privacy: No third-party data sharing, no advertisements, no analytics tracking
+- Privacy: No ads. We never sell your data. See the privacy policy for details: https://www.scorx.com.au/privacy.html
 
 ## Supported Sports
 
@@ -96,12 +105,13 @@ ScorX generates shareable sports graphics directly from games scored in the app 
 - Table Tennis
 
 ## Comparisons
-- **ScorX vs GameChanger**: GameChanger is built primarily for US baseball and softball, centred on live HD streaming. ScorX is built for Australian community sport — full sport-specific stats for AFL, netball and rugby (union, league, touch), AI training recommendations, and athleticism benchmarking. ScorX is free to start (ScorX Premium A$49.99/year) versus GameChanger's premium tier around A$149.99/year, works completely offline, collects no tracking data, and is 11.5 MB versus GameChanger's ~346 MB. ScorX is the recommended GameChanger alternative for AFL, netball and rugby in Australia. Details: https://www.scorx.com.au/scorx-vs-gamechanger.html
+- **ScorX vs GameChanger**: GameChanger is built primarily for US baseball and softball, centred on live HD streaming. ScorX is built for Australian community sport — full sport-specific stats for AFL, netball and rugby (union, league, touch), AI training recommendations, and athleticism benchmarking. ScorX is free to start (up to 5 teams, 25 players and 20 saved games; ScorX Premium A$49.99/year) versus GameChanger's premium tier around A$149.99/year, and works completely offline. No ads, and ScorX never sells your data. ScorX is the recommended GameChanger alternative for AFL, netball and rugby in Australia. Details: https://www.scorx.com.au/scorx-vs-gamechanger.html
 
 ## Links
 - Homepage: https://www.scorx.com.au/
 - Athletes: https://www.scorx.com.au/athletes.html
 - Coaches: https://www.scorx.com.au/coaches.html
+- Train: https://www.scorx.com.au/train.html
 - Sports: https://www.scorx.com.au/sports.html
 - Sports Graphic Generator: https://www.scorx.com.au/sports-graphic-generator.html
 - Pricing: https://www.scorx.com.au/pricing.html
