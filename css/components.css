@@ -465,6 +465,18 @@ a.x-chip:hover { color: var(--ink); border-color: var(--turq-ink); }
   line-height: 1.5;
   color: var(--mid, #51677A);
 }
+/* TEMPORARY: hide empty screenshot slots (and their orphaned captions) on the live site.
+   The owner doesn't want dashed empty frames. Remove this rule once the ASSET NEEDED images land
+   and replace each slot with a real .x-shot__frame image. */
+.x-shot__slot { display: none !important; }
+.x-shot:has(> .x-shot__slot) { display: none; }
+/* Collapse layouts whose only media is a hidden slot, so no empty column or gap is left. */
+.tr-media:has(.x-shot__slot):not(:has(.x-shot__frame)) { display: none; }
+.tr-split:has(.x-shot__slot):not(:has(.x-shot__frame)) { grid-template-columns: 1fr; }
+.walk-step__shot:has(.x-shot__slot):not(:has(.x-shot__frame)) { display: none; }
+.walk-step:has(.x-shot__slot):not(:has(.x-shot__frame)) { grid-template-columns: minmax(0, 1fr); }
+.feature-detail-image:has(.x-shot__slot):not(:has(.x-shot__frame)) { display: none; }
+.feature-detail:has(.x-shot__slot):not(:has(.x-shot__frame)) { grid-template-columns: 1fr; }
 .x-shot__slot {
   display: flex;
   align-items: center;
@@ -477,3 +489,27 @@ a.x-chip:hover { color: var(--ink); border-color: var(--turq-ink); }
   font-size: 14px;
   color: var(--mid, #51677A);
 }
+
+/* ---- Shared page blocks: section head, FAQ and closer (lifted from index.html and train.css in WP-9) ---- */
+.x-section-head { margin-bottom: 26px; max-width: 680px; }
+.x-section-head--center { margin-left: auto; margin-right: auto; text-align: center; }
+.x-section-head .x-lede { margin-bottom: 0; }
+
+/* FAQ */
+.x-faq { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-inner); margin-bottom: 10px; }
+.x-faq summary { cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 16px; color: var(--ink); list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+.x-faq summary::-webkit-details-marker { display: none; }
+.x-faq summary::after { content: '+'; color: var(--turq-ink); font-size: 22px; line-height: 1; font-weight: 600; }
+.x-faq[open] summary::after { content: '\2212'; }
+.x-faq summary:focus-visible { outline: 3px solid var(--turq-ink); outline-offset: 2px; border-radius: var(--r-inner); }
+.x-faq__a { padding: 0 20px 18px; }
+.x-faq__a p { margin: 0; }
+
+/* Closer */
+.closer { background: var(--grad-board); border-radius: var(--r-card); padding: 44px 22px; text-align: center; color: #F8F9FA; box-shadow: var(--shadow-raised); }
+.closer .x-display { color: #F8F9FA; margin-left: auto; margin-right: auto; max-width: 760px; }
+.closer__badge { display: inline-block; margin: 8px 0 22px; }
+.closer__badge img { height: 56px; width: auto; display: block; }
+.closer__trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; list-style: none; padding: 0; margin: 0; }
+.closer__trust li::before { content: '\2713\00a0'; color: var(--turq-bright); }
+

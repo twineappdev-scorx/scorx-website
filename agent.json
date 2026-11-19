@@ -1,6 +1,6 @@
 {
   "schema": "scorx-agent/1.0",
-  "updated": "2026-06-06",
+  "updated": "2026-11-19",
   "product": {
     "name": "ScorX",
     "tagline": "Youth sports performance tracking and player development analytics",
@@ -13,13 +13,13 @@
     "contact": "scorxapp@gmail.com",
     "country": "Australia"
   },
-  "description": "ScorX is an iOS app for recording, analysing, and developing youth athlete performance across 16 sports. It supports live game scoring, player-specific stat recording, athleticism benchmarking, AI-powered training recommendations, and shareable player graphics. Core tools are free for everyone. AI analytics, advanced analytics, and graphics are Premium.",
+  "description": "ScorX is an iOS app for recording, analysing, and developing youth athlete performance across 16 sports. It supports live game scoring, player-specific stat recording, athleticism benchmarking, a Train pillar (Development Plan, drill and play libraries, training sessions), AI-powered training recommendations, and shareable player graphics. Scoring, tracking and training tools are free within Free limits of 5 teams, 25 players and 20 saved games. Premium removes the limits and adds AI training recommendations, voice stat recording, the full run drill library and the full Player Card library.",
   "personas": [
     {
       "id": "coach",
       "label": "Coach",
       "core_message": "Stop coaching on gut feel. Start developing with proof.",
-      "key_features": ["Team creation and roster management", "Match Invitations for distributed stat recording", "Player rotations and playing time tracking", "Post-Game Triage Dashboard", "Perception vs Reality analysis", "Team stats view"]
+      "key_features": ["Team creation and roster management", "PlayHQ spreadsheet import", "Drill assignment to a squad and team results", "Training Sessions and Run Session", "iPad Team Mode", "Match Invitations for distributed stat recording", "Player rotations and playing time tracking", "Post-Game Triage Dashboard", "Perception vs Reality analysis", "Team stats view"]
     },
     {
       "id": "manager",
@@ -31,13 +31,13 @@
       "id": "parent",
       "label": "Parent",
       "core_message": "You've watched every game. Now you can prove every improvement.",
-      "key_features": ["Individual stat recording from the sideline", "Shareable Player Cards", "Career Timeline", "Athleticism benchmarking", "AI training recommendations (Premium)"]
+      "key_features": ["Individual stat recording from the sideline", "Shareable Player Cards", "Career Timeline", "Athleticism benchmarking (Free)", "AI training recommendations (Premium)"]
     },
     {
       "id": "player",
       "label": "Player / Athlete",
       "core_message": "Your stats don't lie. Find out what's actually getting better.",
-      "key_features": ["Game performance tracking", "Athleticism metric recording", "AI training recommendations (Premium)", "Player Card", "Career Timeline"]
+      "key_features": ["Game performance tracking", "Athleticism metric recording (14 baseline metrics plus custom)", "Development Plan and drills", "AI training recommendations (Premium)", "Player Card", "Career Timeline"]
     }
   ],
   "sports": {
@@ -54,10 +54,19 @@
     }
   },
   "pricing": {
-    "summary": "Two tiers: ScorX Free (always free, unlimited) and ScorX Premium (A$49.99/year or A$4.99/month, 30-day free trial, no credit card required).",
+    "summary": "Two tiers: ScorX Free (free forever, up to 5 teams, 25 players and 20 saved games in total) and ScorX Premium (A$49.99/year or A$4.99/month, unlimited, 30-day free trial of full Premium, no credit card required).",
     "detail_url": "https://www.scorx.com.au/pricing.json",
-    "free_tier_unlimited": true,
-    "premium_buckets": ["AI analytics", "Advanced analytics", "Graphics"]
+    "free_tier_unlimited": false,
+    "free_limits": {"teams": 5, "players": 25, "saved_games": 20, "custom_metrics": 1, "note": "20 saved games in total, not per month. At the cap a new game can't be saved until one is deleted or the user upgrades."},
+    "premium_limits": {"teams": "unlimited", "players": "unlimited", "saved_games": "unlimited", "custom_metrics": "unlimited"},
+    "trial": {"days": 30, "requires_card": false, "scope": "Full Premium, with no team, player or game limits"},
+    "premium_buckets": ["Unlimited teams, players, games and custom metrics", "Voice stat recording", "AI analytics", "Train (full run drill library, custom run drills)", "Graphics", "Data portability"]
+  },
+  "train": {
+    "summary": "Training tools for the athlete: measure, plan, drill, retest.",
+    "detail_url": "https://www.scorx.com.au/train.html",
+    "free": ["14 baseline athleticism metrics with trend charts", "Age and sex-specific benchmarking", "Goal mode", "1 custom metric", "Big goal", "Development Plan", "Beep Test, 800m and 2km time trials", "Drill Library and Drill Animator (AFL first)", "Play Library and Play Animator", "Training Sessions and Run Session with beep pacing", "Drill assignment and team results", "Favourite drills", "Injury prevention and general programs"],
+    "premium": ["AI training recommendations and athleticism insight", "Full run drill library (sprint and interval drills)", "Custom run drills", "Unlimited custom metrics"]
   },
   "graphics": {
     "summary": "Built-in sports graphic generator. Shareable graphics are generated from games scored in the app — no manual data entry and no design template. Rendered on-device, so they work offline.",
@@ -107,12 +116,15 @@
   "key_facts": [
     "Setup takes under 2 minutes",
     "Works fully offline — no internet required at the ground",
-    "Privacy-first — no ads, no third-party tracking, no data sharing",
+    "No ads. We never sell your data.",
     "iCloud sync across devices (Premium)",
     "Family Sharing for up to 5 members (Premium)",
     "AI Training Recommendations update every 30 days or after 5 games (Premium)",
     "Career Timeline is free",
-    "30-day free trial for Premium, no credit card required"
+    "Free limits: 5 teams, 25 players, 20 saved games in total",
+    "Age and sex-specific benchmarking is free",
+    "Voice stat recording is Premium (team sports, iOS 26 or later)",
+    "30-day free trial of full Premium, no credit card required"
   ],
   "actions": [
     {

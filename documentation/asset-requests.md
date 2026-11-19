@@ -96,6 +96,9 @@ File names are relative to the repo root. "Page and section" names the slot the 
 | A-16 | iPhone | Drill assignment | Coach Tools: assign a drill or fitness test to Demo Hawks U14 (3 to 4 players or the whole squad selected). | `images/train/coach-assign-drill.webp` | webp 800x1731 | `coaches.html` Test your squad | **P1** |
 | A-17 | iPhone | Team results | Squad results for a run drill (2km Run or Beep Test), sorted, with benchmark markers. Generic first names. | `images/train/team-results.webp` | webp 800x1731 | `coaches.html` Test your squad | **P1** |
 | A-24 | iPad | Team Mode magnet board | The magnet board with 18 player tokens on an AFL oval during lineup planning. | `images/features/ipad-magnet-board.webp` | webp 1200x1600 portrait, or 1600x1200 landscape | `coaches.html` iPad Team Mode; `features.html` iPad Team Mode | **P1** |
+| A-33 | iPhone | Match invitation screen | Coach view of a match invitation with the player list, invite status and attendance. Generic first names. | `images/coaches/match-invite.webp` | webp 800x1731 | `coaches.html` Match Invitations (added by WP-9; the old image file never existed) | **P1** |
+| A-34 | iPhone | Rotations | The rotation screen with playing time percentages and interchange history for a fictional game. | `images/coaches/rotations.webp` | webp 800x1731 | `coaches.html` Player Rotations and Playing Time (added by WP-9) | **P1** |
+| A-35 | iPhone | Perception vs Reality | The chart comparing player self-assessment with recorded stats. Fictional players. | `images/coaches/perception-reality.webp` | webp 800x1731 | `coaches.html` Perception vs Reality (added by WP-9) | **P1** |
 
 ### 3c. Features page: voice, import, Share Cards, game packs, Share Extension
 
@@ -143,6 +146,7 @@ Record in Dark mode with the status bar set as in section 1. Show touches (Simul
 | `train.html` | AI insights (Premium) | A-14 | text only |
 | `index.html` | Season story, Train block | A-01 (shot 1), A-08 (shot 2), A-04 (shot 3) | `measureview.webp`, `drillcreator.png`, text only |
 | `athletes.html` | Development Plan walkthrough | A-03, A-04, A-05, A-01 | `measureview.webp` for step 1; text only |
+| `coaches.html` | Match invitations, rotations, Perception vs Reality | A-33, A-34, A-35 | text only (slots hidden) |
 | `coaches.html` | Plan your training | `teamtabcoach.png`, `sessioneditor.png`, A-11 | existing shots |
 | `coaches.html` | Test your squad | A-16, A-17 | `traintabview.webp` |
 | `coaches.html` | iPad Team Mode | A-24, A-30, existing `lineup_ipad.png`, `gameplan_ipad.png` | existing iPad shots |
