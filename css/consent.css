@@ -1,0 +1,52 @@
+/* Cookie consent banner. Loaded by js/consent.js on every page, so it must not depend on
+   tokens.css or style.css. Colours follow the ScorX tokens (navy #0F2A44, turquoise #00D4C4).
+   Contrast: light text #0F2A44 on #FFFFFF = 14:1; dark text #F8F9FA on #16344F = 11:1;
+   button text #FFFFFF on #0F2A44 = 14:1 (light), #0F2A44 on #00D4C4 = 7:1 (dark). */
+.consent-banner {
+  --cb-bg: #FFFFFF; --cb-ink: #0F2A44; --cb-line: #D2DCE2; --cb-link: #00695F;
+  --cb-btn-bg: #0F2A44; --cb-btn-ink: #FFFFFF; --cb-focus: #00695F;
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 2147483000;
+  padding: 0 16px calc(12px + env(safe-area-inset-bottom, 0px));
+  font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  pointer-events: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .consent-banner {
+    --cb-bg: #16344F; --cb-ink: #F8F9FA; --cb-line: rgba(248, 249, 250, 0.2); --cb-link: #1FEDD8;
+    --cb-btn-bg: #00D4C4; --cb-btn-ink: #0F2A44; --cb-focus: #1FEDD8;
+  }
+}
+:root[data-theme="dark"] .consent-banner {
+  --cb-bg: #16344F; --cb-ink: #F8F9FA; --cb-line: rgba(248, 249, 250, 0.2); --cb-link: #1FEDD8;
+  --cb-btn-bg: #00D4C4; --cb-btn-ink: #0F2A44; --cb-focus: #1FEDD8;
+}
+.consent-banner__inner {
+  pointer-events: auto; box-sizing: border-box;
+  max-width: 880px; margin: 0 auto; padding: 14px 16px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px;
+  background: var(--cb-bg); color: var(--cb-ink);
+  border: 1px solid var(--cb-line); border-radius: 16px;
+  box-shadow: 0 -4px 24px rgba(8, 27, 46, 0.22);
+}
+.consent-banner__text { flex: 1 1 300px; margin: 0; font-size: 0.9rem; line-height: 1.45; color: var(--cb-ink); }
+.consent-banner__text a { color: var(--cb-link); text-decoration: underline; white-space: nowrap; }
+.consent-banner__actions { display: flex; gap: 10px; flex: 0 0 auto; }
+.consent-banner__btn {
+  box-sizing: border-box; min-width: 104px; min-height: 44px; padding: 0 20px;
+  font: inherit; font-size: 0.95rem; font-weight: 700; line-height: 1;
+  color: var(--cb-btn-ink); background: var(--cb-btn-bg);
+  border: 2px solid var(--cb-btn-bg); border-radius: 12px; cursor: pointer;
+}
+.consent-banner__btn:hover { filter: brightness(1.12); }
+.consent-banner a:focus-visible, .consent-banner__btn:focus-visible { outline: 3px solid var(--cb-focus); outline-offset: 2px; }
+@media (max-width: 520px) {
+  .consent-banner { padding: 0 8px calc(8px + env(safe-area-inset-bottom, 0px)); }
+  .consent-banner__inner { padding: 12px; gap: 10px; }
+  .consent-banner__text { font-size: 0.85rem; flex-basis: 100%; }
+  .consent-banner__actions { width: 100%; }
+  .consent-banner__btn { flex: 1 1 0; min-width: 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .consent-banner__inner { animation: consent-in 0.2s ease-out; }
+  @keyframes consent-in { from { transform: translateY(12px); opacity: 0; } }
+}

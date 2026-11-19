@@ -14,6 +14,7 @@
         "teams": 5,
         "players": 25,
         "games": 20,
+        "players_note": "25 players in total across the account, not per team.",
         "games_note": "20 saved games in total, not per month. At the cap you can't save a new game until you delete one or upgrade to Premium.",
         "custom_metrics": 1
       },
@@ -44,7 +45,7 @@
           "Big goal (BHAG)",
           "Development Plan: skill slots with 2 drills each, outcome goal, S&C goal",
           "Run drills: Beep Test, 800m time trial, 2km time trial",
-          "Drill Library and Drill Animator (AFL first), including save and import",
+          "Drill Library and Drill Animator (AFL drills, plus running drills for every sport), including save and import",
           "Play Library and Play Animator, including save and import",
           "Training Sessions and Run Session with beep pacing",
           "Drill assignment to a squad and team results",
@@ -56,7 +57,7 @@
           "Share Extension"
         ]
       },
-      "notes": "Scoring, tracking and training tools. Free forever, no credit card required. Limits: 5 teams, 25 players, 20 saved games."
+      "notes": "Scoring, tracking and training tools. Free forever, no credit card required. Limits: 5 teams, 25 players in total, 20 saved games. If a trial ends or Premium stops while over these limits, everything recorded is kept and stays viewable; new games, teams or players can't be added until back under the limit or upgraded. Cancel anytime in your App Store settings."
     },
     {
       "id": "premium",
@@ -118,7 +119,7 @@
           "features": [
             "PDF export",
             "CSV export",
-            "iCloud sync across devices"
+            "iCloud sync across devices (syncs through your own iCloud account)"
           ]
         }
       ],

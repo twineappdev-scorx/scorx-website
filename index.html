@@ -7,23 +7,7 @@
     <link rel="canonical" href="https://www.scorx.com.au/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1528173681585526');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1528173681585526&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <script src="/js/consent.js" defer></script>
 
     <meta name="description" content="Junior AFL stats app: track your disposals, marks and tackles, see if you're improving, then train it. Plus netball, basketball and 13 more sports. Free.">
     <meta name="author" content="ScorX">
@@ -72,7 +56,7 @@
           "name": "ScorX Free",
           "price": "0",
           "priceCurrency": "AUD",
-          "description": "Free forever, no credit card. Up to 5 teams, 25 players and 20 saved games. Live scoring for 16 sports, 14 athleticism metrics with age and sex benchmarking, goals, Development Plan, drill and play libraries, post-game Triage Dashboard, Career Timeline, full offline mode"
+          "description": "Free forever, no credit card. Up to 5 teams, 25 players in total and 20 saved games. Live scoring for 16 sports, 14 athleticism metrics with age and sex benchmarking, goals, Development Plan, drill and play libraries, post-game Triage Dashboard, Career Timeline, full offline mode"
         },
         {
           "@type": "Offer",
@@ -113,7 +97,7 @@
         "AI training recommendations (Premium)",
         "Full run drill library (Premium)",
         "iCloud sync, and CSV and PDF export (Premium)",
-        "No ads. We never sell your data."
+        "No ads. We never sell your data. Data collection is opt-in and only used to improve the app."
       ]
     }
     </script>
@@ -167,7 +151,7 @@
           "name": "Can I try before I buy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap."
+            "text": "ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players in total and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap."
           }
         },
         {
@@ -199,7 +183,7 @@
           "name": "Which sports are supported?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking rather than full stat recording."
+            "text": "ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking, plus aces and let/stroke calls, rather than full stat recording."
           }
         }
       ]
@@ -254,9 +238,6 @@ body.home-v2 .hero-v2__sub { color: var(--turq-ink); font-size: clamp(18px, 4.6v
 @media (prefers-reduced-motion: reduce) { .hero-card { animation: none; } }
 
 /* Sections */
-.x-section-head { margin-bottom: 26px; max-width: 680px; }
-.x-section-head--center { margin-left: auto; margin-right: auto; text-align: center; }
-.x-section-head .x-lede { margin-bottom: 0; }
 .home-shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 760px; margin: 28px auto 0; }
 .home-shots figure { margin: 0; text-align: center; }
 .home-shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow-card); background: var(--inset); }
@@ -277,7 +258,8 @@ body.home-v2 .promo-band p { color: rgba(248, 249, 250, 0.78); margin: 0; }
 
 /* Train block (season story) */
 .train-block { margin-top: 48px; }
-.train-shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 880px; margin: 0 auto; }
+.train-shots { display: flex; justify-content: center; gap: 10px; max-width: 880px; margin: 0 auto; }
+.train-shots .x-shot { flex: 1 1 0; min-width: 0; }
 .train-shots .x-shot__frame { border-radius: 16px; padding: 4px; }
 .train-shots .x-shot__frame img { border-radius: 12px; }
 .train-shots .x-shot__slot { border-radius: 16px; padding: 8px; font-size: 12px; text-align: center; }
@@ -299,25 +281,9 @@ body.home-v2 .x-pillar__tag { color: var(--turq-ink); font-size: 14px; }
 .coach-line { text-align: center; font-family: var(--font-display); font-size: clamp(20px, 5vw, 26px); font-weight: 600; color: var(--ink); margin: 0; }
 body.home-v2 .coach-line { color: var(--ink); font-size: clamp(20px, 5vw, 26px); }
 
-/* FAQ */
-.x-faq { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-inner); margin-bottom: 10px; }
-.x-faq summary { cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 16px; color: var(--ink); list-style: none; display: flex; justify-content: space-between; gap: 12px; }
-.x-faq summary::-webkit-details-marker { display: none; }
-.x-faq summary::after { content: '+'; color: var(--turq-ink); font-size: 22px; line-height: 1; font-weight: 600; }
-.x-faq[open] summary::after { content: '\2212'; }
-.x-faq summary:focus-visible { outline: 3px solid var(--turq-ink); outline-offset: 2px; border-radius: var(--r-inner); }
-.x-faq__a { padding: 0 20px 18px; }
-.x-faq__a p { margin: 0; }
-
-/* Closer */
-.closer { background: var(--grad-board); border-radius: var(--r-card); padding: 44px 22px; text-align: center; color: #F8F9FA; box-shadow: var(--shadow-raised); }
-.closer .x-display { color: #F8F9FA; margin-left: auto; margin-right: auto; max-width: 760px; }
+/* Closer (base rules live in components.css) */
 body.home-v2 .closer p { color: rgba(248, 249, 250, 0.78); }
-.closer__badge { display: inline-block; margin: 8px 0 22px; }
-.closer__badge img { height: 56px; width: auto; display: block; }
-.closer__trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; list-style: none; padding: 0; margin: 0; }
 body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(248, 249, 250, 0.85); }
-.closer__trust li::before { content: '\2713\00a0'; color: var(--turq-bright); }
 
 /* Social proof strip */
 .proof-meta { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: center; }
@@ -352,7 +318,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
                     </div>
                     <a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm" data-role="secondary">Or try it first: make a free card</a>
                 </div>
-                <p class="hero-v2__trust">Free forever. No credit card. Built in Australia.</p>
+                <p class="hero-v2__trust">Free for up to 5 teams and 25 players in total. No credit card. Built in Australia.</p>
             </div>
 
             <div class="hero-v2__card">
@@ -584,7 +550,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
             <div class="x-card free-card">
                 <p class="x-eyebrow">Pricing</p>
                 <h2 class="x-display x-display--md">ScorX Free: <em>$0 forever.</em></h2>
-                <p>No credit card. Up to 5 teams, 25 players and 20 saved games. Premium removes the limits and starts with a 30-day free trial, no card required.</p>
+                <p>No credit card. Up to 5 teams, 25 players in total and 20 saved games. Premium removes the limits and starts with a 30-day free trial, no card required.</p>
                 <a href="/pricing.html" class="x-btn x-btn--ghost">Compare Free and Premium</a>
             </div>
         </div>
@@ -593,7 +559,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
     <!-- COACHES -->
     <section class="x-section x-section--tight">
         <div class="x-container x-container--narrow">
-            <p class="coach-line">Coach a team? <a class="x-link" href="/coaches.html">ScorX is free for coaches &rarr;</a></p>
+            <p class="coach-line">Coach a team? <a class="x-link" href="/coaches.html">Free for coaches, up to 5 teams and 25 players in total &rarr;</a></p>
         </div>
     </section>
 
@@ -643,7 +609,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
             </details>
             <details class="x-faq">
                 <summary>Can I try before I buy?</summary>
-                <div class="x-faq__a"><p>ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap.</p></div>
+                <div class="x-faq__a"><p>ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players in total and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap.</p></div>
             </details>
             <details class="x-faq">
                 <summary>What happens when I reach 20 saved games?</summary>
@@ -659,7 +625,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
             </details>
             <details class="x-faq">
                 <summary>Which sports are supported?</summary>
-                <div class="x-faq__a"><p>ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking rather than full stat recording.</p></div>
+                <div class="x-faq__a"><p>ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking, plus aces and let/stroke calls, rather than full stat recording.</p></div>
             </details>
         </div>
     </section>
@@ -675,7 +641,7 @@ body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(
                 </a>
                 <ul class="closer__trust">
                     <li>Free to download and score</li>
-                    <li>No ads. We never sell your data.</li>
+                    <li>No ads. We never sell your data. Data collection is opt-in and only used to improve the app.</li>
                     <li>Works offline everywhere</li>
                     <li>Built in Australia for community sport</li>
                 </ul>

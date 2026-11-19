@@ -273,7 +273,7 @@ When updating content, maintain these established claims:
 - "14 athleticism metrics" (plus custom metrics: 1 on Free, unlimited on Premium)
 
 Never claim: unlimited/no caps on Free, "10 metrics", benchmarking as Premium, or "no tracking"
-(PostHog analytics is live in the app; say "No ads. We never sell your data.").
+(PostHog analytics is live in the app; say "No ads. We never sell your data. Data collection is opt-in and only used to improve the app.").
 
 ---
 
