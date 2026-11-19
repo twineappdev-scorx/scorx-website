@@ -6,6 +6,17 @@
 
 **This is not legal advice.** The wording was drafted from the owner's confirmation that PostHog is live and nothing else. It has not been checked against the app's code, the PostHog configuration or the law. A qualified Australian privacy lawyer should review it before it is published. Every `<mark>[OWNER TO CONFIRM: ...]</mark>` in `privacy.html` is a fact I could not verify and did not invent.
 
+## Lawyer review: highest risk
+
+Please look at these four items first. They are the points where the draft is most exposed.
+
+1. **Account-linked analytics, same opt-in for children as young as 4, no parental step.** PostHog events are tied to a pseudonymous account identifier, so they are personal information. The app is for ages 4+ with a parent or guardian, but the analytics opt-in is the same for everyone: no separate under-16 handling and no parent or guardian step. Is the opt-in valid consent for children (Privacy Act and APPs, GDPR Article 8, CCPA rules for under-16s)? Is a parental step needed? What should the App Store age rating and privacy label say?
+2. **Planned Meta retargeting on a site whose copy speaks to athletes aged 10 to 18.** No Meta ads or retargeting run today, but they may start soon. The policy discloses that the Pixel may in future be used to measure and target ads, including retargeting, for visitors who accept cookies. Please review this against Meta's policies on audiences directed at children, and against the OAIC Children's Online Privacy Code being developed in Australia, **before any ads start**.
+3. **Does "We never sell your data" survive CCPA "sharing" once retargeting starts?** Retargeting through the Meta Pixel is typically cross-context behavioural advertising, which the CCPA/CPRA calls "sharing". Does the trust line need changing, and is a "Do Not Sell or Share" link needed, even with consent-first loading?
+4. **No PostHog data processing agreement confirmed.** The owner is not sure one is in place, and retention is not set. Analytics data goes to the United States, so APP 8 reasonable steps and GDPR transfer rules depend on it.
+
+**Action item for the owner before publishing:** Accept PostHog's DPA (self-serve in PostHog settings) and set or confirm the retention period before publishing.
+
 ## What was inaccurate
 
 | # | Location | Old text | New text | Reason |
@@ -36,40 +47,37 @@
 | 24 | `terms.html` s6 | "No third-party data sharing or selling"; "No third-party analytics or tracking"; "End-to-end encryption for CloudKit sync" | "No ads. We never sell your data"; "Data collection is opt-in and only used to improve the app"; "Your data syncs through your own iCloud account" | D22. First two are false with PostHog and the Meta Pixel. |
 | 25 | `terms.html` s14 | Lists Apple services only | Adds PostHog (opt-in analytics) | Third-party list was incomplete. |
 | 26 | `terms.html` s2 | "at least 13" | Unchanged, plus marker asking which age is correct | Conflicts with privacy "4+". |
+| 27 | `privacy.html` PostHog section | Identifier "anonymous or pseudonymous"; region, event list, features all placeholders | Pseudonymous account identifier, so events are personal information. US cloud. Never sent: player or team names, scores, photos, contact details, location. Only crash and error reporting on; no autocapture, session replay or IP/GeoIP storage. HTTPS. | Owner answers 1 to 4 and 12. |
+| 28 | `privacy.html` opt-in | "where in the app?" placeholder | Offered during onboarding, switchable any time in Settings | Owner answer 5. |
+| 29 | `privacy.html` and `terms.html` age | Privacy "4+ ... under 13 without parental consent"; Terms "at least 13" | Both: "children aged 4 and over with a parent or guardian's permission or management", purchases by an adult | Owner answer 7. Must match the App Store age rating. |
+| 30 | `privacy.html` Children | Placeholder about under-16 handling | States the same opt-in for everyone, no separate handling, with a prominent lawyer flag | Owner answer 6. |
+| 31 | `privacy.html` Meta Pixel | "audience features, such as showing our ads"; ads questions | Measurement now; no Meta ads or retargeting today; may in future measure and target ads including retargeting for those who accept cookies; Advanced Matching off; `_fbp` about 90 days; banner choice in localStorage `scorx_consent` | Owner answers 9 and 13. |
+| 32 | `privacy.html` third parties | "list any others" placeholder | PostHog only, plus Apple frameworks (StoreKit, CloudKit). Google Analytics/Facebook SDK line now unmarked. | Owner answer 8. |
+| 33 | `privacy.html` Legal Compliance | "written with reference to ... [confirm]" | "written with reference to" Privacy Act/APPs, GDPR, CCPA, plus "we do not claim that it complies in full" | Owner answer 11. |
+| 34 | `privacy.html`, `terms.html` heads | Meta Pixel script in head | Merged the banner's version (single `consent.js` tag). No head change by me. | Banner work on the base branch. |
+| 35 | `about.html` trust card | "No ads. We never sell your data. Built with privacy in mind... syncs privately via iCloud" | "No ads. We never sell your data. Data collection is opt-in and only used to improve the app. Built with privacy in mind. Read our privacy policy. ... syncs through your own iCloud account with Premium." | Owner answer 14 and D19. |
+
 
 
 ## Questions for the owner (plain English)
 
-Answered and removed: opt-in vs opt-out (D20), website Pixel scope (D18), terms/encryption handling (D22).
+Answered and removed: opt-in (D20), PostHog region (US), identifier, what is and is not sent, PostHog features, opt-in location, children's handling, minimum age, third-party SDKs, Meta plans, Advanced Matching, HTTPS, cookie lifetimes, compliance wording.
 
-1. Does PostHog run in the **US cloud or the EU cloud**?
-2. Is there a **data processing agreement** with PostHog?
-3. What is the **identifier** PostHog uses? Anonymous, or tied to an account, Apple ID or email? Does it reset on reinstall?
-4. What exactly is sent? Please give the **full list of events and properties**. Are player names, team names, scores, photos, contact details or locations ever sent?
-5. Are **session recordings, screenshots, autocapture, IP address or geolocation, or crash reporting** switched on in PostHog?
-6. How long does PostHog **keep the data**, and is it then deleted or de-identified?
-7. **Where in the app** does the user opt in, and can they turn it off again in the same place? Does the opt-in screen say the same thing as the policy? If someone wants their analytics data deleted, how do they ask?
-8. Does opt-in work the same for **children under 16 (or 13)**? Is there an age gate or a parent/guardian step before a child can opt in?
-9. Is PostHog the **only third-party SDK or service** in the app? Are Google Analytics and the Facebook SDK definitely absent from the app?
-10. Is the traffic to PostHog **encrypted (HTTPS)**?
-11. Which **minimum age** is right: 4+ (policy) or 13+ (Terms, with parental permission under 18)? It must also match the App Store age rating.
-12. Which **Meta Pixel events** are sent (PageView only, or also clicks on download buttons)? Is **Advanced Matching** on? Are **custom or lookalike audiences or retargeting** used? Do you run ads on Meta at all?
-13. What does **`js/card/analytics.js`** collect, where does it send data, and for how long is it kept?
-14. What are the **cookie lifetimes**, and what is used to remember the banner choice?
-15. Are any ads targeted at **under-18s**, or audiences built from their visits?
-16. Can the policy say it is **GDPR/CCPA compliant**, or only "written with reference to"?
-
-**For the lawyer (not the owner):**
-- Does the Meta Pixel, even consent-based, count as **"sharing"** under the CCPA/CPRA, and does that affect "We never sell your data" and the need for a "Do Not Sell or Share" link?
-- Is consent the right **lawful basis** under GDPR for the opt-in analytics and the cookie banner, including for children?
-- Is the **APP 8** wording right for PostHog and Meta (overseas disclosure)?
-- Does the **Terms** text in sections 2, 6 and 14 work as drafted?
+1. **PostHog DPA:** has the data processing agreement been accepted? (Action item above.)
+2. **PostHog retention:** what period will you set or confirm?
+3. Please attach the **final list of event names and properties** sent to PostHog, so legal can check the "never sent" list.
+4. Does the **opt-in screen wording** match the policy, and how will you carry out a **deletion request** for a person's analytics data in PostHog?
+5. **Meta Pixel events:** PageView only, or also clicks such as download buttons?
+6. What does **`js/card/analytics.js`** collect, where does it send data, and for how long is it kept?
+7. Is the **App Store age rating** set to match "4+ with a parent or guardian", and does the App Store privacy label match this policy (account-linked usage data and diagnostics)?
+8. When do you expect **Meta ads or retargeting** to start? Legal should review before then.
+9. The **"Last updated", "Effective date", version and "Last Reviewed"** fields need setting on publish.
 
 ## Related items found but NOT changed (out of scope, please decide)
 
 - `privacy.html` still says data is stored "using encrypted SQLite database", and gives specific CloudKit retention (30 days, 7 business days deletion). I could not verify these.
 - `llms.txt`, `agent.json`, `support.html` and the schema data may repeat "no tracking" claims. A site-wide search for "tracking", "analytics", "third part" and "GDPR" is advised before publish.
-- The cookie banner and footer "Cookie settings" link are being built by another agent. The policy text describes the intended behaviour and must be re-checked against the built banner.
+- The cookie banner (`js/consent.js`) is now merged on the base branch. The policy text describes its behaviour (nothing loads until Accept, choice stored in localStorage `scorx_consent`, footer "Cookie settings" link) and should be re-checked against the final banner.
 
 ## App Store privacy label
 

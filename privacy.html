@@ -130,18 +130,18 @@ permalink: /privacy.html
         <ul>
             <li>Product usage events, such as screens viewed and features used</li>
             <li>Device and app information, such as device type, iOS version and app version</li>
-            <li>An anonymous or pseudonymous identifier that lets us tell one installation from another without using your name <mark>[OWNER TO CONFIRM: is the identifier anonymous, or is it linked to an account, Apple ID or email? Is it reset on reinstall?]</mark></li>
-            <li><mark>[OWNER TO CONFIRM: complete list of event types and properties sent to PostHog, and confirmation that player names, team names, scores, photos, contact details and location are NOT sent]</mark></li>
-            <li><mark>[OWNER TO CONFIRM: whether session recordings, screenshots, IP address or geolocation capture, crash reports or autocapture are enabled in PostHog]</mark></li>
+            <li>A pseudonymous account identifier. Analytics events are associated with your ScorX account, so they are <strong>personal information</strong>, not anonymous data. The identifier does not include your name or email address.</li>
+            <li>We never send the following to PostHog: player or team names, scores and statistics, photos, contact details (email address or phone number) or location. <mark>[OWNER TO CONFIRM: attach the final list of event names and properties for legal review]</mark></li>
+            <li>Only crash and error reporting is switched on in PostHog. We do not use autocapture or session replay, and we do not store IP addresses or IP-based location (GeoIP).</li>
         </ul>
 
-        <p><strong>Who processes it:</strong> PostHog Inc. processes this data on our behalf as a service provider. <mark>[OWNER TO CONFIRM: PostHog US or EU cloud, and whether a data processing agreement is in place with PostHog]</mark></p>
+        <p><strong>Who processes it:</strong> PostHog Inc. processes this data on our behalf as a service provider, using PostHog's <strong>US cloud</strong>, so analytics data is stored and processed in the United States. <mark>[OWNER TO CONFIRM: data processing agreement with PostHog accepted. Owner is not sure it is in place.]</mark></p>
 
         <p><strong>Why we collect it:</strong> To understand how the app is used, find and fix problems, and improve features and performance. We do not use analytics data for advertising, we do not use it to build advertising profiles, and we do not sell it.</p>
 
-        <p><strong>How long we keep it:</strong> <mark>[OWNER TO CONFIRM: PostHog data retention period]</mark></p>
+        <p><strong>How long we keep it:</strong> <mark>[OWNER TO CONFIRM: PostHog data retention period. Owner to set or confirm in PostHog settings.]</mark></p>
 
-        <p><strong>How to opt in or withdraw:</strong> Analytics is off until you opt in. <mark>[OWNER TO CONFIRM: where in the app is the opt-in, and can the user turn it off again later in the same place? Is the wording shown at opt-in consistent with this policy?]</mark> You can also contact <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with questions or to ask us to delete analytics data associated with you.</p>
+        <p><strong>How to opt in or withdraw:</strong> Analytics is off until you opt in. We offer the choice during onboarding, and you can switch it on or off at any time in Settings in the app. You can also contact <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> with questions or to ask us to delete analytics data associated with you. <mark>[OWNER TO CONFIRM: opt-in screen wording matches this policy, and how a deletion request is carried out in PostHog]</mark></p>
 
         <p><strong>Children:</strong> See "Children's Privacy" below for how analytics applies to younger users.</p>
 
@@ -199,21 +199,21 @@ permalink: /privacy.html
             <li>iOS Keychain for sensitive credentials</li>
             <li>Secure API communication (HTTPS)</li>
             <li>Apple's CloudKit infrastructure for iCloud sync</li>
-            <li>Analytics data is sent to PostHog over an encrypted connection <mark>[OWNER TO CONFIRM: HTTPS to PostHog]</mark></li>
+            <li>Analytics data is sent to PostHog over HTTPS (encrypted in transit)</li>
         </ul>
 
         <h2>Website Cookies and Meta Pixel</h2>
         <p>This section applies to visitors to our website (scorx.com.au), not to the app.</p>
 
-        <p><strong>Consent first:</strong> When you visit our website you will see a cookie consent banner. The Meta Pixel and our website analytics script do not load unless you click <strong>Accept</strong>. If you decline, or ignore the banner, neither loads and nothing is sent to Meta or to our analytics. <mark>[OWNER TO CONFIRM: banner wording and behaviour once built, including that pages still work fully without consent]</mark></p>
+        <p><strong>Consent first:</strong> When you visit our website you will see a cookie consent banner. The Meta Pixel and our website analytics script do not load unless you click <strong>Accept</strong>. If you decline, or ignore the banner, neither loads and nothing is sent to Meta or to our analytics.</p>
 
-        <p><strong>What the Meta Pixel does:</strong> The Meta Pixel is a tool provided by Meta Platforms, Inc. (Meta Platforms Ireland Limited for users in some regions). If you accept, it records visits to our pages and can send that information to Meta, together with identifiers such as cookies and your IP address and browser details. It is used for advertising measurement, such as seeing how many visitors came from our ads, and for audience features, such as showing our ads to people who visited the site. <mark>[OWNER TO CONFIRM: which Pixel events are sent (PageView only, or others such as downloads clicks)? Is Advanced Matching enabled? Are custom audiences, lookalike audiences or retargeting used? Are ads run on Meta platforms at all?]</mark></p>
+        <p><strong>What the Meta Pixel does:</strong> The Meta Pixel is a tool provided by Meta Platforms, Inc. (Meta Platforms Ireland Limited for users in some regions). If you accept, it records visits to our pages and can send that information to Meta, together with identifiers such as cookies (including Meta's <code>_fbp</code> cookie) and your IP address and browser details. We currently use it for measurement, such as understanding visits to our website. We do not currently run Meta ads or retargeting. <strong>In future we may use the Pixel to measure and target ads, including retargeting, to visitors who have accepted cookies.</strong> We will update this policy before we do. Advanced Matching (sending hashed personal details such as email addresses to Meta) is switched off. <mark>[OWNER TO CONFIRM: which Pixel events are sent (PageView only, or others such as download-button clicks)]</mark> <mark>[LEGAL TO REVIEW before any ads or retargeting start. See notes.]</mark></p>
 
         <p><strong>Website analytics:</strong> If you accept, we also load our own analytics script (<code>js/card/analytics.js</code>). <mark>[OWNER TO CONFIRM: what this script collects, where it sends data, and its retention]</mark></p>
 
-        <p><strong>Your choice and how to withdraw:</strong> Your choice is remembered on your device. You can change it at any time using the <strong>Cookie settings</strong> link in the website footer. You can also clear cookies and site data in your browser, and manage ad preferences in your Meta account settings. <mark>[OWNER TO CONFIRM: cookie lifetimes and the storage used to remember the choice]</mark></p>
+        <p><strong>Your choice and how to withdraw:</strong> Your choice is stored in your browser (in localStorage, under the name <code>scorx_consent</code>) until you change it or clear your site data. You can change it at any time using the <strong>Cookie settings</strong> link in the website footer. Meta's <code>_fbp</code> cookie usually lasts about 90 days. You can also clear cookies and site data in your browser, and manage ad preferences in your Meta account settings.</p>
 
-        <p><strong>Not advertising to children:</strong> Our website is aimed at parents, coaches and players' families. <mark>[OWNER TO CONFIRM: confirm no ads are targeted at under-18s and that the Pixel is not used for audiences built from children's visits]</mark></p>
+        <p><strong>Children and the website:</strong> Our website speaks to parents, coaches and players, including young athletes. <mark>[LEGAL TO REVIEW: Meta policies on audiences directed at children, and the OAIC Children's Online Privacy Code under development, before any ads or retargeting start. We do not currently run ads.]</mark></p>
 
         <p><mark>[LEGAL TO CONFIRM: Meta's Pixel can amount to "sharing" personal information for cross-context behavioural advertising under the CCPA/CPRA, and can disclose information overseas under APP 8. Please confirm that the statement "We never sell your data" remains accurate and whether a "Do Not Sell or Share" mechanism or extra wording is needed. Consent-first loading helps but does not by itself settle this.]</mark></p>
 
@@ -226,7 +226,7 @@ permalink: /privacy.html
         <p>We use the following external services:</p>
         <ul>
             <li><strong>Apple CloudKit</strong> for cloud synchronisation (ScorX Premium). This is a first-party Apple service governed by Apple's privacy policy.</li>
-            <li><strong>PostHog Inc.</strong> for product analytics in the app, as described in "Product Analytics (PostHog)" above. PostHog processes analytics data on our behalf and only for the purposes described in this policy. <mark>[OWNER TO CONFIRM: PostHog is the only third-party SDK or service in the app; list any others, for example crash reporting or subscription tooling]</mark></li>
+            <li><strong>PostHog Inc.</strong> for product analytics in the app, as described in "Product Analytics (PostHog)" above. PostHog processes analytics data on our behalf and only for the purposes described in this policy. PostHog is the only third-party SDK in the app. The app also uses Apple frameworks such as StoreKit and CloudKit.</li>
             <li><strong>Meta Platforms</strong> for the website Meta Pixel, only if you accept website cookies. See "Website Cookies and Meta Pixel" above.</li>
         </ul>
 
@@ -234,7 +234,7 @@ permalink: /privacy.html
             <li>We do not sell or rent your data</li>
             <li>We do not use your data for advertising</li>
             <li>We do not display third-party advertisements</li>
-            <li>We do not use Google Analytics or the Facebook SDK in the app <mark>[OWNER TO CONFIRM]</mark></li>
+            <li>We do not use Google Analytics or the Facebook SDK in the app</li>
         </ul>
 
         <p>We may also disclose information where required by law.</p>
@@ -264,9 +264,9 @@ permalink: /privacy.html
         </ul>
 
         <h2>Children's Privacy</h2>
-        <p>ScorX is designed for users of all ages (4+). We do not knowingly collect personal information from children under 13 without parental consent. <mark>[OWNER TO CONFIRM: this policy says 4+ but the Terms of Service require users to be at least 13 (with parental permission under 18). Which is correct?]</mark></p>
+        <p>ScorX can be used by children aged 4 and over with a parent or guardian's permission or management. We do not knowingly collect personal information from children without that parental involvement. <mark>[OWNER TO CONFIRM: wording must match the App Store age rating and the Terms of Service]</mark></p>
 
-        <p><strong>Analytics and children:</strong> Many ScorX users are young athletes, and some are under 16. <mark>[OWNER TO CONFIRM: is analytics disabled, minimised or unchanged for users who are, or may be, under 16 (or under 13)? Is there an age gate or a parent/guardian setting? Describe exactly what is collected for them.]</mark> Because app analytics is opt-in, no analytics is collected unless the person using the app opts in. Analytics events do not include player names, team rosters or scores <mark>[OWNER TO CONFIRM]</mark>, and we do not use analytics data to advertise to anyone, including children.</p>
+        <p><strong>Analytics and children:</strong> Many ScorX users are young athletes, and some are under 16. App analytics is opt-in and off until the person using the app opts in. The same opt-in is offered to everyone. There is no separate handling for users under 16 and no separate parent or guardian step. Parents and guardians can turn analytics off in Settings or contact us to ask for analytics data to be deleted. Analytics events do not include player or team names, scores, photos, contact details or location, and we do not use analytics data to advertise to anyone, including children. <mark>[LEGAL TO REVIEW: analytics events are linked to an account, and children as young as 4 get the same opt-in with no parental step. See notes.]</mark></p>
 
         <p><strong>Player profiles</strong> may include information about minors (team rosters), but this data:</p>
         <ul>
@@ -307,10 +307,10 @@ permalink: /privacy.html
         <ul>
             <li><strong>Locally:</strong> On your device, in your region</li>
             <li><strong>CloudKit:</strong> In Apple's data centers based on your Apple ID region</li>
-            <li><strong>Product analytics:</strong> PostHog Inc. processes analytics data in <mark>[OWNER TO CONFIRM: PostHog US or EU cloud]</mark>. This means analytics data may be sent outside Australia.</li>
+            <li><strong>Product analytics:</strong> PostHog Inc. processes analytics data in its US cloud, so analytics data is sent to the United States.</li>
             <li><strong>Compliance:</strong> We follow Apple's regional data protection requirements</li>
         </ul>
-        <p><strong>Disclosure outside Australia (APP 8):</strong> When we disclose personal information to PostHog overseas, we take reasonable steps to make sure PostHog handles it in a way that is consistent with the APPs. <mark>[OWNER TO CONFIRM: contractual protections in place, for example a data processing agreement with PostHog]</mark></p>
+        <p><strong>Disclosure outside Australia (APP 8):</strong> When we disclose personal information to PostHog in the United States, we take reasonable steps to make sure PostHog handles it in a way that is consistent with the APPs. <mark>[OWNER TO CONFIRM: accept PostHog's data processing agreement, which is the intended contractual protection]</mark></p>
 
         <h2>Changes to Privacy Policy</h2>
         <p>We may update this Privacy Policy to reflect:</p>
@@ -367,7 +367,7 @@ permalink: /privacy.html
         </ul>
 
         <h2>Legal Compliance</h2>
-        <p>This Privacy Policy is written with reference to the following laws and standards <mark>[OWNER TO CONFIRM: legal adviser to confirm which of these apply and whether "complies" can be claimed for each]</mark>:</p>
+        <p>This Privacy Policy is written with reference to the following laws and standards. We do not claim that it complies with any of them in full:</p>
         <ul>
             <li>Apple App Store Review Guidelines</li>
             <li>General Data Protection Regulation (GDPR) - for EU users</li>
@@ -384,13 +384,13 @@ permalink: /privacy.html
             <li>Right to restrict processing</li>
             <li>Right to object to processing</li>
         </ul>
-        <p>For EU users, app analytics and website cookies are based on your consent, which you can withdraw at any time. <mark>[OWNER TO CONFIRM: legal to confirm consent is the right basis and the opt-in meets GDPR standards, including for children]</mark></p>
+        <p>For EU users, app analytics and website cookies are based on your consent, which you can withdraw at any time. <mark>[LEGAL TO REVIEW: whether consent is valid for children, and whether the app opt-in meets GDPR standards]</mark></p>
 
         <p><strong>Your Rights Under CCPA (California Users):</strong></p>
         <ul>
             <li>Right to know what personal data is collected</li>
             <li>Right to delete personal data</li>
-            <li>Right to opt-out of sale or sharing (we do not sell data or share it for advertising) <mark>[OWNER TO CONFIRM: legal to confirm this statement against the CCPA definitions of "sell" and "share" in light of PostHog (opt-in) and the website Meta Pixel (consent-based)]</mark></li>
+            <li>Right to opt-out of sale or sharing (we do not sell data) <mark>[LEGAL TO REVIEW: whether the website Meta Pixel, especially once retargeting starts, counts as "sharing" under the CCPA/CPRA, and whether "We never sell your data" and the "Do Not Sell or Share" requirements are still met]</mark></li>
             <li>Right to non-discrimination for exercising rights</li>
         </ul>
 
@@ -406,7 +406,7 @@ permalink: /privacy.html
         <ul>
             <li>Canceling your subscription</li>
             <li>Disabling iCloud sync</li>
-            <li>Turning off app analytics <mark>[OWNER TO CONFIRM: in-app setting location]</mark></li>
+            <li>Turning off app analytics in Settings</li>
             <li>Choosing Decline, or changing your choice under Cookie settings, on our website</li>
             <li>Deleting the app</li>
             <li>Contacting support for data deletion</li>
