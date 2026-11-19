@@ -284,3 +284,196 @@ a.x-chip:hover { color: var(--ink); border-color: var(--turq-ink); }
 .x-card--cta p { font-family: var(--font-text); color: var(--mid); line-height: 1.6; }
 .x-card--cta p.x-eyebrow { color: var(--turq-ink); font-size: 11px; line-height: 1.4; }
 .x-card--cta a.x-btn--primary, .x-card--cta a.x-btn--primary:hover { color: #0F2A44; }
+
+/* =====================================================================
+   WP-1 shared components (Nov 2026): .x-tier, .x-pillars, .x-shot
+   Copy-paste markup lives in documentation/components-demo.html.
+   All three work on pages that load tokens.css; in blog posts wrap them in .x-scope.
+   ===================================================================== */
+
+/* ---------- .x-tier: Free / Premium chip ----------
+   Markup: <span class="x-tier x-tier--free">Free</span>
+           <span class="x-tier x-tier--premium">Premium</span>
+   Same shape as the pricing page badges (pill, uppercase, 800 weight).
+   Contrast (AA, 4.5:1): free ink #00675C on #DDF4F1 is about 6:1 in light; #1FEDD8 on the dark tint is 9:1+.
+   Premium: navy #0F2A44 on the turquoise gradient is 7:1+ in both themes. */
+:root, .x-scope {
+  --x-free-bg: #DDF4F1;
+  --x-free-ink: #00675C;
+  --x-free-line: rgba(0, 103, 92, 0.28);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --x-free-bg: rgba(0, 212, 196, 0.14);
+    --x-free-ink: #1FEDD8;
+    --x-free-line: rgba(31, 237, 216, 0.4);
+  }
+}
+:root[data-theme="dark"] {
+  --x-free-bg: rgba(0, 212, 196, 0.14);
+  --x-free-ink: #1FEDD8;
+  --x-free-line: rgba(31, 237, 216, 0.4);
+}
+
+.x-tier {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 3px 10px;
+  border-radius: var(--r-pill, 100px);
+  border: 1px solid transparent;
+  font-family: var(--font-text, sans-serif);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.x-tier--free {
+  background: var(--x-free-bg);
+  color: var(--x-free-ink);
+  border-color: var(--x-free-line);
+}
+.x-tier--premium {
+  background: var(--grad-turq, linear-gradient(160deg, #1FEDD8, #00D4C4));
+  color: #0F2A44;
+}
+
+/* ---------- .x-pillars: Score / Track / Train ----------
+   Markup: <div class="x-pillars"> 3x <article class="x-pillar"> with
+   .x-pillar__icon > img, h3.x-pillar__title, p.x-pillar__tag, ul.x-pillar__list, a.x-pillar__link.
+   Stacks below 768px. */
+.x-pillars {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .x-pillars { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+}
+.x-pillar {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface, #fff);
+  border: 1px solid var(--line, #E2E9ED);
+  border-radius: var(--r-card, 22px);
+  box-shadow: var(--shadow-card, none);
+  padding: 24px;
+  color: var(--ink, #0F2A44);
+}
+.x-pillar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  background: linear-gradient(165deg, #16385A, #081B2E);
+}
+.x-pillar__icon img { display: block; width: 32px; height: 32px; }
+.x-pillar__title {
+  font-family: var(--font-display, Georgia, serif);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--ink, #0F2A44);
+  margin: 0 0 4px;
+}
+.x-pillar__tag {
+  font-family: var(--font-text, sans-serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--turq-ink, #00897C);
+  margin: 0 0 14px;
+}
+.x-pillar__list {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  flex: 1 1 auto;
+}
+.x-pillar__list li {
+  position: relative;
+  padding-left: 20px;
+  margin: 0 0 8px;
+  font-family: var(--font-text, sans-serif);
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: var(--mid, #51677A);
+}
+.x-pillar__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--turq, #00D4C4);
+}
+.x-pillar__link {
+  align-self: flex-start;
+  font-family: var(--font-text, sans-serif);
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--turq-ink, #00897C);
+  text-decoration: none;
+  border-bottom: 1.5px solid transparent;
+}
+.x-pillar__link:hover { border-bottom-color: currentColor; }
+.x-pillar__link:focus-visible { outline: 3px solid var(--turq-ink, #00897C); outline-offset: 3px; border-radius: 4px; }
+
+/* ---------- .x-shot: screenshot figure ----------
+   Markup: <figure class="x-shot x-shot--phone"> <div class="x-shot__frame"><img ... width height loading="lazy" alt=""></div>
+           <figcaption class="x-shot__cap">...</figcaption></figure>
+   Variants: default/--phone (portrait, max 280px) and --ipad (portrait tablet, max 420px).
+   Always set width and height attributes to the image's real pixels so the page doesn't jump.
+   Missing screenshot: use .x-shot__slot (no image) plus an <!-- ASSET NEEDED: ... --> comment. */
+.x-shot {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+}
+.x-shot--ipad { max-width: 420px; }
+.x-shot__frame {
+  background: #081B2E;
+  border: 1px solid var(--line-strong, #D2DCE2);
+  border-radius: 34px;
+  padding: 8px;
+  box-shadow: var(--shadow-raised, 0 16px 36px -18px rgba(8, 27, 46, 0.45));
+  overflow: hidden;
+}
+.x-shot--ipad .x-shot__frame { border-radius: 24px; padding: 10px; }
+.x-shot__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 26px;
+}
+.x-shot--ipad .x-shot__frame img { border-radius: 14px; }
+.x-shot__cap {
+  margin-top: 12px;
+  font-family: var(--font-text, sans-serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--mid, #51677A);
+}
+.x-shot__slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1170 / 2532;
+  padding: 16px;
+  border: 2px dashed var(--line-strong, #D2DCE2);
+  border-radius: 34px;
+  font-family: var(--font-text, sans-serif);
+  font-size: 14px;
+  color: var(--mid, #51677A);
+}
