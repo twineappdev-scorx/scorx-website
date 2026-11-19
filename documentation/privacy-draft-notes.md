@@ -27,33 +27,49 @@
 | 15 | Last updated, effective date, footer "Last Reviewed" and "Privacy Policy Version" | October 6, 2025 / 1.0 | `[OWNER TO SET ON PUBLISH]` | Instruction. |
 | 16 | Top of page | (none) | Amber "DRAFT FOR OWNER AND LEGAL REVIEW. DO NOT PUBLISH." box | So the draft cannot be mistaken for the final policy. Remove on publish. |
 | 17 | `about.html` "Privacy-first, by design" card | "ScorX is GDPR and CCPA compliant. ... Read the privacy policy for the detail." | "Built with privacy in mind. Read our privacy policy. Your data lives on your device and syncs privately via iCloud with Premium." plus an HTML comment marking it for review | Compliance claims are not defensible without legal sign-off. Link is now an actual link. "No ads. We never sell your data." was kept (D6 wording). |
+| 18 | `privacy.html` Quick Summary and analytics section | "...We use a product analytics service (PostHog)..." | Leads with the approved trust line "No ads. We never sell your data. Data collection is opt-in and only used to improve the app." and states app analytics is opt-in and off until the user opts in (D19, D20) | Owner confirmed opt-in. |
+| 19 | `privacy.html` How to opt out, Consent, GDPR | "opt out" and "opt-in, opt-out, or always on?" placeholders | Now "How to opt in or withdraw", consent wording says analytics applies only if you opt in, GDPR line says consent-based | Answers owner question 8. In-app location of the setting is still open. |
+| 20 | `privacy.html` new section "Website Cookies and Meta Pixel" | (website not covered; one placeholder) | New section: consent banner, nothing loads until Accept, what the Pixel does (Meta ad measurement and audience features), `js/card/analytics.js`, how to withdraw via footer "Cookie settings", placeholders for Advanced Matching, custom audiences, cookie lifetimes, plus a legal flag on CCPA "sharing" | D18. The Meta Pixel was on this very page. |
+| 21 | `privacy.html` Data Sharing list | CloudKit and PostHog | Adds Meta Platforms (website Pixel, consent only) | List of external services must be complete. |
+| 22 | `privacy.html` Cloud Storage and Security | "Security: End-to-end encryption via iCloud"; "Apple's CloudKit security infrastructure" | "Sync: Your data syncs through your own iCloud account" (no encryption claim); "Apple's CloudKit infrastructure for iCloud sync" | D12 and D22: owner is unsure it is end-to-end. |
+| 23 | `terms.html` top | (none) | Draft banner | Same as privacy page. |
+| 24 | `terms.html` s6 | "No third-party data sharing or selling"; "No third-party analytics or tracking"; "End-to-end encryption for CloudKit sync" | "No ads. We never sell your data"; "Data collection is opt-in and only used to improve the app"; "Your data syncs through your own iCloud account" | D22. First two are false with PostHog and the Meta Pixel. |
+| 25 | `terms.html` s14 | Lists Apple services only | Adds PostHog (opt-in analytics) | Third-party list was incomplete. |
+| 26 | `terms.html` s2 | "at least 13" | Unchanged, plus marker asking which age is correct | Conflicts with privacy "4+". |
+
 
 ## Questions for the owner (plain English)
 
+Answered and removed: opt-in vs opt-out (D20), website Pixel scope (D18), terms/encryption handling (D22).
+
 1. Does PostHog run in the **US cloud or the EU cloud**?
-2. Is there a **data processing agreement** with PostHog in place?
-3. What is the **identifier** PostHog uses? Is it random and anonymous, or tied to an account, Apple ID or email? Does it reset when the app is reinstalled?
-4. What exactly is sent? Please give the **full list of events and properties**. Are player names, team names, scores, photos, contact details or locations ever sent? (The draft says they are not, marked for confirmation.)
+2. Is there a **data processing agreement** with PostHog?
+3. What is the **identifier** PostHog uses? Anonymous, or tied to an account, Apple ID or email? Does it reset on reinstall?
+4. What exactly is sent? Please give the **full list of events and properties**. Are player names, team names, scores, photos, contact details or locations ever sent?
 5. Are **session recordings, screenshots, autocapture, IP address or geolocation, or crash reporting** switched on in PostHog?
 6. How long does PostHog **keep the data**, and is it then deleted or de-identified?
-7. Can users **opt out** inside the app? If yes, where? If not, how should someone ask us to stop collection or delete their data?
-8. Is analytics **on by default for everyone**, or does it need opt-in? (This affects the consent wording and EU/UK requirements.)
-9. What happens for **children under 16 (or 13)**? Is analytics disabled, reduced, or unchanged? Is there an age gate or parental control?
-10. Is PostHog the **only third-party SDK or service** in the app? Any crash reporter, subscription tool or advertising/attribution SDK? Are Google Analytics and the Facebook SDK definitely absent from the app?
-11. Is the traffic to PostHog **encrypted (HTTPS)**?
-12. Which age is right: the policy says the app is for **ages 4+**, but the Terms say users must be **13+** (with parental permission under 18). Which should both documents say?
-13. The **website** loads a Meta Pixel on its pages. Should the policy cover website cookies and the pixel, or should there be a separate section or cookie notice?
-14. For EU users, what **lawful basis** do you rely on for analytics (consent or legitimate interests)? Ask legal.
-15. Does your lawyer agree with the CCPA statement that we do not "sell or share" data given PostHog is used?
-16. Which of GDPR, CCPA and the APPs can the policy honestly say it **complies with**, versus is written with reference to?
+7. **Where in the app** does the user opt in, and can they turn it off again in the same place? Does the opt-in screen say the same thing as the policy? If someone wants their analytics data deleted, how do they ask?
+8. Does opt-in work the same for **children under 16 (or 13)**? Is there an age gate or a parent/guardian step before a child can opt in?
+9. Is PostHog the **only third-party SDK or service** in the app? Are Google Analytics and the Facebook SDK definitely absent from the app?
+10. Is the traffic to PostHog **encrypted (HTTPS)**?
+11. Which **minimum age** is right: 4+ (policy) or 13+ (Terms, with parental permission under 18)? It must also match the App Store age rating.
+12. Which **Meta Pixel events** are sent (PageView only, or also clicks on download buttons)? Is **Advanced Matching** on? Are **custom or lookalike audiences or retargeting** used? Do you run ads on Meta at all?
+13. What does **`js/card/analytics.js`** collect, where does it send data, and for how long is it kept?
+14. What are the **cookie lifetimes**, and what is used to remember the banner choice?
+15. Are any ads targeted at **under-18s**, or audiences built from their visits?
+16. Can the policy say it is **GDPR/CCPA compliant**, or only "written with reference to"?
+
+**For the lawyer (not the owner):**
+- Does the Meta Pixel, even consent-based, count as **"sharing"** under the CCPA/CPRA, and does that affect "We never sell your data" and the need for a "Do Not Sell or Share" link?
+- Is consent the right **lawful basis** under GDPR for the opt-in analytics and the cookie banner, including for children?
+- Is the **APP 8** wording right for PostHog and Meta (overseas disclosure)?
+- Does the **Terms** text in sections 2, 6 and 14 work as drafted?
 
 ## Related items found but NOT changed (out of scope, please decide)
 
-- `terms.html` section 6 ("Key privacy commitments") still says "No third-party data sharing or selling" and "No third-party analytics or tracking". These are now false and should be fixed with the policy.
-- `privacy.html` and `terms.html` both claim "End-to-end encryption via iCloud" / "End-to-end encryption for CloudKit sync". Decision D12 says make no encryption claim. Left as is; needs owner decision.
-- `privacy.html` still says "All data is stored locally ... using encrypted SQLite database", and specific CloudKit retention (30 days, 7 business days deletion). I could not verify these.
-- `privacy.html` Data Rights and Retention mention only CloudKit deletion. Whether analytics data can be deleted per person (for example by identifier) is part of question 7.
-- Other site files (`llms.txt`, `agent.json`, `support.html`, FAQ and schema) may repeat "no tracking" claims. A site-wide search for "tracking", "analytics" and "third part" is advised before publish.
+- `privacy.html` still says data is stored "using encrypted SQLite database", and gives specific CloudKit retention (30 days, 7 business days deletion). I could not verify these.
+- `llms.txt`, `agent.json`, `support.html` and the schema data may repeat "no tracking" claims. A site-wide search for "tracking", "analytics", "third part" and "GDPR" is advised before publish.
+- The cookie banner and footer "Cookie settings" link are being built by another agent. The policy text describes the intended behaviour and must be re-checked against the built banner.
 
 ## App Store privacy label
 
@@ -61,9 +77,9 @@ Before publishing, check the App Store Connect **App Privacy** ("nutrition label
 
 - **Data Used to Track You** vs **Data Linked to You** vs **Data Not Linked to You**. PostHog usage data (product interaction, device ID or user ID, diagnostics) must be declared under the right category, and the "linked to identity" answer depends on question 3.
 - If the identifier is linked to the user, declare it as **Linked to You**. Declare **Used to Track You** only if the data is combined with third-party data for advertising or shared with data brokers (the policy says it is not).
-- Apple's App Tracking Transparency requirement should be considered if anything is classed as tracking.
+- Apple's App Tracking Transparency requirement should be considered if anything is classed as tracking. Opt-in analytics should still be declared on the label; check how Apple expects opt-in collection to be shown.
 - The label, this policy and the in-app consent or settings must all say the same thing.
 
 ## Build check
 
-Built with `jekyll build`. `privacy.html` and `about.html` render, with the draft banner and highlighted placeholders visible.
+Built with `jekyll build`. `privacy.html`, `terms.html` and `about.html` render, with the draft banner and highlighted placeholders visible.
