@@ -62,16 +62,25 @@ Reconciliation with `documentation/asset-requests.md`: every slot in the code no
 
 When an image arrives: replace the `.x-shot__slot` div with a `.x-shot__frame` containing the `<img>` (width and height set), delete the `ASSET NEEDED` comment, and when the last slot is gone delete the TEMPORARY block in `css/components.css`.
 
-## 4. Owner decisions still open (left unchanged on purpose)
+## 4. Owner decisions (D8 to D21 applied in WP-11)
 
-1. **"30-day money-back guarantee on Premium"** on `pricing.html` (line 189). Not in `app-facts.md`; Apple handles refunds, so it may be wrong.
-2. **Voice recording tier.** Shown as Premium (team sports, iOS 26 or later) on pricing, support, features, coaches and the AFL page. The owner confirmed it is released but did not restate the tier.
-3. **Existing competitor prices and user counts** (GameChanger A$149.99, TeamSnap $109.99, "Not supported", "Basic", trial lengths, 150+ stats, 20M+ users, Spond ads). `documentation/competitor-research-2026-08.md` does not support them. `compare.html` says details were last checked August 2026.
-4. **Racquet sports wording** ("simplified game tracking", no stat recording claims). Left as WP-7 set it.
-5. **"AFL drills first, more sports on the way"** on `train.html` (and its FAQ): the "more sports" roadmap is not in `app-facts.md`.
-6. **Data after downgrade or trial end.** The facts say nothing about users above 20 games. The pricing cancel FAQ still says game data is preserved on the device regardless of subscription; confirm it holds above 20 games.
-7. Smaller items from the hand-offs: whether "25 players" is per team or in total; the generator page presents score and team stat graphics as Free while `app-facts.md` lists the Share Cards carousel as Premium; BHAG is explained but the carry-over coach copy uses the acronym unexpanded; the unverified Below Average / Average / Above Average / Excellent benchmark labels and the AI recommendation disclaimer on athletes and coaches; the primary keyword for `train.html` ("training app for junior athletes") was chosen without owner confirmation; the home page "Saturday morning" card still says "The family's commented" (parent voice).
-8. `match/index.html` nav is Features / Sports / Pricing / How It Works plus Train. It has no "Make a card" or Athletes/Coaches links, and the task only asked for the footer year there.
+Applied on branch `wp-11-decisions` (see `WP-11.md`):
+
+1. **Money-back guarantee (D9):** removed; "Cancel anytime in your App Store settings." used instead.
+2. **Voice recording tier (D8):** confirmed Premium; labels checked, no change needed.
+3. **Competitor claims (D13):** prices, user counts, "150+ stats", Spond ads, trial lengths and unsourced "Not supported"/"Basic" cells removed from `compare.html` and `scorx-vs-gamechanger.html`.
+4. **Racquet sports (D14):** simplified game tracking plus aces and let/stroke calls.
+5. **Drill library (D15):** AFL drills plus running drills for every sport; "more sports on the way" removed.
+6. **Downgrade (D10):** kept and viewable, no new games, teams or players until under the limit or upgraded. Added to pricing, support and features FAQs, `llms.txt`, `agent.json`, `pricing.json`.
+7. **25 players (D11):** stated as "in total" everywhere.
+8. **Encryption (D12), trust line (D19), opt-in analytics (D20), train keyword (D21):** applied (D21 title uses the 57-character fallback because the preferred title is 68).
+
+Still open:
+
+- "25 players in total": the generator page shows score and team stat graphics as Free while `app-facts.md` lists the Share Cards carousel as Premium.
+- BHAG acronym unexpanded in carry-over coach copy; unverified benchmark labels and AI disclaimer on athletes and coaches; home page "Saturday morning" card parent voice.
+- `about.html` line 130 still reads "No ads. We never sell your data." without the opt-in point, and says "syncs privately via iCloud". It sits in the same paragraph as the GDPR and CCPA line, which the legal draft owns, so it was left alone.
+- `match/index.html` nav has no "Make a card" or Athletes/Coaches links.
 
 ## 5. Legal items for the owner (no agent edited these)
 
