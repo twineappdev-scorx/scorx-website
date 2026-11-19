@@ -1,0 +1,152 @@
+{
+  "schema": "scorx-agent/1.0",
+  "updated": "2026-11-19",
+  "product": {
+    "name": "ScorX",
+    "tagline": "Youth sports performance tracking and player development analytics",
+    "platform": "iOS",
+    "os_minimum": "iOS 18.0",
+    "developer": "Twine App Dev",
+    "website": "https://www.scorx.com.au/",
+    "app_store_url": "https://apps.apple.com/au/app/scorx/id6753859833",
+    "app_store_id": "6753859833",
+    "contact": "scorxapp@gmail.com",
+    "country": "Australia"
+  },
+  "description": "ScorX is an iOS app for recording, analysing, and developing youth athlete performance across 16 sports. It supports live game scoring, player-specific stat recording, athleticism benchmarking, a Train pillar (Development Plan, drill and play libraries, training sessions), AI-powered training recommendations, and shareable player graphics. Scoring, tracking and training tools are free within Free limits of 5 teams, 25 players and 20 saved games. Premium removes the limits and adds AI training recommendations, voice stat recording, the full run drill library and the full Player Card library.",
+  "personas": [
+    {
+      "id": "coach",
+      "label": "Coach",
+      "core_message": "Stop coaching on gut feel. Start developing with proof.",
+      "key_features": ["Team creation and roster management", "PlayHQ spreadsheet import", "Drill assignment to a squad and team results", "Training Sessions and Run Session", "iPad Team Mode", "Match Invitations for distributed stat recording", "Player rotations and playing time tracking", "Post-Game Triage Dashboard", "Perception vs Reality analysis", "Team stats view"]
+    },
+    {
+      "id": "manager",
+      "label": "Team Manager",
+      "core_message": "Everything your families need to know, in one place.",
+      "key_features": ["Game attendance tracking", "Game result sharing", "Family communication"]
+    },
+    {
+      "id": "parent",
+      "label": "Parent",
+      "core_message": "You've watched every game. Now you can prove every improvement.",
+      "key_features": ["Individual stat recording from the sideline", "Shareable Player Cards", "Career Timeline", "Athleticism benchmarking (Free)", "AI training recommendations (Premium)"]
+    },
+    {
+      "id": "player",
+      "label": "Player / Athlete",
+      "core_message": "Your stats don't lie. Find out what's actually getting better.",
+      "key_features": ["Game performance tracking", "Athleticism metric recording (14 baseline metrics plus custom)", "Development Plan and drills", "AI training recommendations (Premium)", "Player Card", "Career Timeline"]
+    }
+  ],
+  "sports": {
+    "total": 16,
+    "team_sports": {
+      "count": 10,
+      "tracking": "full stat recording",
+      "list": ["AFL", "Basketball", "Netball", "Rugby Union", "Rugby League", "Touch Rugby", "Soccer", "Field Hockey", "Volleyball", "Water Polo"]
+    },
+    "racquet_sports": {
+      "count": 6,
+      "tracking": "simplified game tracking",
+      "list": ["Tennis", "Badminton", "Squash", "Racquetball", "Pickleball", "Table Tennis"]
+    }
+  },
+  "pricing": {
+    "summary": "Two tiers: ScorX Free (free forever, up to 5 teams, 25 players and 20 saved games in total) and ScorX Premium (A$49.99/year or A$4.99/month, unlimited, 30-day free trial of full Premium, no credit card required).",
+    "detail_url": "https://www.scorx.com.au/pricing.json",
+    "free_tier_unlimited": false,
+    "free_limits": {"teams": 5, "players": 25, "saved_games": 20, "custom_metrics": 1, "note": "20 saved games in total, not per month. At the cap a new game can't be saved until one is deleted or the user upgrades."},
+    "premium_limits": {"teams": "unlimited", "players": "unlimited", "saved_games": "unlimited", "custom_metrics": "unlimited"},
+    "trial": {"days": 30, "requires_card": false, "scope": "Full Premium, with no team, player or game limits"},
+    "premium_buckets": ["Unlimited teams, players, games and custom metrics", "Voice stat recording", "AI analytics", "Train (full run drill library, custom run drills)", "Graphics", "Data portability"]
+  },
+  "train": {
+    "summary": "Training tools for the athlete: measure, plan, drill, retest.",
+    "detail_url": "https://www.scorx.com.au/train.html",
+    "free": ["14 baseline athleticism metrics with trend charts", "Age and sex-specific benchmarking", "Goal mode", "1 custom metric", "Big goal", "Development Plan", "Beep Test, 800m and 2km time trials", "Drill Library and Drill Animator (AFL first)", "Play Library and Play Animator", "Training Sessions and Run Session with beep pacing", "Drill assignment and team results", "Favourite drills", "Injury prevention and general programs"],
+    "premium": ["AI training recommendations and athleticism insight", "Full run drill library (sprint and interval drills)", "Custom run drills", "Unlimited custom metrics"]
+  },
+  "graphics": {
+    "summary": "Built-in sports graphic generator. Shareable graphics are generated from games scored in the app — no manual data entry and no design template. Rendered on-device, so they work offline.",
+    "detail_url": "https://www.scorx.com.au/sports-graphic-generator.html",
+    "growing_library": true,
+    "formats": [
+      {
+        "id": "score_update",
+        "label": "Score update graphic",
+        "description": "Mid-game score graphic for quarter time, half time, or any point in the match.",
+        "tier": "free"
+      },
+      {
+        "id": "final_score_card",
+        "label": "Final Score Card",
+        "description": "Full-time result with both team logos, round label, optional game photo background and optional score-type breakdown.",
+        "layouts": ["Broadcast", "Split Rail"],
+        "tier": "free"
+      },
+      {
+        "id": "player_stat_card",
+        "label": "Player stat card",
+        "description": "One player's game stats with a selectable stat set, slot ordering, optional player and game photo, and physical measurements.",
+        "card_types": ["Scouting Report", "Full Time", "Holographic", "Player of the Match"],
+        "styles": ["Frosted", "Dark", "Light"],
+        "sizes": ["Compact", "Standard"],
+        "tier": "free_with_premium_styles",
+        "tier_note": "One standard style is free. Full style library, sticker format and custom colour themes are Premium."
+      },
+      {
+        "id": "team_stats_table",
+        "label": "Team stats table",
+        "description": "Full team stat line as a readable table. Available for team totals and for attacking, midfield and defensive categories.",
+        "tier": "free"
+      },
+      {
+        "id": "team_stats_chart",
+        "label": "Team stats chart",
+        "description": "\"How the game was built\" — key stats plotted period by period with a colour-coded legend. Available for team totals and for attacking, midfield and defensive categories.",
+        "tier": "free"
+      }
+    ],
+    "branding": ["Team logo (set once in Team Management)", "Opposition logo per game", "ScorX or Team Colors palette on player cards", "Game photo background"],
+    "output": ["Save to camera roll", "Share via iOS share sheet"],
+    "constraints": ["No limit on graphics generated on either plan", "A small discreet ScorX mark appears in the corner of every card, identical on free and Premium", "Works fully offline", "Uses each sport's own scoring format across all 16 sports"]
+  },
+  "key_facts": [
+    "Setup takes under 2 minutes",
+    "Works fully offline — no internet required at the ground",
+    "No ads. We never sell your data.",
+    "iCloud sync across devices (Premium)",
+    "Family Sharing for up to 5 members (Premium)",
+    "AI Training Recommendations update every 30 days or after 5 games (Premium)",
+    "Career Timeline is free",
+    "Free limits: 5 teams, 25 players, 20 saved games in total",
+    "Age and sex-specific benchmarking is free",
+    "Voice stat recording is Premium (team sports, iOS 26 or later)",
+    "30-day free trial of full Premium, no credit card required"
+  ],
+  "actions": [
+    {
+      "id": "download",
+      "label": "Download ScorX",
+      "description": "Redirect to the ScorX App Store listing",
+      "url": "https://www.scorx.com.au/go/?action=download",
+      "method": "GET"
+    },
+    {
+      "id": "contact_support",
+      "label": "Contact Support",
+      "description": "Email the ScorX support team",
+      "url": "mailto:scorxapp@gmail.com",
+      "method": "GET"
+    },
+    {
+      "id": "request_feature",
+      "label": "Request a Feature",
+      "description": "Submit a feature or sport request to the ScorX team",
+      "url": "mailto:scorxapp@gmail.com?subject=Feature%20Request",
+      "method": "GET"
+    }
+  ]
+}

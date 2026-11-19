@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://www.scorx.com.au/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="/js/consent.js" defer></script>
+
+    <meta name="description" content="Junior AFL stats app: track your disposals, marks and tackles, see if you're improving, then train it. Plus netball, basketball and 13 more sports. Free.">
+    <meta name="author" content="ScorX">
+    <meta name="theme-color" content="#0F2A44">
+    <meta name="msvalidate.01" content="CECB16FE5248FA74DF7BC2A5A6313716">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ScorX - Junior AFL Stats App | Track Your Footy, Grow Your Game">
+    <meta property="og:description" content="Your disposals, marks and tackles tracked live and turned into a real record of your progress. Built in Australia for community footy, plus 15 more sports.">
+    <meta property="og:image" content="https://www.scorx.com.au/images/phone_screen_game_card.jpg">
+    <meta property="og:url" content="https://www.scorx.com.au/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ScorX - Junior AFL Stats App | Track Your Footy, Grow Your Game">
+    <meta name="twitter:description" content="Your disposals, marks and tackles tracked live. A real record of your footy progress, from Auskick to club footy.">
+    <meta name="twitter:image" content="https://www.scorx.com.au/images/phone_screen_game_card.jpg">
+
+    <!-- Apple -->
+    <meta name="apple-itunes-app" content="app-id=6753859833">
+
+    <title>ScorX: Junior AFL Stats App | Track Your Footy, Grow Your Game</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tokens.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="preload" as="image" href="/images/card/hero-card.jpg" fetchpriority="high">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
+    <link rel="shortcut icon" href="./images/favicon32.png">
+    <link rel="apple-touch-icon" href="./images/favicon192.png">
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ScorX",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "iOS 18.0 or later",
+      "description": "Youth sports performance tracking app with live game scoring, AI training recommendations, athleticism benchmarking, and player statistics for young athletes across 16 sports including AFL, Rugby, Netball, Basketball, Soccer, and Tennis.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "ScorX Free",
+          "price": "0",
+          "priceCurrency": "AUD",
+          "description": "Free forever, no credit card. Up to 5 teams, 25 players and 20 saved games. Live scoring for 16 sports, 14 athleticism metrics with age and sex benchmarking, goals, Development Plan, drill and play libraries, post-game Triage Dashboard, Career Timeline, full offline mode"
+        },
+        {
+          "@type": "Offer",
+          "name": "ScorX Premium Monthly",
+          "price": "4.99",
+          "priceCurrency": "AUD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "4.99",
+            "priceCurrency": "AUD",
+            "unitText": "MONTH"
+          },
+          "description": "Everything in ScorX Free with no team, player or game limits, plus AI Training Recommendations, AI Season Narratives, the full run drill library, voice stat recording, the full Player Card library, PDF and CSV export, iCloud sync and Family Sharing for up to 5 members. 30-day free trial, no credit card required."
+        },
+        {
+          "@type": "Offer",
+          "name": "ScorX Premium Annual",
+          "price": "49.99",
+          "priceCurrency": "AUD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "49.99",
+            "priceCurrency": "AUD",
+            "unitText": "YEAR"
+          },
+          "description": "All ScorX Premium features, billed yearly (about A$4.16 a month). Includes a 30-day free trial, no credit card required."
+        }
+      ],
+      "featureList": [
+        "Live scoring for 16 sports, fully offline",
+        "100+ customisable statistical activities",
+        "Player rotations and playing time tracking",
+        "Game history, Career Timeline and post-game Triage Dashboard",
+        "14 athleticism metrics with trend charts and goal lines",
+        "Athleticism benchmarking by age and sex (free)",
+        "Development Plan with skills, drills and goals (free)",
+        "Drill and play libraries with animators (free)",
+        "AI training recommendations (Premium)",
+        "Full run drill library (Premium)",
+        "iCloud sync, and CSV and PDF export (Premium)",
+        "No ads. We never sell your data."
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ScorX",
+      "url": "https://www.scorx.com.au/",
+      "logo": "https://www.scorx.com.au/images/favicon192.png",
+      "description": "Youth sports performance tracking app with live game scoring and player statistics for grassroots sports in Australia",
+      "sameAs": [],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "scorxapp@gmail.com",
+        "contactType": "Customer Support"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will it work offline at remote grounds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ScorX works fully offline, so you can score a game at a ground with no signal. ScorX Premium adds iCloud sync across your devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do AI Training Recommendations work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, so your training stays aligned with how you're actually playing. Available on ScorX Premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it complicated to set up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at all. Most people set up their first team in under 2 minutes. Add your name and your team and you're ready to go."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try before I buy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens when I reach 20 saved games?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Free keeps up to 20 saved games in total. When you reach 20, delete a game or upgrade to Premium to save more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I get free in Train?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX Free includes 14 athleticism metrics with trend charts, age and sex benchmarking, goals, one custom metric, your Development Plan, and the drill and play libraries. ScorX Premium adds AI training recommendations and the full run drill library."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I export my data if I stop using ScorX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ScorX Premium subscribers can export all game data to CSV and PDF at any time. Your performance data always belongs to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which sports are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking rather than full stat recording."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="home-v2">
+<style>
+/* Homepage v2: scoped under body.home-v2 so legacy css/style.css rules don't fight these. */
+body.home-v2 { background: var(--canvas); color: var(--ink); font-family: var(--font-text); overflow-x: clip; }
+body.home-v2 .x-section { padding: 48px 0; }
+body.home-v2 p { color: var(--mid); font-size: 16px; line-height: 1.6; }
+body.home-v2 .x-display, body.home-v2 .x-card h3, body.home-v2 .x-quote p { text-transform: none; }
+body.home-v2 a.x-btn--primary, body.home-v2 a.x-btn--primary:hover { color: #0F2A44; }
+body.home-v2 .x-lede { color: var(--mid); font-size: clamp(16px, 4.2vw, 18px); margin-bottom: 18px; }
+
+/* Hero */
+.hero-v2 { padding: 84px 0 28px !important; overflow: hidden; }
+.hero-v2__grid { display: grid; gap: 22px; grid-template-columns: 1fr; align-items: center; }
+.hero-v2 .x-display { font-size: clamp(30px, 8.6vw, 62px); margin-bottom: 12px; }
+.hero-v2__sub { font-family: var(--font-display); font-weight: 700; margin: 0 0 12px; }
+body.home-v2 .hero-v2__sub { color: var(--turq-ink); font-size: clamp(18px, 4.6vw, 24px); line-height: 1.3; }
+.hero-v2__trust { font-size: 14px; font-weight: 600; color: var(--mid); margin: 12px 0 0; }
+.hero-v2__card { display: flex; justify-content: center; }
+.hero-card {
+  display: block; width: min(340px, 70vw); height: auto; aspect-ratio: 9 / 16;
+  border-radius: 26px; background: var(--inset);
+  box-shadow: 0 30px 60px -24px rgba(8, 27, 46, 0.55), 0 0 0 1px var(--line);
+  animation: card-settle 0.9s cubic-bezier(.2, .8, .2, 1) 0.1s both;
+}
+@keyframes card-settle {
+  from { opacity: 0; transform: translateY(26px) rotate(2.2deg) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+.hero-cta { display: flex; flex-direction: column; gap: 12px; align-items: stretch; }
+.hero-store { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.hero-store__badge img { height: 48px; width: auto; display: block; }
+.hero-store__qr { display: none; align-items: center; gap: 12px; font-size: 13px; font-weight: 700; color: var(--mid); line-height: 1.3; }
+.hero-store__qr img { width: 100px; height: 100px; background: #fff; padding: 10px; box-sizing: border-box; border-radius: 12px; border: 1px solid var(--line); }
+.hero-sports { margin-top: 22px; }
+.hero-sports .x-chip-row { justify-content: center; }
+@media (min-width: 560px) { .hero-cta { flex-direction: row; flex-wrap: wrap; align-items: center; } }
+@media (min-width: 900px) {
+  .hero-v2 { padding: 120px 0 44px !important; }
+  .hero-v2__grid { grid-template-columns: 1.15fr 0.85fr; gap: 56px; }
+  .hero-v2__card { justify-content: flex-end; }
+  .hero-card { width: 340px; }
+  .hero-cta { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .hero-store__qr { display: flex; }
+  .hero-sports .x-chip-row { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-card { animation: none; } }
+
+/* Sections */
+.home-shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 760px; margin: 28px auto 0; }
+.home-shots figure { margin: 0; text-align: center; }
+.home-shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow-card); background: var(--inset); }
+.home-shots figcaption { font-size: 12px; font-weight: 700; color: var(--mid); margin-top: 8px; }
+.home-center { text-align: center; margin-top: 26px; }
+.home-note { max-width: 640px; margin: 22px auto 0; text-align: center; font-size: 15px; }
+
+/* Card promo band */
+.promo-band {
+  background: var(--grad-board); border-radius: var(--r-card); padding: 32px 22px; color: #F8F9FA;
+  display: grid; gap: 18px; align-items: center; box-shadow: var(--shadow-raised);
+}
+.promo-band .x-eyebrow { color: var(--turq-bright); }
+.promo-band .x-display { color: #F8F9FA; margin-bottom: 10px; }
+.promo-band .x-display em { color: var(--turq-bright); }
+body.home-v2 .promo-band p { color: rgba(248, 249, 250, 0.78); margin: 0; }
+@media (min-width: 800px) { .promo-band { grid-template-columns: 1.4fr auto; padding: 44px 48px; gap: 36px; } }
+
+/* Train block (season story) */
+.train-block { margin-top: 48px; }
+.train-shots { display: flex; justify-content: center; gap: 10px; max-width: 880px; margin: 0 auto; }
+.train-shots .x-shot { flex: 1 1 0; min-width: 0; }
+.train-shots .x-shot__frame { border-radius: 16px; padding: 4px; }
+.train-shots .x-shot__frame img { border-radius: 12px; }
+.train-shots .x-shot__slot { border-radius: 16px; padding: 8px; font-size: 12px; text-align: center; }
+.train-shots .x-shot__cap { font-size: 12px; font-weight: 700; margin-top: 8px; }
+.train-block .home-center { margin-top: 26px; }
+@media (min-width: 768px) {
+  .train-shots { gap: 24px; }
+  .train-shots .x-shot__frame { border-radius: 34px; padding: 8px; }
+  .train-shots .x-shot__frame img { border-radius: 26px; }
+  .train-shots .x-shot__slot { border-radius: 34px; padding: 16px; font-size: 14px; }
+  .train-shots .x-shot__cap { font-size: 14px; font-weight: 400; }
+}
+body.home-v2 .x-pillar__tag { color: var(--turq-ink); font-size: 14px; }
+
+/* Free reassurance + coaches */
+.free-card { text-align: center; padding: 34px 22px; }
+.free-card .x-display { margin-bottom: 8px; }
+.free-card p { max-width: 520px; margin: 0 auto 18px; }
+.coach-line { text-align: center; font-family: var(--font-display); font-size: clamp(20px, 5vw, 26px); font-weight: 600; color: var(--ink); margin: 0; }
+body.home-v2 .coach-line { color: var(--ink); font-size: clamp(20px, 5vw, 26px); }
+
+/* Closer (base rules live in components.css) */
+body.home-v2 .closer p { color: rgba(248, 249, 250, 0.78); }
+body.home-v2 .closer__trust li { font-size: 14px; font-weight: 600; color: rgba(248, 249, 250, 0.85); }
+
+/* Social proof strip */
+.proof-meta { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: center; }
+.proof-quotes { display: grid; gap: 14px; grid-template-columns: 1fr; margin-top: 14px; }
+@media (min-width: 720px) { .proof-quotes { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); } }
+
+/* Blog cards */
+.home-blog .x-card h3 a { color: var(--ink); }
+.home-blog .x-card h3 a:hover { color: var(--turq-ink); }
+.home-blog__meta { font-size: 13px; color: var(--faint); font-weight: 600; margin-top: 10px; }
+</style>
+
+<header>
+        <nav>
+            <a href="/" class="logo"><img src="/images/Card.png" width="900" height="300" alt="ScorX" class="logo-img"></a>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="/athletes.html">Athletes</a></li>
+                <li><a href="/coaches.html">Coaches</a></li>
+                <li><a href="/train.html">Train</a></li>
+                <li><a href="/sports.html">Sports</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/card/">Make a card</a></li>
+                <li><a href="/download.html" class="nav-cta">Download Free</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+    <!-- HERO -->
+    <section class="x-section hero-v2">
+        <div class="x-container hero-v2__grid">
+            <div class="hero-v2__copy">
+                <h1 class="x-display">Don&rsquo;t just score your game. <em>Grow your Game.</em></h1>
+                <p class="hero-v2__sub">Score it. Track it. Train it.</p>
+                <p class="x-lede">Live scoring, stats that show real progress, and drills, plans and fitness tests to work on what matters. Every card celebrates the effort you put in.</p>
+
+                <!-- App Store is the primary action; the card demo is secondary. Desktop set is server-rendered (no-JS fallback); the script below adapts it for iOS and Android. -->
+                <div class="hero-cta" id="hero-cta" data-device="desktop">
+                    <div class="hero-store" data-role="primary">
+                        <a href="https://apps.apple.com/au/app/scorx/id6753859833?ct=hero&amp;mt=8" class="x-btn x-btn--primary" target="_blank" rel="noopener">Download free on the App Store</a>
+                        <div class="hero-store__qr">
+                            <img src="/images/qr-app-store.svg" width="100" height="100" alt="QR code to download ScorX on the App Store" loading="lazy">
+                            <span>Scan with<br>your iPhone</span>
+                        </div>
+                    </div>
+                    <a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm" data-role="secondary">Or try it first: make a free card</a>
+                </div>
+                <p class="hero-v2__trust">Free for up to 5 teams and 25 players. No credit card. Built in Australia.</p>
+            </div>
+
+            <div class="hero-v2__card">
+                <img class="hero-card" src="/images/card/hero-card.jpg" width="1080" height="1920" alt="ScorX full-time card: Bayside Bulldogs 84 def. Northcote Hawks 61" fetchpriority="high" decoding="async">
+            </div>
+        </div>
+
+        <div class="x-container hero-sports">
+            <div class="x-chip-row" aria-label="Sports">
+                <a class="x-chip" href="/sports/afl/">AFL</a>
+                <a class="x-chip" href="/sports/netball/">Netball</a>
+                <a class="x-chip" href="/sports/basketball/">Basketball</a>
+                <a class="x-chip" href="/sports/rugby-union/">Rugby</a>
+                <a class="x-chip x-chip--more" href="/sports.html">+12 more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- THREE PILLARS -->
+    <section class="x-section x-section--tight" id="pillars">
+        <div class="x-container">
+            <div class="x-pillars">
+                <article class="x-pillar">
+                    <div class="x-pillar__icon"><img src="/images/icons/score.svg" width="32" height="32" alt="" loading="lazy"></div>
+                    <h3 class="x-pillar__title">Score</h3>
+                    <p class="x-pillar__tag">Score it</p>
+                    <ul class="x-pillar__list">
+                        <li>Live scoring across 16 sports</li>
+                        <li>Rotations and playing time</li>
+                        <li>Works fully offline at the ground</li>
+                    </ul>
+                    <a class="x-pillar__link" href="/features.html#score">See scoring</a>
+                </article>
+                <article class="x-pillar">
+                    <div class="x-pillar__icon"><img src="/images/icons/track.svg" width="32" height="32" alt="" loading="lazy"></div>
+                    <h3 class="x-pillar__title">Track</h3>
+                    <p class="x-pillar__tag">Track it</p>
+                    <ul class="x-pillar__list">
+                        <li>Game-by-game stats and timelines</li>
+                        <li>Your Career Timeline across seasons</li>
+                        <li>See if you&rsquo;re actually improving</li>
+                    </ul>
+                    <a class="x-pillar__link" href="/features.html#track">See tracking</a>
+                </article>
+                <article class="x-pillar">
+                    <div class="x-pillar__icon"><img src="/images/icons/train.svg" width="32" height="32" alt="" loading="lazy"></div>
+                    <h3 class="x-pillar__title">Train</h3>
+                    <p class="x-pillar__tag">Train it</p>
+                    <ul class="x-pillar__list">
+                        <li>14 fitness tests with goals and benchmarks</li>
+                        <li>Drills, plays and your Development Plan</li>
+                        <li>AI training recommendations with Premium</li>
+                    </ul>
+                    <a class="x-pillar__link" href="/train.html">See training</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SATURDAY MORNING -->
+    <section class="x-section">
+        <div class="x-container">
+            <div class="x-section-head">
+                <p class="x-eyebrow">Saturday morning</p>
+                <h2 class="x-display x-display--md">It's Saturday, 8:40am. Game day.</h2>
+                <p class="x-lede">This time, you'll know exactly how you went.</p>
+            </div>
+            <div class="x-card-grid x-card-grid--4">
+                <div class="x-card">
+                    <span class="x-step-num">8:40am</span>
+                    <h3>Before the first whistle</h3>
+                    <p>Open ScorX, pick your game, and you're ready. No setup, no spreadsheet, no notepad.</p>
+                </div>
+                <div class="x-card">
+                    <span class="x-step-num">Quarter time</span>
+                    <h3>Live stats as it happens</h3>
+                    <p>Every tackle, goal and intercept recorded as it happens. Usually a parent or coach taps it in from the sideline while you play.</p>
+                </div>
+                <div class="x-card">
+                    <span class="x-step-num">Final siren</span>
+                    <h3>Ready to share</h3>
+                    <p>Your card is ready to share, in the group chat before you've finished the oranges.</p>
+                </div>
+                <div class="x-card">
+                    <span class="x-step-num">Sunday</span>
+                    <h3>Sunday morning</h3>
+                    <p>The family's commented. And every game adds another chapter to your season story.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD PROMO -->
+    <section class="x-section x-section--tight" id="make-a-card">
+        <div class="x-container">
+            <div class="promo-band">
+                <div>
+                    <p class="x-eyebrow">Try it now</p>
+                    <h2 class="x-display x-display--md">Make a card from <em>Saturday's game</em></h2>
+                    <p>Score it live or just enter the result, add a photo, and get a full-time card to share with your team and family. Free, and it works right here in your browser.</p>
+                </div>
+                <div><a href="/card/?src=home-promo" class="x-btn x-btn--ghost">Make a free card now</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW THE CARD GETS MADE -->
+    <section class="x-section" id="how-it-works">
+        <div class="x-container">
+            <div class="x-section-head x-section-head--center">
+                <p class="x-eyebrow">How it works</p>
+                <h2 class="x-display x-display--md">From game day to group chat in three steps</h2>
+                <p class="x-lede">Works for AFL, basketball, netball, rugby and <a class="x-link" href="/sports.html">16 sports</a>, fully offline at the ground.</p>
+            </div>
+            <div class="x-card-grid x-card-grid--3">
+                <div class="x-card">
+                    <span class="x-step-num">Step 1</span>
+                    <h3>Add yourself</h3>
+                    <p>Name, number, sport. Setup takes less than 2 minutes, so you'll be done before the warm-up is.</p>
+                </div>
+                <div class="x-card">
+                    <span class="x-step-num">Step 2</span>
+                    <h3>Tap stats live</h3>
+                    <p>Big buttons for the stats that matter in your sport. Score it yourself after the game, or have a parent or coach tap it in as it happens.</p>
+                </div>
+                <div class="x-card">
+                    <span class="x-step-num">Step 3</span>
+                    <h3>Share at the siren</h3>
+                    <p>ScorX turns your game into a card automatically. One tap to share it with family and friends.</p>
+                </div>
+            </div>
+
+            <div class="home-shots">
+                <figure><img src="/images/setup.webp" width="800" height="1731" alt="Adding yourself in ScorX: quick team setup" loading="lazy"><figcaption>Add yourself</figcaption></figure>
+                <figure><img src="/images/game.webp" width="800" height="1731" alt="Live game scoring: tap stats as the game happens" loading="lazy"><figcaption>Tap stats live</figcaption></figure>
+                <figure><img src="/images/livestats1.webp" width="800" height="1731" alt="Real-time player statistics ready to share" loading="lazy"><figcaption>Share at the siren</figcaption></figure>
+            </div>
+
+            <p class="home-note"><strong>You don't need to be a stats person. ScorX does the maths.</strong></p>
+            <div class="home-center">
+                <a href="/how-it-works.html" class="x-btn x-btn--ghost">See the full workflow</a>
+            </div>
+            <p class="home-note">Cards are one format. See the whole <a class="x-link" href="/sports-graphic-generator.html">sports graphic generator</a>: score updates, final score cards and team stat charts.</p>
+        </div>
+    </section>
+
+    <!-- THE SEASON STORY -->
+    <section class="x-section x-section--tint">
+        <div class="x-container">
+            <div class="x-section-head x-section-head--center">
+                <p class="x-eyebrow">The season story</p>
+                <h2 class="x-display x-display--md">One card is a moment. <em>A season of them is proof.</em></h2>
+                <p class="x-lede">Every game you record adds to your season story, so by round 18 you'll know exactly how you've improved.</p>
+            </div>
+            <div class="x-card-grid x-card-grid--3">
+                <div class="x-card">
+                    <h3>Complete game history</h3>
+                    <p>Every game archived automatically, with per-game stat breakdowns and activity timelines, searchable by player, date and sport. Free keeps up to 20 saved games. Premium has no limit.</p>
+                </div>
+                <div class="x-card">
+                    <h3>Development trends</h3>
+                    <p>Watch your numbers move across the season: tackles up, turnovers down, trend indicators on every athleticism metric. Real improvement, made visible.</p>
+                </div>
+                <div class="x-card">
+                    <h3>Training focus, from real games</h3>
+                    <p>Premium&rsquo;s AI training recommendations read your season story and tell you what to work on next, built from your actual games rather than generic drills.</p>
+                </div>
+            </div>
+            <div class="train-block">
+                <div class="x-section-head x-section-head--center">
+                    <p class="x-eyebrow">Train it</p>
+                    <h3 class="x-display x-display--md">Then work on what the numbers show</h3>
+                    <p class="x-lede">Test yourself, set a goal and see your progress. Free covers the 14 fitness tests with age and sex benchmarking, your Development Plan, and the drill and play libraries. <span class="x-tier x-tier--premium">Premium</span> adds AI training recommendations and the full run drill library.</p>
+                </div>
+                <div class="train-shots">
+                    <!-- ASSET NEEDED: A-01 images/train/measure-chart-goal.webp. Measure trend chart with goal line (iPhone, webp 800x1731). Replace the Measure input form below when it lands. -->
+                    <figure class="x-shot x-shot--phone">
+                        <div class="x-shot__frame"><img src="/images/measureview.webp" width="800" height="1731" loading="lazy" alt="ScorX Measure tab with fields to log results such as 10m sprint, standing jump height and 2km run"></div>
+                        <figcaption class="x-shot__cap">Log your results in Measure</figcaption>
+                    </figure>
+                    <figure class="x-shot x-shot--phone">
+                        <div class="x-shot__frame"><img src="/images/drillcreator.png" width="1170" height="2532" loading="lazy" alt="ScorX drill editor showing an AFL oval with cones, players and a ball, with a Save Drill button"></div>
+                        <figcaption class="x-shot__cap">Build and save your own drills</figcaption>
+                    </figure>
+                    <figure class="x-shot x-shot--phone">
+                        <!-- ASSET NEEDED: A-04 images/train/development-plan.webp. Development Plan overview with BHAG, 3 skills with 2 drills each, outcome goal and S&C goal (iPhone, webp 800x1731). -->
+                        <div class="x-shot__slot">Screenshot coming soon</div>
+                        <figcaption class="x-shot__cap">Plan your skills and goals</figcaption>
+                    </figure>
+                </div>
+                <div class="home-center">
+                    <a href="/train.html" class="x-btn x-btn--ghost">See how training works</a>
+                </div>
+            </div>
+            <div class="home-center">
+                <a href="/athletes.html" class="x-btn x-btn--ghost">See athlete stats &amp; development plans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FREE REASSURANCE -->
+    <section class="x-section">
+        <div class="x-container x-container--narrow">
+            <div class="x-card free-card">
+                <p class="x-eyebrow">Pricing</p>
+                <h2 class="x-display x-display--md">ScorX Free: <em>$0 forever.</em></h2>
+                <p>No credit card. Up to 5 teams, 25 players and 20 saved games. Premium removes the limits and starts with a 30-day free trial, no card required.</p>
+                <a href="/pricing.html" class="x-btn x-btn--ghost">Compare Free and Premium</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COACHES -->
+    <section class="x-section x-section--tight">
+        <div class="x-container x-container--narrow">
+            <p class="coach-line">Coach a team? <a class="x-link" href="/coaches.html">Free for coaches, up to 5 teams and 25 players &rarr;</a></p>
+        </div>
+    </section>
+
+    <!-- OBJECTION HANDLING -->
+    <section class="x-section x-section--tint">
+        <div class="x-container">
+            <div class="x-section-head x-section-head--center">
+                <p class="x-eyebrow">Fair question</p>
+                <h2 class="x-display x-display--md">"Isn't this just <em>more pressure?</em>"</h2>
+                <p class="x-lede">Here's the honest answer.</p>
+            </div>
+            <div class="x-card-grid x-card-grid--3">
+                <div class="x-card">
+                    <h3>Developing, not monitoring</h3>
+                    <p>ScorX isn't about being watched. It's your own record, there to help you get better. The data is for your development, and it's yours to share or keep.</p>
+                </div>
+                <div class="x-card">
+                    <h3>Celebrating, not comparing</h3>
+                    <p>Cards measure you against one person: yourself last month. There are no leaderboards and no comparing with teammates, just your own progress, worth sharing.</p>
+                </div>
+                <div class="x-card">
+                    <h3>You're already putting in the work</h3>
+                    <p>You haven't missed a training or a game all season. ScorX makes sure all that effort adds up to something you can look back on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="x-section">
+        <div class="x-container x-container--narrow">
+            <div class="x-section-head">
+                <p class="x-eyebrow">FAQ</p>
+                <h2 class="x-display x-display--md">Frequently asked questions</h2>
+            </div>
+            <details class="x-faq">
+                <summary>Will it work offline at remote grounds?</summary>
+                <div class="x-faq__a"><p>Yes. ScorX works fully offline, so you can score a game at a ground with no signal. ScorX Premium adds iCloud sync across your devices.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>How do AI Training Recommendations work?</summary>
+                <div class="x-faq__a"><p>ScorX analyses your game statistics to identify skill development priorities and training focus areas. Recommendations update every 30 days or after 5 new games, so your training stays aligned with how you're actually playing. Available on ScorX Premium.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>Is it complicated to set up?</summary>
+                <div class="x-faq__a"><p>Not at all. Most people set up their first team in under 2 minutes. Add your name and your team and you're ready to go.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>Can I try before I buy?</summary>
+                <div class="x-faq__a"><p>ScorX Free is free forever with no credit card. It covers up to 5 teams, 25 players and 20 saved games. ScorX Premium removes those limits and starts with a 30-day free trial of everything, no credit card required. Cancel anytime with one tap.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>What happens when I reach 20 saved games?</summary>
+                <div class="x-faq__a"><p>Free keeps up to 20 saved games in total. When you reach 20, delete a game or upgrade to Premium to save more.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>What do I get free in Train?</summary>
+                <div class="x-faq__a"><p>ScorX Free includes 14 athleticism metrics with trend charts, age and sex benchmarking, goals, one custom metric, your Development Plan, and the drill and play libraries. ScorX Premium adds AI training recommendations and the full run drill library.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>Can I export my data if I stop using ScorX?</summary>
+                <div class="x-faq__a"><p>Yes. ScorX Premium subscribers can export all game data to CSV and PDF at any time. Your performance data always belongs to you.</p></div>
+            </details>
+            <details class="x-faq">
+                <summary>Which sports are supported?</summary>
+                <div class="x-faq__a"><p>ScorX supports 16 sports: AFL, Basketball, Netball, Rugby Union, Rugby League, Touch Rugby, Soccer, Field Hockey, Volleyball, Water Polo, Tennis, Badminton, Squash, Racquetball, Pickleball, and Table Tennis. Each team sport has its own scoring rules and sport-specific statistics. The six racquet sports use simplified game tracking rather than full stat recording.</p></div>
+            </details>
+        </div>
+    </section>
+
+    <!-- CLOSER -->
+    <section class="x-section x-section--tight" id="download">
+        <div class="x-container">
+            <div class="closer">
+                <h2 class="x-display">Every athlete deserves to see how far they've come.</h2>
+                <p>Start your record today. Free on the App Store.</p>
+                <a class="closer__badge" href="https://apps.apple.com/au/app/scorx/id6753859833?ct=download-section&amp;mt=8" target="_blank" rel="noopener">
+                    <img src="/images/app-store-badge.svg" width="120" height="40" alt="Download on the App Store" loading="lazy">
+                </a>
+                <ul class="closer__trust">
+                    <li>Free to download and score</li>
+                    <li>No ads. We never sell your data.</li>
+                    <li>Works offline everywhere</li>
+                    <li>Built in Australia for community sport</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- LATEST FROM THE BLOG -->
+    <section class="x-section home-blog">
+        <div class="x-container">
+            <div class="x-section-head">
+                <p class="x-eyebrow">The ScorX Sideline</p>
+                <h2 class="x-display x-display--md">Latest from the blog</h2>
+                <p class="x-lede">Practical guides and performance insights on junior athlete development, for athletes, parents and coaches.</p>
+            </div>
+            <div class="x-card-grid x-card-grid--3">
+                
+                <article class="x-card">
+                    <p class="x-eyebrow">Guide</p>
+                    <h3><a href="/blog/junior-sport-season-review/">How to Review Your Kid's Whole Season in 20 Minutes</a></h3>
+                    <p>A season review takes about twenty minutes and needs three things: one comparison, three questions, and two sentences written down somewhere you’ll actually find them next season.
+</p>
+                    <a href="/blog/junior-sport-season-review/" class="x-link">Read more &rarr;</a>
+                    <div class="home-blog__meta">3 September 2026 &middot; 7 min read</div>
+                </article>
+                
+                <article class="x-card">
+                    <p class="x-eyebrow">Guide</p>
+                    <h3><a href="/blog/why-best-game-never-leaves-your-phone/">Why the Best Game of the Season Often Goes Uncelebrated</a></h3>
+                    <p>Your kid has the best game of the season. Five goals, an intercept, the kind of afternoon you actually want people to know about. And what do you...</p>
+                    <a href="/blog/why-best-game-never-leaves-your-phone/" class="x-link">Read more &rarr;</a>
+                    <div class="home-blog__meta">22 August 2026 &middot; 6 min read</div>
+                </article>
+                
+                <article class="x-card">
+                    <p class="x-eyebrow">Guide</p>
+                    <h3><a href="/blog/grand-final-rare-experience-junior-sport/">Playing in a Grand Final Is Rarer Than It Feels</a></h3>
+                    <p>If your boy or girl is playing in a grand final this month, they’re doing something most kids who play community sport never get to do. For a...</p>
+                    <a href="/blog/grand-final-rare-experience-junior-sport/" class="x-link">Read more &rarr;</a>
+                    <div class="home-blog__meta">17 August 2026 &middot; 6 min read</div>
+                </article>
+                
+            </div>
+            <div class="home-center">
+                <a href="/blog/" class="x-btn x-btn--ghost">View all posts</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+<footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo brand-wordmark" aria-label="ScorX">SCOR<img class="brand-wordmark__x" src="/images/brand/scorx-mark-on-dark.png" width="123" height="122" alt=""></div>
+                <p>Player Development Analytics</p>
+                <p style="margin-top: 1rem;">
+                    <a href="https://apps.apple.com/au/app/scorx/id6753859833?ct=footer&amp;mt=8" target="_blank" rel="noopener">
+                        <img src="/images/app-store-badge.svg" width="120" height="40" alt="Download on the App Store" style="height: 40px;" loading="lazy" />
+                    </a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="/athletes.html">Athletes</a></li>
+                    <li><a href="/coaches.html">Coaches</a></li>
+                    <li><a href="/train.html">Train</a></li>
+                    <li><a href="/features.html">Player Development Features</a></li>
+                    <li><a href="/sports.html">Supported Sports</a></li>
+                    <li><a href="/pricing.html">Pricing</a></li>
+                    <li><a href="/how-it-works.html">How It Works</a></li>
+                    <li><a href="/card/">Make a free card</a></li>
+                    <li><a href="/sports-graphic-generator.html">Sports Graphic Generator</a></li>
+                    <li><a href="/download.html">Download</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/support.html">FAQ &amp; Support</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/compare.html">Platform Comparison</a></li>
+                    <li><a href="/scorx-vs-gamechanger.html">ScorX vs GameChanger</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="mailto:scorxapp@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms of Service</a></li>
+                    <li><a href="/privacy.html" data-cookie-settings>Cookie settings</a></li>
+                </ul>
+                <p style="margin-top: 1rem;">Email: <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ScorX &bull; Twine App Dev</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var toggle = document.querySelector('.menu-toggle');
+            var links = document.querySelector('.nav-links');
+            if (!toggle || !links) return;
+            toggle.addEventListener('click', function () { links.classList.toggle('active'); });
+            links.querySelectorAll('a').forEach(function (a) {
+                a.addEventListener('click', function () { links.classList.remove('active'); });
+            });
+        })();
+    </script>
+
+
+    <!-- Device-aware hero buttons (plan section 5). Desktop markup above is the default / no-JS fallback. -->
+    <script>
+    (function () {
+        try {
+            var ua = navigator.userAgent || '';
+            var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+            var android = /Android/i.test(ua);
+            var el = document.getElementById('hero-cta');
+            if (!el || (!ios && !android)) return;
+            if (ios) {
+                el.setAttribute('data-device', 'ios');
+                el.innerHTML =
+                    '<a href="https://apps.apple.com/au/app/scorx/id6753859833?ct=hero&amp;mt=8" class="x-btn x-btn--primary" target="_blank" rel="noopener">Download free on the App Store</a>' +
+                    '<a href="/card/?src=hero" class="x-btn x-btn--ghost x-btn--sm">Or try it first: make a free card</a>';
+            } else {
+                el.setAttribute('data-device', 'android');
+                el.innerHTML = '<a href="/card/?src=hero" class="x-btn x-btn--primary">Make a free card now</a>';
+            }
+        } catch (e) { /* keep the desktop set */ }
+    })();
+    </script>
+</body>
+</html>

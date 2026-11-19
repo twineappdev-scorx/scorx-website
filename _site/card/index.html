@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="canonical" href="https://www.scorx.com.au/card/">
+
+    <script src="/js/consent.js" data-pixel-auto-config="false" defer></script>
+
+    <title>Free Game Card Maker for Junior Sport | ScorX</title>
+    <meta name="description" content="Free game card maker for junior sport: score your game live or enter the result, then share your card with family and friends. AFL, netball, basketball, soccer.">
+    <meta name="theme-color" content="#0F2A44">
+    <meta name="apple-itunes-app" content="app-id=6753859833">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.scorx.com.au/card/">
+    <meta property="og:title" content="Make a free game card from Saturday's game | ScorX">
+    <meta property="og:description" content="Score it live or enter the result. Add a photo. Share your full-time card with family and friends.">
+    <meta property="og:image" content="https://www.scorx.com.au/images/social-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon32.png">
+    <link rel="apple-touch-icon" href="/images/favicon192.png">
+
+    <link rel="stylesheet" href="/css/tokens.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/card-game.css">
+    <link rel="stylesheet" href="/css/card-composer.css">
+</head>
+<body class="card-app">
+    <header class="app-bar">
+        <a href="/" class="app-bar__brand brand-wordmark" aria-label="ScorX home">SCOR<picture><source srcset="/images/brand/scorx-mark-on-dark.png" media="(prefers-color-scheme: dark)"><img class="brand-wordmark__x" src="/images/brand/scorx-mark-on-light.png" width="123" height="122" alt=""></picture></a>
+        <a class="app-bar__get" href="https://apps.apple.com/au/app/scorx/id6753859833?ct=card-appbar&amp;mt=8" target="_blank" rel="noopener">Get the app</a>
+    </header>
+
+    <main id="app" class="app-main">
+        <noscript><p class="app-noscript">The card maker needs JavaScript turned on.</p></noscript>
+
+        <!-- Owned by screens/start.js -->
+        <section data-screen="start" hidden></section>
+        <!-- Owned by screens/setup.js -->
+        <section data-screen="setup" hidden></section>
+        <!-- Owned by screens/game.js (live game view + full time) -->
+        <section data-screen="game" hidden></section>
+        <!-- Owned by screens/result.js (result-only entry) -->
+        <section data-screen="result" hidden></section>
+        <!-- Owned by screens/composer.js (card options, preview, email gate) -->
+        <section data-screen="composer" hidden></section>
+        <!-- Owned by screens/done.js (download/share + app pitch) -->
+        <section data-screen="done" hidden></section>
+    </main>
+
+    <script type="module" src="/js/card/app.js"></script>
+</body>
+</html>
