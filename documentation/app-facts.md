@@ -116,4 +116,5 @@ Unlimited teams, players, games and custom metrics; Family Sharing (5 members); 
 
 | ID | Question | Answer |
 |---|---|---|
+| D24 | PostHog analytics retention | **30 days, then deleted.** Stated in `privacy.html`. |
 | D23 | Meta Pixel and cookie banner | **Both disabled until ads go live.** Every `consent.js` script tag and footer "Cookie settings" link is commented out with the marker `ADS-OFF`. `js/consent.js`, `css/consent.css` and the gate in `js/card/analytics.js` stay in the repo. To re-enable: `grep -rn "ADS-OFF" --include=*.html .`, uncomment, and get legal review first (retargeting plus a youth audience). While it's off, the website loads no third-party trackers and sets no cookies. |
