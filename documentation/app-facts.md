@@ -101,3 +101,13 @@ Unlimited teams, players, games and custom metrics; Family Sharing (5 members); 
 - "Benchmarking is Premium".
 - "Training/Train section is Premium" (only AI recommendations and the full run drill library are).
 - "No tracking".
+
+### Third round of owner decisions (2026-11-19)
+
+| ID | Question | Answer |
+|---|---|---|
+| D18 | Meta Pixel on the website | **Keep it, but only behind a cookie consent banner.** Nothing loads until the visitor clicks Accept (Meta Pixel and `js/card/analytics.js`). Declining or ignoring the banner means no tracking. The choice is remembered, and a "Cookie settings" link in the footer lets visitors change it. |
+| D19 | Trust line | **"No ads. We never sell your data. Data collection is opt-in and only used to improve the app."** The wording may be shortened to fit, but keep all three points. |
+| D20 | App analytics (PostHog) | **Opt-in in the current App Store build.** Off until the user opts in. Used for app improvement only. |
+| D21 | `train.html` keyword | **Multi-sport first, AFL second**, e.g. title "Junior Training App: AFL Drills, Beep Test and Fitness Tests". Point AFL-only drill searches at the future `/afl-drills.html`. Research: `documentation/seo-train-keywords.md` on branch `seo-train-keywords`. |
+| D22 | `terms.html` legal claims ("no third-party analytics", "no data sharing", E2E encryption) | **Add these to the legal draft branch** `privacy-draft-posthog` for owner/lawyer approval. Don't change them in the release. |
