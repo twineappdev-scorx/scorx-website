@@ -80,7 +80,7 @@ scorx/
 ├── index.html              # Homepage - hero, features, sports showcase
 ├── features.html           # 12 detailed features
 ├── sports.html             # 16 sports (10 team + 6 racquet)
-├── pricing.html            # 4 pricing tiers (Free, Family, Coach, Club)
+├── pricing.html            # 2 tiers (ScorX Free, ScorX Premium), from pricing.json
 ├── how-it-works.html       # 4-step guide
 ├── download.html           # App Store download page
 ├── support.html            # FAQ with 24+ questions
@@ -187,12 +187,15 @@ The `style.css` file uses a **modular component structure**:
 
 ## Important Constraints
 
-### No Build Process
-This is a **static site with zero build tooling**. When making changes:
-- Edit HTML/CSS files directly
-- No compilation, bundling, or preprocessing
-- Changes are immediately visible on refresh
-- No package.json, no dependencies to install
+### Jekyll on GitHub Pages
+The site is built by **GitHub Pages' Jekyll** (`_config.yml`, `_includes/`, `_layouts/`, `_posts/`).
+There is no local bundler or package.json. When making changes:
+- Edit HTML/CSS files directly; pages with front matter (`---`) are Liquid-processed
+- Header and footer come from `_includes/site-header.html` / `site-footer.html` on most root
+  pages, but `404.html`, `sports/*/index.html`, `card/`, `blog/`, `match/` and `go/` hard-code
+  theirs, so nav/footer changes must be made there too
+- Contact email lives in `_config.yml` as `site.contact_email`
+- `documentation/` is excluded from the build
 
 ### Placeholder Content to Replace
 
@@ -242,14 +245,19 @@ This is a **static site with zero build tooling**. When making changes:
 
 ### Pricing Tiers
 **`pricing.json` is the single source of truth.** Read it before writing any pricing copy;
-the tier model changed in April 2026 and older pages may still be stale.
+the tier model changed in April 2026 and again on 2026-11-19, and older pages may still be stale.
+**`documentation/app-facts.md` is the feature and tier reference** (verified with the owner
+2026-11-19). Don't use the app's internal name "Basic" in site copy; the tier is "ScorX Free".
 
-1. **ScorX Free:** $0 forever — unlimited teams, players and games. All scoring, tracking,
-   rotations and coaching tools included. No credit card.
-2. **ScorX Premium:** A$4.99/month or A$49.99/year — adds AI training recommendations,
-   age/sex athleticism benchmarking, full Player Card library, AI Season Narratives,
-   PDF/CSV export and iCloud sync. 30-day free trial, no card required. Family Sharing
-   for up to 5 members.
+1. **ScorX Free:** $0 forever. Limits: 5 teams, 25 players, 20 saved games (in total; at
+   the cap a new game can't be saved until one is deleted or you upgrade). Includes all
+   scoring, tracking and coaching tools, age/sex benchmarking, and all Train tools except
+   AI recommendations and the full run drill library. No credit card.
+2. **ScorX Premium:** A$4.99/month or A$49.99/year. Unlimited teams, players, games and
+   custom metrics; AI training recommendations; full run drill library and custom run
+   drills; voice stat recording; full Player Card library and Share Cards; AI Season
+   Narratives; PDF/CSV export and iCloud sync. 30-day free trial of full Premium, no card
+   required. Family Sharing for up to 5 members.
 
 The old **Family**, **Coach** and **Club** tiers no longer exist. Premium replaced Family
 and Coach; all coaching tools are now free with no exceptions. Never reintroduce these tier
@@ -262,6 +270,10 @@ When updating content, maintain these established claims:
 - "Works completely offline"
 - "30-day free trial, no credit card required"
 - "16 sports supported"
+- "14 athleticism metrics" (plus custom metrics: 1 on Free, unlimited on Premium)
+
+Never claim: unlimited/no caps on Free, "10 metrics", benchmarking as Premium, or "no tracking"
+(PostHog analytics is live in the app; say "No ads. We never sell your data. Data collection is opt-in and only used to improve the app.").
 
 ---
 

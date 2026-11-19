@@ -8,28 +8,28 @@ permalink: /athletes.html
     <link rel="canonical" href="https://www.scorx.com.au/athletes.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1528173681585526');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1528173681585526&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <!-- ADS-OFF: Meta Pixel and cookie banner disabled until ads go live (D23). Uncomment to re-enable. <script src="/js/consent.js" defer></script> -->
 
-    <meta name="description" content="Record every game, share your highlights and turn your stats into an individual development plan — clear goals, a training focus and proof you are improving.">
+    <meta name="description" content="Record every game, share your best moments and build a free athlete development plan: measure, set a goal, train with drills and re-test to see you improve.">
     <meta name="keywords" content="individual development plan athlete, player development app, sports goal setting for young athletes, junior athlete stats app, personal development plan sport, track player improvement">
     <title>Athlete Development Plans &amp; Game Stats | ScorX</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <style>
+        /* WP-6 walkthrough layout (page-scoped) */
+        .walk { display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto; padding: 0; list-style: none; }
+        .walk-step { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; align-items: center; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 1.5rem; }
+        .walk-step__num { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--scorx-gradient-primary); color: var(--scorx-deep-navy); font-weight: 800; margin-bottom: 0.75rem; }
+        .walk-step h3 { margin: 0 0 0.5rem; }
+        .walk-step p { margin: 0 0 0.75rem; }
+        .walk-step .x-shot__cap { color: rgba(255,255,255,0.78); }
+        .walk-step .x-shot__slot { border-color: rgba(255,255,255,0.35); color: rgba(255,255,255,0.8); }
+        @media (min-width: 768px) {
+            .walk-step { grid-template-columns: minmax(0, 1fr) 280px; gap: 2.5rem; padding: 2rem; }
+            .walk-step:nth-child(even) .walk-step__shot { order: -1; }
+        }
+        .walk-loop { text-align: center; max-width: 760px; margin: 2rem auto 0; }
+    </style>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -58,7 +58,7 @@ permalink: /athletes.html
           "name": "What is an individual development plan for a young athlete?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "An individual development plan is a short, written answer to three questions: where you are now, what one or two things you are working on next, and how you will know it worked. It does not need to be formal. In ScorX the plan is built from your recorded game stats, athleticism measurements and your own post-game reflections, so your goals point at something real rather than a guess."
+            "text": "An individual development plan is a short, written answer to three questions: where you are now, what one or two things you are working on next, and how you will know it worked. It does not need to be formal. In ScorX you build it in the Development Plan in the Train tab: one big goal, the skills you want to work on with two drills each, an outcome goal and a strength and conditioning goal. You measure your starting point, set a target, and re-test to check it is working."
           }
         },
         {
@@ -66,7 +66,7 @@ permalink: /athletes.html
           "name": "How do I set development goals that actually measure improvement?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pick goals tied to actions you control and that get recorded every game — disposals under pressure, defensive efforts, shot accuracy, time on the ball — rather than goals tied to the scoreboard or selection. ScorX records those actions game by game, so a goal like \"more contested possessions in the second half\" can be checked against your activity timeline instead of debated in the car on the way home."
+            "text": "Pick goals tied to actions you control and that get recorded every game, such as disposals under pressure, defensive efforts, shot accuracy or time on the ball, rather than goals tied to the scoreboard or selection. ScorX records those actions game by game, so a goal like \"more contested possessions in the second half\" can be checked against your activity timeline instead of debated in the car on the way home. For the physical side, goal mode lets you set a target for a metric and shows a goal line on your progress chart."
           }
         },
         {
@@ -74,7 +74,7 @@ permalink: /athletes.html
           "name": "How does ScorX decide what I should work on next?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Train section (ScorX Premium) reads your game statistics, your own reflections and your athleticism metrics, then names a primary and secondary focus area with the evidence behind it. It suggests a training approach, a realistic session structure, and the success indicators that show the work is paying off. It updates after 30 days or five new games, so a single bad game never rewrites your plan."
+            "text": "The Development Plan is yours to set, and it is free. You choose the skills and drills, and your recorded games and re-tests show whether it is working. ScorX Premium adds AI training recommendations, which read your game statistics, your own reflections and your athleticism metrics, then name a primary and secondary focus area with the evidence behind it. They update after 30 days or five new games, so a single bad game never rewrites your plan."
           }
         },
         {
@@ -82,7 +82,7 @@ permalink: /athletes.html
           "name": "What athleticism metrics can I track as a young athlete?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ten physical development metrics: 10m sprint, 40m sprint, standing jump, 2km run, 5km run, max push-ups, max pull-ups, bench press, squat and deadlift. Recording and re-testing is free, and every metric carries a trend indicator so you can see your improvement. Age and sex benchmarking, which shows where you sit against age and sex averages, is part of ScorX Premium."
+            "text": "There are 14 baseline athleticism metrics across speed, power, endurance and strength, plus one custom metric of your own on ScorX Free (Premium allows unlimited custom metrics). Recording and re-testing is free, and every metric has a trend and a progress chart so you can see your improvement. Age and sex benchmarking, which shows where you sit against age and sex averages, is also free."
           }
         },
         {
@@ -90,7 +90,7 @@ permalink: /athletes.html
           "name": "How do Player Cards work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Player Cards are generated from your game stats and profile photo, ready to share to Instagram, WhatsApp or the family group chat. One standard card style is free for everyone. ScorX Premium unlocks the full library — classic, modern, sport-specific and sticker formats — plus custom colour themes and a full card configurator."
+            "text": "Player Cards are generated from your game stats and profile photo, ready to share to Instagram, WhatsApp or the family group chat. One standard card style is free for everyone. ScorX Premium unlocks the full library, including classic, modern, sport-specific and sticker formats, plus custom colour themes and a full card configurator."
           }
         },
         {
@@ -98,7 +98,7 @@ permalink: /athletes.html
           "name": "How long does it take to see progress?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Stats and highlights are there from your first game. Meaningful trends usually need about five games or a re-test of your athleticism metrics, which is roughly a month of a normal junior season. That is why ScorX refreshes your training focus after 30 days or five games rather than after every match."
+            "text": "Stats and highlights are there from your first game. Meaningful trends usually need about five games or a re-test of your athleticism metrics, which is roughly a month of a normal junior season. That is why ScorX Premium refreshes your AI training recommendations after 30 days or five games rather than after every match."
           }
         },
         {
@@ -106,7 +106,7 @@ permalink: /athletes.html
           "name": "Do I need a coach to use ScorX?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. You can record games, measure your athleticism and build a development plan on your own, or have a parent tap in the scoring from the sideline. If your coach also uses ScorX, match invitations let stat recording be shared during games, and your history still belongs to you across clubs, teams and seasons."
+            "text": "No. You can record games, measure your athleticism and build a development plan on your own, or have a parent or coach tap in the scoring from the sideline. If your coach also uses ScorX, match invitations let stat recording be shared during games, and your history still belongs to you across clubs, teams and seasons."
           }
         },
         {
@@ -114,7 +114,7 @@ permalink: /athletes.html
           "name": "What does ScorX Free include for athletes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your complete game history with per-game stat breakdowns and activity timelines, all ten athleticism metrics with trend indicators, the Career Timeline, and one standard Player Card style — with no game, player or team limits. ScorX Premium (A$4.99/month or A$49.99/year) adds the Train section, benchmarking, the full card library, Season Narratives and PDF export."
+            "text": "Your game history with per-game stat breakdowns and activity timelines, 14 athleticism metrics with trends and age and sex benchmarking, the Development Plan with drills and goals, the Career Timeline, and one standard Player Card style. ScorX Free covers up to 5 teams, 25 players in total and 20 saved games. ScorX Premium (A$4.99/month or A$49.99/year, with a 30-day free trial and no card needed) removes those limits and adds AI training recommendations, the full run drill library, the full card library, Season Narratives, PDF and CSV export and iCloud sync."
           }
         }
       ]
@@ -129,8 +129,8 @@ permalink: /athletes.html
         <div class="orb orb-2"></div>
         <div class="orb orb-3"></div>
         <div class="hero-content">
-            <h1>Record Every Game. Celebrate the Good Ones. Know What to Work On Next.</h1>
-            <p class="tagline">ScorX keeps your whole sporting record in one place — every game, every stat, every highlight worth sharing. Underneath the highlights it builds something quieter and more useful: an individual development plan drawn from your real performance data, so goal setting stops being guesswork and improvement becomes something you can point at.</p>
+            <h1>Record Every Game. Build Your Athlete Development Plan.</h1>
+            <p class="tagline">ScorX keeps your whole sporting record in one place: every game, every stat, every highlight worth sharing. Then it helps you use it. Measure where you are, set a goal, follow a plan with drills, and re-test to show yourself you are improving.</p>
             <div class="cta-buttons">
                 <a href="./download.html" class="btn btn-primary"><span>Download Free</span></a>
                 <a href="#development-plan" class="btn btn-secondary"><span>See how the development plan works</span></a>
@@ -144,13 +144,13 @@ permalink: /athletes.html
 
             <div class="section-title">
                 <h2>It Starts With the Game Itself</h2>
-                <p class="section-subtitle">Every match recorded, every action timestamped, every good day saved. Free, with no game or player limits.</p>
+                <p class="section-subtitle">Every match recorded, every action timestamped, every good day saved. Free keeps up to 20 saved games, and Premium has no game limit.</p>
             </div>
 
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h3>A complete record of every game played</h3>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <p>Most athletes finish a season with a rough memory of it. A big final, one blinder of a game, and a blur in between. ScorX keeps the actual record, so five years from now there is still a page for the day everything clicked.</p>
                     <ul class="feature-list">
                         <li>Every game saved automatically with date, opponent, score and individual stats</li>
@@ -158,6 +158,7 @@ permalink: /athletes.html
                         <li>Season totals and lifetime career stats across every sport played</li>
                         <li>Search and filter by sport, team, date or season</li>
                         <li>Works completely offline — no signal needed at a suburban ground</li>
+                        <li>ScorX Free keeps up to 20 saved games in total. To save another, delete an old one or upgrade to Premium</li>
                     </ul>
                 </div>
                 <div class="feature-detail-image">
@@ -168,13 +169,13 @@ permalink: /athletes.html
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
                     <h3>Cards worth sending to the group chat</h3>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">One style free &nbsp;|&nbsp; <span style="color: var(--scorx-bright-turquoise);">Full library: Premium</span></p>
+                    <p><span class="x-tier x-tier--free">Free</span> one style &nbsp;<span class="x-tier x-tier--premium">Premium</span> full library</p>
                     <p>Player Cards turn a good game into something you can share — your photo, your numbers, your day. It is what makes the recording habit stick long enough for the development side to matter.</p>
                     <ul class="feature-list">
                         <li><strong>One standard card style</strong> — free for everyone, fully shareable to Instagram, WhatsApp or messages</li>
-                        <li><strong>Full card library</strong> <span class="tier-badge" style="font-size: 0.7rem; padding: 0.2rem 0.6rem; vertical-align: middle;">Premium</span> — classic, modern and sport-specific layouts</li>
-                        <li><strong>Sticker format</strong> <span class="tier-badge" style="font-size: 0.7rem; padding: 0.2rem 0.6rem; vertical-align: middle;">Premium</span> — athlete-brand style for older and senior players</li>
-                        <li><strong>Custom colour themes and a full card configurator</strong> <span class="tier-badge" style="font-size: 0.7rem; padding: 0.2rem 0.6rem; vertical-align: middle;">Premium</span></li>
+                        <li><strong>Full card library</strong> <span class="x-tier x-tier--premium">Premium</span> — classic, modern and sport-specific layouts</li>
+                        <li><strong>Sticker format</strong> <span class="x-tier x-tier--premium">Premium</span> — athlete-brand style for older and senior players</li>
+                        <li><strong>Custom colour themes and a full card configurator</strong> <span class="x-tier x-tier--premium">Premium</span></li>
                         <li>Also try the free <a href="./sports-graphic-generator.html">sports graphic generator</a> for one-off game-day posts</li>
                     </ul>
                 </div>
@@ -186,39 +187,100 @@ permalink: /athletes.html
         </div>
     </section>
 
-    <!-- DEVELOPMENT PLAN -->
+    <!-- DEVELOPMENT PLAN: screenshot-led walkthrough -->
     <section class="section-dark" id="development-plan">
         <div class="section-inner">
 
             <div class="section-title">
-                <h2>How to Build an Individual Development Plan</h2>
-                <p class="section-subtitle" style="color: var(--scorx-off-white);">Your personal development plan is not a document. It is four honest answers, refreshed every few weeks.</p>
+                <h2>How to Build Your Individual Development Plan</h2>
+                <p class="section-subtitle" style="color: var(--scorx-off-white);">Five steps in the Train tab, and the last one sends you back to the first. All of it is free.</p>
             </div>
 
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <h3>Record what actually happens</h3>
-                    <p>Goals set from memory drift toward whatever happened last Saturday. Recording each game gives the plan a baseline — what you do, how often, and when in a game you do it.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <h3>Measure the physical side</h3>
-                    <p>Sprint, jump, endurance and strength numbers separate a skill problem from a physical one. Without them, every development plan defaults to "more training" and nobody knows what changed.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <h3>Pick one or two goals you can check</h3>
-                    <p>Two focus areas, tied to actions you control and that get recorded every game. Not selection, not the scoreboard — things you can go and do this week.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">4</div>
-                    <h3>Review on real evidence</h3>
-                    <p>After about five games or a re-test, check the trend. Improving, flat, or going the wrong way? Then set the next focus. That loop is the whole plan.</p>
-                </div>
-            </div>
+            <ol class="walk">
+                <li class="walk-step">
+                    <div>
+                        <span class="walk-step__num" aria-hidden="true">1</span>
+                        <h3>Measure where you are</h3>
+                        <p><span class="x-tier x-tier--free">Free</span></p>
+                        <p>Log a baseline for speed, power, endurance and strength. There are 14 baseline metrics, plus one custom metric of your own. Save the results and you have a starting point you can point at, instead of a guess.</p>
+                        <p>Your age and sex benchmarks show where each number sits.</p>
+                    </div>
+                    <div class="walk-step__shot">
+                        <figure class="x-shot x-shot--phone">
+                            <div class="x-shot__frame">
+                                <img src="./images/measureview.webp" width="800" height="1731" loading="lazy" alt="Measure tab with fields to log sprint, jump, run and strength results and a Save Session button">
+                            </div>
+                            <figcaption class="x-shot__cap">Log your results in Measure.</figcaption>
+                        </figure>
+                    </div>
+                </li>
+                <li class="walk-step">
+                    <div>
+                        <span class="walk-step__num" aria-hidden="true">2</span>
+                        <h3>Set a goal you can check</h3>
+                        <p><span class="x-tier x-tier--free">Free</span></p>
+                        <p>Pick a metric and set a target for it. Goal mode draws a goal line on your progress chart, so you can see the gap and watch it close.</p>
+                        <p>Choose something you can work on this month, such as a faster 40m or a better 2km.</p>
+                    </div>
+                    <div class="walk-step__shot">
+                        <figure class="x-shot x-shot--phone">
+                            <!-- ASSET NEEDED: A-03 images/train/set-goal.webp. iPhone, goal mode, setting a 6.7 s target for 40m Sprint before saving. webp 800x1731 -->
+                            <div class="x-shot__slot">Screenshot coming soon</div>
+                            <figcaption class="x-shot__cap">Set a target for a metric.</figcaption>
+                        </figure>
+                    </div>
+                </li>
+                <li class="walk-step">
+                    <div>
+                        <span class="walk-step__num" aria-hidden="true">3</span>
+                        <h3>Build your plan</h3>
+                        <p><span class="x-tier x-tier--free">Free</span></p>
+                        <p>Your Development Plan holds one big goal, the skills you want to work on, an outcome goal and a strength and conditioning goal. Each skill gets two drills.</p>
+                        <p>The big goal is your BHAG: one goal for you as a player that the rest of the plan points at.</p>
+                    </div>
+                    <div class="walk-step__shot">
+                        <figure class="x-shot x-shot--phone">
+                            <!-- ASSET NEEDED: A-04 images/train/development-plan.webp. iPhone, Development Plan overview with a big goal, three skills with two drills each, outcome goal and S&amp;C goal. webp 800x1731 -->
+                            <div class="x-shot__slot">Screenshot coming soon</div>
+                            <figcaption class="x-shot__cap">Your Development Plan in the Train tab.</figcaption>
+                        </figure>
+                    </div>
+                </li>
+                <li class="walk-step">
+                    <div>
+                        <span class="walk-step__num" aria-hidden="true">4</span>
+                        <h3>Work the drills</h3>
+                        <p><span class="x-tier x-tier--free">Free</span></p>
+                        <p>Open a skill to see its two drills, then put them into a Training Session. Save the drills you like as favourites. The Beep Test and the 800m and 2km time trials are free run drills too.</p>
+                        <p>Premium adds the full run drill library, with sprint and interval drills.</p>
+                    </div>
+                    <div class="walk-step__shot">
+                        <figure class="x-shot x-shot--phone">
+                            <!-- ASSET NEEDED: A-05 images/train/development-plan-drills.webp. iPhone, one skill (for example Kicking) expanded to show its two drills. webp 800x1731 -->
+                            <div class="x-shot__slot">Screenshot coming soon</div>
+                            <figcaption class="x-shot__cap">Each skill comes with two drills.</figcaption>
+                        </figure>
+                    </div>
+                </li>
+                <li class="walk-step">
+                    <div>
+                        <span class="walk-step__num" aria-hidden="true">5</span>
+                        <h3>Re-test and see the change</h3>
+                        <p><span class="x-tier x-tier--free">Free</span></p>
+                        <p>After a few weeks of work, test again. Your chart shows the trend against your goal line. Hit it, and set the next one. Not there yet, and you know where to keep going.</p>
+                        <p>That loop is the whole plan.</p>
+                    </div>
+                    <div class="walk-step__shot">
+                        <figure class="x-shot x-shot--phone">
+                            <!-- ASSET NEEDED: A-01 images/train/measure-chart-goal.webp. iPhone, 40m Sprint trend chart with six or more results and a goal line at 6.7 s. webp 800x1731 -->
+                            <div class="x-shot__slot">Screenshot coming soon</div>
+                            <figcaption class="x-shot__cap">Your trend against your goal line.</figcaption>
+                        </figure>
+                    </div>
+                </li>
+            </ol>
 
-            <p style="text-align: center; max-width: 760px; margin: 2.5rem auto 0; color: var(--scorx-off-white);">New to this? Read <a href="/blog/junior-afl-individual-development-plan/">when to start an individual development plan</a> and <a href="/blog/junior-afl-season-goals-player-development/">five development goals to set at the start of a season</a>.</p>
+            <p class="walk-loop">New to this? Read <a href="/blog/junior-afl-individual-development-plan/">when to start an individual development plan</a> and <a href="/blog/junior-afl-season-goals-player-development/">five development goals to set at the start of a season</a>.</p>
 
         </div>
     </section>
@@ -228,14 +290,14 @@ permalink: /athletes.html
         <div class="section-inner">
 
             <div class="section-title">
-                <h2>Step 1 &amp; 2 — Know Where You Actually Stand</h2>
-                <p class="section-subtitle">Before any goal is worth setting, you need an honest starting point — on the field and off it.</p>
+                <h2>Know Where You Actually Stand</h2>
+                <p class="section-subtitle">Before any goal is worth setting, you need an honest starting point, on the field and off it.</p>
             </div>
 
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h3>The activity timeline: when in a game you turn up</h3>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <p>Totals tell you how much. The timeline tells you when — and that is usually where the development conversation actually is.</p>
                     <ul class="feature-list">
                         <li>Minute-by-minute view of every recorded action, shown as a step chart</li>
@@ -252,38 +314,37 @@ permalink: /athletes.html
 
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
-                    <h3>Ten athleticism metrics, re-tested as often as you like</h3>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free — record &amp; track</p>
+                    <h3>14 athleticism metrics, re-tested as often as you like</h3>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <p>The same measurements academies take on a testing day, kept privately by you instead of on someone else's clipboard.</p>
                     <ul class="feature-list">
-                        <li><strong>Speed:</strong> 10m sprint, 40m sprint</li>
-                        <li><strong>Power:</strong> standing jump height</li>
-                        <li><strong>Endurance:</strong> 2km run, 5km run</li>
-                        <li><strong>Strength:</strong> max push-ups, max pull-ups, bench press, squat, deadlift</li>
+                        <li><strong>14 baseline metrics</strong> across speed, power, endurance and strength, such as the 10m and 40m sprint, standing jump, 2km run, max push-ups and squat</li>
+                        <li><strong>One custom metric</strong> of your own on ScorX Free. Premium allows unlimited custom metrics</li>
+                        <li><strong>Goal mode:</strong> set a target for a metric and see the goal line on your chart</li>
                         <li>Re-test any time — pre-season, mid-season or on a whim</li>
                         <li><strong>Trend indicators</strong> show whether each metric is improving, holding or slipping</li>
                     </ul>
                     <p style="margin-top: 1rem; font-size: 0.95rem;">More on this: <a href="/blog/why-academies-run-testing-days/">why performance academies run testing days</a>.</p>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/measureview.webp" width="800" height="1731" alt="Athleticism metrics screen showing ten physical measurements with trend indicators" loading="lazy" />
+                    <img src="./images/measureview.webp" width="800" height="1731" alt="Measure tab with fields to log sprint, jump, run and strength results" loading="lazy" />
                 </div>
             </div>
 
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h3>Where your numbers sit against age and sex benchmarks</h3>
-                    <p class="tier-badge">ScorX Premium</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <p>A 40m time on its own is a number. Against age and sex benchmarks it becomes a decision about where your next block of work should go.</p>
                     <ul class="feature-list">
-                        <li>Each metric contextualised against peer averages from published Australian youth sport data</li>
+                        <li>Each metric compared with age and sex benchmarks</li>
                         <li>Shown simply: <strong>Below Average / Average / Above Average / Excellent</strong></li>
-                        <li>Points development priorities at the right bucket — technical, tactical or athletic</li>
-                        <li><strong>AI athleticism insight</strong> connects physical attributes to on-field performance (how sprint speed shows up in contested ball work, for example)</li>
+                        <li>Points development priorities at the right bucket: technical, tactical or athletic</li>
+                        <li><strong>AI athleticism insight</strong> <span class="x-tier x-tier--premium">Premium</span> connects physical attributes to on-field performance (how sprint speed shows up in contested ball work, for example)</li>
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/measureview.webp" width="800" height="1731" alt="Athleticism metrics with trend indicators, benchmarked against age and sex averages" loading="lazy" />
+                    <img src="./images/measureview.webp" width="800" height="1731" alt="Measure tab with fields to log sprint, jump, run and strength results" loading="lazy" />
                 </div>
             </div>
 
@@ -295,15 +356,15 @@ permalink: /athletes.html
         <div class="section-inner">
 
             <div class="section-title">
-                <h2>Step 3 &amp; 4 — Set the Focus, Then Check It Worked</h2>
-                <p class="section-subtitle" style="color: var(--scorx-off-white);">Development guidance built from your data — not a generic drill list off the internet.</p>
+                <h2>Let Your Data Suggest What to Work On</h2>
+                <p class="section-subtitle" style="color: var(--scorx-off-white);">AI training recommendations built from your data, not a generic drill list off the internet. Your Development Plan stays free.</p>
             </div>
 
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h3>A training focus with the evidence attached</h3>
-                    <p class="tier-badge">ScorX Premium</p>
-                    <p>The Train section reads your game stats, your own post-game reflections and your athleticism metrics, then says what to work on and why — in plain language you can act on.</p>
+                    <p><span class="x-tier x-tier--premium">Premium</span></p>
+                    <p>AI training recommendations read your game stats, your own post-game reflections and your athleticism metrics, then say what to work on and why, in plain language you can act on.</p>
                     <ul class="feature-list">
                         <li><strong>Primary focus area</strong> with the evidence behind it — e.g. "disposal efficiency under pressure has dropped in 4 of the last 5 games"</li>
                         <li><strong>Secondary focus area</strong> where a second pattern shows up in the stats</li>
@@ -313,17 +374,17 @@ permalink: /athletes.html
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/traintabview.webp" width="800" height="1731" alt="Train section showing AI-generated skill development focus with evidence from game data" loading="lazy" />
+                    <img src="./images/traintabview.webp" width="800" height="1731" alt="Train tab with a training goal card and running drills" loading="lazy" />
                 </div>
             </div>
 
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
-                    <h3>Plans that hold steady long enough to work</h3>
-                    <p class="tier-badge">ScorX Premium</p>
-                    <p>A development plan rewritten after every bad game is not a plan. ScorX deliberately waits for enough evidence before changing direction.</p>
+                    <h3>Recommendations that hold steady long enough to work</h3>
+                    <p><span class="x-tier x-tier--premium">Premium</span></p>
+                    <p>A plan rewritten after every bad game is not a plan. ScorX deliberately waits for enough evidence before changing your recommendations.</p>
                     <ul class="feature-list">
-                        <li>A new focus can be generated after <strong>30 days</strong> or <strong>5+ new games</strong>, whichever comes first</li>
+                        <li>New recommendations can be generated after <strong>30 days</strong> or <strong>5+ new games</strong>, whichever comes first</li>
                         <li>Stops one outlier game from redirecting months of work</li>
                         <li>Season and career views show the longer trajectory behind the current focus</li>
                         <li>Recommendations are informational — they support a coach, they do not replace one, and a disclaimer says so on first use</li>
@@ -350,7 +411,7 @@ permalink: /athletes.html
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h3>Career Timeline</h3>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <p>Every sport, every season, every club, in one visual run. You will change teams, codes and coaches along the way — the timeline is the one thing that follows you through all of it.</p>
                     <ul class="feature-list">
                         <li>A visual journey through your entire sporting history</li>
@@ -367,11 +428,11 @@ permalink: /athletes.html
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
                     <h3>Season Narratives &amp; exportable reports</h3>
-                    <p class="tier-badge">ScorX Premium</p>
+                    <p><span class="x-tier x-tier--premium">Premium</span></p>
                     <p>At the end of a season, the numbers get turned back into a story — what improved, what to chase next, and how this year compared to last.</p>
                     <ul class="feature-list">
                         <li><strong>Season Narrative</strong> — an AI-written season summary grounded in recorded stats</li>
-                        <li>Exportable as a PDF for a new coach, a selection panel or the family bookshelf</li>
+                        <li>Exportable as a PDF or CSV for a new coach, a selection panel or the family bookshelf</li>
                         <li><strong>Full report export</strong> of player stats, season summaries and development reports</li>
                         <li>Evidence-based conversation starters instead of "how do you think the year went?"</li>
                         <li>Guide: <a href="/blog/junior-sport-season-review/">how to review a whole season in 20 minutes</a></li>
@@ -390,7 +451,7 @@ permalink: /athletes.html
         <div class="section-inner">
             <div class="section-title">
                 <h2>What's Free, What's Premium</h2>
-                <p class="section-subtitle" style="color: var(--scorx-off-white);">Recording, celebrating and tracking are free forever. Premium adds the analysis layer.</p>
+                <p class="section-subtitle" style="color: var(--scorx-off-white);">Scoring, tracking and training tools are free forever, up to 5 teams, 25 players in total and 20 saved games. Premium removes the limits and adds AI training recommendations.</p>
             </div>
             <div style="max-width: 820px; margin: 0 auto; overflow-x: auto;">
                 <table class="comparison-table">
@@ -402,17 +463,19 @@ permalink: /athletes.html
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td><strong>Game history &amp; per-game stats</strong></td><td>✓</td><td>✓</td></tr>
+                        <tr><td><strong>Game history &amp; per-game stats</strong></td><td>Up to 20 saved games</td><td>Unlimited</td></tr>
                         <tr><td><strong>Activity timeline</strong></td><td>✓</td><td>✓</td></tr>
-                        <tr><td><strong>Ten athleticism metrics &amp; trends</strong></td><td>✓</td><td>✓</td></tr>
+                        <tr><td><strong>14 athleticism metrics, trends &amp; benchmarking</strong></td><td>✓</td><td>✓</td></tr>
+                        <tr><td><strong>Custom metrics</strong></td><td>1</td><td>Unlimited</td></tr>
+                        <tr><td><strong>Development Plan, goals, drills &amp; Training Sessions</strong></td><td>✓</td><td>✓</td></tr>
+                        <tr><td><strong>Run drills</strong></td><td>Beep Test, 800m, 2km</td><td>Full library, plus custom</td></tr>
                         <tr><td><strong>Career Timeline</strong></td><td>✓</td><td>✓</td></tr>
                         <tr><td><strong>Player Cards</strong></td><td>1 style</td><td>Full library</td></tr>
-                        <tr><td><strong>Age &amp; sex benchmarking</strong></td><td>—</td><td>✓</td></tr>
-                        <tr><td><strong>Train section &amp; AI development plan</strong></td><td>—</td><td>✓</td></tr>
-                        <tr><td><strong>Season Narratives &amp; PDF export</strong></td><td>—</td><td>✓</td></tr>
+                        <tr><td><strong>AI training recommendations</strong></td><td>—</td><td>✓</td></tr>
+                        <tr><td><strong>Season Narratives, PDF/CSV export &amp; iCloud sync</strong></td><td>—</td><td>✓</td></tr>
                     </tbody>
                 </table>
-                <p style="text-align: center; margin-top: 1.5rem; color: var(--scorx-off-white);">Premium is A$4.99/month or A$49.99/year with a 30-day free trial and no credit card required. Full detail on the <a href="./pricing.html">pricing page</a>.</p>
+                <p style="text-align: center; margin-top: 1.5rem; color: var(--scorx-off-white);">ScorX Free covers up to 5 teams, 25 players in total and 20 saved games. Premium is A$4.99/month or A$49.99/year with a 30-day free trial and no credit card required. Full detail on the <a href="./pricing.html">pricing page</a>.</p>
             </div>
         </div>
     </section>
@@ -426,35 +489,35 @@ permalink: /athletes.html
             <div style="max-width: 800px; margin: 0 auto;">
                 <details class="faq-item">
                     <summary>What is an individual development plan for a young athlete?</summary>
-                    <div class="faq-answer"><p>An individual development plan is a short, written answer to three questions: where you are now, what one or two things you are working on next, and how you will know it worked. It does not need to be formal. In ScorX the plan is built from your recorded game stats, athleticism measurements and your own post-game reflections, so your goals point at something real rather than a guess.</p></div>
+                    <div class="faq-answer"><p>An individual development plan is a short, written answer to three questions: where you are now, what one or two things you are working on next, and how you will know it worked. It does not need to be formal. In ScorX you build it in the Development Plan in the Train tab: one big goal, the skills you want to work on with two drills each, an outcome goal and a strength and conditioning goal. You measure your starting point, set a target, and re-test to check it is working.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>How do I set development goals that actually measure improvement?</summary>
-                    <div class="faq-answer"><p>Pick goals tied to actions you control and that get recorded every game — disposals under pressure, defensive efforts, shot accuracy, time on the ball — rather than goals tied to the scoreboard or selection. ScorX records those actions game by game, so a goal like "more contested possessions in the second half" can be checked against your activity timeline instead of debated in the car on the way home.</p></div>
+                    <div class="faq-answer"><p>Pick goals tied to actions you control and that get recorded every game, such as disposals under pressure, defensive efforts, shot accuracy or time on the ball, rather than goals tied to the scoreboard or selection. ScorX records those actions game by game, so a goal like "more contested possessions in the second half" can be checked against your activity timeline instead of debated in the car on the way home. For the physical side, goal mode lets you set a target for a metric and shows a goal line on your progress chart.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>How does ScorX decide what I should work on next?</summary>
-                    <div class="faq-answer"><p>The Train section (ScorX Premium) reads your game statistics, your own reflections and your athleticism metrics, then names a primary and secondary focus area with the evidence behind it. It suggests a training approach, a realistic session structure, and the success indicators that show the work is paying off. It updates after 30 days or five new games, so a single bad game never rewrites your plan.</p></div>
+                    <div class="faq-answer"><p>The Development Plan is yours to set, and it is free. You choose the skills and drills, and your recorded games and re-tests show whether it is working. ScorX Premium adds AI training recommendations, which read your game statistics, your own reflections and your athleticism metrics, then name a primary and secondary focus area with the evidence behind it. They update after 30 days or five new games, so a single bad game never rewrites your plan.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>What athleticism metrics can I track as a young athlete?</summary>
-                    <div class="faq-answer"><p>Ten physical development metrics: 10m sprint, 40m sprint, standing jump, 2km run, 5km run, max push-ups, max pull-ups, bench press, squat and deadlift. Recording and re-testing is free, and every metric carries a trend indicator so you can see your improvement. Age and sex benchmarking, which shows where you sit against age and sex averages, is part of ScorX Premium.</p></div>
+                    <div class="faq-answer"><p>There are 14 baseline athleticism metrics across speed, power, endurance and strength, plus one custom metric of your own on ScorX Free (Premium allows unlimited custom metrics). Recording and re-testing is free, and every metric has a trend and a progress chart so you can see your improvement. Age and sex benchmarking, which shows where you sit against age and sex averages, is also free.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>How do Player Cards work?</summary>
-                    <div class="faq-answer"><p>Player Cards are generated from your game stats and profile photo, ready to share to Instagram, WhatsApp or the family group chat. One standard card style is free for everyone. ScorX Premium unlocks the full library — classic, modern, sport-specific and sticker formats — plus custom colour themes and a full card configurator.</p></div>
+                    <div class="faq-answer"><p>Player Cards are generated from your game stats and profile photo, ready to share to Instagram, WhatsApp or the family group chat. One standard card style is free for everyone. ScorX Premium unlocks the full library, including classic, modern, sport-specific and sticker formats, plus custom colour themes and a full card configurator.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>How long does it take to see progress?</summary>
-                    <div class="faq-answer"><p>Stats and highlights are there from your first game. Meaningful trends usually need about five games or a re-test of your athleticism metrics, which is roughly a month of a normal junior season. That is why ScorX refreshes your training focus after 30 days or five games rather than after every match.</p></div>
+                    <div class="faq-answer"><p>Stats and highlights are there from your first game. Meaningful trends usually need about five games or a re-test of your athleticism metrics, which is roughly a month of a normal junior season. That is why ScorX Premium refreshes your AI training recommendations after 30 days or five games rather than after every match.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>Do I need a coach to use ScorX?</summary>
-                    <div class="faq-answer"><p>No. You can record games, measure your athleticism and build a development plan on your own, or have a parent tap in the scoring from the sideline. If your coach also uses ScorX, match invitations let stat recording be shared during games, and your history still belongs to you across clubs, teams and seasons.</p></div>
+                    <div class="faq-answer"><p>No. You can record games, measure your athleticism and build a development plan on your own, or have a parent or coach tap in the scoring from the sideline. If your coach also uses ScorX, match invitations let stat recording be shared during games, and your history still belongs to you across clubs, teams and seasons.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>What does ScorX Free include for athletes?</summary>
-                    <div class="faq-answer"><p>Your complete game history with per-game stat breakdowns and activity timelines, all ten athleticism metrics with trend indicators, the Career Timeline, and one standard Player Card style — with no game, player or team limits. ScorX Premium (A$4.99/month or A$49.99/year) adds the Train section, benchmarking, the full card library, Season Narratives and PDF export.</p></div>
+                    <div class="faq-answer"><p>Your game history with per-game stat breakdowns and activity timelines, 14 athleticism metrics with trends and age and sex benchmarking, the Development Plan with drills and goals, the Career Timeline, and one standard Player Card style. ScorX Free covers up to 5 teams, 25 players in total and 20 saved games. ScorX Premium (A$4.99/month or A$49.99/year, with a 30-day free trial and no card needed) removes those limits and adds AI training recommendations, the full run drill library, the full card library, Season Narratives, PDF and CSV export and iCloud sync.</p></div>
                 </details>
             </div>
         </div>
@@ -463,8 +526,8 @@ permalink: /athletes.html
     <!-- CTA SECTION -->
     <section class="cta-section">
         <div class="container">
-            <h2>Record This Weekend's Game. Build the Plan From There.</h2>
-            <p>Download free, record your first game, and see the stats before you decide anything else. Premium is there when you want the benchmarking and the development plan.</p>
+            <h2>Record This Weekend's Game. Build Your Plan From There.</h2>
+            <p>Download free, record your first game, and measure your starting point. Premium is there when you want the limits lifted and AI training recommendations.</p>
             <a href="./download.html" class="btn btn-primary"><span>Download Free</span></a>
         </div>
     </section>

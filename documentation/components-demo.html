@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>ScorX components demo</title>
+    <!-- Not part of the site build (documentation/ is excluded in _config.yml).
+         View it by running `python3 -m http.server 8000` in the repo root and opening
+         http://localhost:8000/documentation/components-demo.html
+         Copy the markup into a page; real pages load the same two stylesheets as index.html. -->
+    <link rel="stylesheet" href="/css/tokens.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; } /* site-wide reset lives in style.css */
+        body { margin: 0; background: var(--canvas); color: var(--ink); font-family: var(--font-text); }
+        .demo-note { font-size: 14px; color: var(--mid); margin: 0 0 20px; }
+        .demo-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 24px; }
+        .demo-shots { display: grid; grid-template-columns: 1fr; gap: 28px; }
+        @media (min-width: 720px) { .demo-shots { grid-template-columns: repeat(3, 1fr); align-items: start; } }
+    </style>
+</head>
+<body>
+
+<section class="x-section">
+  <div class="x-container">
+
+    <p class="x-eyebrow">Components</p>
+    <h1 class="x-display x-display--md">Tier chips, pillars and screenshots</h1>
+    <p class="demo-note">Class names are prefixed x-. Pages need tokens.css and components.css (blog posts: wrap in .x-scope).</p>
+
+    <!-- ===== .x-tier ===== -->
+    <h2 class="x-display x-display--md" style="font-size:22px">.x-tier</h2>
+    <div class="demo-row">
+      <span class="x-tier x-tier--free">Free</span>
+      <span class="x-tier x-tier--premium">Premium</span>
+      <span class="x-text" style="margin:0">Beep Test <span class="x-tier x-tier--free">Free</span></span>
+      <span class="x-text" style="margin:0">AI training recommendations <span class="x-tier x-tier--premium">Premium</span></span>
+    </div>
+
+    <!-- ===== .x-pillars ===== -->
+    <h2 class="x-display x-display--md" style="font-size:22px">.x-pillars</h2>
+    <div class="x-pillars">
+      <article class="x-pillar">
+        <div class="x-pillar__icon"><img src="/images/icons/score.svg" width="32" height="32" alt="" loading="lazy"></div>
+        <h3 class="x-pillar__title">Score</h3>
+        <p class="x-pillar__tag">Score it</p>
+        <ul class="x-pillar__list">
+          <li>Live scoring across 16 sports</li>
+          <li>Score it yourself or have someone tap it in</li>
+          <li>Works offline</li>
+        </ul>
+        <a class="x-pillar__link" href="/features.html#score">See scoring</a>
+      </article>
+      <article class="x-pillar">
+        <div class="x-pillar__icon"><img src="/images/icons/track.svg" width="32" height="32" alt="" loading="lazy"></div>
+        <h3 class="x-pillar__title">Track</h3>
+        <p class="x-pillar__tag">Track it</p>
+        <ul class="x-pillar__list">
+          <li>Season and career stats</li>
+          <li>Game history and reflections</li>
+          <li>Progress you can see</li>
+        </ul>
+        <a class="x-pillar__link" href="/features.html#track">See tracking</a>
+      </article>
+      <article class="x-pillar">
+        <div class="x-pillar__icon"><img src="/images/icons/train.svg" width="32" height="32" alt="" loading="lazy"></div>
+        <h3 class="x-pillar__title">Train</h3>
+        <p class="x-pillar__tag">Train it</p>
+        <ul class="x-pillar__list">
+          <li>Drills, plans and fitness tests</li>
+          <li>Goals you control</li>
+          <li>Training sessions with beep pacing</li>
+        </ul>
+        <a class="x-pillar__link" href="/train.html">See training</a>
+      </article>
+    </div>
+
+    <!-- ===== .x-shot ===== -->
+    <h2 class="x-display x-display--md" style="font-size:22px; margin-top:40px">.x-shot</h2>
+    <div class="demo-shots">
+      <!-- Phone screenshot. Set width/height to the image's real pixels. -->
+      <figure class="x-shot x-shot--phone">
+        <div class="x-shot__frame">
+          <img src="/images/measureview.webp" width="800" height="1731" loading="lazy" alt="Measure screen showing a sprint result chart with a goal line">
+        </div>
+        <figcaption class="x-shot__cap">Measure: log a result and watch the trend.</figcaption>
+      </figure>
+
+      <!-- iPad screenshot -->
+      <figure class="x-shot x-shot--ipad">
+        <div class="x-shot__frame">
+          <img src="/images/ipad/lineup_ipad.png" width="2048" height="2732" loading="lazy" alt="iPad lineup planning board">
+        </div>
+        <figcaption class="x-shot__cap">iPad Team Mode: plan your lineup.</figcaption>
+      </figure>
+
+      <!-- Missing screenshot: keep the slot and the comment. Do not draw a fake app screen. -->
+      <figure class="x-shot x-shot--phone">
+        <!-- ASSET NEEDED: Development Plan screen, phone, 1170x2532, webp. See documentation/asset-requests.md -->
+        <div class="x-shot__slot">Screenshot coming soon</div>
+        <figcaption class="x-shot__cap">Development Plan.</figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

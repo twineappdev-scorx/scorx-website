@@ -8,27 +8,28 @@ permalink: /coaches.html
     <link rel="canonical" href="https://www.scorx.com.au/coaches.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1528173681585526');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1528173681585526&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <!-- ADS-OFF: Meta Pixel and cookie banner disabled until ads go live (D23). Uncomment to re-enable. <script src="/js/consent.js" defer></script> -->
 
-    <meta name="description" content="ScorX for coaches is completely free: unlimited teams, players and games, match invitations, shared stat recording, rotations and playing time.">
+    <meta name="description" content="ScorX for coaches is free for up to 5 teams, 25 players in total and 20 saved games: match stats, training plans and iPad Team Mode. Premium adds AI recommendations.">
     <title>ScorX for Coaches | Free Team Management &amp; Match Stats</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <style>
+        /* WP-6 coaches layout (page-scoped) */
+        .wp6-plans { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; max-width: 1000px; margin: 0 auto; }
+        .wp6-plan { background: #fff; border: 1px solid rgba(15, 42, 68, 0.12); border-radius: 20px; padding: 1.75rem; }
+        .wp6-plan h2, .wp6-plan h3 { margin: 0.75rem 0 0.75rem; }
+        .wp6-plan p { margin: 0 0 0.75rem; }
+        .wp6-plan .feature-list { margin-bottom: 0; }
+        .wp6-pair { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; justify-items: center; margin-top: 2rem; }
+        .wp6-limits { max-width: 1000px; margin: 1.5rem auto 0; text-align: center; }
+        .feature-detail-image .x-shot__frame img { max-width: none; box-shadow: none; transform: none; }
+        .feature-detail-image .x-shot__frame img:hover { transform: none; box-shadow: none; }
+        .section-dark .x-shot__cap { color: rgba(255, 255, 255, 0.78); }
+        @media (min-width: 768px) {
+            .wp6-plans, .wp6-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+    </style>
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
@@ -43,10 +44,10 @@ permalink: /coaches.html
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is ScorX really free for coaches?",
+          "name": "Is ScorX free for coaches?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — completely free, with no artificial limits. Coaches get unlimited teams, unlimited roster sizes, and unlimited games per month at no cost and with no credit card required. The free experience is designed to be genuinely useful across an entire season."
+            "text": "Yes. ScorX Free costs nothing and needs no credit card. It includes live scoring, match invitations, rotations and playing time, the post-game triage dashboard, plays, drills, Training Sessions, drill assignment and team results, and iPad Team Mode. Free covers up to 5 teams, 25 players in total and 20 saved games, and ScorX Premium removes those limits."
           }
         },
         {
@@ -70,12 +71,12 @@ permalink: /coaches.html
           "name": "What is the Post-Game Triage Dashboard?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "After each game, players submit a structured self-reflection covering what went well and what to improve. The Triage Dashboard aggregates these submissions across the whole roster and surfaces the most common struggle areas as a ranked list — ready for your next training session. It also shows how many players have submitted so you can prompt stragglers."
+            "text": "After each game, players submit a structured self-reflection covering what went well and what to improve. The Triage Dashboard aggregates these submissions across the whole roster and surfaces the most common struggle areas as a ranked list, ready for your next training session. It also shows how many players have submitted so you can prompt stragglers. The dashboard is free."
           }
         },
         {
           "@type": "Question",
-          "name": "What does Perception vs Reality analysis show coaches?",
+          "name": "What does Perception vs Reality analysis show me?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Perception vs Reality compares each player's self-assessed performance against their actual recorded statistics. It surfaces overconfidence (a player thinks they played well but the data disagrees), underconfidence (a player undervalues a genuine strength), and coaching blind spots. It makes development conversations evidence-based instead of opinion-based."
@@ -86,7 +87,39 @@ permalink: /coaches.html
           "name": "How many teams and players can I manage?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Unlimited. There is no cap on the number of teams, roster size, or games per month on the free tier. A coach running multiple teams across several sports can manage everything in a single app without needing to upgrade."
+            "text": "ScorX Free covers up to 5 teams, 25 players in total and 20 saved games. The 20 games are a total, not a monthly allowance, so at the cap you can't save a new game until you delete one or upgrade to ScorX Premium. Premium has no limit on teams, players or saved games."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I plan training and test my squad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the Train tools you can build plays and drills, put them into Training Sessions and run a session with beep pacing. You can also assign a drill or fitness test to your squad and see the team results. All of this is free. The Beep Test, 800m time trial and 2km time trial are free run drills, and the full run drill library with sprint and interval drills is part of ScorX Premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I import my squad from a spreadsheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Team import accepts a spreadsheet in .xlsx or .csv format, such as a PlayHQ export, so you don't have to type each player in by hand. It is free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I record stats by voice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with ScorX Premium. Voice stat recording works for team sports and needs iOS 26 or later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ScorX work on iPad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. iPad Team Mode is free. It includes a magnet board and lineup planning, and Plan Mode takes you through planning your lineup and configuring the statistics you want to record."
           }
         },
         {
@@ -94,7 +127,7 @@ permalink: /coaches.html
           "name": "What does ScorX Premium add for coaches?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ScorX Premium unlocks AI Training Recommendations — a weekly coaching focus generated from your team's match statistics and player self-assessments. It identifies the specific areas where your team struggled and suggests targeted training priorities, not generic drills. Premium also unlocks the full athlete development suite for players on your roster: the Train section, athleticism benchmarking, and the full Player Card library. At $4.99/month or $49.99/year with a 30-day free trial."
+            "text": "ScorX Premium adds weekly AI training recommendations, generated from your team's match statistics and player self-assessments. It identifies the specific areas where your team struggled and suggests targeted training priorities, not generic drills. Premium also adds voice stat recording, the full run drill library, PDF and CSV export, iCloud sync, and removes the limits on teams, players and saved games. Everything else in Train, including benchmarking, is free. It costs A$4.99 a month or A$49.99 a year, with a 30-day free trial and no card required."
           }
         }
       ]
@@ -109,8 +142,48 @@ permalink: /coaches.html
         <div class="orb orb-2"></div>
         <div class="orb orb-3"></div>
         <div class="hero-content">
-            <h1>Grow Your Game.</h1>
-            <p class="tagline">Everything you need to run your team comes free — unlimited teams, unlimited players, unlimited games, live scoring, match invitations, and post-game triage. Coaches who want every opportunity to develop their players can go further with ScorX Premium.</p>
+            <h1>ScorX for Coaches: Run Your Team and Plan Your Training</h1>
+            <p class="tagline">Scoring, match invitations, post-game triage, training plans and squad tests are free, for up to 5 teams, 25 players in total and 20 saved games. Premium lifts those limits and adds weekly AI training recommendations and voice stat recording.</p>
+        </div>
+    </section>
+
+    <!-- FREE VS PREMIUM -->
+    <section id="free-and-premium">
+        <div class="section-inner">
+            <div class="section-title">
+                <h2>What Is Free and What Is Premium</h2>
+                <p class="section-subtitle">The coach dashboard is free. The weekly AI recommendations on top of it are the Premium part.</p>
+            </div>
+            <div class="wp6-plans">
+                <div class="wp6-plan">
+                    <span class="x-tier x-tier--free">Free</span>
+                    <h3>ScorX Free</h3>
+                    <ul class="feature-list">
+                        <li>Live scoring, stats and full offline use</li>
+                        <li>Match invitations and shared stat recording</li>
+                        <li>Rotations and playing time</li>
+                        <li>Post-game triage dashboard and Perception vs Reality</li>
+                        <li>Plays, drills, Training Sessions and Run Session</li>
+                        <li>Drill assignment and team results</li>
+                        <li>Age and sex benchmarking</li>
+                        <li>Squad import from a spreadsheet, such as a PlayHQ export</li>
+                        <li>iPad Team Mode</li>
+                    </ul>
+                    <p><strong>Limits:</strong> up to 5 teams, 25 players in total and 20 saved games.</p>
+                </div>
+                <div class="wp6-plan">
+                    <span class="x-tier x-tier--premium">Premium</span>
+                    <h3>ScorX Premium</h3>
+                    <ul class="feature-list">
+                        <li><strong>Weekly AI training recommendations</strong> built from your team's match data and player reflections</li>
+                        <li>Voice stat recording (team sports, iOS 26 or later)</li>
+                        <li>No limit on teams, players or saved games</li>
+                        <li>Full run drill library (sprint and interval drills) and custom run drills</li>
+                        <li>PDF and CSV export and iCloud sync</li>
+                    </ul>
+                    <p>A$4.99 a month or A$49.99 a year. The 30-day free trial includes everything in Premium and needs no card. See <a href="./pricing.html">pricing</a>.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -120,14 +193,14 @@ permalink: /coaches.html
 
             <div class="feature-detail">
                 <div class="feature-detail-content">
-                    <h2>Team & Roster Management</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free — Unlimited</p>
+                    <h2>Team &amp; Roster Management</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
-                        <li><strong>Unlimited teams</strong> — create and manage as many teams as you run across any number of seasons</li>
-                        <li><strong>Unlimited roster size</strong> — add every player with name, jersey number, and position</li>
+                        <li><strong>Up to 5 teams on Free</strong> — create and manage the teams you run across seasons</li>
+                        <li><strong>Up to 25 players in total on Free</strong> — add each player with name, jersey number, and position</li>
                         <li><strong>Player profiles</strong> — date of birth, position history, and contact details per player</li>
                         <li><strong>Multi-sport support</strong> — switch between AFL, basketball, netball, rugby, soccer, hockey, touch, tennis, and 6 more sports within the same team setup</li>
-                        <li>Run your entire season — from round one to finals — without needing to upgrade</li>
+                        <li>Premium removes the team, player and saved game limits. <a href="#squad-import">Import your squad from a spreadsheet</a> to set a team up faster</li>
                     </ul>
                 </div>
                 <div class="feature-detail-image">
@@ -139,7 +212,7 @@ permalink: /coaches.html
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
                     <h2>Match Invitations</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
                         <li><strong>Invite parents directly</strong> — send a match invitation to each player's family before game day</li>
                         <li><strong>Attendance confirmation</strong> — parents confirm or decline when accepting; coaches see a real-time headcount before the game</li>
@@ -149,15 +222,19 @@ permalink: /coaches.html
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/coach-match-invite.png" alt="Match invitation screen showing player list with invite status and attendance confirmation" loading="lazy" />
+                    <figure class="x-shot x-shot--phone">
+                        <!-- ASSET NEEDED: coach-match-invite: iPhone, match invitation screen with player list, invite status and attendance. webp 800x1731. The previous image file never existed in /images/. -->
+                        <div class="x-shot__slot">Screenshot coming soon</div>
+                        <figcaption class="x-shot__cap">Match invitations: invite status and attendance.</figcaption>
+                    </figure>
                 </div>
             </div>
 
             <!-- GAME DAY -->
             <div class="feature-detail">
                 <div class="feature-detail-content">
-                    <h2>Game Day — Live Scoring & Stats</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <h2>Game Day — Live Scoring &amp; Stats</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
                         <li><strong>Live score tracking</strong> — real-time team scores with sport-specific scoring rules (goals, tries, sets, rally points)</li>
                         <li><strong>Sport-specific stat categories</strong> — AFL: goals, behinds, marks, tackles, disposals; Basketball: field goals, three-pointers, free throws, rebounds, assists; and equivalents for all 16 sports</li>
@@ -176,8 +253,8 @@ permalink: /coaches.html
             <!-- ROTATIONS & PLAYING TIME -->
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
-                    <h2>Player Rotations & Playing Time</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <h2>Player Rotations &amp; Playing Time</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
                         <li><strong>Position management</strong> — assign positions before and during the game</li>
                         <li><strong>Rotation tracking</strong> — record interchange events as they happen throughout the game</li>
@@ -188,7 +265,11 @@ permalink: /coaches.html
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/coach-rotations.png" alt="Player rotation screen showing playing time percentages and interchange history" loading="lazy" />
+                    <figure class="x-shot x-shot--phone">
+                        <!-- ASSET NEEDED: coach-rotations: iPhone, rotation screen with playing time percentages and interchange history. webp 800x1731. The previous image file never existed in /images/. -->
+                        <div class="x-shot__slot">Screenshot coming soon</div>
+                        <figcaption class="x-shot__cap">Rotations and playing time.</figcaption>
+                    </figure>
                 </div>
             </div>
 
@@ -196,18 +277,23 @@ permalink: /coaches.html
             <div class="feature-detail">
                 <div class="feature-detail-content">
                     <h2>Post-Game Triage Dashboard</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
                         <li><strong>Aggregated self-assessment data</strong> — after players submit their post-game reflections, the coach sees team-wide patterns at a glance</li>
                         <li><strong>Data coverage indicator</strong> — shows how many players have submitted (e.g. "8 of 14 players submitted") so you can follow up with those who haven't</li>
-                        <li><strong>Team training focus</strong> — the most commonly flagged struggle areas surfaced as a ranked list, ready for your next session</li>
+                        <li><strong>What to work on this week</strong> — the struggle areas your players flag most often, as a ranked list. It comes from post-game triage, not from the session planner, so it shows what players reported after the game. Build the session in <a href="#plan-your-training">Plan your training</a></li>
                         <li><strong>Individual player flags</strong> — players with multiple struggle signals highlighted for one-on-one attention</li>
                         <li><strong>Historical context</strong> — identifies whether a struggle is recurring across multiple games or first appearing this week</li>
-                        <li style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.75rem; margin-top: 0.5rem;"><strong>AI training recommendations</strong> <span class="tier-badge" style="font-size: 0.7rem; padding: 0.2rem 0.6rem; vertical-align: middle;">ScorX Premium</span> — AI-generated weekly training focus based on actual match data and player self-assessments; specific to what your team did last Saturday, not generic drills</li>
+                        <li style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.75rem; margin-top: 0.5rem;"><strong>Weekly AI training recommendations</strong> <span class="x-tier x-tier--premium">Premium</span> — an AI-generated weekly training focus based on actual match data and player self-assessments; specific to what your team did last Saturday, not generic drills</li>
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/coach-triage-dashboard.png" alt="Post-game triage dashboard showing team reflection summary with ranked struggle areas" loading="lazy" />
+                    <figure class="x-shot x-shot--ipad">
+                        <div class="x-shot__frame">
+                            <img src="./images/ipad/dashboard_ipad.png" width="2048" height="2732" loading="lazy" alt="Team triage dashboard on iPad with Current Game, Season View and Trends tabs, data coverage and player status">
+                        </div>
+                        <figcaption class="x-shot__cap">The triage dashboard on iPad.</figcaption>
+                    </figure>
                 </div>
             </div>
 
@@ -215,7 +301,7 @@ permalink: /coaches.html
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
                     <h2>Perception vs Reality Analysis</h2>
-                    <p class="tier-badge" style="background: var(--scorx-success-green);">Free</p>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
                     <ul class="feature-list">
                         <li>Compare each player's self-assessed performance against their actual recorded statistics</li>
                         <li>Identify players who <strong>overestimate their performance</strong> — a player thinks they played well but the data disagrees</li>
@@ -226,7 +312,150 @@ permalink: /coaches.html
                     </ul>
                 </div>
                 <div class="feature-detail-image">
-                    <img src="./images/coach-perception-reality.png" alt="Perception vs reality chart comparing player self-assessment to recorded statistics" loading="lazy" />
+                    <figure class="x-shot x-shot--phone">
+                        <!-- ASSET NEEDED: coach-perception-reality: iPhone, Perception vs Reality chart comparing self-assessment to recorded stats. webp 800x1731. The previous image file never existed in /images/. -->
+                        <div class="x-shot__slot">Screenshot coming soon</div>
+                        <figcaption class="x-shot__cap">Perception vs Reality.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PLAN YOUR TRAINING -->
+    <section id="plan-your-training">
+        <div class="section-inner">
+
+            <div class="section-title">
+                <h2>Plan Your Training</h2>
+                <p class="section-subtitle">Plays, drills, Training Sessions and Run Session are all free, and they sit in Coach Tools in the Team tab.</p>
+            </div>
+
+            <div class="feature-detail">
+                <div class="feature-detail-content">
+                    <h2>Plays and Drills</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
+                    <ul class="feature-list">
+                        <li><strong>Drill Library and Drill Animator</strong> — build and animate drills (AFL drills, plus running drills for every sport), then save and import them</li>
+                        <li><strong>Play Library and Play Animator</strong> — build and animate plays, then save and import them</li>
+                        <li><strong>Favourite drills</strong> — keep the ones you reach for every week</li>
+                        <li><strong>Injury prevention and general programs</strong> — ready to use alongside your own drills</li>
+                    </ul>
+                </div>
+                <div class="feature-detail-image">
+                    <figure class="x-shot x-shot--phone">
+                        <div class="x-shot__frame">
+                            <img src="./images/teamtabcoach.png" width="1170" height="2532" loading="lazy" alt="Coach Tools with My Coach Code, Player Analytics, Team Insights and Training, Play Library, Drill Library and Training Sessions">
+                        </div>
+                        <figcaption class="x-shot__cap">Coach Tools in the Team tab.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="feature-detail reverse">
+                <div class="feature-detail-content">
+                    <h2>Training Sessions and Run Session</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
+                    <ul class="feature-list">
+                        <li><strong>Training Sessions</strong> — build a session plan from your drills and rotations</li>
+                        <li><strong>Run Session</strong> — run the session on the day with beep pacing</li>
+                        <li>Exporting a session as a PDF is part of ScorX Premium</li>
+                    </ul>
+                </div>
+                <div class="feature-detail-image">
+                    <figure class="x-shot x-shot--phone">
+                        <!-- ASSET NEEDED: A-11 images/train/run-session.webp. iPhone, Run Session mid-run with beep pacing, current drill, countdown and next drill. webp 800x1731. Until it lands, sessioneditor.png shows the session editor. -->
+                        <div class="x-shot__frame">
+                            <img src="./images/sessioneditor.png" width="1170" height="2532" loading="lazy" alt="My session with an Envelope drill and a Rotation of 20m sprint and shuttle sprints, plus Edit Session and Record Session buttons">
+                        </div>
+                        <figcaption class="x-shot__cap">A Training Session in the editor.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="feature-detail" id="test-your-squad">
+                <div class="feature-detail-content">
+                    <h2>Test Your Squad</h2>
+                    <p><span class="x-tier x-tier--free">Free</span></p>
+                    <ul class="feature-list">
+                        <li><strong>Assign a drill or fitness test</strong> to your squad, then see the team results in one place</li>
+                        <li><strong>Run drills:</strong> the Beep Test, 800m time trial and 2km time trial are free</li>
+                        <li><strong>Age and sex benchmarking</strong> is free, so you can see where each player sits</li>
+                        <li>The full run drill library (sprint and interval drills) and custom run drills are <span class="x-tier x-tier--premium">Premium</span></li>
+                    </ul>
+                    <!-- ASSET NEEDED: A-16 images/train/coach-assign-drill.webp (assign a drill to Demo Hawks U14) and A-17 images/train/team-results.webp (squad results for a run drill). iPhone, webp 800x1731. Stopgap below is traintabview.webp. -->
+                </div>
+                <div class="feature-detail-image">
+                    <figure class="x-shot x-shot--phone">
+                        <div class="x-shot__frame">
+                            <img src="./images/traintabview.webp" width="800" height="1731" loading="lazy" alt="Train tab with a training goal card and running drills such as the 10m sprint and standing jump height">
+                        </div>
+                        <figcaption class="x-shot__cap">Run drills in the Train tab.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- IPAD TEAM MODE -->
+    <section id="ipad-team-mode">
+        <div class="section-inner">
+
+            <div class="section-title">
+                <h2>iPad Team Mode</h2>
+                <p class="section-subtitle">A bigger screen for game-day planning, with a magnet board and lineup planning. Free.</p>
+            </div>
+
+            <div class="wp6-plan" style="max-width: 1000px; margin: 0 auto;">
+                <span class="x-tier x-tier--free">Free</span>
+                <ul class="feature-list">
+                    <li><strong>Plan Mode, step 1:</strong> plan your lineup, with on-field positions and the interchange</li>
+                    <li><strong>Plan Mode, step 2:</strong> configure the statistics you want to record for the game</li>
+                    <li>Then score the game on the same iPad</li>
+                </ul>
+                <div class="wp6-pair">
+                    <figure class="x-shot x-shot--ipad">
+                        <div class="x-shot__frame">
+                            <img src="./images/ipad/lineup_ipad.png" width="2048" height="2732" loading="lazy" alt="iPad Plan Mode, step 1 of 2, Plan Your Lineup, showing on-field positions and the interchange">
+                        </div>
+                        <figcaption class="x-shot__cap">Step 1: plan your lineup.</figcaption>
+                    </figure>
+                    <figure class="x-shot x-shot--ipad">
+                        <div class="x-shot__frame">
+                            <img src="./images/ipad/gameplan_ipad.png" width="2048" height="2732" loading="lazy" alt="iPad Plan Mode, step 2 of 2, Configure Statistics">
+                        </div>
+                        <figcaption class="x-shot__cap">Step 2: configure the statistics.</figcaption>
+                    </figure>
+                </div>
+                <!-- ASSET NEEDED: A-24 images/features/ipad-magnet-board.webp. iPad, magnet board with 18 player tokens on an AFL oval during lineup planning. webp 1200x1600 portrait or 1600x1200 landscape. lineup_ipad.png is a lineup list, not the magnet board. -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- VOICE AND SQUAD IMPORT -->
+    <section id="squad-import">
+        <div class="section-inner">
+
+            <div class="section-title">
+                <h2>Set Up Faster, Record Hands-Free</h2>
+                <p class="section-subtitle">Bring your squad in from a spreadsheet, and call stats out loud on game day.</p>
+            </div>
+
+            <div class="wp6-plans">
+                <div class="wp6-plan">
+                    <span class="x-tier x-tier--free">Free</span>
+                    <h3>Import your squad from a PlayHQ export</h3>
+                    <p>Import a team from a spreadsheet in .xlsx or .csv format, such as an export from PlayHQ, instead of typing each player in by hand.</p>
+                    <!-- ASSET NEEDED: A-19 images/features/team-import.webp. iPhone, team import preview showing the parsed roster (12 to 18 generic names) and the confirm button, from a sample file. webp 800x1731 -->
+                </div>
+                <div class="wp6-plan">
+                    <span class="x-tier x-tier--premium">Premium</span>
+                    <h3>Record stats by voice</h3>
+                    <p>Call stats out loud instead of tapping them in. Voice stat recording works for team sports and needs iOS 26 or later.</p>
+                    <!-- ASSET NEEDED: A-18 images/features/voice-recording.webp (and A-27 voice-recording.mp4). iPhone, iOS 26 or later, AFL live scoring with voice recording active and a confirmation visible. Premium account. webp 800x1731 -->
                 </div>
             </div>
 
@@ -263,11 +492,15 @@ permalink: /coaches.html
                     <ul class="feature-list">
                         <li>Team-wide struggle patterns</li>
                         <li>Individual player flags</li>
-                        <li>AI-generated training focus <em>(ScorX Premium)</em></li>
+                        <li>Weekly AI training recommendations <em>(ScorX Premium)</em></li>
                     </ul>
                 </div>
                 <div class="feature-demo-image">
-                    <img src="./images/coach-triage-dashboard.png" alt="Triage dashboard showing aggregated player reflections and training priorities" loading="lazy" />
+                    <figure class="x-shot x-shot--ipad">
+                        <div class="x-shot__frame">
+                            <img src="./images/ipad/dashboard_ipad.png" width="2048" height="2732" loading="lazy" alt="Team triage dashboard on iPad with Current Game, Season View and Trends tabs, data coverage and player status">
+                        </div>
+                    </figure>
                 </div>
             </div>
 
@@ -276,9 +509,9 @@ permalink: /coaches.html
                     <h3>Complete Game History. Season After Season.</h3>
                     <p>Every game is archived automatically. Search by player, date, or sport. Track how individuals and teams develop across the full season — and carry that history forward into the next.</p>
                     <ul class="feature-list">
-                        <li>Automatic game archiving</li>
+                        <li>Automatic game archiving (up to 20 saved games on Free)</li>
                         <li>Season-long stat totals</li>
-                        <li>iCloud sync across devices</li>
+                        <li>iCloud sync across devices (Premium)</li>
                     </ul>
                 </div>
                 <div class="feature-demo-image">
@@ -294,23 +527,23 @@ permalink: /coaches.html
         <div class="section-inner" style="max-width: 900px; margin: 0 auto;">
             <div style="background: linear-gradient(135deg, var(--scorx-deep-navy) 0%, var(--scorx-navy-light) 100%); border-radius: 20px; padding: 3rem; border: 1px solid rgba(31,237,216,0.2); text-align: center;">
                 <p style="color: var(--scorx-bright-turquoise); font-size: 0.9rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">ScorX Premium</p>
-                <h2 style="color: white; margin-bottom: 1rem;">For coaches looking for every opportunity to grow their team.</h2>
-                <p style="color: rgba(255,255,255,0.75); max-width: 620px; margin: 0 auto 2rem; line-height: 1.7;">The free tools tell you what happened on Saturday. Premium tells you what to do about it. Unlock AI-generated weekly training recommendations built directly from your team's match data and player reflections — specific focus areas grounded in what your team actually did, not generic drills.</p>
+                <h2 style="color: white; margin-bottom: 1rem;">ScorX Premium for coaches</h2>
+                <p style="color: rgba(255,255,255,0.75); max-width: 620px; margin: 0 auto 2rem; line-height: 1.7;">The free tools, including the post-game triage dashboard, show what happened on Saturday. Premium adds weekly AI training recommendations built from your team's match data and player reflections, and lifts the team, player and saved game limits.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
                     <div style="background: rgba(255,255,255,0.06); border-radius: 12px; padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.1); text-align: left; min-width: 200px;">
                         <p style="color: var(--scorx-bright-turquoise); font-weight: 700; margin-bottom: 0.25rem;">AI Training Recommendations</p>
                         <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Weekly focus grounded in your team's last game</p>
                     </div>
                     <div style="background: rgba(255,255,255,0.06); border-radius: 12px; padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.1); text-align: left; min-width: 200px;">
-                        <p style="color: var(--scorx-bright-turquoise); font-weight: 700; margin-bottom: 0.25rem;">Player Development Intelligence</p>
-                        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Athletes access Train, benchmarking, and career analytics</p>
+                        <p style="color: var(--scorx-bright-turquoise); font-weight: 700; margin-bottom: 0.25rem;">Voice stat recording</p>
+                        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Team sports, iOS 26 or later</p>
                     </div>
                     <div style="background: rgba(255,255,255,0.06); border-radius: 12px; padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.1); text-align: left; min-width: 200px;">
-                        <p style="color: var(--scorx-bright-turquoise); font-weight: 700; margin-bottom: 0.25rem;">$4.99/month or $49.99/year</p>
-                        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">30-day free trial. Cancel anytime.</p>
+                        <p style="color: var(--scorx-bright-turquoise); font-weight: 700; margin-bottom: 0.25rem;">A$4.99/month or A$49.99/year</p>
+                        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">30-day free trial, no card required.</p>
                     </div>
                 </div>
-                <a href="./pricing.html" class="btn btn-primary"><span>Grow Your Game with Premium</span></a>
+                <a href="./pricing.html" class="btn btn-primary"><span>See Premium pricing</span></a>
             </div>
         </div>
     </section>
@@ -323,8 +556,8 @@ permalink: /coaches.html
             </div>
             <div style="max-width: 800px; margin: 0 auto;">
                 <details class="faq-item">
-                    <summary>Is ScorX really free for coaches?</summary>
-                    <div class="faq-answer"><p>Yes — completely free, with no artificial limits. Coaches get unlimited teams, unlimited roster sizes, and unlimited games per month at no cost and with no credit card required. The free experience is designed to be genuinely useful across an entire season.</p></div>
+                    <summary>Is ScorX free for coaches?</summary>
+                    <div class="faq-answer"><p>Yes. ScorX Free costs nothing and needs no credit card. It includes live scoring, match invitations, rotations and playing time, the post-game triage dashboard, plays, drills, Training Sessions, drill assignment and team results, and iPad Team Mode. Free covers up to 5 teams, 25 players in total and 20 saved games, and ScorX Premium removes those limits.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>What are Match Invitations and how do they work?</summary>
@@ -336,7 +569,7 @@ permalink: /coaches.html
                 </details>
                 <details class="faq-item">
                     <summary>What is the Post-Game Triage Dashboard?</summary>
-                    <div class="faq-answer"><p>After each game, players submit a structured self-reflection covering what went well and what to improve. The Triage Dashboard aggregates these submissions across the whole roster and surfaces the most common struggle areas as a ranked list — ready for your next training session. It also shows how many players have submitted so you can prompt stragglers.</p></div>
+                    <div class="faq-answer"><p>After each game, players submit a structured self-reflection covering what went well and what to improve. The Triage Dashboard aggregates these submissions across the whole roster and surfaces the most common struggle areas as a ranked list, ready for your next training session. It also shows how many players have submitted so you can prompt stragglers. The dashboard is free.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>What does Perception vs Reality analysis show me?</summary>
@@ -344,11 +577,27 @@ permalink: /coaches.html
                 </details>
                 <details class="faq-item">
                     <summary>How many teams and players can I manage?</summary>
-                    <div class="faq-answer"><p>Unlimited. There is no cap on the number of teams, roster size, or games per month on the free tier. A coach running multiple teams across several sports can manage everything in a single app without needing to upgrade.</p></div>
+                    <div class="faq-answer"><p>ScorX Free covers up to 5 teams, 25 players in total and 20 saved games. The 20 games are a total, not a monthly allowance, so at the cap you can't save a new game until you delete one or upgrade to ScorX Premium. Premium has no limit on teams, players or saved games.</p></div>
+                </details>
+                <details class="faq-item">
+                    <summary>How do I plan training and test my squad?</summary>
+                    <div class="faq-answer"><p>In the Train tools you can build plays and drills, put them into Training Sessions and run a session with beep pacing. You can also assign a drill or fitness test to your squad and see the team results. All of this is free. The Beep Test, 800m time trial and 2km time trial are free run drills, and the full run drill library with sprint and interval drills is part of ScorX Premium.</p></div>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I import my squad from a spreadsheet?</summary>
+                    <div class="faq-answer"><p>Yes. Team import accepts a spreadsheet in .xlsx or .csv format, such as a PlayHQ export, so you don't have to type each player in by hand. It is free.</p></div>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I record stats by voice?</summary>
+                    <div class="faq-answer"><p>Yes, with ScorX Premium. Voice stat recording works for team sports and needs iOS 26 or later.</p></div>
+                </details>
+                <details class="faq-item">
+                    <summary>Does ScorX work on iPad?</summary>
+                    <div class="faq-answer"><p>Yes. iPad Team Mode is free. It includes a magnet board and lineup planning, and Plan Mode takes you through planning your lineup and configuring the statistics you want to record.</p></div>
                 </details>
                 <details class="faq-item">
                     <summary>What does ScorX Premium add for coaches?</summary>
-                    <div class="faq-answer"><p>ScorX Premium unlocks AI Training Recommendations — a weekly coaching focus generated directly from your team's match statistics and player self-assessments. It identifies the specific areas where your team struggled last week and suggests targeted training priorities, not generic drills. Premium also unlocks the full athlete development suite for players on your roster: the Train section, athleticism benchmarking, and the full Player Card library. At $4.99/month or $49.99/year, it's for coaches who want every opportunity to grow their team.</p></div>
+                    <div class="faq-answer"><p>ScorX Premium adds weekly AI training recommendations, generated from your team's match statistics and player self-assessments. It identifies the specific areas where your team struggled and suggests targeted training priorities, not generic drills. Premium also adds voice stat recording, the full run drill library, PDF and CSV export, iCloud sync, and removes the limits on teams, players and saved games. Everything else in Train, including benchmarking, is free. It costs A$4.99 a month or A$49.99 a year, with a 30-day free trial and no card required.</p></div>
                 </details>
             </div>
         </div>
