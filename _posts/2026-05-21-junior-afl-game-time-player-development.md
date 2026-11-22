@@ -1,12 +1,24 @@
 ---
 title: "How to Tell If Your Child Is Getting Enough Game Time (And What to Do If They're Not)"
-seo_title: "Is Your Child Getting Enough Game Time?"
+seo_title: "Junior AFL Game Time Rules: Is Your Child Getting Enough?"
 description: "Junior AFL game time affects player development more than most parents realise. Here's how to understand what's happening — and how to help your child."
 category: "AFL Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL game time player development, junior player development, AFL kids game time, bench time AFL, junior football participation"
 cluster: "afl"
+last_modified_at: 2026-11-22
+faq:
+  - q: "What is the minimum game time in junior AFL?"
+    a: "It depends on the age group and the league. The AFL Junior Rules and state bodies such as AFL Queensland set the expectations for junior competitions, and many leagues expect every player to get at least half of the game, with some going higher. Check the current rules for your competition, because they are updated and vary by age. Our guide to the rules is linked below."
+  - q: "Who decides game time at my club?"
+    a: "The league sets the rules, and the coach carries them out on the day, usually with a team manager or runner helping. If you have a question, start with the coach, then the club's junior coordinator or your league's junior football contact."
+  - q: "How do I know how much game time my child actually got?"
+    a: "Most parents guess from the boundary line, and it is easy to get wrong. A notebook, a phone timer or a quarter-by-quarter tally works. Some clubs use a game-day app, and ScorX records time played per player on iPad."
+  - q: "Does ScorX check my child's game time against the AFL Junior Rules?"
+    a: "No. ScorX records time played per player and rotations on iPad, so you have the numbers. It does not compare them to a minimum or flag a breach. You decide what the numbers mean."
+  - q: "Does less game time mean my child won't develop?"
+    a: "Development needs repetitions, and repetitions need time on the field. AFL Gippsland's research found equal game time is linked to enjoyment and staying in the sport. Sometimes the fix is a different role or position rather than simply more minutes."
 ---
 
 If your child spent most of last Saturday on the bench, you already know this feeling. Something sits in your chest on the drive home. They say they're fine. You're not sure you believe them.
@@ -59,27 +71,31 @@ Kids who can see their own progress are more likely to stick through the hard pa
 
 ---
 
-## Frequently Asked Questions
+## What do the AFL Junior Rules say about game time?
 
-### How much game time should my junior AFL player be getting?
+The AFL publishes national Junior Rules, and state bodies adapt them for their own competitions. AFL Queensland, for example, publishes a Junior Rules matrix that sets out how the game is run for each age group. Both are worth reading before you raise anything with a coach: [AFL Queensland Junior Rules matrix (PDF)](https://www.aflq.com.au/wp-content/uploads/2024/02/QLD-Junior-Rules_Matrix.pdf) and the [national AFL Junior Rules (PDF)](https://play.afl/sites/default/files/2024-06/JuniorRules_May24_Final.pdf).
 
-Most junior AFL competitions have guidelines recommending that all players receive a roughly equal share of game time across the season. The exact minimum varies by competition and age group, so it's worth checking with your local league. As a general rule, consistent bench time over several games in a row is worth a gentle conversation with the coach.
+The general principle is that every player should get a meaningful share of the game, at least half in many competitions and more in some leagues. The exact figure varies by age group and league, and the documents are updated, so check the current version for your competition rather than relying on what another parent remembers. Your league or club junior coordinator can confirm what applies to your child's age group.
 
-### What's the best way to approach the coach if I'm worried?
+## How to keep track of your child's game time
 
-Come with curiosity, not a complaint. "I've noticed Mia's had a few quieter games lately — is there something she could be working on to get more involved?" is a very different conversation to "she never gets a fair go." Most junior coaches genuinely want to get it right, and they respond well to parents who are engaged rather than frustrated.
+You don't need anything fancy, but you do need something. Memory from the boundary line is unreliable, especially in the last quarter.
 
-### Does less game time mean my child won't develop?
+- **Notebook.** Jot down who is on the ground at each quarter break. Five minutes of effort, and it works.
+- **Phone timer.** Start it at the siren and note when your child comes on and off.
+- **Your club's game-day app.** Some clubs run rotations through an app. Ask whether parents can see the numbers.
+- **ScorX.** On iPad, ScorX records time played per player and rotations through the game, so you finish with a quarter-by-quarter picture. It doesn't check the numbers against a minimum. It just gives you an accurate record to talk from.
 
-In the most direct sense, yes — development requires repetitions, and repetitions require being on the field. AFL Gippsland's research found that equal game time is directly linked to both enjoyment and long-term participation. But the answer isn't always more time — sometimes it's better positioning, or a different role that suits where they're at right now.
+Three or four games of numbers make for a far calmer conversation with a coach than one bad Saturday.
 
-### What if my child seems fine with sitting out?
+## More on game time
 
-Some kids manage it well on the surface. It's still worth paying attention to whether they're excited about game day — whether they bounce out of bed on Saturday or find reasons to drag their feet. Enthusiasm often drops before kids can articulate why.
+- [AFL Junior Rules explained for parents](https://www.scorx.com.au/blog/afl-junior-rules-explained-parents/)
+- [Junior footy bench time: what to do](https://www.scorx.com.au/blog/junior-footy-bench-time-what-to-do/)
+- [Junior footy rotations and player development](https://www.scorx.com.au/blog/junior-footy-rotations-development/)
+- [How clubs track junior game time](https://www.scorx.com.au/blog/how-clubs-track-junior-game-time/)
 
-### Can tracking my child's stats actually help their development?
-
-Yes — even for younger players, keeping a record of disposals and quarters played over a season gives you something concrete to celebrate with them. "You had seven touches today, that's your best this season" lands very differently to a vague "good game." It also helps you spot when something's shifted — positively or not — without having to rely on gut feeling alone.
+Many clubs run game day through a coach-and-club platform such as Rookie Me Play, while ScorX is the family-side record of one player's season. If you're wondering how the two fit together, we've written up [ScorX vs Rookie Me](https://www.scorx.com.au/scorx-vs-rookie-me.html).
 
 ---
 

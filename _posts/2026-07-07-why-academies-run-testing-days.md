@@ -6,6 +6,18 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 5
 keywords: "testing days youth sport, sports academy testing day, youth athlete assessment, AFL testing day explained"
+last_modified_at: 2026-11-22
+faq:
+  - q: "Do I need to prepare my child for a testing day?"
+    a: "Not in any special way. Turning up rested, fed and having done normal training in the weeks before is enough. Cramming sprint drills the week of a test won't change much. Our <a href=\"https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/\">testing day preparation guide</a> covers the practical side."
+  - q: "What's a good sprint or jump result for a junior athlete?"
+    a: "It depends on age, growth stage and sport, so there's no single number worth chasing. A kid's own result compared with their own result six months earlier tells you far more."
+  - q: "Are testing days only for elite pathway programs?"
+    a: "Mostly. Community clubs generally don't run formal testing days. They're mainly used by academies, state programs and higher-level trials, where kids who've never trained together are being compared. See <a href=\"https://www.scorx.com.au/blog/junior-footy-academies-explained/\">junior footy academies explained</a>."
+  - q: "Should my child feel anxious about a testing day?"
+    a: "It helps to frame it as one input among many, not a pass or fail moment. Testing measures a moment, not a ceiling."
+  - q: "Can a bad testing day undo a good season?"
+    a: "Not with a program worth being part of. One number on one morning doesn't erase what a coach has watched all year."
 ---
 
 Testing days exist because coaches can't compare a hunch to a hunch. When a program has forty kids trying out and eight spots, "he looked quick" isn't something you can put next to another kid's "he looked quick" and get a useful answer. A stopwatch can.
@@ -28,28 +40,23 @@ A few reasons, and none of them are about replacing what a coach sees with their
 
 **It gives every kid the same shot to show something.** This one gets missed. A kid who's quiet on the field, who doesn't get many touches because of how a game happened to flow that day, gets a clean chance to show his sprint time is genuinely elite. Testing can surface a kid a coach might have otherwise walked past.
 
+## What gets tested
+
+Programs vary, but most testing days draw on the same handful of tests. None of them is a measure of how good a footballer a kid is. Each one is a snapshot of a single physical quality.
+
+- **Beep test.** A shuttle run to music that gets faster, used to gauge endurance. Read more in [beep test scores for junior footy](https://www.scorx.com.au/blog/beep-test-junior-footy-scores/).
+- **20m sprint.** Straight-line speed over a short distance, timed. See the [20m sprint test for young athletes](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/).
+- **Vertical jump and agility.** Leg power and change of direction through cones. See [vertical jump and agility tests in junior AFL](https://www.scorx.com.au/blog/vertical-jump-agility-tests-junior-afl/).
+
+How to prepare is simpler than most parents fear: sleep, a decent breakfast, a normal week of training, and a kid who knows what each test looks like beforehand. Our guide to [preparing for an AFL academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) walks through it, and [junior footy academies explained](https://www.scorx.com.au/blog/junior-footy-academies-explained/) covers what the programs are and who they're for.
+
+Keep the framing in mind. Testing measures a moment, not a ceiling. Kids grow and mature at very different rates, so a result today says little about where they'll be in two years.
+
 ## Does a fast time or a big jump mean a kid "makes it"?
 
 No, and any program that treats it that way is doing it wrong. A testing day measures a handful of physical qualities on one morning. It doesn't measure decision-making, how a kid reads the play, whether he backs up hard when he hasn't got the ball, or what he's like at training in week nine when it's cold and nobody's watching. Coaches who've been doing this a long time will tell you the same thing: the data narrows the group, it doesn't pick the team. What happens on the field over months still does most of the deciding.
 
 It's also worth saying plainly: one test on one day is a snapshot, not a verdict. Kids peak at wildly different ages. A kid who tests average at eleven can be the fastest kid in the squad at fourteen. Programs that are any good know this and build it into how they read the numbers.
-
-## Frequently Asked Questions
-
-### Do I need to prepare my child for a testing day?
-Not in any special way. Turning up rested, having eaten, and having done normal training in the weeks before is enough. Cramming sprint drills the week of a test won't change much and can leave a kid tired instead of sharp.
-
-### What's a good sprint or jump result for a junior athlete?
-It depends heavily on age, growth stage, and which sport, so there's no single number worth chasing. What matters more is a kid's own result compared to their own result six months earlier.
-
-### Are testing days only for elite pathway programs?
-Mostly, yes. Community clubs generally don't run formal testing days, and don't need to. It's mainly academies, state programs, and higher-level trial processes that use them, because they're comparing kids who've never trained together.
-
-### Should my child feel anxious about a testing day?
-It helps to frame it as one input among many, not a pass or fail moment. A coach weighing testing data alongside months of what they've actually seen on the field is a coach doing it properly.
-
-### Can a bad testing day undo a good season?
-Not with a program worth being part of. One number on one morning doesn't erase what a coach has watched all year. If a program is making decisions purely off a single test day, that's worth noticing.
 
 ---
 
