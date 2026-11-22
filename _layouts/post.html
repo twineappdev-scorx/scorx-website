@@ -69,6 +69,13 @@ layout: default
                 {{ content }}
             </div>
 
+            {% if page.faq and page.faq.size > 0 %}
+            <section class="blog-post-body blog-post-faq">
+                <h2>FAQ</h2>
+                {% include faq.html variant="light" %}
+            </section>
+            {% endif %}
+
             {% include card-cta.html %}
 
             <footer class="blog-post-footer">

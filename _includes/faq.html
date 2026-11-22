@@ -1,0 +1,42 @@
+{%- comment -%}
+Renders page.faq ({q, a} pairs; a may contain simple HTML links) as visible FAQ markup plus FAQPage JSON-LD.
+Usage: {% include faq.html %}  (default .faq-item markup)
+       {% include faq.html variant="x" %}  (homepage .x-faq markup from components.css)
+       {% include faq.html variant="light" %}  (.faq-item faq-item-light, for light sections)
+The JSON-LD answer text is the same copy with HTML stripped, so it always matches the visible text.
+{%- endcomment -%}
+{%- if page.faq and page.faq.size > 0 -%}
+{%- if include.variant == "x" -%}
+{%- for item in page.faq %}
+            <details class="x-faq">
+                <summary>{{ item.q }}</summary>
+                <div class="x-faq__a"><p>{{ item.a | strip | strip_newlines }}</p></div>
+            </details>
+{%- endfor %}
+{%- else -%}
+{%- for item in page.faq %}
+            <details class="faq-item{% if include.variant == "light" %} faq-item-light{% endif %}">
+                <summary>{{ item.q }}</summary>
+                <div class="faq-answer"><p>{{ item.a | strip | strip_newlines }}</p></div>
+            </details>
+{%- endfor %}
+{%- endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{%- for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | strip_html | strip | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | strip_html | strip_newlines | strip | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+  ]
+}
+</script>
+{%- endif -%}

@@ -50,11 +50,11 @@ Tier: **F** = ScorX Free, **P** = ScorX Premium.
 | Team mode and individual stat recording | F | |
 | Voice stat recording | P | Team sports only, iOS 26 and later |
 | Quick score, offline | F | |
-| Player rotations and playing time | F | |
+| Player rotations and playing time | F | iPad only (iPad Team Mode), not on iPhone. Records time played per player. No check against a target or minimum game time, so never claim game-time compliance (for example AFL Junior Rules) |
 | Match Invitations (distributed stat recording) | F | |
 | Spreadsheet team import (PlayHQ .xlsx/.csv) | F | Write "PlayHQ" as plain text; no logo, no partnership implied |
 | Game pack export/import | F | |
-| iPad Team Mode (magnet board, lineup planning) | F | |
+| iPad Team Mode (magnet board, lineup planning) | F | iPad only |
 | Share Extension | F | |
 
 ### Track
