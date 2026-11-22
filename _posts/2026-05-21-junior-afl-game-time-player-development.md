@@ -10,7 +10,7 @@ cluster: "afl"
 last_modified_at: 2026-11-22
 faq:
   - q: "What is the minimum game time in junior AFL?"
-    a: "It depends on the age group and the league. The AFL Junior Rules and state bodies such as AFL Queensland set the expectations for junior competitions, and many leagues expect every player to get at least half of the game, with some going higher. Check the current rules for your competition, because they are updated and vary by age. Our guide to the rules is linked below."
+    a: "The national AFL Junior Rules (May 2024 edition) say every player must play a minimum of 50-75% of game time, with the controlling body (usually your league or competition) setting the exact percentage for each player, excluding injured players. The same wording applies across the age groups from Under 8 to Under 18. Check your leagues current rules for the exact figure, because they are updated. Our guide to the rules is linked below."
   - q: "Who decides game time at my club?"
     a: "The league sets the rules, and the coach carries them out on the day, usually with a team manager or runner helping. If you have a question, start with the coach, then the club's junior coordinator or your league's junior football contact."
   - q: "How do I know how much game time my child actually got?"
@@ -73,9 +73,11 @@ Kids who can see their own progress are more likely to stick through the hard pa
 
 ## What do the AFL Junior Rules say about game time?
 
-The AFL publishes national Junior Rules, and state bodies adapt them for their own competitions. AFL Queensland, for example, publishes a Junior Rules matrix that sets out how the game is run for each age group. Both are worth reading before you raise anything with a coach: [AFL Queensland Junior Rules matrix (PDF)](https://www.aflq.com.au/wp-content/uploads/2024/02/QLD-Junior-Rules_Matrix.pdf) and the [national AFL Junior Rules (PDF)](https://play.afl/sites/default/files/2024-06/JuniorRules_May24_Final.pdf).
+The AFL publishes national Junior Rules, and state bodies such as AFL Queensland publish their own versions for their competitions. Both are worth reading before you raise anything with a coach: the [national AFL Junior Rules program handbook (PDF, May 2024)](https://play.afl/sites/default/files/2024-06/JuniorRules_May24_Final.pdf) and the [AFL Queensland Junior Rules matrix (PDF)](https://www.aflq.com.au/wp-content/uploads/2024/02/QLD-Junior-Rules_Matrix.pdf).
 
-The general principle is that every player should get a meaningful share of the game, at least half in many competitions and more in some leagues. The exact figure varies by age group and league, and the documents are updated, so check the current version for your competition rather than relying on what another parent remembers. Your league or club junior coordinator can confirm what applies to your child's age group.
+The national handbook's player rotation rule reads: "Every player must play a minimum of 50-75% game time with the controlling body determining the exact % of game time per player (excluding injured players)." It lists that same rule for every age group from Under 8 to Under 16/17/18, boys and girls. It also says rotation of players should occur at least every quarter, to provide opportunities in several positions including the interchange.
+
+So the national floor is a range, not one number. Your league or competition picks the exact percentage, and the handbook is updated from time to time, so check the current version rather than relying on what another parent remembers. Your league or club junior coordinator can confirm the figure that applies to your child's age group.
 
 ## How to keep track of your child's game time
 
