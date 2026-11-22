@@ -34,7 +34,7 @@ Here is what happens on a typical Saturday at a junior club, in roughly the orde
 
 **2. The stopwatch and the interchange steward.** Some clubs hand one parent a stopwatch and a list. Every few minutes they call a swap and the bench rotates in a set order. It's simple and fair when it works. It gets harder with an odd number of players, a kid sitting out with a sore ankle, or a coach who is also the timekeeper.
 
-**3. A dedicated game-day app.** More clubs now use an app on a phone or tablet where a coach or helper records each change and the app adds up time on ground per player. [Rookie Me Play](https://www.rookieme.com/play/solutions/junior-teams/) is one common example of this kind of club game-day tool. These apps take the maths off a volunteer's plate. They still depend on someone entering every rotation as it happens.
+**3. A dedicated game-day app.** More clubs now use an app on a phone or tablet where a coach or helper records each change and the app adds up time on ground per player. [Rookie Me Play](https://www.rookieme.com/play/solutions/junior-teams/) is one example. It runs on iPhone and iPad, gives in-game alerts to guide rotations towards minimum and equal game time, and feeds season reports to clubs and leagues through its web-based Hub (its website says it is used by over 4,000 teams). These apps take the maths off a volunteer's plate. They still depend on someone entering every rotation as it happens.
 
 Each method has the same weak point: it is only as good as the person running it, and that person is almost always a volunteer doing three other jobs. For the rules clubs are working towards, see [what the AFL Junior Rules mean for parents](https://www.scorx.com.au/blog/afl-junior-rules-explained-parents/).
 
