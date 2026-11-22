@@ -6,7 +6,7 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 6
 keywords: "20m sprint test junior, 20m sprint test young athletes, how to test sprint speed at home, junior AFL speed test, standing start vs flying start"
-cluster: "testing"
+cluster: "afl"
 og_image: /images/backyard_sprint_markers.jpg
 excerpt_image: /images/backyard_sprint_markers.webp
 faq:
