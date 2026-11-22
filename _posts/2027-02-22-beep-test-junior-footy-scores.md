@@ -6,7 +6,7 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 5
 keywords: "beep test scores junior football, beep test junior footy, 20m shuttle run kids, junior AFL fitness test, academy testing day"
-cluster: "testing"
+cluster: "afl"
 og_image: /images/beep_test_oval_warmup.jpg
 excerpt_image: /images/beep_test_oval_warmup.webp
 faq:
@@ -75,7 +75,6 @@ If you want somewhere to keep it, the Train section of ScorX has a Beep Test run
 
 Next in this series: a simple [20 metre sprint test at home](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/), and how to [prepare for an academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) without turning it into a big deal.
 
-{% include faq.html %}
 
 ---
 
