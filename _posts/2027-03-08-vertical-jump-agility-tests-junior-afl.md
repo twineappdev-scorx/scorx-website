@@ -60,7 +60,7 @@ What the published research does give is a reason for caution. A systematic revi
 
 Source: [Haycraft et al., systematic review of talent identification tests in the AFL pathway](https://pmc.ncbi.nlm.nih.gov/articles/PMC5736505).
 
-<!-- VERIFY BEFORE PUBLISH: Haycraft review claims and AFL Draft Combine test list were taken from search summaries; the source pages could not be fetched. -->
+<!-- VERIFY BEFORE PUBLISH: AFL Draft Combine vertical jump verified at afl.com.au/draft/combine. Haycraft et al. review claims and the PMC5736505 link are still unverified (pubmed/PMC were blocked in this session). -->
 
 ## What should parents take from a jump or agility result?
 
