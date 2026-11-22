@@ -15,7 +15,7 @@ faq:
   - q: "Is a standing start or a flying start better for a home sprint test?"
     a: "A standing start measures acceleration, which is closer to what happens in a footy contest. A flying start gives the child a run-up and measures top speed over the timed section. For home testing, pick one and stick with it. Mixing them makes results impossible to compare."
   - q: "Can I time my child's sprint with a phone?"
-    a: "You can, but a hand-held stopwatch or phone timer adds human error, often larger than the real change you are trying to see. Slow-motion video is more reliable than tapping a timer. Treat any single result as approximate, and look at the trend across several tests."
+    a: "You can, but a hand-held stopwatch or phone timer adds human error, which can be a meaningful share of the small changes you are trying to see. Slow-motion video is more reliable than tapping a timer. Treat any single result as approximate, and look at the trend across several tests."
   - q: "How often should a young athlete repeat a sprint test?"
     a: "Every four to six weeks is plenty for most families. Testing too often just records noise, and it can make training feel like an exam."
   - q: "Is there a good 20m sprint time for my child's age?"
@@ -57,7 +57,7 @@ Also keep the stance the same: which foot is forward, how far behind the line, a
 
 ## How accurate is phone timing?
 
-Honest answer: less accurate than it feels. Tapping a phone stopwatch at the start and finish depends on your reaction time at both ends, and those errors don't cancel out neatly. The error can be as big as the improvement you are looking for.
+Honest answer: less accurate than it feels. Tapping a phone stopwatch at the start and finish depends on your reaction time at both ends, and those errors don't cancel out neatly. Because the error can be a noticeable share of a small improvement, one phone-timed run can't tell you much.
 
 A few ways to tighten it up:
 
