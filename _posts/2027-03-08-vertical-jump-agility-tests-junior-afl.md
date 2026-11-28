@@ -69,7 +69,7 @@ Testing measures a moment, not a ceiling. One jump and one cone run on one morni
 Two things are worth doing:
 
 1. **Compare your child with their own past.** The same jump, the same course, a few months apart. That's a fair comparison. A stranger's result isn't.
-2. **Keep it light.** If a test day is going to happen, it's one input among many. Our post on [how to prepare your child for an academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) covers sleep, food and mindset. If you want to see how speed fits in, have a look at [20m sprint testing for young athletes](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/).
+2. **Keep it light.** If a test day is going to happen, it's one input among many. If you want to see how speed fits in, have a look at [20m sprint testing for young athletes](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/).
 
 ## Where does ScorX fit in?
 
