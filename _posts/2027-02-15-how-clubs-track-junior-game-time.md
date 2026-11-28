@@ -36,13 +36,13 @@ Here is what happens on a typical Saturday at a junior club, in roughly the orde
 
 **3. A dedicated game-day app.** More clubs now use an app on a phone or tablet where a coach or helper records each change and the app adds up time on ground per player. [Rookie Me Play](https://www.rookieme.com/play/solutions/junior-teams/) is one example. It runs on iPhone and iPad, gives in-game alerts to guide rotations towards minimum and equal game time, and feeds season reports to clubs and leagues through its web-based Hub (its website says it is used by over 4,000 teams). These apps take the maths off a volunteer's plate. They still depend on someone entering every rotation as it happens.
 
-Each method has the same weak point: it is only as good as the person running it, and that person is almost always a volunteer doing three other jobs. For the rules clubs are working towards, see [what the AFL Junior Rules mean for parents](https://www.scorx.com.au/blog/afl-junior-rules-explained-parents/).
+Each method has the same weak point: it is only as good as the person running it, and that person is almost always a volunteer doing three other jobs. For the rules clubs are working towards, see [the junior AFL development guide by age](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/).
 
 ## Why can't parents just see the club's numbers?
 
 Usually it isn't secrecy. The team sheet lives on a clipboard, or the app login belongs to the coach and team manager. There just isn't a parent-facing view.
 
-That's a reasonable thing to accept, because the volunteer is already stretched. But if your child has been on the bench more than you expected, the first step is a calm conversation, not a spreadsheet. We cover how to have that talk in [the bench time guide](https://www.scorx.com.au/blog/junior-footy-bench-time-what-to-do/).
+That's a reasonable thing to accept, because the volunteer is already stretched. But if your child has been on the bench more than you expected, the first step is a calm conversation, not a spreadsheet. We cover what to do about bench time in [our game time guide](https://www.scorx.com.au/blog/junior-afl-game-time-player-development/).
 
 It also explains why a lot of parents end up keeping their own notes.
 
@@ -68,7 +68,7 @@ Then use ScorX as the other half. The club's tool tells the coach how the team i
 
 If you're weighing them up, [ScorX vs Rookie Me Play](https://www.scorx.com.au/scorx-vs-rookie-me.html) sets out what each is built for, and why plenty of families use both.
 
-To understand what the numbers mean once you have them, start with [why game time matters for development](https://www.scorx.com.au/blog/junior-afl-game-time-player-development/) and [why rotations matter for every position](https://www.scorx.com.au/blog/junior-footy-rotations-development/).
+To understand what the numbers mean once you have them, see [why rotating through positions matters for development](https://www.scorx.com.au/blog/junior-afl-positions-player-development/).
 
 ---
 
