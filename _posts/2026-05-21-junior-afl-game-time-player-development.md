@@ -7,16 +7,16 @@ author: "Tim Stoddard"
 read_time: 6
 keywords: "junior AFL game time player development, junior player development, AFL kids game time, bench time AFL, junior football participation"
 cluster: "afl"
-last_modified_at: 2026-11-22
+last_modified_at: 2026-11-28
 faq:
-  - q: "What is the minimum game time in junior AFL?"
-    a: "The national AFL Junior Rules (May 2024 edition) say every player must play a minimum of 50-75% of game time, with the controlling body (usually your league or competition) setting the exact percentage for each player, excluding injured players. The same wording applies across the age groups from Under 8 to Under 18. Check your leagues current rules for the exact figure, because they are updated. Our guide to the rules is linked below."
   - q: "Who decides game time at my club?"
     a: "The league sets the rules, and the coach carries them out on the day, usually with a team manager or runner helping. If you have a question, start with the coach, then the club's junior coordinator or your league's junior football contact."
   - q: "How do I know how much game time my child actually got?"
     a: "Most parents guess from the boundary line, and it is easy to get wrong. A notebook, a phone timer or a quarter-by-quarter tally works. Some clubs use a game-day app, and ScorX records time played per player on iPad."
-  - q: "Does ScorX check my child's game time against the AFL Junior Rules?"
-    a: "No. ScorX records time played per player and rotations on iPad, so you have the numbers. It does not compare them to a minimum or flag a breach. You decide what the numbers mean."
+  - q: "Is it okay to talk to the coach about game time?"
+    a: "Yes, as long as you do it calmly, privately and away from game day. A short message asking for a chat during the week works well. Ask how rotations work and what your child could work on, rather than making statements about fairness."
+  - q: "What should I not say to my child about game time?"
+    a: "Avoid blaming the coach, comparing them to teammates, or promising to have a word. Keep it on effort, training and enjoyment, and try something specific and true like \"I liked watching you run back to help in that third quarter.\""
   - q: "Does less game time mean my child won't develop?"
     a: "Development needs repetitions, and repetitions need time on the field. AFL Gippsland's research found equal game time is linked to enjoyment and staying in the sport. Sometimes the fix is a different role or position rather than simply more minutes."
 ---
@@ -51,13 +51,43 @@ Most of them genuinely want to get game time right. Most of them find it genuine
 
 This is actually a solvable problem. Some clubs are starting to use digital tools during games to monitor rotations as they happen, so coaches can see at a glance who needs a run. When game time is tracked in real time, coaches can make adjustments mid-game without relying on memory. That's better for every kid on the list.
 
-## What to do if you're worried
+## What to do if you're worried about game time
 
-First, give it a few weeks. One quiet game — even three quiet games — might have a straightforward explanation. Form, team balance, position trialling, or just one of those days. A pattern across half a season is different.
+First, give it a few weeks. One quiet game, even three quiet games, might have a straightforward explanation. Form, team balance, position trialling, or just one of those days. A pattern across half a season is different. Keep a simple record in the meantime (more on that below), so you know which one you're dealing with.
 
-If you do want to raise it, come with curiosity rather than a scoresheet. The coaches at your club are giving up their time because they care about the kids. Approaching them with "I just want to understand how rotations work" is a genuinely different conversation to "she never gets a fair go" — even if both feelings are real.
+### When and how should I talk to the coach?
 
-Most coaches will welcome a parent who's engaged and wants to help. Ask what your child can work on at training. Ask whether there's a position they might be better suited to. Make it a conversation about development, not a grievance. You'll almost always get a better response, and your kid will benefit from it.
+Not on game day. Not at the boundary, not at the canteen, and never in front of the kids. Emotions are high, the coach is mid-juggle with 18 kids, and nobody listens well after a loss.
+
+Send a short, friendly message and ask for ten minutes midweek or after training. Something like: "Hi Sam, thanks for everything you're doing with the team. Do you have five minutes this week? I'd love to understand how rotations work, and what Mia can work on to get more involved."
+
+Then listen. You might hear something you couldn't see from the sideline: she's being trialled in a new position, a few kids are coming back from injury, or there's a rotation plan that only makes sense over a whole season.
+
+Come with curiosity rather than a scoresheet. "How are you planning rotations?" opens the door. "She never gets a fair go" slams it, even if the feeling behind it is real. Don't turn up with a printout either. Your record is for you, so you know what you're dealing with.
+
+Ask what your child can work on at training, and whether there's a position they might be better suited to. Make it a conversation about development, not a grievance.
+
+### What should I not say to my child?
+
+The car ride home is where this usually goes wrong.
+
+- **"You should have played more."** It tells them minutes are the measure of their worth.
+- **"The coach is playing favourites."** It teaches them to blame, and makes the next training session awkward.
+- **"I'm going to have a word with him."** Said angrily, it puts your kid in the middle. They'll worry about what you'll say and what the coach will think of them.
+- **"You're better than those kids."** Now they're measuring themselves against their teammates.
+- **Nothing at all, with a heavy sigh.** Kids read the sigh perfectly.
+
+Try something specific and true instead: "I liked watching you run back to help in that third quarter." Then ask what they enjoyed. If you're going to speak to the coach, it usually helps to tell your child you're having a quiet word to understand the plan, so they aren't surprised. Don't promise a result.
+
+### How can I support my child on the bench?
+
+Treat it as a development question as much as a fairness one. Ask what they'd like to get better at and find one thing to practise together in the backyard. Encourage them to be the best bench teammate they can be: first to the water bottles, loudest for the goal.
+
+Watch for the quiet signals, too. If your child stops talking about Saturday, drags their feet getting ready, or starts finding excuses, that matters more than the minutes. Enthusiasm usually fades before kids can explain why.
+
+### When is it worth taking it further than the coach?
+
+If your record shows a clear pattern across many games and a respectful chat hasn't changed anything, take it to the club's junior coordinator. That's what the role is for. Keep it factual and polite. If your child is miserable and nothing changes, a different team or club may be the right call, and that's okay too.
 
 ## When it's not game time — it's something else
 
@@ -73,11 +103,7 @@ Kids who can see their own progress are more likely to stick through the hard pa
 
 ## What do the AFL Junior Rules say about game time?
 
-The AFL publishes national Junior Rules, and state bodies such as AFL Queensland publish their own versions for their competitions. Both are worth reading before you raise anything with a coach: the [national AFL Junior Rules program handbook (PDF, May 2024)](https://play.afl/sites/default/files/2024-06/JuniorRules_May24_Final.pdf) and the [AFL Queensland Junior Rules matrix (PDF)](https://www.aflq.com.au/wp-content/uploads/2024/02/QLD-Junior-Rules_Matrix.pdf).
-
-The national handbook's player rotation rule reads: "Every player must play a minimum of 50-75% game time with the controlling body determining the exact % of game time per player (excluding injured players)." It lists that same rule for every age group from Under 8 to Under 16/17/18, boys and girls. It also says rotation of players should occur at least every quarter, to provide opportunities in several positions including the interchange.
-
-So the national floor is a range, not one number. Your league or competition picks the exact percentage, and the handbook is updated from time to time, so check the current version rather than relying on what another parent remembers. Your league or club junior coordinator can confirm the figure that applies to your child's age group.
+The national [AFL Junior Rules handbook (PDF, May 2024)](https://play.afl/sites/default/files/2024-06/JuniorRules_May24_Final.pdf) says: "Every player must play a minimum of 50-75% game time with the controlling body determining the exact % of game time per player (excluding injured players)." Your league or competition picks the exact figure, so confirm it with your club's junior coordinator. For the full rules by age group, see our [parent's guide to junior AFL by age](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/).
 
 ## How to keep track of your child's game time
 
@@ -92,9 +118,8 @@ Three or four games of numbers make for a far calmer conversation with a coach t
 
 ## More on game time
 
-- [AFL Junior Rules explained for parents](https://www.scorx.com.au/blog/afl-junior-rules-explained-parents/)
-- [Junior footy bench time: what to do](https://www.scorx.com.au/blog/junior-footy-bench-time-what-to-do/)
-- [Junior footy rotations and player development](https://www.scorx.com.au/blog/junior-footy-rotations-development/)
+- [The parent's guide to junior AFL by age](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/)
+- [What junior AFL positions develop, and why rotating matters](https://www.scorx.com.au/blog/junior-afl-positions-player-development/)
 - [How clubs track junior game time](https://www.scorx.com.au/blog/how-clubs-track-junior-game-time/)
 
 Many clubs run game day through a coach-and-club platform such as Rookie Me Play, while ScorX is the family-side record of one player's season. If you're wondering how the two fit together, we've written up [ScorX vs Rookie Me](https://www.scorx.com.au/scorx-vs-rookie-me.html).
