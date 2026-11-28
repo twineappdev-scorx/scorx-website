@@ -118,3 +118,14 @@ Unlimited teams, players, games and custom metrics; Family Sharing (5 members); 
 |---|---|---|
 | D24 | PostHog analytics retention | **30 days, then deleted.** Stated in `privacy.html`. |
 | D23 | Meta Pixel and cookie banner | **Both disabled until ads go live.** Every `consent.js` script tag and footer "Cookie settings" link is commented out with the marker `ADS-OFF`. `js/consent.js`, `css/consent.css` and the gate in `js/card/analytics.js` stay in the repo. To re-enable: `grep -rn "ADS-OFF" --include=*.html .`, uncomment, and get legal review first (retargeting plus a youth audience). While it's off, the website loads no third-party trackers and sets no cookies. |
+
+### Apple Health (2026-11-28, from the HealthKit release checklist)
+
+| Topic | Rule |
+|---|---|
+| Release | Ships in the next App Store build, with the Home feed. **Don't mention Apple Health in marketing copy** (features, support FAQ, `llms.txt`, blog) until that build is live. Only `privacy.html` and `terms.html` mention it, because the policy must be live before submission. |
+| Who | Premium (trial counts), athlete aged 15+, one profile per iPhone, optional. |
+| Data | Reads workouts, heart rate during workouts and sleep. Writes games and logged training as workouts (not team sessions). Stored on the device only, not in CloudKit sync, but **included in device backups**. Kept 53 weeks, deleted on disconnect, profile switch or deletion, or age change. |
+| AI | Weekly summary (up to 8 weeks: sessions, rest days, average sleep) goes to Anthropic (USA) only after a separate consent. Saved AI recommendations stay after disconnect. |
+| Never say | "Never sent to iCloud" (it is in iPhone backups). "AI summaries are not stored" (Anthropic may keep them for a limited time). Any medical, injury-prevention or readiness claim. |
+| Open for the owner | Anthropic retention period (policy says "a limited time"; state the period or get zero data retention). Minimum age in EU markets (digital consent age 13 to 16). Privacy label, PIA, App Review notes and the web help pages are not in this repo. |
