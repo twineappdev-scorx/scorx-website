@@ -17,7 +17,7 @@ faq:
   - q: "Do boys and girls get compared on the same beep test scale?"
     a: "Not in the published norms. The international data is reported separately by sex and by age, so a score is only meaningful against the right group."
   - q: "Should my child train for the beep test?"
-    a: "Regular running games, training and match play build the fitness it measures. Cramming extra runs in the week of a test mostly leaves kids tired. See our guide on <a href=\"https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/\">preparing for an academy testing day</a>."
+    a: "Regular running games, training and match play build the fitness it measures. Cramming extra runs in the week of a test mostly leaves kids tired. See <a href=\"https://www.scorx.com.au/blog/why-academies-run-testing-days/\">why academies run testing days</a> for what the day involves."
   - q: "Can I track my child's beep test result in ScorX?"
     a: "Yes. <a href=\"https://www.scorx.com.au/train.html\">ScorX Train</a> includes a Beep Test run drill, and you can log results over time. Age and sex benchmarking is part of the free plan."
 ---
@@ -73,7 +73,7 @@ A trend across a season says far more than a single reading.
 
 If you want somewhere to keep it, the Train section of ScorX has a Beep Test run drill and a place to log results with a trend chart. Age and sex benchmarking is included in the free plan. Have a look at [ScorX Train](https://www.scorx.com.au/train.html), or see how it fits with [tracking junior AFL on ScorX](https://www.scorx.com.au/sports/afl/).
 
-Next in this series: a simple [20 metre sprint test at home](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/), and how to [prepare for an academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) without turning it into a big deal.
+Next in this series: a simple [20 metre sprint test at home](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/).
 
 
 ---
