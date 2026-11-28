@@ -50,7 +50,7 @@ Examples from public pages include the [AFL Play school holiday programs](https:
 
 <!-- Rookie Me Academy description verified 22 Nov 2026 against https://www.rookieme.com/academy/ (boys and girls 12-18 during school holidays; youth and senior pathways; 2026 inclusions list skills testing and verified performance testing). AFL Play school holiday programs verified at https://play.afl/play/school-holiday-programs (ages 4-6 and 7-12, one day, typically 9am-3pm). STILL UNVERIFIED: STK Academy and Hawks Academy descriptions (saints.com.au and hawthornfc.com.au not reachable). No prices stated on purpose. -->
 
-If a program includes testing, our explainer on [why academies run testing days](https://www.scorx.com.au/blog/why-academies-run-testing-days/) covers what's measured, and [how to prepare for an academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) covers the practical side.
+If a program includes testing, our explainer on [why academies run testing days](https://www.scorx.com.au/blog/why-academies-run-testing-days/) covers what's measured, including how to approach the day without making it a big deal.
 
 ## How much time and money does an academy take?
 
@@ -87,5 +87,5 @@ This is where a season record helps. [ScorX](https://www.scorx.com.au/sports/afl
 ## Related Sideline Blogs
 
 - [Why Performance Academies Run Testing Days](https://www.scorx.com.au/blog/why-academies-run-testing-days/): What gets measured on a testing day, and why.
-- [How to Prepare for an AFL Academy Testing Day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/): The practical checklist before the day.
+- [Junior AFL Development Guide by Age](https://www.scorx.com.au/blog/afl-junior-development-guide-by-age/): What to focus on at each age, whatever program your child is in.
 - [When Should Your Kid Start a Development Plan?](https://www.scorx.com.au/blog/junior-afl-individual-development-plan/): A simple plan, whether or not they join an academy.
