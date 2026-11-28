@@ -6,14 +6,16 @@ category: "Guide"
 author: "Tim Stoddard"
 read_time: 5
 keywords: "testing days youth sport, sports academy testing day, youth athlete assessment, AFL testing day explained"
-last_modified_at: 2026-11-22
+last_modified_at: 2026-11-28
 faq:
   - q: "Do I need to prepare my child for a testing day?"
-    a: "Not in any special way. Turning up rested, fed and having done normal training in the weeks before is enough. Cramming sprint drills the week of a test won't change much. Our <a href=\"https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/\">testing day preparation guide</a> covers the practical side."
+    a: "Not in any special way. Turning up rested, fed and having done normal training in the weeks before is enough. The one thing worth doing is letting your child try each test once or twice at home, so nothing about the format is a surprise. Cramming sprint drills or adding extra sessions the week of a test won't change much, and a tired kid tests worse than a rested one. Keep the night before ordinary, with a normal dinner and bedtime, and a breakfast they already know on the day. Pack the bag together so the morning isn't a scramble, and check early whether the program wants any forms or registration details. Afterwards, ask how it felt before you ask how they went. Testing measures a moment, not a ceiling, and how you talk about it in the car home teaches your child how to treat results for the rest of their sport. Our <a href=\"https://www.scorx.com.au/blog/how-to-prepare-for-a-footy-final/\">footy final preparation guide</a> and <a href=\"https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/\">fuel and sleep guide</a> cover the rest."
   - q: "What's a good sprint or jump result for a junior athlete?"
     a: "It depends on age, growth stage and sport, so there's no single number worth chasing. A kid's own result compared with their own result six months earlier tells you far more."
   - q: "Are testing days only for elite pathway programs?"
     a: "Mostly. Community clubs generally don't run formal testing days. They're mainly used by academies, state programs and higher-level trials, where kids who've never trained together are being compared. See <a href=\"https://www.scorx.com.au/blog/junior-footy-academies-explained/\">junior footy academies explained</a>."
+  - q: "Do I need to be there on testing day?"
+    a: "Check what the program has told you. Some ask parents to watch from a distance and others don't allow spectators on the testing area. Either way, your job is the lift, the water bottle and a calm face."
   - q: "Should my child feel anxious about a testing day?"
     a: "It helps to frame it as one input among many, not a pass or fail moment. Testing measures a moment, not a ceiling."
   - q: "Can a bad testing day undo a good season?"
@@ -48,7 +50,19 @@ Programs vary, but most testing days draw on the same handful of tests. None of 
 - **20m sprint.** Straight-line speed over a short distance, timed. See the [20m sprint test for young athletes](https://www.scorx.com.au/blog/20m-sprint-test-young-athletes/).
 - **Vertical jump and agility.** Leg power and change of direction through cones. See [vertical jump and agility tests in junior AFL](https://www.scorx.com.au/blog/vertical-jump-agility-tests-junior-afl/).
 
-How to prepare is simpler than most parents fear: sleep, a decent breakfast, a normal week of training, and a kid who knows what each test looks like beforehand. Our guide to [preparing for an AFL academy testing day](https://www.scorx.com.au/blog/prepare-for-afl-academy-testing-day/) walks through it, and [junior footy academies explained](https://www.scorx.com.au/blog/junior-footy-academies-explained/) covers what the programs are and who they're for.
+To see where these programs fit, [junior footy academies explained](https://www.scorx.com.au/blog/junior-footy-academies-explained/) covers what they are and who they're for.
+
+## How to prepare for a testing day
+
+Less than most parents fear. The aim is a calm kid on a normal week, not a project.
+
+**Practise each test at home first.** Try the sprint, the beep test and the jump once or twice, a week or two apart, so nothing on the day is unfamiliar. A kid who has heard the beeps before isn't spending half the test being surprised. Once or twice is plenty. Twenty runs just leaves tired legs.
+
+**Know what to bring.** Boots or runners as the program specifies, already worn in, plus a full water bottle, a snack your child already knows, a hat and a jumper for the wait between tests, and any forms or registration details the program asked for. Pack it together the night before.
+
+**Check whether a parent should be there.** Programs differ. Some ask parents to watch from a distance and others keep spectators off the testing area, so read what yours has said.
+
+For the week before, the night before and the morning-of food and sleep, we've already covered it in [how to prepare for a footy final](https://www.scorx.com.au/blog/how-to-prepare-for-a-footy-final/) and [what your kid eats and how they sleep](https://www.scorx.com.au/blog/fuel-sleep-game-day-performance/). The same advice applies here.
 
 Keep the framing in mind. Testing measures a moment, not a ceiling. Kids grow and mature at very different rates, so a result today says little about where they'll be in two years.
 
