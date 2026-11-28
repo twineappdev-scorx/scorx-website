@@ -72,10 +72,10 @@ permalink: /privacy.html
     <div class="legal-content">
 
         <h1>ScorX Privacy Policy</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> 19 November 2026 | <strong>Effective Date:</strong> 19 November 2026</p>
+        <p class="last-updated"><strong>Last Updated:</strong> 28 November 2026 | <strong>Effective Date:</strong> 28 November 2026</p>
 
         <div class="highlight-box">
-            <p style="margin-bottom: 0;"><strong>Quick Summary:</strong> No ads. We never sell your data. Data collection is opt-in and only used to improve the app. If you opt in to app analytics, we use a product analytics service (PostHog) to understand how the app is used. We don't use that data for advertising. Your game data is stored on your device and optionally synced via Apple iCloud (ScorX Premium).</p>
+            <p style="margin-bottom: 0;"><strong>Quick Summary:</strong> No ads. We never sell your data. Data collection is opt-in and only used to improve the app. If you opt in to app analytics, we use a product analytics service (PostHog) to understand how the app is used. We don't use that data for advertising. Your game data is stored on your device and optionally synced via Apple iCloud (ScorX Premium). If you ask for an AI training recommendation, the information needed for it is sent to Anthropic. Apple Health is optional (ScorX Premium, athletes aged 15 and over), stays on your iPhone, and is never shared with coaches, parents, clubs or teams. See <a href="#apple-health">Apple Health</a>.</p>
         </div>
 
         <h2>Introduction</h2>
@@ -100,6 +100,7 @@ permalink: /privacy.html
             <li>Player contact information (emergency contacts, email, phone)</li>
             <li>Game location data</li>
             <li>Notes and comments</li>
+            <li>Apple Health data, only if you connect Apple Health (ScorX Premium). See <a href="#apple-health">Apple Health</a>.</li>
         </ul>
 
         <h3>Automatically Collected Information</h3>
@@ -143,6 +144,9 @@ permalink: /privacy.html
         <p><strong>Children:</strong> See "Children's Privacy" below for how analytics applies to younger users.</p>
 
         <p><strong>Our website:</strong> See "Our Website" below.</p>
+
+        <h3>AI Training Recommendations (Anthropic)</h3>
+        <p>AI training recommendations are a ScorX Premium feature. When you ask for one, ScorX sends the training information needed to produce it to Anthropic, which provides the AI service, in the United States. If you have connected Apple Health, a weekly Apple Health summary is included only after you agree in a separate consent prompt (see <a href="#apple-health">Apple Health</a>). Anthropic may keep what it receives for a limited time under its terms. We do not use this information for advertising. The recommendation text is saved on your device only, and is not synced to iCloud.</p>
 
         <h2>How We Use Your Information</h2>
         <p>We use the collected information to:</p>
@@ -222,7 +226,8 @@ permalink: /privacy.html
         <p>We use the following external services:</p>
         <ul>
             <li><strong>Apple CloudKit</strong> for cloud synchronisation (ScorX Premium). This is a first-party Apple service governed by Apple's privacy policy.</li>
-            <li><strong>PostHog Inc.</strong> for product analytics in the app, as described in "Product Analytics (PostHog)" above. PostHog processes analytics data on our behalf and only for the purposes described in this policy. PostHog is the only third-party SDK in the app. The app also uses Apple frameworks such as StoreKit and CloudKit.</li>
+            <li><strong>PostHog Inc.</strong> for product analytics in the app, as described in "Product Analytics (PostHog)" above. PostHog processes analytics data on our behalf and only for the purposes described in this policy. PostHog is the only third-party SDK in the app. The app also uses Apple frameworks such as StoreKit, CloudKit and HealthKit.</li>
+            <li><strong>Anthropic (USA)</strong> to produce AI training recommendations when you ask for them (ScorX Premium). We send the training information needed for the recommendation and, only if you agree, the weekly Apple Health summary described in "Apple Health". See "AI Training Recommendations (Anthropic)" above.</li>
         </ul>
 
         <ul>
@@ -246,6 +251,7 @@ permalink: /privacy.html
         <ul>
             <li>Delete individual games from game history</li>
             <li>Delete teams and players from management screens</li>
+            <li>Disconnect Apple Health in Edit Player or Settings to delete stored health data</li>
             <li>Uninstall the app to remove all local data</li>
             <li>Contact <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a> to request CloudKit data deletion</li>
         </ul>
@@ -273,6 +279,8 @@ permalink: /privacy.html
 
         <p>Parents/guardians can request deletion of minor player data by contacting <a href="mailto:scorxapp@gmail.com">scorxapp@gmail.com</a>.</p>
 
+        <p><strong>Apple Health and age:</strong> Apple Health can be connected only to a profile aged 15 or over. If a profile's date of birth is changed to under 15, ScorX disconnects Apple Health and deletes the health data it stored.</p>
+
         <h2>Permissions and Access</h2>
         <p>ScorX requests the following iOS permissions:</p>
 
@@ -297,15 +305,44 @@ permalink: /privacy.html
             <li><strong>Usage:</strong> Private CloudKit database only</li>
         </ul>
 
+        <h3>Apple Health (Optional, ScorX Premium)</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Reads workouts, heart rate during workouts and sleep, and writes ScorX games and training as workouts. See <a href="#apple-health">Apple Health</a>.</li>
+            <li><strong>Control:</strong> In ScorX, or in iOS Settings → Health → Data Access &amp; Devices → ScorX</li>
+        </ul>
+
+        <h2 id="apple-health">Apple Health</h2>
+        <p>Connecting Apple Health is optional and needs ScorX Premium. If you connect it, ScorX uses it to show your training load and rest. You can turn it off at any time.</p>
+
+        <p><strong>Who can connect.</strong> One athlete profile on each iPhone, aged 15 or over. Connect it only to the profile of the person whose Apple Health data is on this iPhone.</p>
+
+        <p><strong>What ScorX reads.</strong> Your workouts (type, time, length and the app that recorded them), your heart rate during those workouts, and your sleep.</p>
+
+        <p><strong>What ScorX writes.</strong> If you allow it, ScorX saves games you score and training you log in ScorX to Apple Health as workouts (sport, type and time). Team training sessions are not written.</p>
+
+        <p><strong>Where it is stored.</strong> ScorX keeps a copy of this data on your iPhone only. It is not synced with ScorX iCloud sync, not stored on any ScorX server, and not used for advertising or marketing. Like other app data, it is included in your iPhone's own backups (iCloud Backup or a computer backup). ScorX keeps up to about one year of this data and deletes older data automatically.</p>
+
+        <p><strong>Who can see it.</strong> No one else. It is never shared with coaches, parents, clubs or teams, and it is never sold.</p>
+
+        <p><strong>AI training recommendations (only if you agree).</strong> ScorX can include a short weekly summary in AI training recommendations, but only after you say yes in a consent prompt. The summary covers up to 8 weeks. For each week it gives the number of training sessions, the number of rest days and your average sleep. It never includes individual workouts or heart rate. The summary is sent to Anthropic, which provides the AI service, in the United States. Anthropic may keep it for a limited time under its terms. You can choose "Continue without it" and still use the app, and you can change your choice in Settings. Recommendations you have already saved stay in ScorX until you delete them, including after you disconnect Apple Health.</p>
+
+        <p><strong>Analytics.</strong> If you have opted in to app analytics, ScorX records which Apple Health features are used, for example that the Weekly Load screen was opened, or the number of workout apps that were imported. It never records your health values, the names of your workout apps, or your name.</p>
+
+        <p><strong>Disconnecting and deleting.</strong> When you disconnect, switch to another profile or delete the profile, ScorX deletes the health data it stored for that profile. Workouts that ScorX already saved to Apple Health stay in Apple Health; you can delete them in the Health app. If your ScorX Premium subscription ends, ScorX stops reading Apple Health but deletes nothing. You can also revoke access in iOS under <strong>Settings → Health → Data Access &amp; Devices → ScorX</strong>.</p>
+
+        <p><strong>Not medical advice.</strong> The training load and rest guidance in ScorX is a general guideline. It is not medical advice, and ScorX does not diagnose, predict injury or assess readiness.</p>
+
         <h2>International Users</h2>
         <p>ScorX is available worldwide. Your data is stored:</p>
         <ul>
             <li><strong>Locally:</strong> On your device, in your region</li>
             <li><strong>CloudKit:</strong> In Apple's data centers based on your Apple ID region</li>
             <li><strong>Product analytics:</strong> PostHog Inc. processes analytics data in its US cloud, so analytics data is sent to the United States.</li>
+            <li><strong>AI recommendations:</strong> Anthropic processes the information sent for AI training recommendations in the United States, including the weekly Apple Health summary if you agree to include it.</li>
+            <li><strong>Apple Health:</strong> Stored on your iPhone only, and included in your iPhone's own backups.</li>
             <li><strong>Compliance:</strong> We follow Apple's regional data protection requirements</li>
         </ul>
-        <p><strong>Disclosure outside Australia (APP 8):</strong> When we disclose personal information to PostHog in the United States, we take reasonable steps to make sure PostHog handles it in a way that is consistent with the APPs.</p>
+        <p><strong>Disclosure outside Australia (APP 8):</strong> When we disclose personal information to PostHog or Anthropic in the United States, we take reasonable steps to make sure they handle it in a way that is consistent with the APPs.</p>
 
         <h2>Changes to Privacy Policy</h2>
         <p>We may update this Privacy Policy to reflect:</p>
@@ -319,6 +356,7 @@ permalink: /privacy.html
         <ul>
             <li>Material changes will be announced in app update notes</li>
             <li>Updated "Last Updated" date at top of policy</li>
+            <li>28 November 2026: added the Apple Health section, and added Anthropic (AI training recommendations) to the service providers we use</li>
             <li>Continued use of the app constitutes acceptance of changes</li>
         </ul>
 
@@ -332,6 +370,11 @@ permalink: /privacy.html
         <p><strong>Analytics Data:</strong></p>
         <ul>
             <li>Kept by PostHog for 30 days, then deleted (or earlier on request)</li>
+        </ul>
+
+        <p><strong>Apple Health Data:</strong></p>
+        <ul>
+            <li>Up to about one year (53 weeks), deleted sooner when you disconnect</li>
         </ul>
 
         <p><strong>After Cancellation:</strong></p>
@@ -379,7 +422,7 @@ permalink: /privacy.html
             <li>Right to restrict processing</li>
             <li>Right to object to processing</li>
         </ul>
-        <p>For EU users, app analytics is based on your consent, which you can withdraw at any time.</p>
+        <p>For EU users, app analytics is based on your consent, which you can withdraw at any time. Connecting Apple Health, and including a weekly Apple Health summary in AI recommendations, are each based on your explicit consent, which you can withdraw at any time.</p>
 
         <p><strong>Your Rights Under CCPA (California Users):</strong></p>
         <ul>
@@ -395,6 +438,8 @@ permalink: /privacy.html
             <li>Collection and use of information as described in this policy, other than optional analytics, which applies only if you opt in</li>
             <li>Storage of data locally and in iCloud (if subscribed to ScorX Premium)</li>
             <li>Use of notifications for subscription management (if permitted)</li>
+            <li>Reading and writing Apple Health, only if you connect it and grant the iOS permissions</li>
+            <li>Sending a weekly Apple Health summary to Anthropic for AI recommendations, only if you agree in the separate consent prompt</li>
         </ul>
 
         <p>You may withdraw consent at any time by:</p>
@@ -402,6 +447,8 @@ permalink: /privacy.html
             <li>Canceling your subscription</li>
             <li>Disabling iCloud sync</li>
             <li>Turning off app analytics in Settings</li>
+            <li>Disconnecting Apple Health in ScorX, or revoking access in iOS Settings → Health → Data Access &amp; Devices → ScorX</li>
+            <li>Changing your AI consent choice in Settings</li>
             <li>Deleting the app</li>
             <li>Contacting support for data deletion</li>
         </ul>
@@ -409,8 +456,8 @@ permalink: /privacy.html
         <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--scorx-light-gray); text-align: center; color: var(--scorx-medium-gray);">
             <p><strong>ScorX</strong><br>
             Version: 1.0<br>
-            Privacy Policy Version: 2.0<br>
-            Last Reviewed: 19 November 2026</p>
+            Privacy Policy Version: 2.1<br>
+            Last Reviewed: 28 November 2026</p>
         </div>
     </div>
 
